@@ -13,7 +13,7 @@ projet pour l'épreuve de la RoboCup "Speech and Person Recognition"
 -  PORTÉ Antoine
 -  SAUNIER Aurélien
   
-# dossiers
+# Dossiers
 - "Information Robocup"
    
   -- règles Robocup
