@@ -16,4 +16,4 @@ projet pour l'épreuve de la RoboCup "Speech and Person Recognition"
 # dossiers
    -- "Information Robocup"
    
-          - règles Robocup
+- règles Robocup
