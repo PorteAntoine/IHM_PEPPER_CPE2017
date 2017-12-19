@@ -1,0 +1,7 @@
+- Where is located the {placement}?
+- Where is located the {beacon}?
+- In which room is the {placement}?
+- In which room is the {beacon}?
+- How many doors has the {room}?
+- How many ({placement} | {beacon}) are in the {room}?
+
