@@ -1,0 +1,13 @@
+- Where can I find a {object} ? 
+- How many {category} there are?
+- What's the colour of the {kobject}?
+- How many ({category} | objects) are in the {placement}?
+- What objects are stored in the {placement}?
+- Where can I find a ({object} | {category})?
+- To which category belong the {object}?
+- Do the {object 1} and {object 2} belong to the same category?
+- Which is the $adja ({category} | object)?
+- Between the {object 1} and {object 2}, which one is $adjr?
+
+adja = heaviest | smallest | biggest | lightest
+adjr = heavier | smaller | bigger | lighter
