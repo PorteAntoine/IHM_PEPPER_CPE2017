@@ -1,0 +1,27 @@
+19/12/2017
+----------
+
+- présentation avancement
+- github robocup@home 
+- à nous de mettre dans notre format (csv pour l'instant), sur place modification sera fait si besoin
+- au debut, phase où Pepper regarde les gens, parle moi des gens que tu as vu ... expérience de l'épreuve
+    q image début ou en fonction du tps ? 
+	  oui photo ou début, brique darknet (pas fait mais surment fait mi janvier) ... donne les réponses => à nous de structuré +/- les données pour répondre aux questions posées
+    
+- moteur de grammaire peut/doit créer les questions.
+- création arbre qichat (pas forcément le plus compliqué, le plus complet mais le plus performant) 
+- aujourd'hui possibilté de générer toutes les questions et pas mettre un ia qui anticipe les questions
+- robot peut être une machine à reconstruire la question à partir de mot clés
+- action possible de passer en textuel et non en vocal
+- problèmes différents entre le vocal et le textuel
+- expérience utilisateur pas valorisée, mais le résultat oui
+- R. peut mettre du temps à répondre mais doit savoir faire patienter, gagner du temps ; pour pas croire qu'il n'a rien compris et qu'il ne fait rien
+- (entendre 1 mot, puis demander des actions/confirmation) pas possible mais 1 répition qui doit être demandé.
+- tracabilité des tests, si on refait les tests => exactement résultats 
+
+
+q ils les posent comme ça ou avec leurs générateurs ? oui avec generateur, mais peut changer un mot sans vouloir le piéger (synomyme pas forcément prévu)
+
+futur
+	partir de 2017 nagoya + améliorer/rajouter
+	presentation équipe aupair 20/12/2017
