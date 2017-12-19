@@ -1,3 +1,3 @@
 # Ensemble de questions possibles
 
-Dossier pour la partie détermination des questions possibles à poser au robot pendant l'épreuve
+Dossier pour la détermination des questions possibles à poser au robot durant l'épreuve
