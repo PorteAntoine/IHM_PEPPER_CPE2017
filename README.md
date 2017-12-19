@@ -14,6 +14,6 @@ projet pour l'épreuve de la RoboCup "Speech and Person Recognition"
 -  SAUNIER Aurélien
   
 # Dossiers
-- "Information Robocup"
+- "Information"
    
-  -- règles Robocup
+  -- Information Robocup
