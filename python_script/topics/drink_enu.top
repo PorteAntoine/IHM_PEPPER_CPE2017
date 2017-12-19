@@ -1,0 +1,9 @@
+topic: ~drink()
+language: enu
+
+concept:(wine) [red white] wine
+concept:(alcohol) [beer ~wine]
+concept:(drink) [coke ~alcohol water]
+
+u:(do you have _~drink) yes, I have $1
+u:(I want to drink something) do you want some ~drink

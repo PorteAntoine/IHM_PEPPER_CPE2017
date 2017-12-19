@@ -1,0 +1,11 @@
+topic: ~concept()
+language: enu
+
+
+concept:(greetings) [hi hello "hey there"]
+concept:(yes) [sure "off course" "yes sir"]
+
+u:(~greetings) ~greetings Would you like to eat or drink something?
+
+u:([May Can] I have a drink {please}) ~yes what would you like to drink? $drink=1
+u:(Can I order food) ~yes What would you like to eat? $food=1

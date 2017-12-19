@@ -1,0 +1,19 @@
+topic: ~food()
+language: enu
+
+concept:(meat) ^rand[jambon boeuf porc]
+concept:(vegetable) ^rand[haricots chou]
+concept:(other) ^rand["riz {normal complet}" semoule lentilles]
+
+concept:(food) [~meat ~vegetable ~other]
+
+proposal: Do you want ~meat with ~vegetable and ~other ?
+    u1:(yes) very nice
+    u1:(no) ^sameProposal
+    
+u:(do you have _~food) yes, I have $1 what do you want with it?
+    u1:(~food {please}) okay
+    
+u:(Do you have something to propose) ^nextProposal 
+    
+
