@@ -1,0 +1,98 @@
+#20/12/2017
+#Version 1.1
+
+topic: ~topic_dialog_with_pepper()
+language: enu
+
+########### Concepts ###########
+# concepts propres a l'environnement
+concept:(name_robot) ["pepper lion tech"]
+concept:(snack) [chips pringles peanuts]
+concept:(candies) ["chocolate bar" mints "chocolate egg"]
+concept:(freshfood) [noodles apple paprika melon sushi]
+concept:(food) [~snack ~candies ~freshfood]
+concept:(drinks) [tea beer coke]
+concept:(toiletries) [shampoo cloth sponge]
+concept:(containers) [bowl mug glass box bag]
+concept:(rooms) [office living room kitchen bathroom]
+concept:(categories) [~snack ~candies ~freshfood ~drinks ~toiletries ~containers]
+
+# concepts généraux interaction homme/robot
+concept:(greetings) [hi hello "good morning" "hey there"]
+concept:(yes) [sure "off course" "yes sir"]
+concept:(want) [want need desire like "would [like love]"]
+concept:(questions) ["can I" "may I"]
+concept:(ask_smthg) [~want ~questions]
+concept:(localisation) [where situation room situated placed located find "in which" ~rooms]
+concept:(description) ["how many" what which]
+concept:(color) [color colour coloration pigment pigmentation colorant paint tint shade]
+concept:(categorise) [classified separated]
+concept:(hungry) [hungry eat food]
+concept:(thursty) [thursty arid dehydrated dry parched ~drinks drink]
+concept:(bigger) [biggest colossal largest big large principal important "most important"]
+concept:(smaller) [smallest littlest]
+concept:(compare_size) [~bigger ~smaller]
+concept:(name) ["my name is" "I am" "my parents called me"]
+
+
+
+########### dialog IHR ###########
+#greetings
+u:(~greetings) ~greetings Nice to see you dear, what is your name?
+    u1:(~name) nice to meet you, ~name ~name_robot
+
+# questions generales sur l'arene
+u:(~localisation * _~snack {please}) the $1 is on the desk in the office
+u:(~localisation * _~candies {please}) the $1 is on the center table in the living room
+u:(~localisation * _~freshfood {please}) the $1 is into the fridge in the kitchen
+u:(~localisation * _~drinks {please}) the $1 is into the the bar in the living room
+u:(~localisation * _~toiletries {please}) the $1 is on the cupboard in the bathroom
+u:(~localisation * _~containers {please}) the $1 is on the kitchen counter
+u:(~description * ~localisation * office) In the office we have ^enumerate(~snack)
+u:(~description * ~localisation * living room) In the living room we have ^enumerate(~candies) and ^enumerate(~drinks)
+u:(~description * ~localisation * kitchen) In the kitchen we have ^enumerate(~freshfood) and ^enumerate(~containers)
+u:(~description * ~localisation * bathroom) In the bathroom we have ^enumerate(~toiletries)
+
+# ask food and drinks
+u:(* ~ask_smthg * ~hungry {please}) ~yes what do you ~want to eat?
+    u1:(what *) I have snack such as ^rand[~snack] or candies or fresh food like ^rand[~freshfood]
+        u2:(* ~food {please}) ~yes, I am coming back in a minute
+    u1:(* ~food {please}) ~yes, I am coming back in a minute
+    u1:(~food {please}) ~yes, I am coming back in a minute
+
+u:(* ~ask_smthg * ~thursty {please}) ~yes what do you ~want to drink?
+    u1:(what *) I have drinks such as ^rand[~drinks]
+        u2:(* ~drinks {please}) ~yes, I am coming back in a minute
+    u1:(* ~drinks {please}) ~yes, I am coming back in a minute
+
+# how many {categories} there are
+u:(~description _~categories {please}) ~yes, we have ^size(~snack) type of $1
+
+# color of the object
+u:(~description * ~color * chips {please}) the chips are yellow
+u:(~description * ~color * pringles {please}) the pringles are red
+u:(~description * ~color * peanuts {please}) the peanuts are brown
+u:(~description * ~color * chocolate bar {please}) the chocolate bar is brown
+u:(~description * ~color * mints {please}) the mints are green
+u:(~description * ~color * chocolate egg {please}) the chocolate egg is brown
+u:(~description * ~color * noodles {please}) the noodles are yellow
+u:(~description * ~color * apple {please}) the apple is red
+u:(~description * ~color * paprika {please}) the paprika is red
+u:(~description * ~color * melon {please}) the melon is green
+u:(~description * ~color * sushi {please}) the sushi is black
+u:(~description * ~color * tea {please}) the tea is green
+u:(~description * ~color * beer {please}) the beer is green
+u:(~description * ~color * coke {please}) the coke is red
+u:(~description * ~color * shampoo {please}) the shampoo is white
+u:(~description * ~color * cloth {please}) the cloth is blue
+u:(~description * ~color * sponge {please}) the sponge is yellow
+u:(~description * ~color * bowl {please}) the bowl is red
+u:(~description * ~color * mug {please}) the mug is pink
+u:(~description * ~color * glass {please}) the glass is opaque
+u:(~description * ~color * box {please}) the box is white
+u:(~description * ~color * tray {please}) the tray is black
+u:(~description * ~color * bag {please}) the bag is blue
+
+# ask biggest or smallest
+u:(* ~description * _~bigger *) the $1 container is the box
+u:(* ~description * _~smaller *) the $1 container is the mug
