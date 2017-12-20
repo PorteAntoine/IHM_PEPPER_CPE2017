@@ -1,0 +1,35 @@
+Where can I find a Curry ?
+What's the colour of the Curry ?
+To which category belong the Curry ?
+How many Cleaning Stuff there are ?
+Where can I find a Cleaning Stuff ?
+Where can I find a Plate ?
+What's the colour of the Plate ?
+To which category belong the Plate ?
+How many Snack there are ?
+Where can I find a Snack ?
+Where can I find a Shampoo ?
+What's the colour of the Shampoo ?
+To which category belong the Shampoo ?
+How many Container there are ?
+Where can I find a Container ?
+Where can I find a Green Tea ?
+What's the colour of the Green Tea ?
+To which category belong the Green Tea ?
+How many Food there are ?
+Where can I find a Food ?
+Where can I find a Chewing Gum ?
+What's the colour of the Chewing Gum ?
+To which category belong the Chewing Gum ?
+How many Drink there are ?
+Where can I find a Drink ?
+Where can I find a Chopsticks ?
+What's the colour of the Chopsticks ?
+To which category belong the Chopsticks ?
+How many Cutlery there are ?
+Where can I find a Cutlery ?
+Where can I find a Soup Container ?
+What's the colour of the Soup Container ?
+To which category belong the Soup Container ?
+How many Fruit there are ?
+Where can I find a Fruit ?
