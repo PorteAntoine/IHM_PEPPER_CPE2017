@@ -1,0 +1,222 @@
+Where is the located the bedside ?
+In which room is the bedside ?
+Where is the located the living shelf ?
+In which room is the living shelf ?
+Where is the located the TV Stand ?
+In which room is the TV Stand ?
+Where is the located the living table ?
+In which room is the living table ?
+Where is the located the center table ?
+In which room is the center table ?
+Where is the located the bar ?
+In which room is the bar ?
+Where is the located the drawer ?
+In which room is the drawer ?
+Where is the located the desk ?
+In which room is the desk ?
+Where is the located the bar ?
+In which room is the bar ?
+Where is the located the cupboard ?
+In which room is the cupboard ?
+Where is the located the sink ?
+In which room is the sink ?
+Where is the located the sideshelf ?
+In which room is the sideshelf ?
+Where is the located the bookcase ?
+In which room is the bookcase ?
+Where is the located the dining table ?
+In which room is the dining table ?
+Where is the located the fridge ?
+In which room is the fridge ?
+Where is the located the counter ?
+In which room is the counter ?
+Where is the located the cabinet ?
+In which room is the cabinet ?
+How many bedside are in the bedroom ?
+How many bedside are in the living room ?
+How many bedside are in the office ?
+How many bedside are in the kitchen ?
+How many bedside are in the corridor ?
+How many bedside are in the bathroom ?
+How many living shelf are in the bedroom ?
+How many living shelf are in the living room ?
+How many living shelf are in the office ?
+How many living shelf are in the kitchen ?
+How many living shelf are in the corridor ?
+How many living shelf are in the bathroom ?
+How many TV Stand are in the bedroom ?
+How many TV Stand are in the living room ?
+How many TV Stand are in the office ?
+How many TV Stand are in the kitchen ?
+How many TV Stand are in the corridor ?
+How many TV Stand are in the bathroom ?
+How many living table are in the bedroom ?
+How many living table are in the living room ?
+How many living table are in the office ?
+How many living table are in the kitchen ?
+How many living table are in the corridor ?
+How many living table are in the bathroom ?
+How many center table are in the bedroom ?
+How many center table are in the living room ?
+How many center table are in the office ?
+How many center table are in the kitchen ?
+How many center table are in the corridor ?
+How many center table are in the bathroom ?
+How many bar are in the bedroom ?
+How many bar are in the living room ?
+How many bar are in the office ?
+How many bar are in the kitchen ?
+How many bar are in the corridor ?
+How many bar are in the bathroom ?
+How many drawer are in the bedroom ?
+How many drawer are in the living room ?
+How many drawer are in the office ?
+How many drawer are in the kitchen ?
+How many drawer are in the corridor ?
+How many drawer are in the bathroom ?
+How many desk are in the bedroom ?
+How many desk are in the living room ?
+How many desk are in the office ?
+How many desk are in the kitchen ?
+How many desk are in the corridor ?
+How many desk are in the bathroom ?
+How many bar are in the bedroom ?
+How many bar are in the living room ?
+How many bar are in the office ?
+How many bar are in the kitchen ?
+How many bar are in the corridor ?
+How many bar are in the bathroom ?
+How many cupboard are in the bedroom ?
+How many cupboard are in the living room ?
+How many cupboard are in the office ?
+How many cupboard are in the kitchen ?
+How many cupboard are in the corridor ?
+How many cupboard are in the bathroom ?
+How many sink are in the bedroom ?
+How many sink are in the living room ?
+How many sink are in the office ?
+How many sink are in the kitchen ?
+How many sink are in the corridor ?
+How many sink are in the bathroom ?
+How many sideshelf are in the bedroom ?
+How many sideshelf are in the living room ?
+How many sideshelf are in the office ?
+How many sideshelf are in the kitchen ?
+How many sideshelf are in the corridor ?
+How many sideshelf are in the bathroom ?
+How many bookcase are in the bedroom ?
+How many bookcase are in the living room ?
+How many bookcase are in the office ?
+How many bookcase are in the kitchen ?
+How many bookcase are in the corridor ?
+How many bookcase are in the bathroom ?
+How many dining table are in the bedroom ?
+How many dining table are in the living room ?
+How many dining table are in the office ?
+How many dining table are in the kitchen ?
+How many dining table are in the corridor ?
+How many dining table are in the bathroom ?
+How many fridge are in the bedroom ?
+How many fridge are in the living room ?
+How many fridge are in the office ?
+How many fridge are in the kitchen ?
+How many fridge are in the corridor ?
+How many fridge are in the bathroom ?
+How many counter are in the bedroom ?
+How many counter are in the living room ?
+How many counter are in the office ?
+How many counter are in the kitchen ?
+How many counter are in the corridor ?
+How many counter are in the bathroom ?
+How many cabinet are in the bedroom ?
+How many cabinet are in the living room ?
+How many cabinet are in the office ?
+How many cabinet are in the kitchen ?
+How many cabinet are in the corridor ?
+How many cabinet are in the bathroom ?
+Where is the located the bed ?
+In which room is the bed ?
+Where is the located the living table ?
+In which room is the living table ?
+Where is the located the TV stand ?
+In which room is the TV stand ?
+Where is the located the living table ?
+In which room is the living table ?
+Where is the located the bar ?
+In which room is the bar ?
+Where is the located the desk ?
+In which room is the desk ?
+Where is the located the sink ?
+In which room is the sink ?
+Where is the located the dining table ?
+In which room is the dining table ?
+Where is the located the cabinet ?
+In which room is the cabinet ?
+Where is the located the cupboard ?
+In which room is the cupboard ?
+How many bed are in the bedroom ?
+How many bed are in the living room ?
+How many bed are in the office ?
+How many bed are in the kitchen ?
+How many bed are in the corridor ?
+How many bed are in the bathroom ?
+How many living table are in the bedroom ?
+How many living table are in the living room ?
+How many living table are in the office ?
+How many living table are in the kitchen ?
+How many living table are in the corridor ?
+How many living table are in the bathroom ?
+How many TV stand are in the bedroom ?
+How many TV stand are in the living room ?
+How many TV stand are in the office ?
+How many TV stand are in the kitchen ?
+How many TV stand are in the corridor ?
+How many TV stand are in the bathroom ?
+How many living table are in the bedroom ?
+How many living table are in the living room ?
+How many living table are in the office ?
+How many living table are in the kitchen ?
+How many living table are in the corridor ?
+How many living table are in the bathroom ?
+How many bar are in the bedroom ?
+How many bar are in the living room ?
+How many bar are in the office ?
+How many bar are in the kitchen ?
+How many bar are in the corridor ?
+How many bar are in the bathroom ?
+How many desk are in the bedroom ?
+How many desk are in the living room ?
+How many desk are in the office ?
+How many desk are in the kitchen ?
+How many desk are in the corridor ?
+How many desk are in the bathroom ?
+How many sink are in the bedroom ?
+How many sink are in the living room ?
+How many sink are in the office ?
+How many sink are in the kitchen ?
+How many sink are in the corridor ?
+How many sink are in the bathroom ?
+How many dining table are in the bedroom ?
+How many dining table are in the living room ?
+How many dining table are in the office ?
+How many dining table are in the kitchen ?
+How many dining table are in the corridor ?
+How many dining table are in the bathroom ?
+How many cabinet are in the bedroom ?
+How many cabinet are in the living room ?
+How many cabinet are in the office ?
+How many cabinet are in the kitchen ?
+How many cabinet are in the corridor ?
+How many cabinet are in the bathroom ?
+How many cupboard are in the bedroom ?
+How many cupboard are in the living room ?
+How many cupboard are in the office ?
+How many cupboard are in the kitchen ?
+How many cupboard are in the corridor ?
+How many cupboard are in the bathroom ?
+How many doors has the bedroom ?
+How many doors has the living room ?
+How many doors has the office ?
+How many doors has the kitchen ?
+How many doors has the corridor ?
+How many doors has the bathroom ?
