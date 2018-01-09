@@ -38,17 +38,18 @@ class CSV_PARSEUR():
         objects_file = open(file_path.encode('utf-8'),'rU')
 
         read = list(csv.reader(objects_file, delimiter=";"))
-
         for raw in read:
             object = Object()
             object.name = raw[0]
             object.type = raw[1]
             object.category = raw[2]
             object.localization = raw[3]
+            object.room = raw[4]
             object.color = raw[5]
-            object.shape = raw[4]
-            object.size = raw[6]
-            object.weight = raw[7]
+            object.shape = raw[6]
+            object.size = raw[7]
+            object.weight = raw[8]
+
             self.objects.append(object)
 
     # Function to transform lists from a .csv file into person definition

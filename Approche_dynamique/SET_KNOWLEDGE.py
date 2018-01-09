@@ -8,7 +8,6 @@ def main(session):
 
     ALDialog = session.service("ALDialog")
 
-
     #    ALDialog.setLanguage("English")
     knowledge_service = session.service("ALKnowledge")
 
@@ -18,6 +17,14 @@ def main(session):
     objects = []
     for object in parseur.objects:
         knowledge_service.add("knowledge", object.name, "hasColor", object.color)
+        knowledge_service.add("knowledge", object.name, "belongstocategory", object.type)
+        knowledge_service.add("knowledge", object.name, "belongstocategory", object.category)
+        knowledge_service.add("knowledge", object.name, "islocated", object.localization)
+        knowledge_service.add("knowledge", object.name, "isintheroom", object.room)
+        knowledge_service.add("knowledge", object.name, "hasColor", object.color)
+        knowledge_service.add("knowledge", object.name, "hasShape", object.shape)
+        knowledge_service.add("knowledge", object.name, "size", object.size)
+        knowledge_service.add("knowledge", object.name, "weight", object.weight)
         objects.append(object.name)
 
     print(knowledge_service.getObject("knowledge", "Cup", "hasColor"))
