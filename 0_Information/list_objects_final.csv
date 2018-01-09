@@ -1,0 +1,24 @@
+﻿Name;Type;Category;Localization;Room;Color;Shape;Size;Weight
+chips;food;snack;desk;office;yellow;none;1;1
+pringles;food;snack;desk;office;red;none;1;1
+peanuts;food;snack;desk;office;brown;none;0;0
+chocolate bar;food;candies;center table;living room;brown;none;2;2
+mints;food;candies;center table;living room;green;none;0;0
+chocolate egg;food;candies;center table;living room;brown;none;2;2
+noodles;food;freshfood;fridge;kitchen;yellow;none;1;1
+apple;food;freshfood;fridge;kitchen;red;none;1;1
+paprika;food;freshfood;fridge;kitchen;red;none;1;1
+melon;food;freshfood;fridge;kitchen;green;none;2;2
+sushi;food;freshfood;fridge;kitchen;black;none;0;0
+tea;drinks;drinks;bar;living room;green;none;1;1
+beer;drinks;drinks;bar;living room;green;none;1;1
+coke;drinks;drinks;bar;living room;red;none;2;2
+shampoo;toiletries;toiletries;cupboard;bathroom;white;none;2;2
+cloth;toiletries;toiletries;cupboard;bathroom;blue;none;1;1
+sponge;toiletries;toiletries;cupboard;bathroom;yellow;none;1;1
+bowl;containers;containers;counter;kitchen;red;none;1;1
+mug;containers;containers;counter;kitchen;pink;none;1;1
+glass;containers;containers;counter;kitchen;opaque;none;1;1
+box;containers;containers;counter;kitchen;white;none;3;3
+tray;containers;containers;counter;kitchen;black;none;1;1
+bag;containers;containers;counter;kitchen;blue;none;1;1
