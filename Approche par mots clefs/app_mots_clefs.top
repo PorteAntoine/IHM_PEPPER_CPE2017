@@ -1,4 +1,4 @@
-#20/12/2017
+#09/01/2018
 #Version 1.1
 
 topic: ~topic_dialog_with_pepper()
@@ -54,16 +54,17 @@ u:(~description * ~localisation * kitchen) In the kitchen we have ^enumerate(~fr
 u:(~description * ~localisation * bathroom) In the bathroom we have ^enumerate(~toiletries)
 
 # ask food and drinks
-u:(* ~ask_smthg * ~hungry {please}) ~yes what do you ~want to eat?
+u:(~ask_smthg * ~hungry {please}) ~yes what do you ~want to eat?
     u1:(what *) I have snack such as ^rand[~snack] or candies or fresh food like ^rand[~freshfood]
         u2:(* ~food {please}) ~yes, I am coming back in a minute
     u1:(* ~food {please}) ~yes, I am coming back in a minute
     u1:(~food {please}) ~yes, I am coming back in a minute
 
-u:(* ~ask_smthg * ~thursty {please}) ~yes what do you ~want to drink?
+u:(~ask_smthg * ~thursty {please}) ~yes what do you ~want to drink?
     u1:(what *) I have drinks such as ^rand[~drinks]
         u2:(* ~drinks {please}) ~yes, I am coming back in a minute
-    u1:(* ~drinks {please}) ~yes, I am coming back in a minute
+    u1:(* _~drinks {please}) ~yes, I am coming back in a minute with your $1
+    u1:(_~drinks {please}) ~yes, I am coming back in a minute with your $1
 
 # how many {categories} there are
 u:(~description _~categories {please}) ~yes, we have ^size(~snack) type of $1
@@ -94,5 +95,18 @@ u:(~description * ~color * tray {please}) the tray is black
 u:(~description * ~color * bag {please}) the bag is blue
 
 # ask biggest or smallest
-u:(* ~description * _~bigger *) the $1 container is the box
-u:(* ~description * _~smaller *) the $1 container is the mug
+u:(~description * _~bigger *) the $1 container is the box
+u:(~description * _~smaller *) the $1 container is the mug
+
+# predefined questions
+u:(Which city are we in?) Montreal
+u:(What is the name of your team?) ~name_robot
+u:(How many teams participate in RoboCup@Home this year?) thirty one
+u:(Name the two RoboCup@Home standard platforms?) Pepper and HSR
+u:(What does DSPL stand for?) Domestic Standard Platform League
+u:(What does SSPL stand for?) Social Standard Platform League
+u:(Who did Alphabet sell Boston Dynamics to?) Softbank Robotics
+u:(What is your teams home city?) Lyon in France
+u:(Who created Star Wars?) George Lucas
+u:(Who lives in a pineapple under the sea?) Sponge Bob Squarepants
+u:(What did Grace Hopper invent?) the first compiler
