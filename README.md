@@ -17,3 +17,6 @@ projet pour l'épreuve de la RoboCup "Speech and Person Recognition"
 - "Information"
    
   -- Information Robocup
+ 
+# Important
+  -- Liste des objets à prendre en compte dans list_objects.xlsx
