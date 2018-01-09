@@ -17,7 +17,7 @@ def main(session):
     objects = []
     for object in parseur.objects:
         knowledge_service.add("knowledge", object.name, "hasColor", object.color)
-        knowledge_service.add("knowledge", object.name, "belongstocategory", object.type)
+        knowledge_service.add("knowledge", object.name, "isoftype", object.type)
         knowledge_service.add("knowledge", object.name, "belongstocategory", object.category)
         knowledge_service.add("knowledge", object.name, "islocated", object.localization)
         knowledge_service.add("knowledge", object.name, "isintheroom", object.room)
@@ -27,8 +27,11 @@ def main(session):
         knowledge_service.add("knowledge", object.name, "weight", object.weight)
         objects.append(object.name)
 
-    print(knowledge_service.getObject("knowledge", "Cup", "hasColor"))
-
+    for person in parseur.persons:
+        knowledge_service.add("knowledge", person.name, "isofgender", person.gender)
+        knowledge_service.add("knowledge", person.name, "isoftheageof", person.age)
+        knowledge_service.add("knowledge", person.name, "islocated", person.position)
+    
     topic_content = ('topic: ~firstStep()\n'
                      'language: enu\n'
                      #'concept:(location) ["where is" "what is the location"]\n'
@@ -66,7 +69,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--ip", type=str, default="localhost",
                         help="Robot IP address. On robot or Local Naoqi: use '169.254.85.73'.")
-    parser.add_argument("--port", type=int, default=54119,                   help="Naoqi port number")
+    parser.add_argument("--port", type=int, default=49433,                   help="Naoqi port number")
 
     args = parser.parse_args()
     session = qi.Session()
