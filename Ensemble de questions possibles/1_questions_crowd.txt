@@ -17,6 +17,8 @@ Tell me the number of boys in the crowd?
 How many girls are in the crowd ?
 Tell me the number of girls in the crowd?
 How many people in the crowd are standing?
+How many people in the crowd are sitting?
+How many people in the crowd are lying?
 Was the standing person children?
 Tell me if the standing person was a children?
 Was the standing person adults?
@@ -35,7 +37,6 @@ Was the standing person boys?
 Tell me if the standing person was a boys?
 Was the standing person girls?
 Tell me if the standing person was a girls?
-How many people in the crowd are sitting?
 Was the sitting person children?
 Tell me if the sitting person was a children?
 Was the sitting person adults?
@@ -54,7 +55,6 @@ Was the sitting person boys?
 Tell me if the sitting person was a boys?
 Was the sitting person girls?
 Tell me if the sitting person was a girls?
-How many people in the crowd are lying?
 Was the lying person children?
 Tell me if the lying person was a children?
 Was the lying person adults?
