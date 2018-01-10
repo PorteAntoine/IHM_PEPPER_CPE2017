@@ -1,0 +1,119 @@
+#09/01/2018
+#Version 2.1
+
+topic: ~topic_dialog_with_pepper()
+language: enu
+
+########### Concepts ###########
+# concepts propres a l'environnement
+concept:(name_robot) ["pepper lion tech"]
+concept:(snack) [chips pringles peanuts]
+concept:(candies) ["chocolate bar" mints "chocolate egg"]
+concept:(freshfood) [noodles apple paprika melon sushi]
+concept:(food) [~snack ~candies ~freshfood]
+concept:(drinks) [tea beer coke]
+concept:(toiletries) [shampoo cloth sponge]
+concept:(containers) [bowl mug glass box bag]
+concept:(types) [~food ~drinks ~toiletries ~containers]
+concept:(localization) [desk "center table" fridge bar cupboard counter]
+concept:(rooms) [office living room kitchen bathroom]
+concept:(categories) [~snack ~candies ~freshfood ~drinks ~toiletries ~containers]
+concept:(color) [yellow red brown green black white blue pink opaque]
+
+$Type_tea = 'drinks'
+$Category_tea = 'drinks'
+$Localization_tea = 'bar'
+$Room_tea = 'living room'
+$Color_tea = 'green'
+$Shape_tea = 'none'
+
+$Type_beer = 'drinks'
+$Category_beer = 'drinks'
+$Localization_beer = 'bar'
+$Room_beer = 'living room'
+$Color_beer = 'green'
+$Shape_beer = 'none'
+
+$Type_chips = 'food'
+$Category_chips = 'snack'
+$Localization_chips = 'desk'
+$Room_chips = 'office'
+$Color_chips = 'yellow'
+$Shape_chips = 'none'
+
+
+# concepts généraux interaction homme/robot
+concept:(greetings) [hi hello "good morning" "hey there"]
+concept:(yes) [sure "off course" "yes sir"]
+concept:(want) [want need desire like "would [like love]"]
+concept:(questions) ["can I" "may I"]
+concept:(ask_smthg) [~want ~questions]
+concept:(localisation) [where situation room situated placed located find "in which" ~rooms]
+concept:(description) ["how many" what which]
+concept:(color) [color colour coloration pigment pigmentation colorant paint tint shade]
+concept:(categorise) [classified separated]
+concept:(hungry) [hungry eat food]
+concept:(thursty) [thursty arid dehydrated dry parched ~drinks drink]
+concept:(bigger) [biggest colossal largest big large principal important "most important"]
+concept:(smaller) [smallest littlest]
+concept:(compare_size) [~bigger ~smaller]
+concept:(name) ["my name is" "I am" "my parents called me"]
+
+
+
+########### dialog IHR ###########
+#greetings
+u:(~greetings) ~greetings Nice to see you dear, what is your name?
+    u1:(~name _*) nice to meet you $1, ~name ~name_robot
+
+# questions generales sur l'arene
+u:(~localisation * _~snack {please}) the $1 is on the desk in the office
+u:(~localisation * chips {please}) the chips is on the $Localization_chips in the $Room_chips
+
+u:(~localisation * _~drinks {please}) the $1 is into the the bar in the living room
+u:(~localisation * tea {please}) the tea is on the $Localization_tea in the $Room_tea
+u:(~localisation * beer {please}) the beer is on the $Localization_beer in the $Room_beer
+
+u:(~description * ~localisation * office) In the office we have ^enumerate(~snack)
+u:(~description * ~localisation * living room) In the living room we have ^enumerate(~candies) and ^enumerate(~drinks)
+u:(~description * ~localisation * kitchen) In the kitchen we have ^enumerate(~freshfood) and ^enumerate(~containers)
+u:(~description * ~localisation * bathroom) In the bathroom we have ^enumerate(~toiletries)
+
+# ask food and drinks
+u:(~ask_smthg * ~hungry {please}) ~yes what do you ~want to eat?
+    u1:(what *) I have snack such as ^rand[~snack] or candies or fresh food like ^rand[~freshfood]
+        u2:(* ~food {please}) ~yes, I am coming back in a minute
+    u1:(* ~food {please}) ~yes, I am coming back in a minute
+    u1:(~food {please}) ~yes, I am coming back in a minute
+
+u:(~ask_smthg * ~thursty {please}) ~yes what do you ~want to drink?
+    u1:(what *) I have drinks such as ^rand[~drinks]
+        u2:(* ~drinks {please}) ~yes, I am coming back in a minute
+    u1:(* _~drinks {please}) ~yes, I am coming back in a minute with your $1
+    u1:(_~drinks {please}) ~yes, I am coming back in a minute with your $1
+
+# how many {categories} there are
+u:(~description _~categories {please}) ~yes, we have ^size(~snack) type of $1
+
+# color of the object
+u:(~description * ~color * tea {please}) the tea is $Color_tea
+u:(~description * ~color * coke {please}) the coke is $Color_coke
+u:(~description * ~color * beer {please}) the beer is $Color_beer
+
+
+# ask biggest or smallest
+u:(~description * _~bigger *) the $1 container is the box
+u:(~description * _~smaller *) the $1 container is the mug
+
+# predefined questions a mettre au debut !!!!!!!!!!!!!!!!!!!!!!!!!!
+u:(Which city are we in?) Montreal
+u:(What is the name of your team?) ~name_robot
+u:(How many teams participate in RoboCup@Home this year?) thirty one
+u:(Name the two RoboCup@Home standard platforms?) Pepper and HSR
+u:(What does DSPL stand for?) Domestic Standard Platform League
+u:(What does SSPL stand for?) Social Standard Platform League
+u:(Who did Alphabet sell Boston Dynamics to?) Softbank Robotics
+u:(What is your teams home city?) Lyon in France
+u:(Who created Star Wars?) George Lucas
+u:(Who lives in a pineapple under the sea?) Sponge Bob Squarepants
+u:(What did Grace Hopper invent?) the first compiler
