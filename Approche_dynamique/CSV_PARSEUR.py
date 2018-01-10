@@ -7,9 +7,13 @@ class CSV_PARSEUR():
     #init fonction
     #############################################################################################
 
-    def __init__(self):
-        self.objects = [] # list of objects
+    def __init__(self, path_file_objects, path_file_persons):
+        self.objects = []
         self.persons = []
+        self.path_file_objects = path_file_objects
+        self.path_file_persons = path_file_persons
+        self.object_transformations()
+        self.person_transformations()
 
     # Function to generate a .top file from a .csv file with fixed questions and fixed answers
     #
@@ -31,14 +35,14 @@ class CSV_PARSEUR():
 
     # Function to transform lists from a .csv file into object definition
     #
-    # argument : - the path of the file to parse (must be .csv)
+    # argument : None
     ################################################################################################
 
-    def object_transformations(self, file_path):
-        objects_file = open(file_path.encode('utf-8'),'rU')
+    def object_transformations(self):
+        objects_file = open(self.path_file_objects.encode('utf-8'),'rU')
 
         read = list(csv.reader(objects_file, delimiter=";"))
-        for raw in read:
+        for raw in read[1:]:
             object = Object()
             object.name = raw[0]
             object.type = raw[1]
@@ -54,15 +58,15 @@ class CSV_PARSEUR():
 
     # Function to transform lists from a .csv file into person definition
     #
-    # argument : - the path of the file to parse (must be .csv)
+    # argument : None
     ################################################################################################
 
-    def person_transformations(self, file_path):
-        person_file = open(file_path.encode('utf-8'),'rU')
+    def person_transformations(self):
+        person_file = open(self.path_file_persons.encode('utf-8'),'rU')
 
         read = list(csv.reader(person_file, delimiter=";"))
 
-        for raw in read:
+        for raw in read[1:]:
             person = Person()
             person.name = raw[0]
             person.gender = raw[1]
@@ -78,4 +82,4 @@ class CSV_PARSEUR():
 
 if __name__ == '__main__':
 
-    Parseur = CSV_PARSEUR()
+    Parseur = CSV_PARSEUR("list_objects_final.csv", "list_objects_final.csv")
