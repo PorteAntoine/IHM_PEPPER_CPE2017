@@ -79,12 +79,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--ip", type=str, default="192.168.1.201",
                         help="Robot IP address. On robot or Local Naoqi: use '169.254.85.73'.")
-<<<<<<< Updated upstream
-    parser.add_argument("--port", type=int, default=49433,                   help="Naoqi port number")
-=======
-    parser.add_argument("--port", type=int, default=9559,                   help="Naoqi port number")
->>>>>>> Stashed changes
 
+    parser.add_argument("--port", type=int, default=9559,                   help="Naoqi port number")
     args = parser.parse_args()
     session = qi.Session()
     try:
