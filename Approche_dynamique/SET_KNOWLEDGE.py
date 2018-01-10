@@ -13,7 +13,7 @@ def main(session):
 
     parseur = CSV_PARSEUR()
     parseur.object_transformations("list_objects_final.csv")
-    parseur.person_transformations("list_person_final.csv")
+    #parseur.person_transformations("list_person_final.csv")
     objects = []
     for object in parseur.objects:
         knowledge_service.add("knowledge", object.name, "hasColor", object.color)
@@ -32,15 +32,25 @@ def main(session):
         knowledge_service.add("knowledge", person.name, "isoftheageof", person.age)
         knowledge_service.add("knowledge", person.name, "islocated", person.position)
     
+
+
+    print(knowledge_service.getObject("knowledge", "Cup", "hasColor"))
+
+
     topic_content = ('topic: ~firstStep()\n'
                      'language: enu\n'
-                     #'concept:(location) ["where is" "what is the location"]\n'
-                     'dynamic: object \n'
-                     'u: (color _~object) $currentObject = $1 The color of the $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "hasColor"))\n'
+                     'concept:(where) [where localization location situation room situated placed located find "in which"]\n'
+                     'dynamic: object\n'
+                     'dynamic: type\n'
+                     'dynamic: category\n'
+                     'dynamic: localization\n'
+                     'dynamic: room\n'
+                     'dynamic: color\n'
+                     'u: (what is the color of _~object) $currentObject = $1 The color of the $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "hasColor"))\n'
                      'c1:(_*) : $1\n'
-                     #'u: (~location _~object) $currentObject = $1 The $currentObject is in the ^call(ALKnowledge.getObject("knowledge", $currentObject, "isLocated"))\n'
+                     'u: (~where _~object) $currentObject = $1 The $currentObject is in the ^call(ALKnowledge.getObject("knowledge", $currentObject, "isLocated"))\n'
                      'c1:(_*) : $1\n'
-                     'u: (hello) Hello human, I am fine thank you and you?\n')
+                     'u: (Hi) Hello human, I am fine thank you and you?\n')
 
     # Loading the topics directly as text strings
     topic_name_1 = ALDialog.loadTopicContent(topic_content)
@@ -67,9 +77,13 @@ def main(session):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ip", type=str, default="localhost",
+    parser.add_argument("--ip", type=str, default="192.168.1.201",
                         help="Robot IP address. On robot or Local Naoqi: use '169.254.85.73'.")
+<<<<<<< Updated upstream
     parser.add_argument("--port", type=int, default=49433,                   help="Naoqi port number")
+=======
+    parser.add_argument("--port", type=int, default=9559,                   help="Naoqi port number")
+>>>>>>> Stashed changes
 
     args = parser.parse_args()
     session = qi.Session()
