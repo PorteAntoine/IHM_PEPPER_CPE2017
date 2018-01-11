@@ -3,6 +3,10 @@ dossier :
   - "ProjectChorégraphe" contient le(s) projet(s) à installer sur le robot 
   - "Script_python"  
   
+1. Et de un
+2. Et de deux
+3. Et de trois
+
 # Comment utiliser ?
 1. Mettre les photos dans la mémoire :
       -- Par chorégraphe :
