@@ -15,17 +15,17 @@ def main(session):
     #    ALDialog.setLanguage("English")
     knowledge_service = session.service("ALKnowledge")
     memory_service= session.service("ALMemory")
-    parseur = CSV_PARSEUR()
+    parseur = CSV_PARSEUR("list_objects_final.csv","list_objects_final.csv")
     processObject=Process_object()
     utils=Utils()
-    parseur.object_transformations("list_objects_final.csv")
-    #parseur.person_transformations("list_person_final.csv")
     objects = []
     categories = []
     localizations = []
     memory_service.insertData("heaviestlist","")
+    memory_service.insertData("heaviest", "")
     #memory_service.insertData("returnList", [])
     heaviestlist = memory_service.getData("heaviestlist")
+
     #returnList = memory_service.getData("returnList")
     for object in parseur.objects:
         knowledge_service.add("knowledge", object.name, "hasColor", object.color)
@@ -42,7 +42,6 @@ def main(session):
         categories.append(object.category)
     print objects
     print categories
-    #print utils.getObjectListbyName(parseur.objects,["apple", "chips"])
     for person in parseur.persons:
         knowledge_service.add("knowledge", person.name, "isofgender", person.gender)
         knowledge_service.add("knowledge", person.name, "isoftheageof", person.age)
@@ -71,7 +70,7 @@ def main(session):
                      # Ou puis-je trouver un objet d'une categorie specifique
                      # Quel objet d'une categorie est le plus lourd. 
                      'u: (which is the heaviest snack) it is ^call(ALKnowledge.getSubject("knowledge", "belongstocategory", "snack"))\n'
-                     'c1:(_*) $heaviestlist=$1\n'
+                     'c1:(_*) $heaviestlist=$1 the heaviest is $heaviest\n'
                      
                      'u: ([Hi Hello]) Hello Human\n')
 
@@ -91,7 +90,8 @@ def main(session):
     while not heaviestlist:
         heaviestlist = memory_service.getData("heaviestlist")
     resultHeaviest = processObject.heaviest(utils.getObjectListbyName(parseur.objects, heaviestlist))
-    memory_service.insertData("heaviestlist", str(resultHeaviest))
+    print resultHeaviest
+    memory_service.insertData("heaviest", str(resultHeaviest))
 
     try:
         raw_input("\nSpeak to the robot using rules from both the activated topics. Press Enter when finished:")
@@ -113,7 +113,7 @@ if __name__ == "__main__":
     parser.add_argument("--ip", type=str, default="localhost",
                         help="Robot IP address. On robot or Local Naoqi: use 192.168.1.201.")
 
-    parser.add_argument("--port", type=int, default=53314,                   help="Naoqi port number")
+    parser.add_argument("--port", type=int, default=53786,                   help="Naoqi port number")
     args = parser.parse_args()
     session = qi.Session()
     try:
