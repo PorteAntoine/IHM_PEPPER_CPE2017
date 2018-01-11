@@ -57,7 +57,7 @@ def main(session):
                         'c1:(_*) $1\n'
                        'u: (what is the _~predicat of the _~object) $currentObj = $2 $currentPredicat=$1 The $1 of the $2 is ^call(ALKnowledge.getObject("tutorial", $currentObj, "hasColor"))\n'
                        'c1:(_*) : $1\n'
-                       'u: (hello) Hello human, I am fine thank you and you?\n')
+                       'u: (hello) Hello I am pepper\n')
 
     # Loading the topics directly as text strings
     topic_name_1 = ALDialog.loadTopicContent(topic_content)
@@ -84,9 +84,9 @@ def main(session):
     print "unload done"
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ip", type=str, default="169.254.151.206",
-                        help="Robot IP address. On robot or Local Naoqi: use '169.254.179.68'.")
-    parser.add_argument("--port", type=int, default=9559,                   help="Naoqi port number")
+    parser.add_argument("--ip", type=str, default="127.0.0.1",
+                        help="Robot IP address. On robot or Local Naoqi: use '127.0.0.1'.")
+    parser.add_argument("--port", type=int, default=51926,                   help="Naoqi port number")
 
     args = parser.parse_args()
     session = qi.Session()

@@ -2,19 +2,31 @@ from CSV_PARSEUR import CSV_PARSEUR
 import qi
 import argparse
 import sys
+from CSV_PARSEUR import CSV_PARSEUR
+from Process_object import Process_object
+from Utils import Utils
 
 
 def main(session):
 
     ALDialog = session.service("ALDialog")
+    ALDialog.stopTopics(ALDialog.getAllLoadedTopics())
 
     #    ALDialog.setLanguage("English")
     knowledge_service = session.service("ALKnowledge")
-
+    memory_service= session.service("ALMemory")
     parseur = CSV_PARSEUR()
+    processObject=Process_object()
+    utils=Utils()
     parseur.object_transformations("list_objects_final.csv")
     #parseur.person_transformations("list_person_final.csv")
     objects = []
+    categories = []
+    localizations = []
+    memory_service.insertData("heaviestlist","")
+    #memory_service.insertData("returnList", [])
+    heaviestlist = memory_service.getData("heaviestlist")
+    #returnList = memory_service.getData("returnList")
     for object in parseur.objects:
         knowledge_service.add("knowledge", object.name, "hasColor", object.color)
         knowledge_service.add("knowledge", object.name, "isoftype", object.type)
@@ -26,31 +38,43 @@ def main(session):
         knowledge_service.add("knowledge", object.name, "size", object.size)
         knowledge_service.add("knowledge", object.name, "weight", object.weight)
         objects.append(object.name)
-
+        #TODO creer un parseur pour les categories.
+        categories.append(object.category)
+    print objects
+    print categories
+    #print utils.getObjectListbyName(parseur.objects,["apple", "chips"])
     for person in parseur.persons:
         knowledge_service.add("knowledge", person.name, "isofgender", person.gender)
         knowledge_service.add("knowledge", person.name, "isoftheageof", person.age)
         knowledge_service.add("knowledge", person.name, "islocated", person.position)
-    
-
-
-    print(knowledge_service.getObject("knowledge", "Cup", "hasColor"))
-
 
     topic_content = ('topic: ~firstStep()\n'
                      'language: enu\n'
-                     'concept:(where) [where localization location situation room situated placed located find "in which"]\n'
+                     'concept:(located) [room situated placed located find]\n'
+                     'concept:(where_is) ["where is" where''s'' "where are" "where can I"]\n'
+                     'concept:(can_you)[ "[can will could] you {please}" "do you think you could" "are you [ready able] to" "do you know how to"]\n'
+                     'concept:(what_is) ["{"~can_you tell me" "do you know" "tell me"} [ what''s''  "what [is are was were]"]" ]\n'
+                     'concept:(location) [localization location postition room]\n'
                      'dynamic: object\n'
-                     'dynamic: type\n'
                      'dynamic: category\n'
                      'dynamic: localization\n'
-                     'dynamic: room\n'
-                     'dynamic: color\n'
-                     'u: (what is the color of _~object) $currentObject = $1 The color of the $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "hasColor"))\n'
-                     'c1:(_*) : $1\n'
-                     'u: (~where _~object) $currentObject = $1 The $currentObject is in the ^call(ALKnowledge.getObject("knowledge", $currentObject, "isLocated"))\n'
-                     'c1:(_*) : $1\n'
-                     'u: (Hi) Hello human, I am fine thank you and you?\n')
+    
+                     #De quelle couleur est l'objet
+                     'u: (* color * _~object) $currentObject = $1 The color of the $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "hasColor"))\n'
+                     'c1:(_*)  $1\n'
+                     #ou est l'objet
+                     'u: (["~where_is {~located}" "~what_is * ~location"] * _~object) $currentObject = $1 The $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "isintheroom")) ^call(ALKnowledge.getObject("knowledge", $currentObject, "islocated"))\n'
+                     'c1:(_*) in the $1\n'
+                     # a quelle categorie appartient l'object 
+                     'u:(~what_is * category * ~object) $currentObject = $1 The category of $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "belongstocategory"))\n'
+                     'c1:(_*)  $1\n'
+                     # Ou puis-je trouver un objet d'une categorie specifique
+                     # Quel objet d'une categorie est le plus lourd. 
+                     'u: (which is the heaviest snack) it is ^call(ALKnowledge.getSubject("knowledge", "belongstocategory", "snack"))\n'
+                     'c1:(_*) $heaviestlist=$1\n'
+                     
+                     'u: ([Hi Hello]) Hello Human\n')
+
 
     # Loading the topics directly as text strings
     topic_name_1 = ALDialog.loadTopicContent(topic_content)
@@ -62,12 +86,21 @@ def main(session):
     # We subscribe only ONCE, regardless of the number of topics we have activated
     ALDialog.subscribe('my_dialog_example')
     ALDialog.setConcept("object", "English", objects)
+    ALDialog.setConcept("category", "English", categories)
+
+    while not heaviestlist:
+        heaviestlist = memory_service.getData("heaviestlist")
+    resultHeaviest = processObject.heaviest(utils.getObjectListbyName(parseur.objects, heaviestlist))
+    memory_service.insertData("heaviestlist", str(resultHeaviest))
+
     try:
         raw_input("\nSpeak to the robot using rules from both the activated topics. Press Enter when finished:")
     finally:
+
         # stopping the dialog engine
         ALDialog.unsubscribe('my_dialog_example')
         # Reset knoledge
+
     result = knowledge_service.resetKnowledge("knowledge")
     # Deactivating all topics
     ALDialog.deactivateTopic(topic_name_1)
@@ -77,10 +110,10 @@ def main(session):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ip", type=str, default="192.168.1.201",
-                        help="Robot IP address. On robot or Local Naoqi: use '169.254.85.73'.")
+    parser.add_argument("--ip", type=str, default="localhost",
+                        help="Robot IP address. On robot or Local Naoqi: use 192.168.1.201.")
 
-    parser.add_argument("--port", type=int, default=9559,                   help="Naoqi port number")
+    parser.add_argument("--port", type=int, default=53314,                   help="Naoqi port number")
     args = parser.parse_args()
     session = qi.Session()
     try:
