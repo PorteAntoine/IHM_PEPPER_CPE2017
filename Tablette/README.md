@@ -24,7 +24,7 @@ Copier les images dans le robot à :
   
     
 ### 2 - Script Python :
-Dans l'example suivant, les images ont étaient copiées dans l'application nommée _"tablette_test"_ et dans le dossier _"/html/img_ de cette application.
+Dans l'example suivant, les images ont été copiées dans l'application nommée _"tablette_test"_ et dans le dossier _"/html/img_ de cette application.
 
      tabletservice = ALProxy("ALTabletService", robot_ip, robot_port)
      val = tabletservice.preLoadImage("http://198.18.0.1/apps/tablette_test/img/image1.png")
