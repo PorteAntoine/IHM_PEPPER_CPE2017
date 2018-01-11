@@ -17,4 +17,6 @@ Dans le robot pannel, installer l'application du projet dans le robot
           
           
 - directement en copiant les images:
+
+Copier dans le robot à .local/share/apps/{_nomApplication_}/html/..
   
