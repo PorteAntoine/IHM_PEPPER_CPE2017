@@ -52,23 +52,26 @@ def main(session):
                      'concept:(where_is) ["where is" where''s'' "where are" "where can I"]\n'
                      'concept:(can_you)[ "[can will could] you {please}" "do you think you could" "are you [ready able] to" "do you know how to"]\n'
                      'concept:(what_is) ["{"~can_you tell me" "do you know" "tell me"} [ what''s''  "what [is are was were]"]" ]\n'
+                     'concept:(which_is) [~what_is "which is" "which"]\n'
+                     'concept: (heaviest) [heaviest "most important weigth"]\n'
                      'concept:(location) [localization location postition room]\n'
                      'dynamic: object\n'
                      'dynamic: category\n'
+                     'dynamic: type \n'
                      'dynamic: localization\n'
     
                      #De quelle couleur est l'objet
                      'u: (* color * _~object) $currentObject = $1 The color of the $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "hasColor"))\n'
                      'c1:(_*)  $1\n'
                      #ou est l'objet
-                     'u: (["~where_is {~located}" "~what_is * ~location"] * _~object) $currentObject = $1 The $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "isintheroom")) ^call(ALKnowledge.getObject("knowledge", $currentObject, "islocated"))\n'
+                     'u: (["~where_is {~located}" "~what_is * ~location"] {the} _~object) $currentObject = $1 The $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "isintheroom")) ^call(ALKnowledge.getObject("knowledge", $currentObject, "islocated"))\n'
                      'c1:(_*) in the $1\n'
                      # a quelle categorie appartient l'object 
                      'u:(~what_is * category * ~object) $currentObject = $1 The category of $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "belongstocategory"))\n'
                      'c1:(_*)  $1\n'
                      # Ou puis-je trouver un objet d'une categorie specifique
                      # Quel objet d'une categorie est le plus lourd. 
-                     'u: (which is the heaviest _~category) the heaviest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1))\n'
+                     'u: (~which_is {the} ~heaviest _~category) the heaviest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1))\n'
                      'c1:(_*) is ^call(ProcessObjectModule.heaviest($1))\n'
                      'c2:(_*) $1 \n'
                      
@@ -105,10 +108,10 @@ def main(session):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ip", type=str, default="169.254.211.75",
+    parser.add_argument("--ip", type=str, default="localhost",
                         help="Robot IP address. On robot or Local Naoqi: use 192.168.1.201.")
 
-    parser.add_argument("--port", type=int, default=9559,                   help="Naoqi port number")
+    parser.add_argument("--port", type=int, default=56422,                   help="Naoqi port number")
     args = parser.parse_args()
     session = qi.Session()
     try:
