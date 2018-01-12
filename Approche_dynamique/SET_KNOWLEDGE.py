@@ -23,6 +23,7 @@ def main(session):
     utils=Utils()
     objects = []
     categories = []
+    types = []
     localizations = []
     #memory_service.insertData("returnList", [])
    # heaviestlist = memory_service.getData("heaviestlist")
@@ -41,6 +42,7 @@ def main(session):
         objects.append(object.name)
         #TODO creer un parseur pour les categories.
         categories.append(object.category)
+        types.append(object.type)
     for person in parseur.persons:
         knowledge_service.add("knowledge", person.name, "isofgender", person.gender)
         knowledge_service.add("knowledge", person.name, "isoftheageof", person.age)
@@ -74,6 +76,10 @@ def main(session):
                      'u: (~which_is {the} ~heaviest _~category) the heaviest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1))\n'
                      'c1:(_*) is ^call(ProcessObjectModule.heaviest($1))\n'
                      'c2:(_*) $1 \n'
+    
+                     'u: (~which_is {the} ~heaviest _~type) the heaviest $1 ^call(ALKnowledge.getSubject("knowledge", "isoftype",$1))\n'
+                     'c1:(_*) is ^call(ProcessObjectModule.heaviest($1))\n'
+                     'c2:(_*) $1 \n'
                      
                      'u: ([Hi Hello]) Hello Human\n')
 
@@ -89,6 +95,7 @@ def main(session):
     ALDialog.subscribe('my_dialog_example')
     ALDialog.setConcept("object", "English", objects)
     ALDialog.setConcept("category", "English", categories)
+    ALDialog.setConcept("type", "English", types)
 
 
     try:
@@ -111,7 +118,7 @@ if __name__ == "__main__":
     parser.add_argument("--ip", type=str, default="localhost",
                         help="Robot IP address. On robot or Local Naoqi: use 192.168.1.201.")
 
-    parser.add_argument("--port", type=int, default=56422,                   help="Naoqi port number")
+    parser.add_argument("--port", type=int, default=56624,                   help="Naoqi port number")
     args = parser.parse_args()
     session = qi.Session()
     try:
