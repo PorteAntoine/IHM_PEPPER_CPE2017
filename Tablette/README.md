@@ -20,7 +20,7 @@ Dans le robot pannel, installer l'application du projet dans le robot.
 
 Copier les images dans le robot à :
 
-     .local/share/apps/{_nomApplication_}/html/..  
+     .local/share/apps/PackageManager/{_nomApplication_}/html/..  
   
     
 ### 2 - Script Python :
