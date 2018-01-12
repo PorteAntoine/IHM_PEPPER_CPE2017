@@ -8,3 +8,5 @@ Questions auxquelles on sait déja répondre :
 	- localisation d'une catégorie (where are ... situated?)
 	- demander à manger
 	- demander à boire
+	- comparaison entre deux objets :
+		* (do ... and ... belong to the same category?) 
