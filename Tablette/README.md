@@ -40,6 +40,7 @@ Dans l'example suivant, les images ont été copiées dans l'application nommée
      val = tabletservice.showImage("http://198.18.0.1/apps/tablette_test/img/image1.png")
      
 - Pour afficher des pages web:
+
 Dans l'example suivant, le fichier index2.html a été copié dans le dossier html
 
      tabletservice = ALProxy("ALTabletService", robot_ip, robot_port)
