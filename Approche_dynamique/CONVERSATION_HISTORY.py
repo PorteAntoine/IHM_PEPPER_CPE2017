@@ -5,6 +5,7 @@
 
 import sys
 import time
+import datetime
 
 from naoqi import ALProxy
 from naoqi import ALBroker
@@ -13,7 +14,8 @@ from naoqi import ALModule
 from optparse import OptionParser
 
 NAO_IP = "localhost"
-
+NAO_PORT = 54912
+topf_path = 'C:\\Users\\aurel\\Documents\\COURS\\CPE\\Robotique\\PROJET_MAJEUR\\IHM_PEPPER_CPE2017\\Approche_dynamique\\top\\concept.top'
 
 # Global variable to store the HumanGreeter module instance
 HumanGreeter = None
@@ -22,13 +24,14 @@ dialog_p = None
 
 
 class HumanGreeterModule(ALModule):
-    def __init__(self, name):
+    def __init__(self, name, topf_path):
         ALModule.__init__(self, name)
+
+        # Must be an absolute path
+        self.topic_path = topf_path
 
         self.questions = []
         self.answers = []
-
-        self.tts = ALProxy("ALTextToSpeech")
 
         global memory
         memory = ALProxy("ALMemory")
@@ -60,13 +63,10 @@ class HumanGreeterModule(ALModule):
         dialog_p = ALProxy('ALDialog')
         dialog_p.setLanguage("English")
 
-        # Load topic - absolute path is required
-        topic = ('topic: ~example_topic_content()\n'
-                           'language: enu\n'
-                           'u: (how are you today) Hello human, I am fine thank you and you?\n'
-                           'u: (What is your name) My name is Brian\n')
-
-        topic = dialog_p.loadTopicContent(topic)
+        # Load the topic by it path
+        global topf_path
+        topf_path = topf_path.decode('utf-8')
+        topic = dialog_p.loadTopic(topf_path.encode('utf-8'))
 
         # Start dialog
         dialog_p.subscribe('myModule')
@@ -100,7 +100,7 @@ def main():
         type="int")
     parser.set_defaults(
         pip=NAO_IP,
-        pport=51177)
+        pport=NAO_PORT)
 
     (opts, args_) = parser.parse_args()
     pip   = opts.pip
@@ -119,16 +119,23 @@ def main():
     # Warning: HumanGreeter must be a global variable
     # The name given to the constructor must be the name of the
     # variable
+    topf_path = 'C:\\Users\\aurel\\Documents\\COURS\\CPE\\Robotique\\PROJET_MAJEUR\\IHM_PEPPER_CPE2017\\Approche_dynamique\\top\\concept.top'
     global HumanGreeter
-    HumanGreeter = HumanGreeterModule("HumanGreeter")
+    HumanGreeter = HumanGreeterModule("HumanGreeter", topf_path)
 
     HumanGreeter.set_dialogue()
 
+    log_file_name = "TEST_" + "NAME_OF_THE_TEST" + time.strftime("%Y%m%d-%H%M%S") + ".txt"
+    log_file = open(log_file_name,'w')
+    # Print the history of the dialog with the robot and save it into a log file
     print "_________HISTORIQUE DE LA DISCUSSION___________"
+    i = 1
     for question, answer in zip(HumanGreeter.questions, HumanGreeter.answers):
-        print "Question understood by pepper : " + question
-        print "Answer of the robot : " + answer
-
+        print "Last thing understood by pepper was : " + question
+        log_file.write("Input number %d : %s \n" %(i,question))
+        print "Output of the robot : " + answer
+        log_file.write("Output number %d : %s : \n" %(i,answer))
+        i =+ 1
     print
     print "Interrupted by user, shutting down"
     myBroker.shutdown()
