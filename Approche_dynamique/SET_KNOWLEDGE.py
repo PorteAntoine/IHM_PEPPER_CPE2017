@@ -5,6 +5,7 @@ import sys
 from CSV_PARSEUR import CSV_PARSEUR
 from Process_object import Process_object
 from Utils import Utils
+from Process_Object_Module import ProcessObjectModule
 
 
 def main(session):
@@ -16,15 +17,15 @@ def main(session):
     knowledge_service = session.service("ALKnowledge")
     memory_service= session.service("ALMemory")
     parseur = CSV_PARSEUR("list_objects_final.csv","list_objects_final.csv")
-    processObject=Process_object()
+
+    processObject= ProcessObjectModule(session,parseur)
+    session.registerService("ProcessObjectModule", processObject)
     utils=Utils()
     objects = []
     categories = []
     localizations = []
-    memory_service.insertData("heaviestlist","")
-    memory_service.insertData("heaviest", "")
     #memory_service.insertData("returnList", [])
-    heaviestlist = memory_service.getData("heaviestlist")
+   # heaviestlist = memory_service.getData("heaviestlist")
 
     #returnList = memory_service.getData("returnList")
     for object in parseur.objects:
@@ -40,8 +41,6 @@ def main(session):
         objects.append(object.name)
         #TODO creer un parseur pour les categories.
         categories.append(object.category)
-    print objects
-    print categories
     for person in parseur.persons:
         knowledge_service.add("knowledge", person.name, "isofgender", person.gender)
         knowledge_service.add("knowledge", person.name, "isoftheageof", person.age)
@@ -69,8 +68,9 @@ def main(session):
                      'c1:(_*)  $1\n'
                      # Ou puis-je trouver un objet d'une categorie specifique
                      # Quel objet d'une categorie est le plus lourd. 
-                     'u: (which is the heaviest snack) it is ^call(ALKnowledge.getSubject("knowledge", "belongstocategory", "snack"))\n'
-                     'c1:(_*) $heaviestlist=$1 the heaviest is $heaviest\n'
+                     'u: (which is the heaviest _~category) the heaviest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1))\n'
+                     'c1:(_*) is ^call(ProcessObjectModule.heaviest($1))\n'
+                     'c2:(_*) $1 \n'
                      
                      'u: ([Hi Hello]) Hello Human\n')
 
@@ -87,11 +87,6 @@ def main(session):
     ALDialog.setConcept("object", "English", objects)
     ALDialog.setConcept("category", "English", categories)
 
-    while not heaviestlist:
-        heaviestlist = memory_service.getData("heaviestlist")
-    resultHeaviest = processObject.heaviest(utils.getObjectListbyName(parseur.objects, heaviestlist))
-    print resultHeaviest
-    memory_service.insertData("heaviest", str(resultHeaviest))
 
     try:
         raw_input("\nSpeak to the robot using rules from both the activated topics. Press Enter when finished:")
@@ -110,10 +105,10 @@ def main(session):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ip", type=str, default="localhost",
+    parser.add_argument("--ip", type=str, default="169.254.211.75",
                         help="Robot IP address. On robot or Local Naoqi: use 192.168.1.201.")
 
-    parser.add_argument("--port", type=int, default=53786,                   help="Naoqi port number")
+    parser.add_argument("--port", type=int, default=9559,                   help="Naoqi port number")
     args = parser.parse_args()
     session = qi.Session()
     try:
