@@ -12,24 +12,27 @@ concept:(want) [want need desire like "would [like love]"]
 concept:(questions) ["can I" "may I"]
 concept:(ask_smthg) [~want ~questions]
 concept:(rooms) [office "living room" kitchen bathroom garage bedroom toilets corridor]
-concept:(localisation) [where situation room situated placed located find belong stored "in which" ~rooms]
+concept:(localisation) ["are in" where situation room situated placed located find belong stored "in which" ~rooms]
 concept:(how_many) ["how many" "how much"]
-concept:(description) [ ~how_many what which "to which"]
+concept:(description) [what which "to which"]
 concept:(color) [color colour coloration pigment pigmentation colorant paint]
 concept:(categorise) [classified separated category classify classification]
 concept:(hungry) [hungry eat food]
-concept:(thursty) [thursty arid dehydrated dry parched ~drinks drink]
+concept:(thursty) [thursty arid dehydrated dry parched ~obj_drinks drink]
 concept:(bigger) [biggest colossal largest big large principal important "most important"]
 concept:(smaller) [smallest littlest]
 concept:(compare_size) [~bigger ~smaller]
 concept:(name) ["my name is" "I am" "my parents called me"]
-
 concept:(things) ^rand[things article entity]
 # ########### dialog IHR ###########
 #greetings
 u:(~greetings) ~greetings Nice to see you dear, what is your name?
      u1:(~name _*) nice to meet you $1, ~name ~name_robot
 
+
+u:(~localisation * ﻿Name {please}) ﻿Name is on the Localization in the Room
+u:(~description * ~color * ﻿Name {please}) the ﻿Name are Color
+u:(~description * ~categorise * ﻿Name {please}) the ﻿Name are Category
 
 u:(~localisation * chips {please}) chips is on the desk in the office
 u:(~description * ~color * chips {please}) the chips are yellow
@@ -123,12 +126,66 @@ u:(~localisation * bag {please}) bag is on the counter in the kitchen
 u:(~description * ~color * bag {please}) the bag are blue
 u:(~description * ~categorise * bag {please}) the bag are containers
 
-u:(~localisation * freshfood {please}) freshfood is on the Localization in the Room
+u:(~localisation * snack {please}) snack is on the Localization in the Room
+u:(~localisation * snack {please}) snack is on the desk in the office
 u:(~localisation * snack {please}) snack is on the desk in the office
 u:(~localisation * candies {please}) candies is on the desk in the office
-u:(~localisation * toiletries {please}) toiletries is on the desk in the office
-u:(~localisation * containers {please}) containers is on the center table in the living room
-u:(~localisation * drinks {please}) drinks is on the center table in the living room
+u:(~localisation * candies {please}) candies is on the center table in the living room
+u:(~localisation * candies {please}) candies is on the center table in the living room
+u:(~localisation * freshfood {please}) freshfood is on the center table in the living room
+u:(~localisation * freshfood {please}) freshfood is on the fridge in the kitchen
+u:(~localisation * freshfood {please}) freshfood is on the fridge in the kitchen
+u:(~localisation * freshfood {please}) freshfood is on the fridge in the kitchen
+u:(~localisation * freshfood {please}) freshfood is on the fridge in the kitchen
+u:(~localisation * drinks {please}) drinks is on the fridge in the kitchen
+u:(~localisation * drinks {please}) drinks is on the bar in the living room
+u:(~localisation * drinks {please}) drinks is on the bar in the living room
+u:(~localisation * toiletries {please}) toiletries is on the bar in the living room
+u:(~localisation * toiletries {please}) toiletries is on the cupboard in the bathroom
+u:(~localisation * toiletries {please}) toiletries is on the cupboard in the bathroom
+u:(~localisation * containers {please}) containers is on the cupboard in the bathroom
+u:(~localisation * containers {please}) containers is on the counter in the kitchen
+u:(~localisation * containers {please}) containers is on the counter in the kitchen
+u:(~localisation * containers {please}) containers is on the counter in the kitchen
+u:(~localisation * containers {please}) containers is on the counter in the kitchen
+u:(~localisation * containers {please}) containers is on the counter in the kitchen
+
+u:(* _~obj_freshfood * _~obj_freshfood * same category {please}) ~yes, $1 and $2 belong to the same category
+u:(* _~obj_freshfood * _~obj_snack * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_freshfood * _~obj_candies * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_freshfood * _~obj_toiletries * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_freshfood * _~obj_containers * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_freshfood * _~obj_drinks * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_snack * _~obj_freshfood * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_snack * _~obj_snack * same category {please}) ~yes, $1 and $2 belong to the same category
+u:(* _~obj_snack * _~obj_candies * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_snack * _~obj_toiletries * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_snack * _~obj_containers * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_snack * _~obj_drinks * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_candies * _~obj_freshfood * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_candies * _~obj_snack * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_candies * _~obj_candies * same category {please}) ~yes, $1 and $2 belong to the same category
+u:(* _~obj_candies * _~obj_toiletries * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_candies * _~obj_containers * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_candies * _~obj_drinks * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_toiletries * _~obj_freshfood * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_toiletries * _~obj_snack * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_toiletries * _~obj_candies * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_toiletries * _~obj_toiletries * same category {please}) ~yes, $1 and $2 belong to the same category
+u:(* _~obj_toiletries * _~obj_containers * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_toiletries * _~obj_drinks * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_containers * _~obj_freshfood * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_containers * _~obj_snack * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_containers * _~obj_candies * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_containers * _~obj_toiletries * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_containers * _~obj_containers * same category {please}) ~yes, $1 and $2 belong to the same category
+u:(* _~obj_containers * _~obj_drinks * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_drinks * _~obj_freshfood * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_drinks * _~obj_snack * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_drinks * _~obj_candies * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_drinks * _~obj_toiletries * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_drinks * _~obj_containers * same category {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_drinks * _~obj_drinks * same category {please}) ~yes, $1 and $2 belong to the same category
 
 u:(~description * ~localisation * bathroom {please}) in the bathroom we have ^enumerate(~loc_bathroom)
 u:(~description * ~localisation * living_room {please}) in the living_room we have ^enumerate(~loc_living_room)
@@ -141,8 +198,8 @@ u:(~description * ~localisation * counter {please}) in the counter we have ^enum
 u:(~how_many * ~localisation * counter {please}) in the counter we have ^size(~obj_counter) ~things
 u:(~description * ~localisation * fridge {please}) in the fridge we have ^enumerate(~obj_fridge)
 u:(~how_many * ~localisation * fridge {please}) in the fridge we have ^size(~obj_fridge) ~things
-u:(~description * ~localisation * center table {please}) in the center table we have ^enumerate(~obj_center table)
-u:(~how_many * ~localisation * center table {please}) in the center table we have ^size(~obj_center table) ~things
+u:(~description * ~localisation * center_table {please}) in the center_table we have ^enumerate(~obj_center_table)
+u:(~how_many * ~localisation * center_table {please}) in the center_table we have ^size(~obj_center_table) ~things
 u:(~description * ~localisation * desk {please}) in the desk we have ^enumerate(~obj_desk)
 u:(~how_many * ~localisation * desk {please}) in the desk we have ^size(~obj_desk) ~things
 u:(~description * ~localisation * cupboard {please}) in the cupboard we have ^enumerate(~obj_cupboard)
