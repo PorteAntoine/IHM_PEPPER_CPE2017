@@ -6,14 +6,15 @@ include:concept_loc_env.top
 include:concept_pers_env.top
 
 concept:(name_robot) [ "pepper lion tech"]
-concept:(greetings) [hi hello "good morning" "hey there"]
+concept:(greetings) ^rand[hi hello "good morning" "hey there"]
 concept:(yes) [sure "off course" "yes sir"]
 concept:(want) [want need desire like "would [like love]"]
 concept:(questions) ["can I" "may I"]
 concept:(ask_smthg) [~want ~questions]
 concept:(rooms) [office "living room" kitchen bathroom garage bedroom toilets corridor]
 concept:(localisation) [where situation room situated placed located find belong stored "in which" ~rooms]
-concept:(description) ["how many" what which "to which"]
+concept:(how_many) ["how many" "how much"]
+concept:(description) [ ~how_many what which "to which"]
 concept:(color) [color colour coloration pigment pigmentation colorant paint]
 concept:(categorise) [classified separated category classify classification]
 concept:(hungry) [hungry eat food]
@@ -23,15 +24,12 @@ concept:(smaller) [smallest littlest]
 concept:(compare_size) [~bigger ~smaller]
 concept:(name) ["my name is" "I am" "my parents called me"]
 
+concept:(things) ^rand[things article entity]
 # ########### dialog IHR ###########
 #greetings
 u:(~greetings) ~greetings Nice to see you dear, what is your name?
      u1:(~name _*) nice to meet you $1, ~name ~name_robot
 
-
-u:(~localisation * ﻿Name {please}) ﻿Name is on the Localization in the Room
-u:(~description * ~color * ﻿Name {please}) the ﻿Name are Color
-u:(~description * ~categorise * ﻿Name {please}) the ﻿Name are Category
 
 u:(~localisation * chips {please}) chips is on the desk in the office
 u:(~description * ~color * chips {please}) the chips are yellow
@@ -133,13 +131,19 @@ u:(~localisation * containers {please}) containers is on the center table in the
 u:(~localisation * drinks {please}) drinks is on the center table in the living room
 
 u:(~description * ~localisation * bathroom {please}) in the bathroom we have ^enumerate(~loc_bathroom)
-u:(~description * ~localisation * living room {please}) in the living room we have ^enumerate(~loc_living room)
+u:(~description * ~localisation * living_room {please}) in the living_room we have ^enumerate(~loc_living_room)
 u:(~description * ~localisation * office {please}) in the office we have ^enumerate(~loc_office)
 u:(~description * ~localisation * kitchen {please}) in the kitchen we have ^enumerate(~loc_kitchen)
 
 u:(~description * ~localisation * bar {please}) in the bar we have ^enumerate(~obj_bar)
+u:(~how_many * ~localisation * bar {please}) in the bar we have ^size(~obj_bar) ~things
 u:(~description * ~localisation * counter {please}) in the counter we have ^enumerate(~obj_counter)
+u:(~how_many * ~localisation * counter {please}) in the counter we have ^size(~obj_counter) ~things
 u:(~description * ~localisation * fridge {please}) in the fridge we have ^enumerate(~obj_fridge)
+u:(~how_many * ~localisation * fridge {please}) in the fridge we have ^size(~obj_fridge) ~things
 u:(~description * ~localisation * center table {please}) in the center table we have ^enumerate(~obj_center table)
+u:(~how_many * ~localisation * center table {please}) in the center table we have ^size(~obj_center table) ~things
 u:(~description * ~localisation * desk {please}) in the desk we have ^enumerate(~obj_desk)
+u:(~how_many * ~localisation * desk {please}) in the desk we have ^size(~obj_desk) ~things
 u:(~description * ~localisation * cupboard {please}) in the cupboard we have ^enumerate(~obj_cupboard)
+u:(~how_many * ~localisation * cupboard {please}) in the cupboard we have ^size(~obj_cupboard) ~things
