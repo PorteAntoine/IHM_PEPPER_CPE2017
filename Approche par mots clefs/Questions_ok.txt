@@ -1,9 +1,10 @@
 12/01/2017
-Questions auxquelles on sait déja répondre :
-	- localisation d'un objet dans l'arène (where are ... situated?)
+Questions auxquelles on sait dÃ©ja rÃ©pondre :
+	- localisation d'un objet dans l'arÃ¨ne (where are ... situated?)
 	- couleur d'un objet (what is the color of ...?)
-	- catégorie d'un objet (to which category belong ...?)
-	- description d'une pièce (which objetcs are stored in ...?)
-	- localisation d'une catégorie (where are ... situated?)
-	- demander à manger
-	- demander à boire
+	- catÃ©gorie d'un objet (to which category belong ...?)
+	- description d'une piÃ¨ce (which objetcs are stored in ...?)
+	- description d'un objet (type fridge, desk ...) (which objetcs are stored in ...?)
+	- localisation d'une catÃ©gorie (where are ... situated?)
+	- demander Ã  manger
+	- demander Ã  boire
