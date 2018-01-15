@@ -20,17 +20,23 @@ class Process_object():
                 hasAttribute_list.append(i.name)
         return hasAttribute_list
 
-    def boolAttribute(self, list_objects, name, attr):
+    def boolAttribute(self, list_objects , attr):
 
-        # retourne vrai ou faux a une question de type "Est ce que <nom d'objet> est <attribut>"
+        # retourne vrai si tous les objets de la list_objects possedent l'attribut attr, faux sinon
         # list_objects est une liste d'"objects"
         # attr est une string pouvant contenir une categorie, une couleur, une forme, une taille, un type, une localisation, un poids ou une salle
         for i in list_objects:
-            if i.name == name:
-                if i.category == attr or i.color == attr or i.shape == attr or i.size == attr or i.type == attr or i.localization == attr or i.weight == attr or i.room == attr:
-                    return True
-                else:
-                    return False
+            if i.category != attr and i.color != attr and i.shape != attr and i.size != attr and i.type != attr and i.localization != attr and i.weight != attr and i.room != attr:
+                return False
+        return True
+
+    def sameCategory(self, list_objects):
+
+        # renvoie vrai si les objets de la liste sont dans la meme categorie
+        # list_objects est une liste d'"objects"
+        if len(list_objects)>0:
+            attr = list_objects[0].category
+            return self.boolAttribute(list_objects,attr)
 
 
     def biggest(self,list_objects):
@@ -92,4 +98,5 @@ class Process_object():
             if int(i.weight) == min_weight:
                 self.lightest_obj.append(i.name)
         return self.lightest_obj
+
 

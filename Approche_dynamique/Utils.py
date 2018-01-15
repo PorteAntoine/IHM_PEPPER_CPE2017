@@ -12,3 +12,10 @@ class Utils():
                     newObjectList.append(j)
         return newObjectList
 
+    def getObjectListbyListName(self, list_objects, list_object_names):
+        newObjectList = []
+        for i in list_object_names :
+            for j in list_objects :
+                if j.name in i :
+                    newObjectList.append(j)
+        return newObjectList
