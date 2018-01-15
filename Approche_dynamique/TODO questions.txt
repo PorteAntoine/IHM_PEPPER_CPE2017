@@ -1,0 +1,4 @@
+2 objects belong to the same type/room/localization/color
+liste de tous les objets possédant le meme attribut
+nombre d'objets possédant un attribut
+plus lourd/leger/petit/grand objets entre 2 objets
