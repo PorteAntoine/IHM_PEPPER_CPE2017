@@ -9,4 +9,10 @@ Questions auxquelles on sait déja répondre :
 	- demander à manger
 	- demander à boire
 	- comparaison entre deux objets :
-		* (do ... and ... belong to the same category?) 
+		* (do ... and ... belong to the same category?)
+		* (between ... and ..., which one is the ... (smaller, bigger, lighter, heavier)?)
+		* the biggest object ?
+	- quantification d'objets :
+		* (how many objects are stored in ...?)
+		* (what can i find in the ...?)
+		
