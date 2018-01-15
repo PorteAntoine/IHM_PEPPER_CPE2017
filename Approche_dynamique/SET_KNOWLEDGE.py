@@ -77,6 +77,7 @@ def main(session):
                      'c1:(_*) is ^call(ProcessObjectModule.heaviest($1))\n'
                      'c2:(_*) $1 \n'
     
+                     # Quel objet d'un type est le plus lourd. 
                      'u: (~which_is {the} ~heaviest _~type) the heaviest $1 ^call(ALKnowledge.getSubject("knowledge", "isoftype",$1))\n'
                      'c1:(_*) is ^call(ProcessObjectModule.heaviest($1))\n'
                      'c2:(_*) $1 \n'
