@@ -14,24 +14,27 @@ from naoqi import ALModule
 from optparse import OptionParser
 
 NAO_IP = "localhost"
-NAO_PORT = 54912
+NAO_PORT = 55374
 topf_path = 'C:\\Users\\aurel\\Documents\\COURS\\CPE\\Robotique\\PROJET_MAJEUR\\IHM_PEPPER_CPE2017\\Approche_dynamique\\top\\concept.top'
 
 # Global variable to store the HumanGreeter module instance
 HumanGreeter = None
 memory = None
 dialog_p = None
-
+answer_given = False
 
 class HumanGreeterModule(ALModule):
-    def __init__(self, name, topf_path):
+    def __init__(self, name, topf_path, test_name):
         ALModule.__init__(self, name)
 
         # Must be an absolute path
         self.topic_path = topf_path
 
         self.questions = []
-        self.answers = []
+        self.questions_understood = []
+        self.answers_given = []
+
+        self.test_name = test_name
 
         global memory
         memory = ALProxy("ALMemory")
@@ -41,17 +44,14 @@ class HumanGreeterModule(ALModule):
 
 
     def onLastAnswer(self, *_args):
-        """ This will be called each time a face is
-        detected.
 
-        """
-        # Unsubscribe to the event when talking,
-        # to avoid repetitions
+        global answer_given
+        answer_given = True # We have an answer from the robot
         memory.unsubscribeToEvent("Dialog/LastAnswer",
             "HumanGreeter")
 
-        self.questions.append(memory.getData("Dialog/LastInput"))
-        self.answers.append(memory.getData("Dialog/LastAnswer"))
+        self.questions_understood.append(memory.getData("Dialog/LastInput"))
+        self.answers_given.append(memory.getData("Dialog/LastAnswer"))
 
         # Subscribe again to the event
         memory.subscribeToEvent("Dialog/LastAnswer",
@@ -59,7 +59,8 @@ class HumanGreeterModule(ALModule):
             "onLastAnswer")
 
     def set_dialogue(self):
-        global dialog_p
+        global dialog_p, answer_given
+        synchronisation = False # initialize the global variable
         dialog_p = ALProxy('ALDialog')
         dialog_p.setLanguage("English")
 
@@ -74,7 +75,20 @@ class HumanGreeterModule(ALModule):
         # Activate dialog
         dialog_p.activateTopic(topic)
 
-        raw_input(u"Press 'Enter' to exit.")
+        input = ""
+        while input != "EXIT":
+            input = raw_input(u"Enter your question. Write EXIT to exit : ")
+
+            if input != "EXIT":
+                if answer_given == False:
+                    self.questions.append(input)
+                    self.questions_understood.append("Nothing understood")
+                    self.answers_given.append("No answer from the robot")
+
+                if answer_given:
+                    self.questions.append(input)
+                    answer_given = False
+
 
         # Deactivate topic
         dialog_p.deactivateTopic(topic)
@@ -106,9 +120,6 @@ def main():
     pip   = opts.pip
     pport = opts.pport
 
-    # We need this broker to be able to construct
-    # NAOqi modules and subscribe to other modules
-    # The broker must stay alive until the program exists
     myBroker = ALBroker("myBroker",
        "0.0.0.0",   # listen to anyone
        0,           # find a free port and use it
@@ -116,25 +127,24 @@ def main():
        pport)       # parent broker port
 
 
-    # Warning: HumanGreeter must be a global variable
-    # The name given to the constructor must be the name of the
-    # variable
     topf_path = 'C:\\Users\\aurel\\Documents\\COURS\\CPE\\Robotique\\PROJET_MAJEUR\\IHM_PEPPER_CPE2017\\Approche_dynamique\\top\\concept.top'
     global HumanGreeter
-    HumanGreeter = HumanGreeterModule("HumanGreeter", topf_path)
+    HumanGreeter = HumanGreeterModule("HumanGreeter", topf_path, "ORIGIN")
 
     HumanGreeter.set_dialogue()
 
-    log_file_name = "TEST_" + "NAME_OF_THE_TEST" + time.strftime("%Y%m%d-%H%M%S") + ".txt"
+    log_file_name = "./TEST/TEST_" + HumanGreeter.test_name + "_" + time.strftime("%Y%m%d-%H%M%S") + ".txt"
     log_file = open(log_file_name,'w')
     # Print the history of the dialog with the robot and save it into a log file
     print "_________HISTORIQUE DE LA DISCUSSION___________"
     i = 1
-    for question, answer in zip(HumanGreeter.questions, HumanGreeter.answers):
-        print "Last thing understood by pepper was : " + question
-        log_file.write("Input number %d : %s \n" %(i,question))
-        print "Output of the robot : " + answer
-        log_file.write("Output number %d : %s : \n" %(i,answer))
+    for question, question_understood, answer in zip(HumanGreeter.questions, HumanGreeter.questions_understood, HumanGreeter.answers_given):
+        print "Question asked by human was : " + question
+        log_file.write("Question asked by human number %d : %s \n" % (i, question))
+        print "Question understood by pepper was : " + question_understood
+        log_file.write("Question understood by pepper number %d : %s \n" %(i,question_understood))
+        print "Answer of the robot : " + answer
+        log_file.write("Answer of pepper number %d : %s \n" %(i,answer))
         i =+ 1
     print
     print "Interrupted by user, shutting down"
