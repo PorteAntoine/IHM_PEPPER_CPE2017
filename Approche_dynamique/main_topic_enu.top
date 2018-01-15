@@ -1,0 +1,48 @@
+topic: ~main_topic_enu() 
+language: enu 
+concept:(located) [room situated placed located find] 
+concept:(where_is) ["where is" where''s'' "where are" "where can I"] 
+concept:(can_you)[ "[can will could] you {please}" "do you think you could" "are you [ready able] to" "do you know how to"] 
+concept:(what_is) ["{"~can_you tell me" "do you know" "tell me"} [ what''s''  "what [is are was were]"]" ] 
+concept:(which_is) [~what_is "which is" "which"] 
+concept: (heaviest) [heaviest "most important weigth"] 
+concept:(location) [localization location postition room] 
+dynamic: object 
+dynamic: category 
+dynamic: color 
+dynamic: type 
+dynamic: localization 
+
+u: (~what_is {the} color {of} {the} _~object) $currentObject = $1 The color of the $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "hasColor")) 
+c1:(_*)  $1 
+
+u: (["~where_is {~located}" "~what_is {the} ~location"] {of} {the} _~object) $currentObject = $1 The $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "isintheroom")) ^call(ALKnowledge.getObject("knowledge", $currentObject, "islocated")) 
+c1:(_*) in the $1 
+
+u:(~what_is * category * ~object) $currentObject = $1 The category of $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "belongstocategory")) 
+c1:(_*)  $1 
+
+u: (which is the heaviest _~category) the heaviest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1)) 
+c1:(_*) is ^call(ProcessObjectModule.heaviest($1)) 
+c2:(_*) $1  
+
+u: (~which_is {the} ~heaviest _~type) the heaviest $1 ^call(ALKnowledge.getSubject("knowledge", "isoftype",$1)) 
+c1:(_*) is ^call(ProcessObjectModule.heaviest($1)) 
+
+u: (~which_is the lightest _~category) the lightest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1)) 
+c1:(_*) is ^call(ProcessObjectModule.lightest($1)) 
+c2:(_*) $1  
+
+u: (~which_is the biggest _~category) the biggest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1)) 
+c1:(_*) is ^call(ProcessObjectModule.biggest($1)) 
+c2:(_*) $1  
+
+u: (~which_is the most little _~category) the most little $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1)) 
+c1:(_*) is ^call(ProcessObjectModule.little($1)) 
+c2:(_*) $1  
+
+u: (do _~object and _~object belong to the same category)  $1 and $2 ^call(ProcessObjectModule.sameCategory($1,$2)) 
+c1:(True) are in the same category  
+c1:(False) are not in the same category   
+
+u: ([Hi Hello]) Hello Human 

@@ -22,10 +22,15 @@ class ProcessObjectModule:
 
     #return a string containing the heaviest object
 
+    def hasAttribute(self, attr):
+        print "MyModule process an object"
+        result = ""
+        result = self.processObject.hasAttribute(self.parseur.objects, attr)
+        return str(result)
+
     def boolAttribute(self, listOfNames, attr):
         print "MyModule process an object"
         result = ""
-        print listOfNames
         result = self.processObject.boolAttribute(self.utils.getObjectListbyName(self.parseur.objects, listOfNames),attr)
         return str(result)
 

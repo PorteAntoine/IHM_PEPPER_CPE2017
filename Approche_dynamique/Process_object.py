@@ -18,6 +18,7 @@ class Process_object():
         for i in list_objects:
             if i.category == attr or i.color == attr or i.shape == attr or i.size == attr or i.type == attr or i.localization == attr or i.weight == attr or i.room == attr:
                 hasAttribute_list.append(i.name)
+        print(hasAttribute_list)
         return hasAttribute_list
 
     def boolAttribute(self, list_objects , attr):
