@@ -5,7 +5,6 @@
 
 import sys
 import time
-import datetime
 
 from naoqi import ALProxy
 from naoqi import ALBroker
@@ -16,6 +15,7 @@ from optparse import OptionParser
 NAO_IP = "localhost"
 NAO_PORT = 55374
 topf_path = 'C:\\Users\\aurel\\Documents\\COURS\\CPE\\Robotique\\PROJET_MAJEUR\\IHM_PEPPER_CPE2017\\Approche_dynamique\\top\\concept.top'
+name_of_test = "ORIGINAL"
 
 # Global variable to store the HumanGreeter module instance
 HumanGreeter = None
@@ -24,7 +24,7 @@ dialog_p = None
 answer_given = False
 
 class HumanGreeterModule(ALModule):
-    def __init__(self, name, topf_path, test_name):
+    def __init__(self, name, topf_path):
         ALModule.__init__(self, name)
 
         # Must be an absolute path
@@ -33,8 +33,6 @@ class HumanGreeterModule(ALModule):
         self.questions = []
         self.questions_understood = []
         self.answers_given = []
-
-        self.test_name = test_name
 
         global memory
         memory = ALProxy("ALMemory")
@@ -104,6 +102,7 @@ def main():
     """ Main entry point
 
     """
+
     parser = OptionParser()
     parser.add_option("--pip",
         help="Parent broker port. The IP address or your robot",
@@ -126,14 +125,14 @@ def main():
        pip,         # parent broker IP
        pport)       # parent broker port
 
-
-    topf_path = 'C:\\Users\\aurel\\Documents\\COURS\\CPE\\Robotique\\PROJET_MAJEUR\\IHM_PEPPER_CPE2017\\Approche_dynamique\\top\\concept.top'
+    global topf_path
+    global name_of_test
     global HumanGreeter
-    HumanGreeter = HumanGreeterModule("HumanGreeter", topf_path, "ORIGIN")
+    HumanGreeter = HumanGreeterModule("HumanGreeter", topf_path)
 
     HumanGreeter.set_dialogue()
 
-    log_file_name = "./TEST/TEST_" + HumanGreeter.test_name + "_" + time.strftime("%Y%m%d-%H%M%S") + ".txt"
+    log_file_name = "./TEST/TEST_" + name_of_test + "_" + time.strftime("%Y%m%d-%H%M%S") + ".txt"
     log_file = open(log_file_name,'w')
     # Print the history of the dialog with the robot and save it into a log file
     print "_________HISTORIQUE DE LA DISCUSSION___________"
@@ -145,6 +144,7 @@ def main():
         log_file.write("Question understood by pepper number %d : %s \n" %(i,question_understood))
         print "Answer of the robot : " + answer
         log_file.write("Answer of pepper number %d : %s \n" %(i,answer))
+        log_file.write("------------------------------------------------")
         i =+ 1
     print
     print "Interrupted by user, shutting down"
