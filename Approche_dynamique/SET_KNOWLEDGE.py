@@ -42,7 +42,7 @@ def main(session):
         objects.append(object.name)
         #TODO creer un parseur pour les categories.
         categories.append(object.category)
-        types.append(objects.type)
+        types.append(object.type)
     for person in parseur.persons:
         knowledge_service.add("knowledge", person.name, "isofgender", person.gender)
         knowledge_service.add("knowledge", person.name, "isoftheageof", person.age)
@@ -55,7 +55,7 @@ def main(session):
                      'concept:(can_you)[ "[can will could] you {please}" "do you think you could" "are you [ready able] to" "do you know how to"]\n'
                      'concept:(what_is) ["{"~can_you tell me" "do you know" "tell me"} [ what''s''  "what [is are was were]"]" ]\n'
                      'concept:(which_is) [~what_is "which is" "which"]\n'
--                    'concept: (heaviest) [heaviest "most important weigth"]\n'
+                     'concept: (heaviest) [heaviest "most important weigth"]\n'
                      'concept:(location) [localization location postition room]\n'
                      'dynamic: object\n'
                      'dynamic: category\n'
