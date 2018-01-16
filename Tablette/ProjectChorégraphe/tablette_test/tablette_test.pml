@@ -20,9 +20,6 @@
         <File name="index3" src="html/index3.html" />
         <File name="jquery-1.11.0.min" src="html/js/jquery-1.11.0.min.js" />
         <File name="main" src="html/js/main.js" />
-        <File name="robotutils" src="html/js/robotutils.js" />
-        <File name="jquery-3.2.1.min" src="html/js/jquery-3.2.1.min.js" />
-        <File name="scriptload" src="html/js/scriptload.js" />
         <File name="index4" src="html/index4.html" />
     </Resources>
     <Topics />
