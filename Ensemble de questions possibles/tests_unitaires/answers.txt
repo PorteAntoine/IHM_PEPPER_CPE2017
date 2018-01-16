@@ -1,0 +1,5624 @@
+answer 0
+The biggest blue object is bag
+answer 1
+The Shape of the chips is none
+answer 2
+The Colour of the chips is yellow
+answer 3
+the chips belongs to the snack Category
+answer 4
+the pringles is in the desk which is located in the office
+answer 5
+The Colour of the pringles is red
+answer 6
+the pringles belongs to the snack Category
+answer 7
+the peanuts is in the desk which is located in the office
+answer 8
+The Colour of the peanuts is brown
+answer 9
+the peanuts belongs to the snack Category
+answer 10
+answer 11
+answer 12
+answer 13
+the mints is in the center table which is located in the living room
+answer 14
+The Colour of the mints is green
+answer 15
+the mints belongs to the candies Category
+answer 16
+the chocolate egg is in the center table which is located in the living room
+answer 17
+The Colour of the chocolate egg is brown
+answer 18
+the chocolate egg belongs to the candies Category
+answer 19
+the noodles is in the fridge which is located in the kitchen
+answer 20
+The Colour of the noodles is yellow
+answer 21
+the noodles belongs to the freshfood Category
+answer 22
+the apple is in the fridge which is located in the kitchen
+answer 23
+The Colour of the apple is red
+answer 24
+the apple belongs to the freshfood Category
+answer 25
+the paprika is in the fridge which is located in the kitchen
+answer 26
+The Colour of the paprika is red
+answer 27
+the paprika belongs to the freshfood Category
+answer 28
+the melon is in the fridge which is located in the kitchen
+answer 29
+The Room of the beer is living room
+answer 30
+The Colour of the melon is green
+answer 31
+the melon belongs to the freshfood Category
+answer 32
+the sushi is in the fridge which is located in the kitchen
+answer 33
+The Colour of the sushi is black
+answer 34
+the sushi belongs to the freshfood Category
+answer 35
+the tea is in the bar which is located in the living room
+answer 36
+The Colour of the tea is green
+answer 37
+the tea belongs to the drinks Category
+answer 38
+the beer is in the bar which is located in the living room
+answer 39
+The Colour of the beer is green
+answer 40
+the beer belongs to the drinks Category
+answer 41
+the coke is in the bar which is located in the living room
+answer 42
+The Colour of the coke is red
+answer 43
+the coke belongs to the drinks Category
+answer 44
+the shampoo is in the cupboard which is located in the bathroom
+answer 45
+The Colour of the shampoo is white
+answer 46
+the shampoo belongs to the toiletries Category
+answer 47
+the cloth is in the cupboard which is located in the bathroom
+answer 48
+The Colour of the cloth is blue
+answer 49
+the cloth belongs to the toiletries Category
+answer 50
+the sponge is in the cupboard which is located in the bathroom
+answer 51
+The Colour of the sponge is yellow
+answer 52
+the sponge belongs to the toiletries Category
+answer 53
+the bowl is in the counter which is located in the kitchen
+answer 54
+The Colour of the bowl is red
+answer 55
+There are 2 items belonging to the blue category
+answer 56
+the bowl belongs to the containers Category
+answer 57
+the mug is in the counter which is located in the kitchen
+answer 58
+The Colour of the mug is pink
+answer 59
+the mug belongs to the containers Category
+answer 60
+the glass is in the counter which is located in the kitchen
+answer 61
+The Colour of the glass is opaque
+answer 62
+the glass belongs to the containers Category
+answer 63
+the box is in the counter which is located in the kitchen
+answer 64
+The Colour of the box is white
+answer 65
+the box belongs to the containers Category
+answer 66
+the tray is in the counter which is located in the kitchen
+answer 67
+The Colour of the tray is black
+answer 68
+the tray belongs to the containers Category
+answer 69
+the bag is in the counter which is located in the kitchen
+answer 70
+The Colour of the bag is blue
+answer 71
+the bag belongs to the containers Category
+answer 72
+answer 73
+There are 3 items belonging to the snack category
+answer 74
+answer 75
+There are 3 items belonging to the candies category
+answer 76
+answer 77
+There are 5 items belonging to the freshfood category
+answer 78
+answer 79
+There are 3 items belonging to the drinks category
+answer 80
+answer 81
+There are 3 items belonging to the toiletries category
+answer 82
+answer 83
+There are 6 items belonging to the containers category
+answer 84
+answer 85
+answer 86
+answer 87
+answer 88
+answer 89
+answer 90
+answer 91
+answer 92
+answer 93
+answer 94
+answer 95
+answer 96
+answer 97
+answer 98
+answer 99
+answer 100
+answer 101
+answer 102
+answer 103
+answer 104
+answer 105
+answer 106
+answer 107
+answer 108
+answer 109
+answer 110
+answer 111
+answer 112
+answer 113
+answer 114
+answer 115
+answer 116
+answer 117
+answer 118
+answer 119
+answer 120
+answer 121
+answer 122
+answer 123
+answer 124
+answer 125
+There are 3 items belonging to the snack category
+answer 126
+There are 3 items belonging to the snack category
+answer 127
+There are 3 items belonging to the snack category
+answer 128
+There are 3 items belonging to the snack category
+answer 129
+There are 3 items belonging to the snack category
+answer 130
+There are 3 items belonging to the snack category
+answer 131
+There are 3 items belonging to the snack category
+answer 132
+There are 3 items belonging to the snack category
+answer 133
+There are 3 items belonging to the snack category
+answer 134
+There are 3 items belonging to the snack category
+answer 135
+There are 3 items belonging to the snack category
+answer 136
+There are 3 items belonging to the snack category
+answer 137
+There are 3 items belonging to the snack category
+answer 138
+There are 3 items belonging to the snack category
+answer 139
+There are 3 items belonging to the snack category
+answer 140
+There are 3 items belonging to the snack category
+answer 141
+There are 3 items belonging to the snack category
+answer 142
+There are 3 items belonging to the candies category
+answer 143
+There are 3 items belonging to the candies category
+answer 144
+There are 3 items belonging to the candies category
+answer 145
+There are 3 items belonging to the candies category
+answer 146
+There are 3 items belonging to the candies category
+answer 147
+There are 3 items belonging to the candies category
+answer 148
+There are 3 items belonging to the candies category
+answer 149
+There are 3 items belonging to the candies category
+answer 150
+There are 3 items belonging to the candies category
+answer 151
+There are 3 items belonging to the candies category
+answer 152
+There are 3 items belonging to the candies category
+answer 153
+There are 3 items belonging to the candies category
+answer 154
+There are 3 items belonging to the candies category
+answer 155
+There are 3 items belonging to the candies category
+answer 156
+There are 3 items belonging to the candies category
+answer 157
+There are 3 items belonging to the candies category
+answer 158
+There are 3 items belonging to the candies category
+answer 159
+There are 5 items belonging to the freshfood category
+answer 160
+There are 5 items belonging to the freshfood category
+answer 161
+There are 5 items belonging to the freshfood category
+answer 162
+There are 5 items belonging to the freshfood category
+answer 163
+There are 5 items belonging to the freshfood category
+answer 164
+There are 5 items belonging to the freshfood category
+answer 165
+There are 5 items belonging to the freshfood category
+answer 166
+There are 5 items belonging to the freshfood category
+answer 167
+There are 5 items belonging to the freshfood category
+answer 168
+There are 5 items belonging to the freshfood category
+answer 169
+There are 5 items belonging to the freshfood category
+answer 170
+There are 5 items belonging to the freshfood category
+answer 171
+There are 5 items belonging to the freshfood category
+answer 172
+There are 5 items belonging to the freshfood category
+answer 173
+There are 5 items belonging to the freshfood category
+answer 174
+There are 5 items belonging to the freshfood category
+answer 175
+There are 5 items belonging to the freshfood category
+answer 176
+There are 3 items belonging to the drinks category
+answer 177
+There are 3 items belonging to the drinks category
+answer 178
+There are 3 items belonging to the drinks category
+answer 179
+There are 3 items belonging to the drinks category
+answer 180
+There are 3 items belonging to the drinks category
+answer 181
+There are 3 items belonging to the drinks category
+answer 182
+There are 3 items belonging to the drinks category
+answer 183
+There are 3 items belonging to the drinks category
+answer 184
+There are 3 items belonging to the drinks category
+answer 185
+There are 3 items belonging to the drinks category
+answer 186
+There are 3 items belonging to the drinks category
+answer 187
+There are 3 items belonging to the drinks category
+answer 188
+There are 3 items belonging to the drinks category
+answer 189
+There are 3 items belonging to the drinks category
+answer 190
+There are 3 items belonging to the drinks category
+answer 191
+There are 3 items belonging to the drinks category
+answer 192
+There are 3 items belonging to the drinks category
+answer 193
+There are 3 items belonging to the toiletries category
+answer 194
+There are 3 items belonging to the toiletries category
+answer 195
+There are 3 items belonging to the toiletries category
+answer 196
+There are 3 items belonging to the toiletries category
+answer 197
+There are 3 items belonging to the toiletries category
+answer 198
+There are 3 items belonging to the toiletries category
+answer 199
+There are 3 items belonging to the toiletries category
+answer 200
+There are 3 items belonging to the toiletries category
+answer 201
+There are 3 items belonging to the toiletries category
+answer 202
+There are 3 items belonging to the toiletries category
+answer 203
+There are 3 items belonging to the toiletries category
+answer 204
+There are 3 items belonging to the toiletries category
+answer 205
+There are 3 items belonging to the toiletries category
+answer 206
+There are 3 items belonging to the toiletries category
+answer 207
+There are 3 items belonging to the toiletries category
+answer 208
+There are 3 items belonging to the toiletries category
+answer 209
+There are 3 items belonging to the toiletries category
+answer 210
+There are 6 items belonging to the containers category
+answer 211
+There are 6 items belonging to the containers category
+answer 212
+There are 6 items belonging to the containers category
+answer 213
+There are 6 items belonging to the containers category
+answer 214
+There are 6 items belonging to the containers category
+answer 215
+There are 6 items belonging to the containers category
+answer 216
+There are 6 items belonging to the containers category
+answer 217
+There are 6 items belonging to the containers category
+answer 218
+There are 6 items belonging to the containers category
+answer 219
+There are 6 items belonging to the containers category
+answer 220
+There are 6 items belonging to the containers category
+answer 221
+There are 6 items belonging to the containers category
+answer 222
+There are 6 items belonging to the containers category
+answer 223
+There are 6 items belonging to the containers category
+answer 224
+There are 6 items belonging to the containers category
+answer 225
+There are 6 items belonging to the containers category
+answer 226
+There are 6 items belonging to the containers category
+answer 227
+answer 228
+That is correct, chips and pringles belong to the same category
+answer 229
+That is correct, chips and peanuts belong to the same category
+answer 230
+answer 231
+Incorrect, chips and mints do not belong to the same category
+answer 232
+Incorrect, chips and chocolate egg do not belong to the same category
+answer 233
+Incorrect, chips and noodles do not belong to the same category
+answer 234
+Incorrect, chips and apple do not belong to the same category
+answer 235
+Incorrect, chips and paprika do not belong to the same category
+answer 236
+Incorrect, chips and melon do not belong to the same category
+answer 237
+Incorrect, chips and sushi do not belong to the same category
+answer 238
+Incorrect, chips and tea do not belong to the same category
+answer 239
+Incorrect, chips and beer do not belong to the same category
+answer 240
+Incorrect, chips and coke do not belong to the same category
+answer 241
+Incorrect, chips and shampoo do not belong to the same category
+answer 242
+Incorrect, chips and cloth do not belong to the same category
+answer 243
+Incorrect, chips and sponge do not belong to the same category
+answer 244
+Incorrect, chips and bowl do not belong to the same category
+answer 245
+Incorrect, chips and mug do not belong to the same category
+answer 246
+Incorrect, chips and glass do not belong to the same category
+answer 247
+Incorrect, chips and box do not belong to the same category
+answer 248
+Incorrect, chips and tray do not belong to the same category
+answer 249
+Incorrect, chips and bag do not belong to the same category
+answer 250
+That is correct, chips and pringles belong to the same category
+answer 251
+answer 252
+That is correct, pringles and peanuts belong to the same category
+answer 253
+answer 254
+Incorrect, pringles and mints do not belong to the same category
+answer 255
+Incorrect, pringles and chocolate egg do not belong to the same category
+answer 256
+Incorrect, pringles and noodles do not belong to the same category
+answer 257
+Incorrect, pringles and apple do not belong to the same category
+answer 258
+Incorrect, pringles and paprika do not belong to the same category
+answer 259
+Incorrect, pringles and melon do not belong to the same category
+answer 260
+Incorrect, pringles and sushi do not belong to the same category
+answer 261
+Incorrect, pringles and tea do not belong to the same category
+answer 262
+Incorrect, pringles and beer do not belong to the same category
+answer 263
+Incorrect, pringles and coke do not belong to the same category
+answer 264
+Incorrect, pringles and shampoo do not belong to the same category
+answer 265
+Incorrect, pringles and cloth do not belong to the same category
+answer 266
+Incorrect, pringles and sponge do not belong to the same category
+answer 267
+Incorrect, pringles and bowl do not belong to the same category
+answer 268
+Incorrect, pringles and mug do not belong to the same category
+answer 269
+Incorrect, pringles and glass do not belong to the same category
+answer 270
+Incorrect, pringles and box do not belong to the same category
+answer 271
+Incorrect, pringles and tray do not belong to the same category
+answer 272
+Incorrect, pringles and bag do not belong to the same category
+answer 273
+That is correct, chips and peanuts belong to the same category
+answer 274
+That is correct, pringles and peanuts belong to the same category
+answer 275
+answer 276
+answer 277
+Incorrect, peanuts and mints do not belong to the same category
+answer 278
+Incorrect, peanuts and chocolate egg do not belong to the same category
+answer 279
+Incorrect, peanuts and noodles do not belong to the same category
+answer 280
+Incorrect, peanuts and apple do not belong to the same category
+answer 281
+Incorrect, peanuts and paprika do not belong to the same category
+answer 282
+Incorrect, peanuts and melon do not belong to the same category
+answer 283
+Incorrect, peanuts and sushi do not belong to the same category
+answer 284
+Incorrect, peanuts and tea do not belong to the same category
+answer 285
+Incorrect, peanuts and beer do not belong to the same category
+answer 286
+Incorrect, peanuts and coke do not belong to the same category
+answer 287
+Incorrect, peanuts and shampoo do not belong to the same category
+answer 288
+Incorrect, peanuts and cloth do not belong to the same category
+answer 289
+Incorrect, peanuts and sponge do not belong to the same category
+answer 290
+Incorrect, peanuts and bowl do not belong to the same category
+answer 291
+Incorrect, peanuts and mug do not belong to the same category
+answer 292
+Incorrect, peanuts and glass do not belong to the same category
+answer 293
+Incorrect, peanuts and box do not belong to the same category
+answer 294
+Incorrect, peanuts and tray do not belong to the same category
+answer 295
+Incorrect, peanuts and bag do not belong to the same category
+answer 296
+answer 297
+answer 298
+answer 299
+answer 300
+answer 301
+answer 302
+answer 303
+answer 304
+answer 305
+answer 306
+answer 307
+answer 308
+answer 309
+answer 310
+answer 311
+answer 312
+answer 313
+answer 314
+answer 315
+answer 316
+answer 317
+answer 318
+answer 319
+Incorrect, chips and mints do not belong to the same category
+answer 320
+Incorrect, pringles and mints do not belong to the same category
+answer 321
+Incorrect, peanuts and mints do not belong to the same category
+answer 322
+answer 323
+answer 324
+That is correct, mints and chocolate egg belong to the same category
+answer 325
+Incorrect, mints and noodles do not belong to the same category
+answer 326
+Incorrect, mints and apple do not belong to the same category
+answer 327
+Incorrect, mints and paprika do not belong to the same category
+answer 328
+Incorrect, mints and melon do not belong to the same category
+answer 329
+Incorrect, mints and sushi do not belong to the same category
+answer 330
+Incorrect, mints and tea do not belong to the same category
+answer 331
+Incorrect, mints and beer do not belong to the same category
+answer 332
+Incorrect, mints and coke do not belong to the same category
+answer 333
+Incorrect, mints and shampoo do not belong to the same category
+answer 334
+Incorrect, mints and cloth do not belong to the same category
+answer 335
+Incorrect, mints and sponge do not belong to the same category
+answer 336
+Incorrect, mints and bowl do not belong to the same category
+answer 337
+Incorrect, mints and mug do not belong to the same category
+answer 338
+Incorrect, mints and glass do not belong to the same category
+answer 339
+Incorrect, mints and box do not belong to the same category
+answer 340
+Incorrect, mints and tray do not belong to the same category
+answer 341
+Incorrect, mints and bag do not belong to the same category
+answer 342
+Incorrect, chips and chocolate egg do not belong to the same category
+answer 343
+Incorrect, pringles and chocolate egg do not belong to the same category
+answer 344
+Incorrect, peanuts and chocolate egg do not belong to the same category
+answer 345
+answer 346
+That is correct, mints and chocolate egg belong to the same category
+answer 347
+answer 348
+Incorrect, chocolate egg and noodles do not belong to the same category
+answer 349
+Incorrect, chocolate egg and apple do not belong to the same category
+answer 350
+Incorrect, chocolate egg and paprika do not belong to the same category
+answer 351
+Incorrect, chocolate egg and melon do not belong to the same category
+answer 352
+Incorrect, chocolate egg and sushi do not belong to the same category
+answer 353
+Incorrect, chocolate egg and tea do not belong to the same category
+answer 354
+Incorrect, chocolate egg and beer do not belong to the same category
+answer 355
+Incorrect, chocolate egg and coke do not belong to the same category
+answer 356
+Incorrect, chocolate egg and shampoo do not belong to the same category
+answer 357
+Incorrect, chocolate egg and cloth do not belong to the same category
+answer 358
+Incorrect, chocolate egg and sponge do not belong to the same category
+answer 359
+Incorrect, chocolate egg and bowl do not belong to the same category
+answer 360
+Incorrect, chocolate egg and mug do not belong to the same category
+answer 361
+Incorrect, chocolate egg and glass do not belong to the same category
+answer 362
+Incorrect, chocolate egg and box do not belong to the same category
+answer 363
+Incorrect, chocolate egg and tray do not belong to the same category
+answer 364
+Incorrect, chocolate egg and bag do not belong to the same category
+answer 365
+Incorrect, chips and noodles do not belong to the same category
+answer 366
+Incorrect, pringles and noodles do not belong to the same category
+answer 367
+Incorrect, peanuts and noodles do not belong to the same category
+answer 368
+answer 369
+Incorrect, mints and noodles do not belong to the same category
+answer 370
+Incorrect, chocolate egg and noodles do not belong to the same category
+answer 371
+answer 372
+That is correct, noodles and apple belong to the same category
+answer 373
+That is correct, noodles and paprika belong to the same category
+answer 374
+That is correct, noodles and melon belong to the same category
+answer 375
+That is correct, noodles and sushi belong to the same category
+answer 376
+Incorrect, noodles and tea do not belong to the same category
+answer 377
+Incorrect, noodles and beer do not belong to the same category
+answer 378
+Incorrect, noodles and coke do not belong to the same category
+answer 379
+Incorrect, noodles and shampoo do not belong to the same category
+answer 380
+Incorrect, noodles and cloth do not belong to the same category
+answer 381
+Incorrect, noodles and sponge do not belong to the same category
+answer 382
+Incorrect, noodles and bowl do not belong to the same category
+answer 383
+Incorrect, noodles and mug do not belong to the same category
+answer 384
+Incorrect, noodles and glass do not belong to the same category
+answer 385
+Incorrect, noodles and box do not belong to the same category
+answer 386
+Incorrect, noodles and tray do not belong to the same category
+answer 387
+Incorrect, noodles and bag do not belong to the same category
+answer 388
+Incorrect, chips and apple do not belong to the same category
+answer 389
+Incorrect, pringles and apple do not belong to the same category
+answer 390
+Incorrect, peanuts and apple do not belong to the same category
+answer 391
+answer 392
+Incorrect, mints and apple do not belong to the same category
+answer 393
+Incorrect, chocolate egg and apple do not belong to the same category
+answer 394
+That is correct, noodles and apple belong to the same category
+answer 395
+answer 396
+That is correct, apple and paprika belong to the same category
+answer 397
+That is correct, apple and melon belong to the same category
+answer 398
+That is correct, apple and sushi belong to the same category
+answer 399
+Incorrect, apple and tea do not belong to the same category
+answer 400
+Incorrect, apple and beer do not belong to the same category
+answer 401
+Incorrect, apple and coke do not belong to the same category
+answer 402
+Incorrect, apple and shampoo do not belong to the same category
+answer 403
+Incorrect, apple and cloth do not belong to the same category
+answer 404
+Incorrect, apple and sponge do not belong to the same category
+answer 405
+Incorrect, apple and bowl do not belong to the same category
+answer 406
+Incorrect, apple and mug do not belong to the same category
+answer 407
+Incorrect, apple and glass do not belong to the same category
+answer 408
+Incorrect, apple and box do not belong to the same category
+answer 409
+Incorrect, apple and tray do not belong to the same category
+answer 410
+Incorrect, apple and bag do not belong to the same category
+answer 411
+Incorrect, chips and paprika do not belong to the same category
+answer 412
+Incorrect, pringles and paprika do not belong to the same category
+answer 413
+Incorrect, peanuts and paprika do not belong to the same category
+answer 414
+answer 415
+Incorrect, mints and paprika do not belong to the same category
+answer 416
+Incorrect, chocolate egg and paprika do not belong to the same category
+answer 417
+That is correct, noodles and paprika belong to the same category
+answer 418
+That is correct, apple and paprika belong to the same category
+answer 419
+answer 420
+That is correct, paprika and melon belong to the same category
+answer 421
+That is correct, paprika and sushi belong to the same category
+answer 422
+Incorrect, paprika and tea do not belong to the same category
+answer 423
+Incorrect, paprika and beer do not belong to the same category
+answer 424
+Incorrect, paprika and coke do not belong to the same category
+answer 425
+Incorrect, paprika and shampoo do not belong to the same category
+answer 426
+Incorrect, paprika and cloth do not belong to the same category
+answer 427
+Incorrect, paprika and sponge do not belong to the same category
+answer 428
+Incorrect, paprika and bowl do not belong to the same category
+answer 429
+Incorrect, paprika and mug do not belong to the same category
+answer 430
+Incorrect, paprika and glass do not belong to the same category
+answer 431
+Incorrect, paprika and box do not belong to the same category
+answer 432
+Incorrect, paprika and tray do not belong to the same category
+answer 433
+Incorrect, paprika and bag do not belong to the same category
+answer 434
+Incorrect, chips and melon do not belong to the same category
+answer 435
+Incorrect, pringles and melon do not belong to the same category
+answer 436
+Incorrect, peanuts and melon do not belong to the same category
+answer 437
+answer 438
+Incorrect, mints and melon do not belong to the same category
+answer 439
+Incorrect, chocolate egg and melon do not belong to the same category
+answer 440
+That is correct, noodles and melon belong to the same category
+answer 441
+That is correct, apple and melon belong to the same category
+answer 442
+That is correct, paprika and melon belong to the same category
+answer 443
+answer 444
+That is correct, melon and sushi belong to the same category
+answer 445
+Incorrect, melon and tea do not belong to the same category
+answer 446
+Incorrect, melon and beer do not belong to the same category
+answer 447
+Incorrect, melon and coke do not belong to the same category
+answer 448
+Incorrect, melon and shampoo do not belong to the same category
+answer 449
+Incorrect, melon and cloth do not belong to the same category
+answer 450
+Incorrect, melon and sponge do not belong to the same category
+answer 451
+Incorrect, melon and bowl do not belong to the same category
+answer 452
+Incorrect, melon and mug do not belong to the same category
+answer 453
+Incorrect, melon and glass do not belong to the same category
+answer 454
+Incorrect, melon and box do not belong to the same category
+answer 455
+Incorrect, melon and tray do not belong to the same category
+answer 456
+Incorrect, melon and bag do not belong to the same category
+answer 457
+Incorrect, chips and sushi do not belong to the same category
+answer 458
+Incorrect, pringles and sushi do not belong to the same category
+answer 459
+Incorrect, peanuts and sushi do not belong to the same category
+answer 460
+answer 461
+Incorrect, mints and sushi do not belong to the same category
+answer 462
+Incorrect, chocolate egg and sushi do not belong to the same category
+answer 463
+That is correct, noodles and sushi belong to the same category
+answer 464
+That is correct, apple and sushi belong to the same category
+answer 465
+That is correct, paprika and sushi belong to the same category
+answer 466
+That is correct, melon and sushi belong to the same category
+answer 467
+answer 468
+Incorrect, sushi and tea do not belong to the same category
+answer 469
+Incorrect, sushi and beer do not belong to the same category
+answer 470
+Incorrect, sushi and coke do not belong to the same category
+answer 471
+Incorrect, sushi and shampoo do not belong to the same category
+answer 472
+Incorrect, sushi and cloth do not belong to the same category
+answer 473
+Incorrect, sushi and sponge do not belong to the same category
+answer 474
+Incorrect, sushi and bowl do not belong to the same category
+answer 475
+Incorrect, sushi and mug do not belong to the same category
+answer 476
+Incorrect, sushi and glass do not belong to the same category
+answer 477
+Incorrect, sushi and box do not belong to the same category
+answer 478
+Incorrect, sushi and tray do not belong to the same category
+answer 479
+Incorrect, sushi and bag do not belong to the same category
+answer 480
+Incorrect, chips and tea do not belong to the same category
+answer 481
+Incorrect, pringles and tea do not belong to the same category
+answer 482
+Incorrect, peanuts and tea do not belong to the same category
+answer 483
+answer 484
+Incorrect, mints and tea do not belong to the same category
+answer 485
+Incorrect, chocolate egg and tea do not belong to the same category
+answer 486
+Incorrect, noodles and tea do not belong to the same category
+answer 487
+Incorrect, apple and tea do not belong to the same category
+answer 488
+Incorrect, paprika and tea do not belong to the same category
+answer 489
+Incorrect, melon and tea do not belong to the same category
+answer 490
+Incorrect, sushi and tea do not belong to the same category
+answer 491
+answer 492
+That is correct, tea and beer belong to the same category
+answer 493
+That is correct, tea and coke belong to the same category
+answer 494
+Incorrect, tea and shampoo do not belong to the same category
+answer 495
+Incorrect, tea and cloth do not belong to the same category
+answer 496
+Incorrect, tea and sponge do not belong to the same category
+answer 497
+Incorrect, tea and bowl do not belong to the same category
+answer 498
+Incorrect, tea and mug do not belong to the same category
+answer 499
+Incorrect, tea and glass do not belong to the same category
+answer 500
+Incorrect, tea and box do not belong to the same category
+answer 501
+Incorrect, tea and tray do not belong to the same category
+answer 502
+Incorrect, tea and bag do not belong to the same category
+answer 503
+Incorrect, chips and beer do not belong to the same category
+answer 504
+Incorrect, pringles and beer do not belong to the same category
+answer 505
+Incorrect, peanuts and beer do not belong to the same category
+answer 506
+answer 507
+Incorrect, mints and beer do not belong to the same category
+answer 508
+Incorrect, chocolate egg and beer do not belong to the same category
+answer 509
+Incorrect, noodles and beer do not belong to the same category
+answer 510
+Incorrect, apple and beer do not belong to the same category
+answer 511
+Incorrect, paprika and beer do not belong to the same category
+answer 512
+Incorrect, melon and beer do not belong to the same category
+answer 513
+Incorrect, sushi and beer do not belong to the same category
+answer 514
+That is correct, tea and beer belong to the same category
+answer 515
+answer 516
+That is correct, beer and coke belong to the same category
+answer 517
+Incorrect, beer and shampoo do not belong to the same category
+answer 518
+Incorrect, beer and cloth do not belong to the same category
+answer 519
+Incorrect, beer and sponge do not belong to the same category
+answer 520
+Incorrect, beer and bowl do not belong to the same category
+answer 521
+Incorrect, beer and mug do not belong to the same category
+answer 522
+Incorrect, beer and glass do not belong to the same category
+answer 523
+Incorrect, beer and box do not belong to the same category
+answer 524
+Incorrect, beer and tray do not belong to the same category
+answer 525
+Incorrect, beer and bag do not belong to the same category
+answer 526
+Incorrect, chips and coke do not belong to the same category
+answer 527
+Incorrect, pringles and coke do not belong to the same category
+answer 528
+Incorrect, peanuts and coke do not belong to the same category
+answer 529
+answer 530
+Incorrect, mints and coke do not belong to the same category
+answer 531
+Incorrect, chocolate egg and coke do not belong to the same category
+answer 532
+Incorrect, noodles and coke do not belong to the same category
+answer 533
+Incorrect, apple and coke do not belong to the same category
+answer 534
+Incorrect, paprika and coke do not belong to the same category
+answer 535
+Incorrect, melon and coke do not belong to the same category
+answer 536
+Incorrect, sushi and coke do not belong to the same category
+answer 537
+That is correct, tea and coke belong to the same category
+answer 538
+That is correct, beer and coke belong to the same category
+answer 539
+answer 540
+Incorrect, coke and shampoo do not belong to the same category
+answer 541
+Incorrect, coke and cloth do not belong to the same category
+answer 542
+Incorrect, coke and sponge do not belong to the same category
+answer 543
+Incorrect, coke and bowl do not belong to the same category
+answer 544
+Incorrect, coke and mug do not belong to the same category
+answer 545
+Incorrect, coke and glass do not belong to the same category
+answer 546
+Incorrect, coke and box do not belong to the same category
+answer 547
+Incorrect, coke and tray do not belong to the same category
+answer 548
+Incorrect, coke and bag do not belong to the same category
+answer 549
+Incorrect, chips and shampoo do not belong to the same category
+answer 550
+Incorrect, pringles and shampoo do not belong to the same category
+answer 551
+Incorrect, peanuts and shampoo do not belong to the same category
+answer 552
+answer 553
+Incorrect, mints and shampoo do not belong to the same category
+answer 554
+Incorrect, chocolate egg and shampoo do not belong to the same category
+answer 555
+Incorrect, noodles and shampoo do not belong to the same category
+answer 556
+Incorrect, apple and shampoo do not belong to the same category
+answer 557
+Incorrect, paprika and shampoo do not belong to the same category
+answer 558
+Incorrect, melon and shampoo do not belong to the same category
+answer 559
+Incorrect, sushi and shampoo do not belong to the same category
+answer 560
+Incorrect, tea and shampoo do not belong to the same category
+answer 561
+Incorrect, beer and shampoo do not belong to the same category
+answer 562
+Incorrect, coke and shampoo do not belong to the same category
+answer 563
+answer 564
+That is correct, shampoo and cloth belong to the same category
+answer 565
+That is correct, shampoo and sponge belong to the same category
+answer 566
+Incorrect, shampoo and bowl do not belong to the same category
+answer 567
+Incorrect, shampoo and mug do not belong to the same category
+answer 568
+Incorrect, shampoo and glass do not belong to the same category
+answer 569
+Incorrect, shampoo and box do not belong to the same category
+answer 570
+Incorrect, shampoo and tray do not belong to the same category
+answer 571
+Incorrect, shampoo and bag do not belong to the same category
+answer 572
+Incorrect, chips and cloth do not belong to the same category
+answer 573
+Incorrect, pringles and cloth do not belong to the same category
+answer 574
+Incorrect, peanuts and cloth do not belong to the same category
+answer 575
+answer 576
+Incorrect, mints and cloth do not belong to the same category
+answer 577
+Incorrect, chocolate egg and cloth do not belong to the same category
+answer 578
+Incorrect, noodles and cloth do not belong to the same category
+answer 579
+Incorrect, apple and cloth do not belong to the same category
+answer 580
+Incorrect, paprika and cloth do not belong to the same category
+answer 581
+Incorrect, melon and cloth do not belong to the same category
+answer 582
+Incorrect, sushi and cloth do not belong to the same category
+answer 583
+Incorrect, tea and cloth do not belong to the same category
+answer 584
+Incorrect, beer and cloth do not belong to the same category
+answer 585
+Incorrect, coke and cloth do not belong to the same category
+answer 586
+That is correct, shampoo and cloth belong to the same category
+answer 587
+answer 588
+That is correct, cloth and sponge belong to the same category
+answer 589
+Incorrect, cloth and bowl do not belong to the same category
+answer 590
+Incorrect, cloth and mug do not belong to the same category
+answer 591
+Incorrect, cloth and glass do not belong to the same category
+answer 592
+Incorrect, cloth and box do not belong to the same category
+answer 593
+Incorrect, cloth and tray do not belong to the same category
+answer 594
+Incorrect, cloth and bag do not belong to the same category
+answer 595
+Incorrect, chips and sponge do not belong to the same category
+answer 596
+Incorrect, pringles and sponge do not belong to the same category
+answer 597
+Incorrect, peanuts and sponge do not belong to the same category
+answer 598
+answer 599
+Incorrect, mints and sponge do not belong to the same category
+answer 600
+Incorrect, chocolate egg and sponge do not belong to the same category
+answer 601
+Incorrect, noodles and sponge do not belong to the same category
+answer 602
+Incorrect, apple and sponge do not belong to the same category
+answer 603
+Incorrect, paprika and sponge do not belong to the same category
+answer 604
+Incorrect, melon and sponge do not belong to the same category
+answer 605
+Incorrect, sushi and sponge do not belong to the same category
+answer 606
+Incorrect, tea and sponge do not belong to the same category
+answer 607
+Incorrect, beer and sponge do not belong to the same category
+answer 608
+Incorrect, coke and sponge do not belong to the same category
+answer 609
+That is correct, shampoo and sponge belong to the same category
+answer 610
+That is correct, cloth and sponge belong to the same category
+answer 611
+answer 612
+Incorrect, sponge and bowl do not belong to the same category
+answer 613
+Incorrect, sponge and mug do not belong to the same category
+answer 614
+Incorrect, sponge and glass do not belong to the same category
+answer 615
+Incorrect, sponge and box do not belong to the same category
+answer 616
+Incorrect, sponge and tray do not belong to the same category
+answer 617
+Incorrect, sponge and bag do not belong to the same category
+answer 618
+Incorrect, chips and bowl do not belong to the same category
+answer 619
+Incorrect, pringles and bowl do not belong to the same category
+answer 620
+Incorrect, peanuts and bowl do not belong to the same category
+answer 621
+answer 622
+Incorrect, mints and bowl do not belong to the same category
+answer 623
+Incorrect, chocolate egg and bowl do not belong to the same category
+answer 624
+Incorrect, noodles and bowl do not belong to the same category
+answer 625
+Incorrect, apple and bowl do not belong to the same category
+answer 626
+Incorrect, paprika and bowl do not belong to the same category
+answer 627
+Incorrect, melon and bowl do not belong to the same category
+answer 628
+Incorrect, sushi and bowl do not belong to the same category
+answer 629
+Incorrect, tea and bowl do not belong to the same category
+answer 630
+Incorrect, beer and bowl do not belong to the same category
+answer 631
+Incorrect, coke and bowl do not belong to the same category
+answer 632
+Incorrect, shampoo and bowl do not belong to the same category
+answer 633
+Incorrect, cloth and bowl do not belong to the same category
+answer 634
+Incorrect, sponge and bowl do not belong to the same category
+answer 635
+answer 636
+That is correct, bowl and mug belong to the same category
+answer 637
+That is correct, bowl and glass belong to the same category
+answer 638
+That is correct, bowl and box belong to the same category
+answer 639
+That is correct, bowl and tray belong to the same category
+answer 640
+That is correct, bowl and bag belong to the same category
+answer 641
+Incorrect, chips and mug do not belong to the same category
+answer 642
+Incorrect, pringles and mug do not belong to the same category
+answer 643
+Incorrect, peanuts and mug do not belong to the same category
+answer 644
+answer 645
+Incorrect, mints and mug do not belong to the same category
+answer 646
+Incorrect, chocolate egg and mug do not belong to the same category
+answer 647
+Incorrect, noodles and mug do not belong to the same category
+answer 648
+Incorrect, apple and mug do not belong to the same category
+answer 649
+Incorrect, paprika and mug do not belong to the same category
+answer 650
+Incorrect, melon and mug do not belong to the same category
+answer 651
+Incorrect, sushi and mug do not belong to the same category
+answer 652
+Incorrect, tea and mug do not belong to the same category
+answer 653
+Incorrect, beer and mug do not belong to the same category
+answer 654
+Incorrect, coke and mug do not belong to the same category
+answer 655
+Incorrect, shampoo and mug do not belong to the same category
+answer 656
+Incorrect, cloth and mug do not belong to the same category
+answer 657
+Incorrect, sponge and mug do not belong to the same category
+answer 658
+That is correct, bowl and mug belong to the same category
+answer 659
+answer 660
+That is correct, mug and glass belong to the same category
+answer 661
+That is correct, mug and box belong to the same category
+answer 662
+That is correct, mug and tray belong to the same category
+answer 663
+That is correct, mug and bag belong to the same category
+answer 664
+Incorrect, chips and glass do not belong to the same category
+answer 665
+Incorrect, pringles and glass do not belong to the same category
+answer 666
+Incorrect, peanuts and glass do not belong to the same category
+answer 667
+answer 668
+Incorrect, mints and glass do not belong to the same category
+answer 669
+Incorrect, chocolate egg and glass do not belong to the same category
+answer 670
+Incorrect, noodles and glass do not belong to the same category
+answer 671
+Incorrect, apple and glass do not belong to the same category
+answer 672
+Incorrect, paprika and glass do not belong to the same category
+answer 673
+Incorrect, melon and glass do not belong to the same category
+answer 674
+Incorrect, sushi and glass do not belong to the same category
+answer 675
+Incorrect, tea and glass do not belong to the same category
+answer 676
+Incorrect, beer and glass do not belong to the same category
+answer 677
+Incorrect, coke and glass do not belong to the same category
+answer 678
+Incorrect, shampoo and glass do not belong to the same category
+answer 679
+Incorrect, cloth and glass do not belong to the same category
+answer 680
+Incorrect, sponge and glass do not belong to the same category
+answer 681
+That is correct, bowl and glass belong to the same category
+answer 682
+That is correct, mug and glass belong to the same category
+answer 683
+answer 684
+That is correct, glass and box belong to the same category
+answer 685
+That is correct, glass and tray belong to the same category
+answer 686
+That is correct, glass and bag belong to the same category
+answer 687
+Incorrect, chips and box do not belong to the same category
+answer 688
+Incorrect, pringles and box do not belong to the same category
+answer 689
+Incorrect, peanuts and box do not belong to the same category
+answer 690
+answer 691
+Incorrect, mints and box do not belong to the same category
+answer 692
+Incorrect, chocolate egg and box do not belong to the same category
+answer 693
+Incorrect, noodles and box do not belong to the same category
+answer 694
+Incorrect, apple and box do not belong to the same category
+answer 695
+Incorrect, paprika and box do not belong to the same category
+answer 696
+Incorrect, melon and box do not belong to the same category
+answer 697
+Incorrect, sushi and box do not belong to the same category
+answer 698
+Incorrect, tea and box do not belong to the same category
+answer 699
+Incorrect, beer and box do not belong to the same category
+answer 700
+Incorrect, coke and box do not belong to the same category
+answer 701
+Incorrect, shampoo and box do not belong to the same category
+answer 702
+Incorrect, cloth and box do not belong to the same category
+answer 703
+Incorrect, sponge and box do not belong to the same category
+answer 704
+That is correct, bowl and box belong to the same category
+answer 705
+That is correct, mug and box belong to the same category
+answer 706
+That is correct, glass and box belong to the same category
+answer 707
+answer 708
+That is correct, box and tray belong to the same category
+answer 709
+That is correct, box and bag belong to the same category
+answer 710
+Incorrect, chips and tray do not belong to the same category
+answer 711
+Incorrect, pringles and tray do not belong to the same category
+answer 712
+Incorrect, peanuts and tray do not belong to the same category
+answer 713
+answer 714
+Incorrect, mints and tray do not belong to the same category
+answer 715
+Incorrect, chocolate egg and tray do not belong to the same category
+answer 716
+Incorrect, noodles and tray do not belong to the same category
+answer 717
+Incorrect, apple and tray do not belong to the same category
+answer 718
+Incorrect, paprika and tray do not belong to the same category
+answer 719
+Incorrect, melon and tray do not belong to the same category
+answer 720
+Incorrect, sushi and tray do not belong to the same category
+answer 721
+Incorrect, tea and tray do not belong to the same category
+answer 722
+Incorrect, beer and tray do not belong to the same category
+answer 723
+Incorrect, coke and tray do not belong to the same category
+answer 724
+Incorrect, shampoo and tray do not belong to the same category
+answer 725
+Incorrect, cloth and tray do not belong to the same category
+answer 726
+Incorrect, sponge and tray do not belong to the same category
+answer 727
+That is correct, bowl and tray belong to the same category
+answer 728
+That is correct, mug and tray belong to the same category
+answer 729
+That is correct, glass and tray belong to the same category
+answer 730
+That is correct, box and tray belong to the same category
+answer 731
+answer 732
+That is correct, tray and bag belong to the same category
+answer 733
+Incorrect, chips and bag do not belong to the same category
+answer 734
+Incorrect, pringles and bag do not belong to the same category
+answer 735
+Incorrect, peanuts and bag do not belong to the same category
+answer 736
+answer 737
+Incorrect, mints and bag do not belong to the same category
+answer 738
+Incorrect, chocolate egg and bag do not belong to the same category
+answer 739
+Incorrect, noodles and bag do not belong to the same category
+answer 740
+Incorrect, apple and bag do not belong to the same category
+answer 741
+Incorrect, paprika and bag do not belong to the same category
+answer 742
+Incorrect, melon and bag do not belong to the same category
+answer 743
+Incorrect, sushi and bag do not belong to the same category
+answer 744
+Incorrect, tea and bag do not belong to the same category
+answer 745
+Incorrect, beer and bag do not belong to the same category
+answer 746
+Incorrect, coke and bag do not belong to the same category
+answer 747
+Incorrect, shampoo and bag do not belong to the same category
+answer 748
+Incorrect, cloth and bag do not belong to the same category
+answer 749
+Incorrect, sponge and bag do not belong to the same category
+answer 750
+That is correct, bowl and bag belong to the same category
+answer 751
+That is correct, mug and bag belong to the same category
+answer 752
+That is correct, glass and bag belong to the same category
+answer 753
+That is correct, box and bag belong to the same category
+answer 754
+That is correct, tray and bag belong to the same category
+answer 755
+answer 756
+The heavier chips object is chips
+answer 757
+The smaller chips object is chips
+answer 758
+The bigger chips object is chips
+answer 759
+The lighter chips object is chips
+answer 760
+The chips and the pringles have the same weight
+answer 761
+The chips and the pringles have the same size
+answer 762
+The chips and the pringles have the same size
+answer 763
+The chips and the pringles have the same weight
+answer 764
+The heavier object between chips and peanuts is chips
+answer 765
+The chips and the peanuts have the same size
+answer 766
+The bigger object between chips and peanuts is chips
+answer 767
+The chips and the peanuts have the same weight
+answer 768
+The heavier chips object is chips
+answer 769
+The smaller chips object is chips
+answer 770
+The bigger chips object is chips
+answer 771
+The lighter chips object is chips
+answer 772
+The heavier object between chips and mints is chips
+answer 773
+The chips and the mints have the same size
+answer 774
+The bigger object between chips and mints is chips
+answer 775
+The chips and the mints have the same weight
+answer 776
+The chips and the chocolate egg have the same weight
+answer 777
+The smaller object between chips and chocolate egg is chips
+answer 778
+The chips and the chocolate egg have the same size
+answer 779
+The lighter object between chips and chocolate egg is chips
+answer 780
+The chips and the noodles have the same weight
+answer 781
+The chips and the noodles have the same size
+answer 782
+The chips and the noodles have the same size
+answer 783
+The chips and the noodles have the same weight
+answer 784
+The chips and the apple have the same weight
+answer 785
+The chips and the apple have the same size
+answer 786
+The chips and the apple have the same size
+answer 787
+The chips and the apple have the same weight
+answer 788
+The chips and the paprika have the same weight
+answer 789
+The chips and the paprika have the same size
+answer 790
+The chips and the paprika have the same size
+answer 791
+The chips and the paprika have the same weight
+answer 792
+The chips and the melon have the same weight
+answer 793
+The smaller object between chips and melon is chips
+answer 794
+The chips and the melon have the same size
+answer 795
+The lighter object between chips and melon is chips
+answer 796
+The heavier object between chips and sushi is chips
+answer 797
+The chips and the sushi have the same size
+answer 798
+The bigger object between chips and sushi is chips
+answer 799
+The chips and the sushi have the same weight
+answer 800
+The chips and the tea have the same weight
+answer 801
+The chips and the tea have the same size
+answer 802
+The chips and the tea have the same size
+answer 803
+The chips and the tea have the same weight
+answer 804
+The chips and the beer have the same weight
+answer 805
+The chips and the beer have the same size
+answer 806
+The chips and the beer have the same size
+answer 807
+The chips and the beer have the same weight
+answer 808
+The chips and the coke have the same weight
+answer 809
+The smaller object between chips and coke is chips
+answer 810
+The chips and the coke have the same size
+answer 811
+The lighter object between chips and coke is chips
+answer 812
+The chips and the shampoo have the same weight
+answer 813
+The smaller object between chips and shampoo is chips
+answer 814
+The chips and the shampoo have the same size
+answer 815
+The lighter object between chips and shampoo is chips
+answer 816
+The chips and the cloth have the same weight
+answer 817
+The chips and the cloth have the same size
+answer 818
+The chips and the cloth have the same size
+answer 819
+The chips and the cloth have the same weight
+answer 820
+The chips and the sponge have the same weight
+answer 821
+The chips and the sponge have the same size
+answer 822
+The chips and the sponge have the same size
+answer 823
+The chips and the sponge have the same weight
+answer 824
+The chips and the bowl have the same weight
+answer 825
+The chips and the bowl have the same size
+answer 826
+The chips and the bowl have the same size
+answer 827
+The chips and the bowl have the same weight
+answer 828
+The chips and the mug have the same weight
+answer 829
+The chips and the mug have the same size
+answer 830
+The chips and the mug have the same size
+answer 831
+The chips and the mug have the same weight
+answer 832
+The chips and the glass have the same weight
+answer 833
+The chips and the glass have the same size
+answer 834
+The chips and the glass have the same size
+answer 835
+The chips and the glass have the same weight
+answer 836
+The chips and the box have the same weight
+answer 837
+The smaller object between chips and box is chips
+answer 838
+The chips and the box have the same size
+answer 839
+The lighter object between chips and box is chips
+answer 840
+The chips and the tray have the same weight
+answer 841
+The chips and the tray have the same size
+answer 842
+The chips and the tray have the same size
+answer 843
+The chips and the tray have the same weight
+answer 844
+The chips and the bag have the same weight
+answer 845
+The chips and the bag have the same size
+answer 846
+The chips and the bag have the same size
+answer 847
+The chips and the bag have the same weight
+answer 848
+The chips and the pringles have the same weight
+answer 849
+The chips and the pringles have the same size
+answer 850
+The chips and the pringles have the same size
+answer 851
+The chips and the pringles have the same weight
+answer 852
+The heavier pringles object is pringles
+answer 853
+The smaller pringles object is pringles
+answer 854
+The bigger pringles object is pringles
+answer 855
+The lighter pringles object is pringles
+answer 856
+The heavier object between pringles and peanuts is pringles
+answer 857
+The pringles and the peanuts have the same size
+answer 858
+The bigger object between pringles and peanuts is pringles
+answer 859
+The pringles and the peanuts have the same weight
+answer 860
+The heavier pringles object is pringles
+answer 861
+The smaller pringles object is pringles
+answer 862
+The bigger pringles object is pringles
+answer 863
+The lighter pringles object is pringles
+answer 864
+The heavier object between pringles and mints is pringles
+answer 865
+The pringles and the mints have the same size
+answer 866
+The bigger object between pringles and mints is pringles
+answer 867
+The pringles and the mints have the same weight
+answer 868
+The pringles and the chocolate egg have the same weight
+answer 869
+The smaller object between pringles and chocolate egg is pringles
+answer 870
+The pringles and the chocolate egg have the same size
+answer 871
+The lighter object between pringles and chocolate egg is pringles
+answer 872
+The pringles and the noodles have the same weight
+answer 873
+The pringles and the noodles have the same size
+answer 874
+The pringles and the noodles have the same size
+answer 875
+The pringles and the noodles have the same weight
+answer 876
+The pringles and the apple have the same weight
+answer 877
+The pringles and the apple have the same size
+answer 878
+The pringles and the apple have the same size
+answer 879
+The pringles and the apple have the same weight
+answer 880
+The pringles and the paprika have the same weight
+answer 881
+The pringles and the paprika have the same size
+answer 882
+The pringles and the paprika have the same size
+answer 883
+The pringles and the paprika have the same weight
+answer 884
+The pringles and the melon have the same weight
+answer 885
+The smaller object between pringles and melon is pringles
+answer 886
+The pringles and the melon have the same size
+answer 887
+The lighter object between pringles and melon is pringles
+answer 888
+The heavier object between pringles and sushi is pringles
+answer 889
+The pringles and the sushi have the same size
+answer 890
+The bigger object between pringles and sushi is pringles
+answer 891
+The pringles and the sushi have the same weight
+answer 892
+The pringles and the tea have the same weight
+answer 893
+The pringles and the tea have the same size
+answer 894
+The pringles and the tea have the same size
+answer 895
+The pringles and the tea have the same weight
+answer 896
+The pringles and the beer have the same weight
+answer 897
+The pringles and the beer have the same size
+answer 898
+The pringles and the beer have the same size
+answer 899
+The pringles and the beer have the same weight
+answer 900
+The pringles and the coke have the same weight
+answer 901
+The smaller object between pringles and coke is pringles
+answer 902
+The pringles and the coke have the same size
+answer 903
+The lighter object between pringles and coke is pringles
+answer 904
+The pringles and the shampoo have the same weight
+answer 905
+The smaller object between pringles and shampoo is pringles
+answer 906
+The pringles and the shampoo have the same size
+answer 907
+The lighter object between pringles and shampoo is pringles
+answer 908
+The pringles and the cloth have the same weight
+answer 909
+The pringles and the cloth have the same size
+answer 910
+The pringles and the cloth have the same size
+answer 911
+The pringles and the cloth have the same weight
+answer 912
+The pringles and the sponge have the same weight
+answer 913
+The pringles and the sponge have the same size
+answer 914
+The pringles and the sponge have the same size
+answer 915
+The pringles and the sponge have the same weight
+answer 916
+The pringles and the bowl have the same weight
+answer 917
+The pringles and the bowl have the same size
+answer 918
+The pringles and the bowl have the same size
+answer 919
+The pringles and the bowl have the same weight
+answer 920
+The pringles and the mug have the same weight
+answer 921
+The pringles and the mug have the same size
+answer 922
+The pringles and the mug have the same size
+answer 923
+The pringles and the mug have the same weight
+answer 924
+The pringles and the glass have the same weight
+answer 925
+The pringles and the glass have the same size
+answer 926
+The pringles and the glass have the same size
+answer 927
+The pringles and the glass have the same weight
+answer 928
+The pringles and the box have the same weight
+answer 929
+The smaller object between pringles and box is pringles
+answer 930
+The pringles and the box have the same size
+answer 931
+The lighter object between pringles and box is pringles
+answer 932
+The pringles and the tray have the same weight
+answer 933
+The pringles and the tray have the same size
+answer 934
+The pringles and the tray have the same size
+answer 935
+The pringles and the tray have the same weight
+answer 936
+The pringles and the bag have the same weight
+answer 937
+The pringles and the bag have the same size
+answer 938
+The pringles and the bag have the same size
+answer 939
+The pringles and the bag have the same weight
+answer 940
+The heavier object between chips and peanuts is chips
+answer 941
+The chips and the peanuts have the same size
+answer 942
+The bigger object between chips and peanuts is chips
+answer 943
+The chips and the peanuts have the same weight
+answer 944
+The heavier object between pringles and peanuts is pringles
+answer 945
+The pringles and the peanuts have the same size
+answer 946
+The bigger object between pringles and peanuts is pringles
+answer 947
+The pringles and the peanuts have the same weight
+answer 948
+The heavier peanuts object is peanuts
+answer 949
+The smaller peanuts object is peanuts
+answer 950
+The bigger peanuts object is peanuts
+answer 951
+The lighter peanuts object is peanuts
+answer 952
+The heavier peanuts object is peanuts
+answer 953
+The smaller peanuts object is peanuts
+answer 954
+The bigger peanuts object is peanuts
+answer 955
+The lighter peanuts object is peanuts
+answer 956
+The peanuts and the mints have the same weight
+answer 957
+The peanuts and the mints have the same size
+answer 958
+The peanuts and the mints have the same size
+answer 959
+The peanuts and the mints have the same weight
+answer 960
+The peanuts and the chocolate egg have the same weight
+answer 961
+The smaller object between peanuts and chocolate egg is peanuts
+answer 962
+The peanuts and the chocolate egg have the same size
+answer 963
+The lighter object between peanuts and chocolate egg is peanuts
+answer 964
+The peanuts and the noodles have the same weight
+answer 965
+The smaller object between peanuts and noodles is peanuts
+answer 966
+The peanuts and the noodles have the same size
+answer 967
+The lighter object between peanuts and noodles is peanuts
+answer 968
+The peanuts and the apple have the same weight
+answer 969
+The smaller object between peanuts and apple is peanuts
+answer 970
+The peanuts and the apple have the same size
+answer 971
+The lighter object between peanuts and apple is peanuts
+answer 972
+The peanuts and the paprika have the same weight
+answer 973
+The smaller object between peanuts and paprika is peanuts
+answer 974
+The peanuts and the paprika have the same size
+answer 975
+The lighter object between peanuts and paprika is peanuts
+answer 976
+The peanuts and the melon have the same weight
+answer 977
+The smaller object between peanuts and melon is peanuts
+answer 978
+The peanuts and the melon have the same size
+answer 979
+The lighter object between peanuts and melon is peanuts
+answer 980
+The peanuts and the sushi have the same weight
+answer 981
+The peanuts and the sushi have the same size
+answer 982
+The peanuts and the sushi have the same size
+answer 983
+The peanuts and the sushi have the same weight
+answer 984
+The peanuts and the tea have the same weight
+answer 985
+The smaller object between peanuts and tea is peanuts
+answer 986
+The peanuts and the tea have the same size
+answer 987
+The lighter object between peanuts and tea is peanuts
+answer 988
+The peanuts and the beer have the same weight
+answer 989
+The smaller object between peanuts and beer is peanuts
+answer 990
+The peanuts and the beer have the same size
+answer 991
+The lighter object between peanuts and beer is peanuts
+answer 992
+The peanuts and the coke have the same weight
+answer 993
+The smaller object between peanuts and coke is peanuts
+answer 994
+The peanuts and the coke have the same size
+answer 995
+The lighter object between peanuts and coke is peanuts
+answer 996
+The peanuts and the shampoo have the same weight
+answer 997
+The smaller object between peanuts and shampoo is peanuts
+answer 998
+The peanuts and the shampoo have the same size
+answer 999
+The lighter object between peanuts and shampoo is peanuts
+answer 1000
+The peanuts and the cloth have the same weight
+answer 1001
+The smaller object between peanuts and cloth is peanuts
+answer 1002
+The peanuts and the cloth have the same size
+answer 1003
+The lighter object between peanuts and cloth is peanuts
+answer 1004
+The peanuts and the sponge have the same weight
+answer 1005
+The smaller object between peanuts and sponge is peanuts
+answer 1006
+The peanuts and the sponge have the same size
+answer 1007
+The lighter object between peanuts and sponge is peanuts
+answer 1008
+The peanuts and the bowl have the same weight
+answer 1009
+The smaller object between peanuts and bowl is peanuts
+answer 1010
+The peanuts and the bowl have the same size
+answer 1011
+The lighter object between peanuts and bowl is peanuts
+answer 1012
+The peanuts and the mug have the same weight
+answer 1013
+The smaller object between peanuts and mug is peanuts
+answer 1014
+The peanuts and the mug have the same size
+answer 1015
+The lighter object between peanuts and mug is peanuts
+answer 1016
+The peanuts and the glass have the same weight
+answer 1017
+The smaller object between peanuts and glass is peanuts
+answer 1018
+The peanuts and the glass have the same size
+answer 1019
+The lighter object between peanuts and glass is peanuts
+answer 1020
+The peanuts and the box have the same weight
+answer 1021
+The smaller object between peanuts and box is peanuts
+answer 1022
+The peanuts and the box have the same size
+answer 1023
+The lighter object between peanuts and box is peanuts
+answer 1024
+The peanuts and the tray have the same weight
+answer 1025
+The smaller object between peanuts and tray is peanuts
+answer 1026
+The peanuts and the tray have the same size
+answer 1027
+The lighter object between peanuts and tray is peanuts
+answer 1028
+The peanuts and the bag have the same weight
+answer 1029
+The smaller object between peanuts and bag is peanuts
+answer 1030
+The peanuts and the bag have the same size
+answer 1031
+The lighter object between peanuts and bag is peanuts
+answer 1032
+The heavier chips object is chips
+answer 1033
+The smaller chips object is chips
+answer 1034
+The bigger chips object is chips
+answer 1035
+The lighter chips object is chips
+answer 1036
+The heavier pringles object is pringles
+answer 1037
+The smaller pringles object is pringles
+answer 1038
+The bigger pringles object is pringles
+answer 1039
+The lighter pringles object is pringles
+answer 1040
+The heavier peanuts object is peanuts
+answer 1041
+The smaller peanuts object is peanuts
+answer 1042
+The bigger peanuts object is peanuts
+answer 1043
+The lighter peanuts object is peanuts
+answer 1044
+answer 1045
+answer 1046
+answer 1047
+answer 1048
+The heavier mints object is mints
+answer 1049
+The smaller mints object is mints
+answer 1050
+The bigger mints object is mints
+answer 1051
+The lighter mints object is mints
+answer 1052
+The heavier chocolate egg object is chocolate egg
+answer 1053
+The smaller chocolate egg object is chocolate egg
+answer 1054
+The bigger chocolate egg object is chocolate egg
+answer 1055
+The lighter chocolate egg object is chocolate egg
+answer 1056
+The heavier noodles object is noodles
+answer 1057
+The smaller noodles object is noodles
+answer 1058
+The bigger noodles object is noodles
+answer 1059
+The lighter noodles object is noodles
+answer 1060
+The heavier apple object is apple
+answer 1061
+The smaller apple object is apple
+answer 1062
+The bigger apple object is apple
+answer 1063
+The lighter apple object is apple
+answer 1064
+The heavier paprika object is paprika
+answer 1065
+The smaller paprika object is paprika
+answer 1066
+The bigger paprika object is paprika
+answer 1067
+The lighter paprika object is paprika
+answer 1068
+The heavier melon object is melon
+answer 1069
+The smaller melon object is melon
+answer 1070
+The bigger melon object is melon
+answer 1071
+The lighter melon object is melon
+answer 1072
+The heavier sushi object is sushi
+answer 1073
+The smaller sushi object is sushi
+answer 1074
+The bigger sushi object is sushi
+answer 1075
+The lighter sushi object is sushi
+answer 1076
+The heavier tea object is tea
+answer 1077
+The smaller tea object is tea
+answer 1078
+The bigger tea object is tea
+answer 1079
+The lighter tea object is tea
+answer 1080
+The heavier beer object is beer
+answer 1081
+The smaller beer object is beer
+answer 1082
+The bigger beer object is beer
+answer 1083
+The lighter beer object is beer
+answer 1084
+The heavier coke object is coke
+answer 1085
+The smaller coke object is coke
+answer 1086
+The bigger coke object is coke
+answer 1087
+The lighter coke object is coke
+answer 1088
+The heavier shampoo object is shampoo
+answer 1089
+The smaller shampoo object is shampoo
+answer 1090
+The bigger shampoo object is shampoo
+answer 1091
+The lighter shampoo object is shampoo
+answer 1092
+The heavier cloth object is cloth
+answer 1093
+The smaller cloth object is cloth
+answer 1094
+The bigger cloth object is cloth
+answer 1095
+The lighter cloth object is cloth
+answer 1096
+The heavier sponge object is sponge
+answer 1097
+The smaller sponge object is sponge
+answer 1098
+The bigger sponge object is sponge
+answer 1099
+The lighter sponge object is sponge
+answer 1100
+The heavier bowl object is bowl
+answer 1101
+The smaller bowl object is bowl
+answer 1102
+The bigger bowl object is bowl
+answer 1103
+The lighter bowl object is bowl
+answer 1104
+The heavier mug object is mug
+answer 1105
+The smaller mug object is mug
+answer 1106
+The bigger mug object is mug
+answer 1107
+The lighter mug object is mug
+answer 1108
+The heavier glass object is glass
+answer 1109
+The smaller glass object is glass
+answer 1110
+The bigger glass object is glass
+answer 1111
+The lighter glass object is glass
+answer 1112
+The heavier box object is box
+answer 1113
+The smaller box object is box
+answer 1114
+The bigger box object is box
+answer 1115
+The lighter box object is box
+answer 1116
+The heavier tray object is tray
+answer 1117
+The smaller tray object is tray
+answer 1118
+The bigger tray object is tray
+answer 1119
+The lighter tray object is tray
+answer 1120
+The heavier bag object is bag
+answer 1121
+The smaller bag object is bag
+answer 1122
+The bigger bag object is bag
+answer 1123
+The lighter bag object is bag
+answer 1124
+The heavier object between chips and mints is chips
+answer 1125
+The chips and the mints have the same size
+answer 1126
+The bigger object between chips and mints is chips
+answer 1127
+The chips and the mints have the same weight
+answer 1128
+The heavier object between pringles and mints is pringles
+answer 1129
+The pringles and the mints have the same size
+answer 1130
+The bigger object between pringles and mints is pringles
+answer 1131
+The pringles and the mints have the same weight
+answer 1132
+The peanuts and the mints have the same weight
+answer 1133
+The peanuts and the mints have the same size
+answer 1134
+The peanuts and the mints have the same size
+answer 1135
+The peanuts and the mints have the same weight
+answer 1136
+The heavier mints object is mints
+answer 1137
+The smaller mints object is mints
+answer 1138
+The bigger mints object is mints
+answer 1139
+The lighter mints object is mints
+answer 1140
+The heavier mints object is mints
+answer 1141
+The smaller mints object is mints
+answer 1142
+The bigger mints object is mints
+answer 1143
+The lighter mints object is mints
+answer 1144
+The mints and the chocolate egg have the same weight
+answer 1145
+The smaller object between mints and chocolate egg is mints
+answer 1146
+The mints and the chocolate egg have the same size
+answer 1147
+The lighter object between mints and chocolate egg is mints
+answer 1148
+The mints and the noodles have the same weight
+answer 1149
+The smaller object between mints and noodles is mints
+answer 1150
+The mints and the noodles have the same size
+answer 1151
+The lighter object between mints and noodles is mints
+answer 1152
+The mints and the apple have the same weight
+answer 1153
+The smaller object between mints and apple is mints
+answer 1154
+The mints and the apple have the same size
+answer 1155
+The lighter object between mints and apple is mints
+answer 1156
+The mints and the paprika have the same weight
+answer 1157
+The smaller object between mints and paprika is mints
+answer 1158
+The mints and the paprika have the same size
+answer 1159
+The lighter object between mints and paprika is mints
+answer 1160
+The mints and the melon have the same weight
+answer 1161
+The smaller object between mints and melon is mints
+answer 1162
+The mints and the melon have the same size
+answer 1163
+The lighter object between mints and melon is mints
+answer 1164
+The mints and the sushi have the same weight
+answer 1165
+The mints and the sushi have the same size
+answer 1166
+The mints and the sushi have the same size
+answer 1167
+The mints and the sushi have the same weight
+answer 1168
+The mints and the tea have the same weight
+answer 1169
+The smaller object between mints and tea is mints
+answer 1170
+The mints and the tea have the same size
+answer 1171
+The lighter object between mints and tea is mints
+answer 1172
+The mints and the beer have the same weight
+answer 1173
+The smaller object between mints and beer is mints
+answer 1174
+The mints and the beer have the same size
+answer 1175
+The lighter object between mints and beer is mints
+answer 1176
+The mints and the coke have the same weight
+answer 1177
+The smaller object between mints and coke is mints
+answer 1178
+The mints and the coke have the same size
+answer 1179
+The lighter object between mints and coke is mints
+answer 1180
+The mints and the shampoo have the same weight
+answer 1181
+The smaller object between mints and shampoo is mints
+answer 1182
+The mints and the shampoo have the same size
+answer 1183
+The lighter object between mints and shampoo is mints
+answer 1184
+The mints and the cloth have the same weight
+answer 1185
+The smaller object between mints and cloth is mints
+answer 1186
+The mints and the cloth have the same size
+answer 1187
+The lighter object between mints and cloth is mints
+answer 1188
+The mints and the sponge have the same weight
+answer 1189
+The smaller object between mints and sponge is mints
+answer 1190
+The mints and the sponge have the same size
+answer 1191
+The lighter object between mints and sponge is mints
+answer 1192
+The mints and the bowl have the same weight
+answer 1193
+The smaller object between mints and bowl is mints
+answer 1194
+The mints and the bowl have the same size
+answer 1195
+The lighter object between mints and bowl is mints
+answer 1196
+The mints and the mug have the same weight
+answer 1197
+The smaller object between mints and mug is mints
+answer 1198
+The mints and the mug have the same size
+answer 1199
+The lighter object between mints and mug is mints
+answer 1200
+The mints and the glass have the same weight
+answer 1201
+The smaller object between mints and glass is mints
+answer 1202
+The mints and the glass have the same size
+answer 1203
+The lighter object between mints and glass is mints
+answer 1204
+The mints and the box have the same weight
+answer 1205
+The smaller object between mints and box is mints
+answer 1206
+The mints and the box have the same size
+answer 1207
+The lighter object between mints and box is mints
+answer 1208
+The mints and the tray have the same weight
+answer 1209
+The smaller object between mints and tray is mints
+answer 1210
+The mints and the tray have the same size
+answer 1211
+The lighter object between mints and tray is mints
+answer 1212
+The mints and the bag have the same weight
+answer 1213
+The smaller object between mints and bag is mints
+answer 1214
+The mints and the bag have the same size
+answer 1215
+The lighter object between mints and bag is mints
+answer 1216
+The chips and the chocolate egg have the same weight
+answer 1217
+The smaller object between chips and chocolate egg is chips
+answer 1218
+The chips and the chocolate egg have the same size
+answer 1219
+The lighter object between chips and chocolate egg is chips
+answer 1220
+The pringles and the chocolate egg have the same weight
+answer 1221
+The smaller object between pringles and chocolate egg is pringles
+answer 1222
+The pringles and the chocolate egg have the same size
+answer 1223
+The lighter object between pringles and chocolate egg is pringles
+answer 1224
+The peanuts and the chocolate egg have the same weight
+answer 1225
+The smaller object between peanuts and chocolate egg is peanuts
+answer 1226
+The peanuts and the chocolate egg have the same size
+answer 1227
+The lighter object between peanuts and chocolate egg is peanuts
+answer 1228
+The heavier chocolate egg object is chocolate egg
+answer 1229
+The smaller chocolate egg object is chocolate egg
+answer 1230
+The bigger chocolate egg object is chocolate egg
+answer 1231
+The lighter chocolate egg object is chocolate egg
+answer 1232
+The mints and the chocolate egg have the same weight
+answer 1233
+The smaller object between mints and chocolate egg is mints
+answer 1234
+The mints and the chocolate egg have the same size
+answer 1235
+The lighter object between mints and chocolate egg is mints
+answer 1236
+The heavier chocolate egg object is chocolate egg
+answer 1237
+The smaller chocolate egg object is chocolate egg
+answer 1238
+The bigger chocolate egg object is chocolate egg
+answer 1239
+The lighter chocolate egg object is chocolate egg
+answer 1240
+The heavier object between chocolate egg and noodles is chocolate egg
+answer 1241
+The chocolate egg and the noodles have the same size
+answer 1242
+The bigger object between chocolate egg and noodles is chocolate egg
+answer 1243
+The chocolate egg and the noodles have the same weight
+answer 1244
+The heavier object between chocolate egg and apple is chocolate egg
+answer 1245
+The chocolate egg and the apple have the same size
+answer 1246
+The bigger object between chocolate egg and apple is chocolate egg
+answer 1247
+The chocolate egg and the apple have the same weight
+answer 1248
+The heavier object between chocolate egg and paprika is chocolate egg
+answer 1249
+The chocolate egg and the paprika have the same size
+answer 1250
+The bigger object between chocolate egg and paprika is chocolate egg
+answer 1251
+The chocolate egg and the paprika have the same weight
+answer 1252
+The chocolate egg and the melon have the same weight
+answer 1253
+The chocolate egg and the melon have the same size
+answer 1254
+The chocolate egg and the melon have the same size
+answer 1255
+The chocolate egg and the melon have the same weight
+answer 1256
+The heavier object between chocolate egg and sushi is chocolate egg
+answer 1257
+The chocolate egg and the sushi have the same size
+answer 1258
+The bigger object between chocolate egg and sushi is chocolate egg
+answer 1259
+The chocolate egg and the sushi have the same weight
+answer 1260
+The heavier object between chocolate egg and tea is chocolate egg
+answer 1261
+The chocolate egg and the tea have the same size
+answer 1262
+The bigger object between chocolate egg and tea is chocolate egg
+answer 1263
+The chocolate egg and the tea have the same weight
+answer 1264
+The heavier object between chocolate egg and beer is chocolate egg
+answer 1265
+The chocolate egg and the beer have the same size
+answer 1266
+The bigger object between chocolate egg and beer is chocolate egg
+answer 1267
+The chocolate egg and the beer have the same weight
+answer 1268
+The chocolate egg and the coke have the same weight
+answer 1269
+The chocolate egg and the coke have the same size
+answer 1270
+The chocolate egg and the coke have the same size
+answer 1271
+The chocolate egg and the coke have the same weight
+answer 1272
+The chocolate egg and the shampoo have the same weight
+answer 1273
+The chocolate egg and the shampoo have the same size
+answer 1274
+The chocolate egg and the shampoo have the same size
+answer 1275
+The chocolate egg and the shampoo have the same weight
+answer 1276
+The heavier object between chocolate egg and cloth is chocolate egg
+answer 1277
+The chocolate egg and the cloth have the same size
+answer 1278
+The bigger object between chocolate egg and cloth is chocolate egg
+answer 1279
+The chocolate egg and the cloth have the same weight
+answer 1280
+The heavier object between chocolate egg and sponge is chocolate egg
+answer 1281
+The chocolate egg and the sponge have the same size
+answer 1282
+The bigger object between chocolate egg and sponge is chocolate egg
+answer 1283
+The chocolate egg and the sponge have the same weight
+answer 1284
+The heavier object between chocolate egg and bowl is chocolate egg
+answer 1285
+The chocolate egg and the bowl have the same size
+answer 1286
+The bigger object between chocolate egg and bowl is chocolate egg
+answer 1287
+The chocolate egg and the bowl have the same weight
+answer 1288
+The heavier object between chocolate egg and mug is chocolate egg
+answer 1289
+The chocolate egg and the mug have the same size
+answer 1290
+The bigger object between chocolate egg and mug is chocolate egg
+answer 1291
+The chocolate egg and the mug have the same weight
+answer 1292
+The heavier object between chocolate egg and glass is chocolate egg
+answer 1293
+The chocolate egg and the glass have the same size
+answer 1294
+The bigger object between chocolate egg and glass is chocolate egg
+answer 1295
+The chocolate egg and the glass have the same weight
+answer 1296
+The chocolate egg and the box have the same weight
+answer 1297
+The smaller object between chocolate egg and box is chocolate egg
+answer 1298
+The chocolate egg and the box have the same size
+answer 1299
+The lighter object between chocolate egg and box is chocolate egg
+answer 1300
+The heavier object between chocolate egg and tray is chocolate egg
+answer 1301
+The chocolate egg and the tray have the same size
+answer 1302
+The bigger object between chocolate egg and tray is chocolate egg
+answer 1303
+The chocolate egg and the tray have the same weight
+answer 1304
+The heavier object between chocolate egg and bag is chocolate egg
+answer 1305
+The chocolate egg and the bag have the same size
+answer 1306
+The bigger object between chocolate egg and bag is chocolate egg
+answer 1307
+The chocolate egg and the bag have the same weight
+answer 1308
+The chips and the noodles have the same weight
+answer 1309
+The chips and the noodles have the same size
+answer 1310
+The chips and the noodles have the same size
+answer 1311
+The chips and the noodles have the same weight
+answer 1312
+The pringles and the noodles have the same weight
+answer 1313
+The pringles and the noodles have the same size
+answer 1314
+The pringles and the noodles have the same size
+answer 1315
+The pringles and the noodles have the same weight
+answer 1316
+The peanuts and the noodles have the same weight
+answer 1317
+The smaller object between peanuts and noodles is peanuts
+answer 1318
+The peanuts and the noodles have the same size
+answer 1319
+The lighter object between peanuts and noodles is peanuts
+answer 1320
+The heavier noodles object is noodles
+answer 1321
+The smaller noodles object is noodles
+answer 1322
+The bigger noodles object is noodles
+answer 1323
+The lighter noodles object is noodles
+answer 1324
+The mints and the noodles have the same weight
+answer 1325
+The smaller object between mints and noodles is mints
+answer 1326
+The mints and the noodles have the same size
+answer 1327
+The lighter object between mints and noodles is mints
+answer 1328
+The heavier object between chocolate egg and noodles is chocolate egg
+answer 1329
+The chocolate egg and the noodles have the same size
+answer 1330
+The bigger object between chocolate egg and noodles is chocolate egg
+answer 1331
+The chocolate egg and the noodles have the same weight
+answer 1332
+The heavier noodles object is noodles
+answer 1333
+The smaller noodles object is noodles
+answer 1334
+The bigger noodles object is noodles
+answer 1335
+The lighter noodles object is noodles
+answer 1336
+The noodles and the apple have the same weight
+answer 1337
+The noodles and the apple have the same size
+answer 1338
+The noodles and the apple have the same size
+answer 1339
+The noodles and the apple have the same weight
+answer 1340
+The noodles and the paprika have the same weight
+answer 1341
+The noodles and the paprika have the same size
+answer 1342
+The noodles and the paprika have the same size
+answer 1343
+The noodles and the paprika have the same weight
+answer 1344
+The noodles and the melon have the same weight
+answer 1345
+The smaller object between noodles and melon is noodles
+answer 1346
+The noodles and the melon have the same size
+answer 1347
+The lighter object between noodles and melon is noodles
+answer 1348
+The heavier object between noodles and sushi is noodles
+answer 1349
+The noodles and the sushi have the same size
+answer 1350
+The bigger object between noodles and sushi is noodles
+answer 1351
+The noodles and the sushi have the same weight
+answer 1352
+The noodles and the tea have the same weight
+answer 1353
+The noodles and the tea have the same size
+answer 1354
+The noodles and the tea have the same size
+answer 1355
+The noodles and the tea have the same weight
+answer 1356
+The noodles and the beer have the same weight
+answer 1357
+The noodles and the beer have the same size
+answer 1358
+The noodles and the beer have the same size
+answer 1359
+The noodles and the beer have the same weight
+answer 1360
+The noodles and the coke have the same weight
+answer 1361
+The smaller object between noodles and coke is noodles
+answer 1362
+The noodles and the coke have the same size
+answer 1363
+The lighter object between noodles and coke is noodles
+answer 1364
+The noodles and the shampoo have the same weight
+answer 1365
+The smaller object between noodles and shampoo is noodles
+answer 1366
+The noodles and the shampoo have the same size
+answer 1367
+The lighter object between noodles and shampoo is noodles
+answer 1368
+The noodles and the cloth have the same weight
+answer 1369
+The noodles and the cloth have the same size
+answer 1370
+The noodles and the cloth have the same size
+answer 1371
+The noodles and the cloth have the same weight
+answer 1372
+The noodles and the sponge have the same weight
+answer 1373
+The noodles and the sponge have the same size
+answer 1374
+The noodles and the sponge have the same size
+answer 1375
+The noodles and the sponge have the same weight
+answer 1376
+The noodles and the bowl have the same weight
+answer 1377
+The noodles and the bowl have the same size
+answer 1378
+The noodles and the bowl have the same size
+answer 1379
+The noodles and the bowl have the same weight
+answer 1380
+The noodles and the mug have the same weight
+answer 1381
+The noodles and the mug have the same size
+answer 1382
+The noodles and the mug have the same size
+answer 1383
+The noodles and the mug have the same weight
+answer 1384
+The noodles and the glass have the same weight
+answer 1385
+The noodles and the glass have the same size
+answer 1386
+The noodles and the glass have the same size
+answer 1387
+The noodles and the glass have the same weight
+answer 1388
+The noodles and the box have the same weight
+answer 1389
+The smaller object between noodles and box is noodles
+answer 1390
+The noodles and the box have the same size
+answer 1391
+The lighter object between noodles and box is noodles
+answer 1392
+The noodles and the tray have the same weight
+answer 1393
+The noodles and the tray have the same size
+answer 1394
+The noodles and the tray have the same size
+answer 1395
+The noodles and the tray have the same weight
+answer 1396
+The noodles and the bag have the same weight
+answer 1397
+The noodles and the bag have the same size
+answer 1398
+The noodles and the bag have the same size
+answer 1399
+The noodles and the bag have the same weight
+answer 1400
+The chips and the apple have the same weight
+answer 1401
+The chips and the apple have the same size
+answer 1402
+The chips and the apple have the same size
+answer 1403
+The chips and the apple have the same weight
+answer 1404
+The pringles and the apple have the same weight
+answer 1405
+The pringles and the apple have the same size
+answer 1406
+The pringles and the apple have the same size
+answer 1407
+The pringles and the apple have the same weight
+answer 1408
+The peanuts and the apple have the same weight
+answer 1409
+The smaller object between peanuts and apple is peanuts
+answer 1410
+The peanuts and the apple have the same size
+answer 1411
+The lighter object between peanuts and apple is peanuts
+answer 1412
+The heavier apple object is apple
+answer 1413
+The smaller apple object is apple
+answer 1414
+The bigger apple object is apple
+answer 1415
+The lighter apple object is apple
+answer 1416
+The mints and the apple have the same weight
+answer 1417
+The smaller object between mints and apple is mints
+answer 1418
+The mints and the apple have the same size
+answer 1419
+The lighter object between mints and apple is mints
+answer 1420
+The heavier object between chocolate egg and apple is chocolate egg
+answer 1421
+The chocolate egg and the apple have the same size
+answer 1422
+The bigger object between chocolate egg and apple is chocolate egg
+answer 1423
+The chocolate egg and the apple have the same weight
+answer 1424
+The noodles and the apple have the same weight
+answer 1425
+The noodles and the apple have the same size
+answer 1426
+The noodles and the apple have the same size
+answer 1427
+The noodles and the apple have the same weight
+answer 1428
+The heavier apple object is apple
+answer 1429
+The smaller apple object is apple
+answer 1430
+The bigger apple object is apple
+answer 1431
+The lighter apple object is apple
+answer 1432
+The apple and the paprika have the same weight
+answer 1433
+The apple and the paprika have the same size
+answer 1434
+The apple and the paprika have the same size
+answer 1435
+The apple and the paprika have the same weight
+answer 1436
+The apple and the melon have the same weight
+answer 1437
+The smaller object between apple and melon is apple
+answer 1438
+The apple and the melon have the same size
+answer 1439
+The lighter object between apple and melon is apple
+answer 1440
+The heavier object between apple and sushi is apple
+answer 1441
+The apple and the sushi have the same size
+answer 1442
+The bigger object between apple and sushi is apple
+answer 1443
+The apple and the sushi have the same weight
+answer 1444
+The apple and the tea have the same weight
+answer 1445
+The apple and the tea have the same size
+answer 1446
+The apple and the tea have the same size
+answer 1447
+The apple and the tea have the same weight
+answer 1448
+The apple and the beer have the same weight
+answer 1449
+The apple and the beer have the same size
+answer 1450
+The apple and the beer have the same size
+answer 1451
+The apple and the beer have the same weight
+answer 1452
+The apple and the coke have the same weight
+answer 1453
+The smaller object between apple and coke is apple
+answer 1454
+The apple and the coke have the same size
+answer 1455
+The lighter object between apple and coke is apple
+answer 1456
+The apple and the shampoo have the same weight
+answer 1457
+The smaller object between apple and shampoo is apple
+answer 1458
+The apple and the shampoo have the same size
+answer 1459
+The lighter object between apple and shampoo is apple
+answer 1460
+The apple and the cloth have the same weight
+answer 1461
+The apple and the cloth have the same size
+answer 1462
+The apple and the cloth have the same size
+answer 1463
+The apple and the cloth have the same weight
+answer 1464
+The apple and the sponge have the same weight
+answer 1465
+The apple and the sponge have the same size
+answer 1466
+The apple and the sponge have the same size
+answer 1467
+The apple and the sponge have the same weight
+answer 1468
+The apple and the bowl have the same weight
+answer 1469
+The apple and the bowl have the same size
+answer 1470
+The apple and the bowl have the same size
+answer 1471
+The apple and the bowl have the same weight
+answer 1472
+The apple and the mug have the same weight
+answer 1473
+The apple and the mug have the same size
+answer 1474
+The apple and the mug have the same size
+answer 1475
+The apple and the mug have the same weight
+answer 1476
+The apple and the glass have the same weight
+answer 1477
+The apple and the glass have the same size
+answer 1478
+The apple and the glass have the same size
+answer 1479
+The apple and the glass have the same weight
+answer 1480
+The apple and the box have the same weight
+answer 1481
+The smaller object between apple and box is apple
+answer 1482
+The apple and the box have the same size
+answer 1483
+The lighter object between apple and box is apple
+answer 1484
+The apple and the tray have the same weight
+answer 1485
+The apple and the tray have the same size
+answer 1486
+The apple and the tray have the same size
+answer 1487
+The apple and the tray have the same weight
+answer 1488
+The apple and the bag have the same weight
+answer 1489
+The apple and the bag have the same size
+answer 1490
+The apple and the bag have the same size
+answer 1491
+The apple and the bag have the same weight
+answer 1492
+The chips and the paprika have the same weight
+answer 1493
+The chips and the paprika have the same size
+answer 1494
+The chips and the paprika have the same size
+answer 1495
+The chips and the paprika have the same weight
+answer 1496
+The pringles and the paprika have the same weight
+answer 1497
+The pringles and the paprika have the same size
+answer 1498
+The pringles and the paprika have the same size
+answer 1499
+The pringles and the paprika have the same weight
+answer 1500
+The peanuts and the paprika have the same weight
+answer 1501
+The smaller object between peanuts and paprika is peanuts
+answer 1502
+The peanuts and the paprika have the same size
+answer 1503
+The lighter object between peanuts and paprika is peanuts
+answer 1504
+The heavier paprika object is paprika
+answer 1505
+The smaller paprika object is paprika
+answer 1506
+The bigger paprika object is paprika
+answer 1507
+The lighter paprika object is paprika
+answer 1508
+The mints and the paprika have the same weight
+answer 1509
+The smaller object between mints and paprika is mints
+answer 1510
+The mints and the paprika have the same size
+answer 1511
+The lighter object between mints and paprika is mints
+answer 1512
+The heavier object between chocolate egg and paprika is chocolate egg
+answer 1513
+The chocolate egg and the paprika have the same size
+answer 1514
+The bigger object between chocolate egg and paprika is chocolate egg
+answer 1515
+The chocolate egg and the paprika have the same weight
+answer 1516
+The noodles and the paprika have the same weight
+answer 1517
+The noodles and the paprika have the same size
+answer 1518
+The noodles and the paprika have the same size
+answer 1519
+The noodles and the paprika have the same weight
+answer 1520
+The apple and the paprika have the same weight
+answer 1521
+The apple and the paprika have the same size
+answer 1522
+The apple and the paprika have the same size
+answer 1523
+The apple and the paprika have the same weight
+answer 1524
+The heavier paprika object is paprika
+answer 1525
+The smaller paprika object is paprika
+answer 1526
+The bigger paprika object is paprika
+answer 1527
+The lighter paprika object is paprika
+answer 1528
+The paprika and the melon have the same weight
+answer 1529
+The smaller object between paprika and melon is paprika
+answer 1530
+The paprika and the melon have the same size
+answer 1531
+The lighter object between paprika and melon is paprika
+answer 1532
+The heavier object between paprika and sushi is paprika
+answer 1533
+The paprika and the sushi have the same size
+answer 1534
+The bigger object between paprika and sushi is paprika
+answer 1535
+The paprika and the sushi have the same weight
+answer 1536
+The paprika and the tea have the same weight
+answer 1537
+The paprika and the tea have the same size
+answer 1538
+The paprika and the tea have the same size
+answer 1539
+The paprika and the tea have the same weight
+answer 1540
+The paprika and the beer have the same weight
+answer 1541
+The paprika and the beer have the same size
+answer 1542
+The paprika and the beer have the same size
+answer 1543
+The paprika and the beer have the same weight
+answer 1544
+The paprika and the coke have the same weight
+answer 1545
+The smaller object between paprika and coke is paprika
+answer 1546
+The paprika and the coke have the same size
+answer 1547
+The lighter object between paprika and coke is paprika
+answer 1548
+The paprika and the shampoo have the same weight
+answer 1549
+The smaller object between paprika and shampoo is paprika
+answer 1550
+The paprika and the shampoo have the same size
+answer 1551
+The lighter object between paprika and shampoo is paprika
+answer 1552
+The paprika and the cloth have the same weight
+answer 1553
+The paprika and the cloth have the same size
+answer 1554
+The paprika and the cloth have the same size
+answer 1555
+The paprika and the cloth have the same weight
+answer 1556
+The paprika and the sponge have the same weight
+answer 1557
+The paprika and the sponge have the same size
+answer 1558
+The paprika and the sponge have the same size
+answer 1559
+The paprika and the sponge have the same weight
+answer 1560
+The paprika and the bowl have the same weight
+answer 1561
+The paprika and the bowl have the same size
+answer 1562
+The paprika and the bowl have the same size
+answer 1563
+The paprika and the bowl have the same weight
+answer 1564
+The paprika and the mug have the same weight
+answer 1565
+The paprika and the mug have the same size
+answer 1566
+The paprika and the mug have the same size
+answer 1567
+The paprika and the mug have the same weight
+answer 1568
+The paprika and the glass have the same weight
+answer 1569
+The paprika and the glass have the same size
+answer 1570
+The paprika and the glass have the same size
+answer 1571
+The paprika and the glass have the same weight
+answer 1572
+The paprika and the box have the same weight
+answer 1573
+The smaller object between paprika and box is paprika
+answer 1574
+The paprika and the box have the same size
+answer 1575
+The lighter object between paprika and box is paprika
+answer 1576
+The paprika and the tray have the same weight
+answer 1577
+The paprika and the tray have the same size
+answer 1578
+The paprika and the tray have the same size
+answer 1579
+The paprika and the tray have the same weight
+answer 1580
+The paprika and the bag have the same weight
+answer 1581
+The paprika and the bag have the same size
+answer 1582
+The paprika and the bag have the same size
+answer 1583
+The paprika and the bag have the same weight
+answer 1584
+The chips and the melon have the same weight
+answer 1585
+The smaller object between chips and melon is chips
+answer 1586
+The chips and the melon have the same size
+answer 1587
+The lighter object between chips and melon is chips
+answer 1588
+The pringles and the melon have the same weight
+answer 1589
+The smaller object between pringles and melon is pringles
+answer 1590
+The pringles and the melon have the same size
+answer 1591
+The lighter object between pringles and melon is pringles
+answer 1592
+The peanuts and the melon have the same weight
+answer 1593
+The smaller object between peanuts and melon is peanuts
+answer 1594
+The peanuts and the melon have the same size
+answer 1595
+The lighter object between peanuts and melon is peanuts
+answer 1596
+The heavier melon object is melon
+answer 1597
+The smaller melon object is melon
+answer 1598
+The bigger melon object is melon
+answer 1599
+The lighter melon object is melon
+answer 1600
+The mints and the melon have the same weight
+answer 1601
+The smaller object between mints and melon is mints
+answer 1602
+The mints and the melon have the same size
+answer 1603
+The lighter object between mints and melon is mints
+answer 1604
+The chocolate egg and the melon have the same weight
+answer 1605
+The chocolate egg and the melon have the same size
+answer 1606
+The chocolate egg and the melon have the same size
+answer 1607
+The chocolate egg and the melon have the same weight
+answer 1608
+The noodles and the melon have the same weight
+answer 1609
+The smaller object between noodles and melon is noodles
+answer 1610
+The noodles and the melon have the same size
+answer 1611
+The lighter object between noodles and melon is noodles
+answer 1612
+The apple and the melon have the same weight
+answer 1613
+The smaller object between apple and melon is apple
+answer 1614
+The apple and the melon have the same size
+answer 1615
+The lighter object between apple and melon is apple
+answer 1616
+The paprika and the melon have the same weight
+answer 1617
+The smaller object between paprika and melon is paprika
+answer 1618
+The paprika and the melon have the same size
+answer 1619
+The lighter object between paprika and melon is paprika
+answer 1620
+The heavier melon object is melon
+answer 1621
+The smaller melon object is melon
+answer 1622
+The bigger melon object is melon
+answer 1623
+The lighter melon object is melon
+answer 1624
+The heavier object between melon and sushi is melon
+answer 1625
+The melon and the sushi have the same size
+answer 1626
+The bigger object between melon and sushi is melon
+answer 1627
+The melon and the sushi have the same weight
+answer 1628
+The heavier object between melon and tea is melon
+answer 1629
+The melon and the tea have the same size
+answer 1630
+The bigger object between melon and tea is melon
+answer 1631
+The melon and the tea have the same weight
+answer 1632
+The heavier object between melon and beer is melon
+answer 1633
+The melon and the beer have the same size
+answer 1634
+The bigger object between melon and beer is melon
+answer 1635
+The melon and the beer have the same weight
+answer 1636
+The melon and the coke have the same weight
+answer 1637
+The melon and the coke have the same size
+answer 1638
+The melon and the coke have the same size
+answer 1639
+The melon and the coke have the same weight
+answer 1640
+The melon and the shampoo have the same weight
+answer 1641
+The melon and the shampoo have the same size
+answer 1642
+The melon and the shampoo have the same size
+answer 1643
+The melon and the shampoo have the same weight
+answer 1644
+The heavier object between melon and cloth is melon
+answer 1645
+The melon and the cloth have the same size
+answer 1646
+The bigger object between melon and cloth is melon
+answer 1647
+The melon and the cloth have the same weight
+answer 1648
+The heavier object between melon and sponge is melon
+answer 1649
+The melon and the sponge have the same size
+answer 1650
+The bigger object between melon and sponge is melon
+answer 1651
+The melon and the sponge have the same weight
+answer 1652
+The heavier object between melon and bowl is melon
+answer 1653
+The melon and the bowl have the same size
+answer 1654
+The bigger object between melon and bowl is melon
+answer 1655
+The melon and the bowl have the same weight
+answer 1656
+The heavier object between melon and mug is melon
+answer 1657
+The melon and the mug have the same size
+answer 1658
+The bigger object between melon and mug is melon
+answer 1659
+The melon and the mug have the same weight
+answer 1660
+The heavier object between melon and glass is melon
+answer 1661
+The melon and the glass have the same size
+answer 1662
+The bigger object between melon and glass is melon
+answer 1663
+The melon and the glass have the same weight
+answer 1664
+The melon and the box have the same weight
+answer 1665
+The smaller object between melon and box is melon
+answer 1666
+The melon and the box have the same size
+answer 1667
+The lighter object between melon and box is melon
+answer 1668
+The heavier object between melon and tray is melon
+answer 1669
+The melon and the tray have the same size
+answer 1670
+The bigger object between melon and tray is melon
+answer 1671
+The melon and the tray have the same weight
+answer 1672
+The heavier object between melon and bag is melon
+answer 1673
+The melon and the bag have the same size
+answer 1674
+The bigger object between melon and bag is melon
+answer 1675
+The melon and the bag have the same weight
+answer 1676
+The heavier object between chips and sushi is chips
+answer 1677
+The chips and the sushi have the same size
+answer 1678
+The bigger object between chips and sushi is chips
+answer 1679
+The chips and the sushi have the same weight
+answer 1680
+The heavier object between pringles and sushi is pringles
+answer 1681
+The pringles and the sushi have the same size
+answer 1682
+The bigger object between pringles and sushi is pringles
+answer 1683
+The pringles and the sushi have the same weight
+answer 1684
+The peanuts and the sushi have the same weight
+answer 1685
+The peanuts and the sushi have the same size
+answer 1686
+The peanuts and the sushi have the same size
+answer 1687
+The peanuts and the sushi have the same weight
+answer 1688
+The heavier sushi object is sushi
+answer 1689
+The smaller sushi object is sushi
+answer 1690
+The bigger sushi object is sushi
+answer 1691
+The lighter sushi object is sushi
+answer 1692
+The mints and the sushi have the same weight
+answer 1693
+The mints and the sushi have the same size
+answer 1694
+The mints and the sushi have the same size
+answer 1695
+The mints and the sushi have the same weight
+answer 1696
+The heavier object between chocolate egg and sushi is chocolate egg
+answer 1697
+The chocolate egg and the sushi have the same size
+answer 1698
+The bigger object between chocolate egg and sushi is chocolate egg
+answer 1699
+The chocolate egg and the sushi have the same weight
+answer 1700
+The heavier object between noodles and sushi is noodles
+answer 1701
+The noodles and the sushi have the same size
+answer 1702
+The bigger object between noodles and sushi is noodles
+answer 1703
+The noodles and the sushi have the same weight
+answer 1704
+The heavier object between apple and sushi is apple
+answer 1705
+The apple and the sushi have the same size
+answer 1706
+The bigger object between apple and sushi is apple
+answer 1707
+The apple and the sushi have the same weight
+answer 1708
+The heavier object between paprika and sushi is paprika
+answer 1709
+The paprika and the sushi have the same size
+answer 1710
+The bigger object between paprika and sushi is paprika
+answer 1711
+The paprika and the sushi have the same weight
+answer 1712
+The heavier object between melon and sushi is melon
+answer 1713
+The melon and the sushi have the same size
+answer 1714
+The bigger object between melon and sushi is melon
+answer 1715
+The melon and the sushi have the same weight
+answer 1716
+The heavier sushi object is sushi
+answer 1717
+The smaller sushi object is sushi
+answer 1718
+The bigger sushi object is sushi
+answer 1719
+The lighter sushi object is sushi
+answer 1720
+The sushi and the tea have the same weight
+answer 1721
+The smaller object between sushi and tea is sushi
+answer 1722
+The sushi and the tea have the same size
+answer 1723
+The lighter object between sushi and tea is sushi
+answer 1724
+The sushi and the beer have the same weight
+answer 1725
+The smaller object between sushi and beer is sushi
+answer 1726
+The sushi and the beer have the same size
+answer 1727
+The lighter object between sushi and beer is sushi
+answer 1728
+The sushi and the coke have the same weight
+answer 1729
+The smaller object between sushi and coke is sushi
+answer 1730
+The sushi and the coke have the same size
+answer 1731
+The lighter object between sushi and coke is sushi
+answer 1732
+The sushi and the shampoo have the same weight
+answer 1733
+The smaller object between sushi and shampoo is sushi
+answer 1734
+The sushi and the shampoo have the same size
+answer 1735
+The lighter object between sushi and shampoo is sushi
+answer 1736
+The sushi and the cloth have the same weight
+answer 1737
+The smaller object between sushi and cloth is sushi
+answer 1738
+The sushi and the cloth have the same size
+answer 1739
+The lighter object between sushi and cloth is sushi
+answer 1740
+The sushi and the sponge have the same weight
+answer 1741
+The smaller object between sushi and sponge is sushi
+answer 1742
+The sushi and the sponge have the same size
+answer 1743
+The lighter object between sushi and sponge is sushi
+answer 1744
+The sushi and the bowl have the same weight
+answer 1745
+The smaller object between sushi and bowl is sushi
+answer 1746
+The sushi and the bowl have the same size
+answer 1747
+The lighter object between sushi and bowl is sushi
+answer 1748
+The sushi and the mug have the same weight
+answer 1749
+The smaller object between sushi and mug is sushi
+answer 1750
+The sushi and the mug have the same size
+answer 1751
+The lighter object between sushi and mug is sushi
+answer 1752
+The sushi and the glass have the same weight
+answer 1753
+The smaller object between sushi and glass is sushi
+answer 1754
+The sushi and the glass have the same size
+answer 1755
+The lighter object between sushi and glass is sushi
+answer 1756
+The sushi and the box have the same weight
+answer 1757
+The smaller object between sushi and box is sushi
+answer 1758
+The sushi and the box have the same size
+answer 1759
+The lighter object between sushi and box is sushi
+answer 1760
+The sushi and the tray have the same weight
+answer 1761
+The smaller object between sushi and tray is sushi
+answer 1762
+The sushi and the tray have the same size
+answer 1763
+The lighter object between sushi and tray is sushi
+answer 1764
+The sushi and the bag have the same weight
+answer 1765
+The smaller object between sushi and bag is sushi
+answer 1766
+The sushi and the bag have the same size
+answer 1767
+The lighter object between sushi and bag is sushi
+answer 1768
+The chips and the tea have the same weight
+answer 1769
+The chips and the tea have the same size
+answer 1770
+The chips and the tea have the same size
+answer 1771
+The chips and the tea have the same weight
+answer 1772
+The pringles and the tea have the same weight
+answer 1773
+The pringles and the tea have the same size
+answer 1774
+The pringles and the tea have the same size
+answer 1775
+The pringles and the tea have the same weight
+answer 1776
+The peanuts and the tea have the same weight
+answer 1777
+The smaller object between peanuts and tea is peanuts
+answer 1778
+The peanuts and the tea have the same size
+answer 1779
+The lighter object between peanuts and tea is peanuts
+answer 1780
+The heavier tea object is tea
+answer 1781
+The smaller tea object is tea
+answer 1782
+The bigger tea object is tea
+answer 1783
+The lighter tea object is tea
+answer 1784
+The mints and the tea have the same weight
+answer 1785
+The smaller object between mints and tea is mints
+answer 1786
+The mints and the tea have the same size
+answer 1787
+The lighter object between mints and tea is mints
+answer 1788
+The heavier object between chocolate egg and tea is chocolate egg
+answer 1789
+The chocolate egg and the tea have the same size
+answer 1790
+The bigger object between chocolate egg and tea is chocolate egg
+answer 1791
+The chocolate egg and the tea have the same weight
+answer 1792
+The noodles and the tea have the same weight
+answer 1793
+The noodles and the tea have the same size
+answer 1794
+The noodles and the tea have the same size
+answer 1795
+The noodles and the tea have the same weight
+answer 1796
+The apple and the tea have the same weight
+answer 1797
+The apple and the tea have the same size
+answer 1798
+The apple and the tea have the same size
+answer 1799
+The apple and the tea have the same weight
+answer 1800
+The paprika and the tea have the same weight
+answer 1801
+The paprika and the tea have the same size
+answer 1802
+The paprika and the tea have the same size
+answer 1803
+The paprika and the tea have the same weight
+answer 1804
+The heavier object between melon and tea is melon
+answer 1805
+The melon and the tea have the same size
+answer 1806
+The bigger object between melon and tea is melon
+answer 1807
+The melon and the tea have the same weight
+answer 1808
+The sushi and the tea have the same weight
+answer 1809
+The smaller object between sushi and tea is sushi
+answer 1810
+The sushi and the tea have the same size
+answer 1811
+The lighter object between sushi and tea is sushi
+answer 1812
+The heavier tea object is tea
+answer 1813
+The smaller tea object is tea
+answer 1814
+The bigger tea object is tea
+answer 1815
+The lighter tea object is tea
+answer 1816
+The tea and the beer have the same weight
+answer 1817
+The tea and the beer have the same size
+answer 1818
+The tea and the beer have the same size
+answer 1819
+The tea and the beer have the same weight
+answer 1820
+The tea and the coke have the same weight
+answer 1821
+The smaller object between tea and coke is tea
+answer 1822
+The tea and the coke have the same size
+answer 1823
+The lighter object between tea and coke is tea
+answer 1824
+The tea and the shampoo have the same weight
+answer 1825
+The smaller object between tea and shampoo is tea
+answer 1826
+The tea and the shampoo have the same size
+answer 1827
+The lighter object between tea and shampoo is tea
+answer 1828
+The tea and the cloth have the same weight
+answer 1829
+The tea and the cloth have the same size
+answer 1830
+The tea and the cloth have the same size
+answer 1831
+The tea and the cloth have the same weight
+answer 1832
+The tea and the sponge have the same weight
+answer 1833
+The tea and the sponge have the same size
+answer 1834
+The tea and the sponge have the same size
+answer 1835
+The tea and the sponge have the same weight
+answer 1836
+The tea and the bowl have the same weight
+answer 1837
+The tea and the bowl have the same size
+answer 1838
+The tea and the bowl have the same size
+answer 1839
+The tea and the bowl have the same weight
+answer 1840
+The tea and the mug have the same weight
+answer 1841
+The tea and the mug have the same size
+answer 1842
+The tea and the mug have the same size
+answer 1843
+The tea and the mug have the same weight
+answer 1844
+The tea and the glass have the same weight
+answer 1845
+The tea and the glass have the same size
+answer 1846
+The tea and the glass have the same size
+answer 1847
+The tea and the glass have the same weight
+answer 1848
+The tea and the box have the same weight
+answer 1849
+The smaller object between tea and box is tea
+answer 1850
+The tea and the box have the same size
+answer 1851
+The lighter object between tea and box is tea
+answer 1852
+The tea and the tray have the same weight
+answer 1853
+The tea and the tray have the same size
+answer 1854
+The tea and the tray have the same size
+answer 1855
+The tea and the tray have the same weight
+answer 1856
+The tea and the bag have the same weight
+answer 1857
+The tea and the bag have the same size
+answer 1858
+The tea and the bag have the same size
+answer 1859
+The tea and the bag have the same weight
+answer 1860
+The chips and the beer have the same weight
+answer 1861
+The chips and the beer have the same size
+answer 1862
+The chips and the beer have the same size
+answer 1863
+The chips and the beer have the same weight
+answer 1864
+The pringles and the beer have the same weight
+answer 1865
+The pringles and the beer have the same size
+answer 1866
+The pringles and the beer have the same size
+answer 1867
+The pringles and the beer have the same weight
+answer 1868
+The peanuts and the beer have the same weight
+answer 1869
+The smaller object between peanuts and beer is peanuts
+answer 1870
+The peanuts and the beer have the same size
+answer 1871
+The lighter object between peanuts and beer is peanuts
+answer 1872
+The heavier beer object is beer
+answer 1873
+The smaller beer object is beer
+answer 1874
+The bigger beer object is beer
+answer 1875
+The lighter beer object is beer
+answer 1876
+The mints and the beer have the same weight
+answer 1877
+The smaller object between mints and beer is mints
+answer 1878
+The mints and the beer have the same size
+answer 1879
+The lighter object between mints and beer is mints
+answer 1880
+The heavier object between chocolate egg and beer is chocolate egg
+answer 1881
+The chocolate egg and the beer have the same size
+answer 1882
+The bigger object between chocolate egg and beer is chocolate egg
+answer 1883
+The chocolate egg and the beer have the same weight
+answer 1884
+The noodles and the beer have the same weight
+answer 1885
+The noodles and the beer have the same size
+answer 1886
+The noodles and the beer have the same size
+answer 1887
+The noodles and the beer have the same weight
+answer 1888
+The apple and the beer have the same weight
+answer 1889
+The apple and the beer have the same size
+answer 1890
+The apple and the beer have the same size
+answer 1891
+The apple and the beer have the same weight
+answer 1892
+The paprika and the beer have the same weight
+answer 1893
+The paprika and the beer have the same size
+answer 1894
+The paprika and the beer have the same size
+answer 1895
+The paprika and the beer have the same weight
+answer 1896
+The heavier object between melon and beer is melon
+answer 1897
+The melon and the beer have the same size
+answer 1898
+The bigger object between melon and beer is melon
+answer 1899
+The melon and the beer have the same weight
+answer 1900
+The sushi and the beer have the same weight
+answer 1901
+The smaller object between sushi and beer is sushi
+answer 1902
+The sushi and the beer have the same size
+answer 1903
+The lighter object between sushi and beer is sushi
+answer 1904
+The tea and the beer have the same weight
+answer 1905
+The tea and the beer have the same size
+answer 1906
+The tea and the beer have the same size
+answer 1907
+The tea and the beer have the same weight
+answer 1908
+The heavier beer object is beer
+answer 1909
+The smaller beer object is beer
+answer 1910
+The bigger beer object is beer
+answer 1911
+The lighter beer object is beer
+answer 1912
+The beer and the coke have the same weight
+answer 1913
+The smaller object between beer and coke is beer
+answer 1914
+The beer and the coke have the same size
+answer 1915
+The lighter object between beer and coke is beer
+answer 1916
+The beer and the shampoo have the same weight
+answer 1917
+The smaller object between beer and shampoo is beer
+answer 1918
+The beer and the shampoo have the same size
+answer 1919
+The lighter object between beer and shampoo is beer
+answer 1920
+The beer and the cloth have the same weight
+answer 1921
+The beer and the cloth have the same size
+answer 1922
+The beer and the cloth have the same size
+answer 1923
+The beer and the cloth have the same weight
+answer 1924
+The beer and the sponge have the same weight
+answer 1925
+The beer and the sponge have the same size
+answer 1926
+The beer and the sponge have the same size
+answer 1927
+The beer and the sponge have the same weight
+answer 1928
+The beer and the bowl have the same weight
+answer 1929
+The beer and the bowl have the same size
+answer 1930
+The beer and the bowl have the same size
+answer 1931
+The beer and the bowl have the same weight
+answer 1932
+The beer and the mug have the same weight
+answer 1933
+The beer and the mug have the same size
+answer 1934
+The beer and the mug have the same size
+answer 1935
+The beer and the mug have the same weight
+answer 1936
+The beer and the glass have the same weight
+answer 1937
+The beer and the glass have the same size
+answer 1938
+The beer and the glass have the same size
+answer 1939
+The beer and the glass have the same weight
+answer 1940
+The beer and the box have the same weight
+answer 1941
+The smaller object between beer and box is beer
+answer 1942
+The beer and the box have the same size
+answer 1943
+The lighter object between beer and box is beer
+answer 1944
+The beer and the tray have the same weight
+answer 1945
+The beer and the tray have the same size
+answer 1946
+The beer and the tray have the same size
+answer 1947
+The beer and the tray have the same weight
+answer 1948
+The beer and the bag have the same weight
+answer 1949
+The beer and the bag have the same size
+answer 1950
+The beer and the bag have the same size
+answer 1951
+The beer and the bag have the same weight
+answer 1952
+The chips and the coke have the same weight
+answer 1953
+The smaller object between chips and coke is chips
+answer 1954
+The chips and the coke have the same size
+answer 1955
+The lighter object between chips and coke is chips
+answer 1956
+The pringles and the coke have the same weight
+answer 1957
+The smaller object between pringles and coke is pringles
+answer 1958
+The pringles and the coke have the same size
+answer 1959
+The lighter object between pringles and coke is pringles
+answer 1960
+The peanuts and the coke have the same weight
+answer 1961
+The smaller object between peanuts and coke is peanuts
+answer 1962
+The peanuts and the coke have the same size
+answer 1963
+The lighter object between peanuts and coke is peanuts
+answer 1964
+The heavier coke object is coke
+answer 1965
+The smaller coke object is coke
+answer 1966
+The bigger coke object is coke
+answer 1967
+The lighter coke object is coke
+answer 1968
+The mints and the coke have the same weight
+answer 1969
+The smaller object between mints and coke is mints
+answer 1970
+The mints and the coke have the same size
+answer 1971
+The lighter object between mints and coke is mints
+answer 1972
+The chocolate egg and the coke have the same weight
+answer 1973
+The chocolate egg and the coke have the same size
+answer 1974
+The chocolate egg and the coke have the same size
+answer 1975
+The chocolate egg and the coke have the same weight
+answer 1976
+The noodles and the coke have the same weight
+answer 1977
+The smaller object between noodles and coke is noodles
+answer 1978
+The noodles and the coke have the same size
+answer 1979
+The lighter object between noodles and coke is noodles
+answer 1980
+The apple and the coke have the same weight
+answer 1981
+The smaller object between apple and coke is apple
+answer 1982
+The apple and the coke have the same size
+answer 1983
+The lighter object between apple and coke is apple
+answer 1984
+The paprika and the coke have the same weight
+answer 1985
+The smaller object between paprika and coke is paprika
+answer 1986
+The paprika and the coke have the same size
+answer 1987
+The lighter object between paprika and coke is paprika
+answer 1988
+The melon and the coke have the same weight
+answer 1989
+The melon and the coke have the same size
+answer 1990
+The melon and the coke have the same size
+answer 1991
+The melon and the coke have the same weight
+answer 1992
+The sushi and the coke have the same weight
+answer 1993
+The smaller object between sushi and coke is sushi
+answer 1994
+The sushi and the coke have the same size
+answer 1995
+The lighter object between sushi and coke is sushi
+answer 1996
+The tea and the coke have the same weight
+answer 1997
+The smaller object between tea and coke is tea
+answer 1998
+The tea and the coke have the same size
+answer 1999
+The lighter object between tea and coke is tea
+answer 2000
+The beer and the coke have the same weight
+answer 2001
+The smaller object between beer and coke is beer
+answer 2002
+The beer and the coke have the same size
+answer 2003
+The lighter object between beer and coke is beer
+answer 2004
+The heavier coke object is coke
+answer 2005
+The smaller coke object is coke
+answer 2006
+The bigger coke object is coke
+answer 2007
+The lighter coke object is coke
+answer 2008
+The coke and the shampoo have the same weight
+answer 2009
+The coke and the shampoo have the same size
+answer 2010
+The coke and the shampoo have the same size
+answer 2011
+The coke and the shampoo have the same weight
+answer 2012
+The heavier object between coke and cloth is coke
+answer 2013
+The coke and the cloth have the same size
+answer 2014
+The bigger object between coke and cloth is coke
+answer 2015
+The coke and the cloth have the same weight
+answer 2016
+The heavier object between coke and sponge is coke
+answer 2017
+The coke and the sponge have the same size
+answer 2018
+The bigger object between coke and sponge is coke
+answer 2019
+The coke and the sponge have the same weight
+answer 2020
+The heavier object between coke and bowl is coke
+answer 2021
+The coke and the bowl have the same size
+answer 2022
+The bigger object between coke and bowl is coke
+answer 2023
+The coke and the bowl have the same weight
+answer 2024
+The heavier object between coke and mug is coke
+answer 2025
+The coke and the mug have the same size
+answer 2026
+The bigger object between coke and mug is coke
+answer 2027
+The coke and the mug have the same weight
+answer 2028
+The heavier object between coke and glass is coke
+answer 2029
+The coke and the glass have the same size
+answer 2030
+The bigger object between coke and glass is coke
+answer 2031
+The coke and the glass have the same weight
+answer 2032
+The coke and the box have the same weight
+answer 2033
+The smaller object between coke and box is coke
+answer 2034
+The coke and the box have the same size
+answer 2035
+The lighter object between coke and box is coke
+answer 2036
+The heavier object between coke and tray is coke
+answer 2037
+The coke and the tray have the same size
+answer 2038
+The bigger object between coke and tray is coke
+answer 2039
+The coke and the tray have the same weight
+answer 2040
+The heavier object between coke and bag is coke
+answer 2041
+The coke and the bag have the same size
+answer 2042
+The bigger object between coke and bag is coke
+answer 2043
+The coke and the bag have the same weight
+answer 2044
+The chips and the shampoo have the same weight
+answer 2045
+The smaller object between chips and shampoo is chips
+answer 2046
+The chips and the shampoo have the same size
+answer 2047
+The lighter object between chips and shampoo is chips
+answer 2048
+The pringles and the shampoo have the same weight
+answer 2049
+The smaller object between pringles and shampoo is pringles
+answer 2050
+The pringles and the shampoo have the same size
+answer 2051
+The lighter object between pringles and shampoo is pringles
+answer 2052
+The peanuts and the shampoo have the same weight
+answer 2053
+The smaller object between peanuts and shampoo is peanuts
+answer 2054
+The peanuts and the shampoo have the same size
+answer 2055
+The lighter object between peanuts and shampoo is peanuts
+answer 2056
+The heavier shampoo object is shampoo
+answer 2057
+The smaller shampoo object is shampoo
+answer 2058
+The bigger shampoo object is shampoo
+answer 2059
+The lighter shampoo object is shampoo
+answer 2060
+The mints and the shampoo have the same weight
+answer 2061
+The smaller object between mints and shampoo is mints
+answer 2062
+The mints and the shampoo have the same size
+answer 2063
+The lighter object between mints and shampoo is mints
+answer 2064
+The chocolate egg and the shampoo have the same weight
+answer 2065
+The chocolate egg and the shampoo have the same size
+answer 2066
+The chocolate egg and the shampoo have the same size
+answer 2067
+The chocolate egg and the shampoo have the same weight
+answer 2068
+The noodles and the shampoo have the same weight
+answer 2069
+The smaller object between noodles and shampoo is noodles
+answer 2070
+The noodles and the shampoo have the same size
+answer 2071
+The lighter object between noodles and shampoo is noodles
+answer 2072
+The apple and the shampoo have the same weight
+answer 2073
+The smaller object between apple and shampoo is apple
+answer 2074
+The apple and the shampoo have the same size
+answer 2075
+The lighter object between apple and shampoo is apple
+answer 2076
+The paprika and the shampoo have the same weight
+answer 2077
+The smaller object between paprika and shampoo is paprika
+answer 2078
+The paprika and the shampoo have the same size
+answer 2079
+The lighter object between paprika and shampoo is paprika
+answer 2080
+The melon and the shampoo have the same weight
+answer 2081
+The melon and the shampoo have the same size
+answer 2082
+The melon and the shampoo have the same size
+answer 2083
+The melon and the shampoo have the same weight
+answer 2084
+The sushi and the shampoo have the same weight
+answer 2085
+The smaller object between sushi and shampoo is sushi
+answer 2086
+The sushi and the shampoo have the same size
+answer 2087
+The lighter object between sushi and shampoo is sushi
+answer 2088
+The tea and the shampoo have the same weight
+answer 2089
+The smaller object between tea and shampoo is tea
+answer 2090
+The tea and the shampoo have the same size
+answer 2091
+The lighter object between tea and shampoo is tea
+answer 2092
+The beer and the shampoo have the same weight
+answer 2093
+The smaller object between beer and shampoo is beer
+answer 2094
+The beer and the shampoo have the same size
+answer 2095
+The lighter object between beer and shampoo is beer
+answer 2096
+The coke and the shampoo have the same weight
+answer 2097
+The coke and the shampoo have the same size
+answer 2098
+The coke and the shampoo have the same size
+answer 2099
+The coke and the shampoo have the same weight
+answer 2100
+The heavier shampoo object is shampoo
+answer 2101
+The smaller shampoo object is shampoo
+answer 2102
+The bigger shampoo object is shampoo
+answer 2103
+The lighter shampoo object is shampoo
+answer 2104
+The heavier object between shampoo and cloth is shampoo
+answer 2105
+The shampoo and the cloth have the same size
+answer 2106
+The bigger object between shampoo and cloth is shampoo
+answer 2107
+The shampoo and the cloth have the same weight
+answer 2108
+The heavier object between shampoo and sponge is shampoo
+answer 2109
+The shampoo and the sponge have the same size
+answer 2110
+The bigger object between shampoo and sponge is shampoo
+answer 2111
+The shampoo and the sponge have the same weight
+answer 2112
+The heavier object between shampoo and bowl is shampoo
+answer 2113
+The shampoo and the bowl have the same size
+answer 2114
+The bigger object between shampoo and bowl is shampoo
+answer 2115
+The shampoo and the bowl have the same weight
+answer 2116
+The heavier object between shampoo and mug is shampoo
+answer 2117
+The shampoo and the mug have the same size
+answer 2118
+The bigger object between shampoo and mug is shampoo
+answer 2119
+The shampoo and the mug have the same weight
+answer 2120
+The heavier object between shampoo and glass is shampoo
+answer 2121
+The shampoo and the glass have the same size
+answer 2122
+The bigger object between shampoo and glass is shampoo
+answer 2123
+The shampoo and the glass have the same weight
+answer 2124
+The shampoo and the box have the same weight
+answer 2125
+The smaller object between shampoo and box is shampoo
+answer 2126
+The shampoo and the box have the same size
+answer 2127
+The lighter object between shampoo and box is shampoo
+answer 2128
+The heavier object between shampoo and tray is shampoo
+answer 2129
+The shampoo and the tray have the same size
+answer 2130
+The bigger object between shampoo and tray is shampoo
+answer 2131
+The shampoo and the tray have the same weight
+answer 2132
+The heavier object between shampoo and bag is shampoo
+answer 2133
+The shampoo and the bag have the same size
+answer 2134
+The bigger object between shampoo and bag is shampoo
+answer 2135
+The shampoo and the bag have the same weight
+answer 2136
+The chips and the cloth have the same weight
+answer 2137
+The chips and the cloth have the same size
+answer 2138
+The chips and the cloth have the same size
+answer 2139
+The chips and the cloth have the same weight
+answer 2140
+The pringles and the cloth have the same weight
+answer 2141
+The pringles and the cloth have the same size
+answer 2142
+The pringles and the cloth have the same size
+answer 2143
+The pringles and the cloth have the same weight
+answer 2144
+The peanuts and the cloth have the same weight
+answer 2145
+The smaller object between peanuts and cloth is peanuts
+answer 2146
+The peanuts and the cloth have the same size
+answer 2147
+The lighter object between peanuts and cloth is peanuts
+answer 2148
+The heavier cloth object is cloth
+answer 2149
+The smaller cloth object is cloth
+answer 2150
+The bigger cloth object is cloth
+answer 2151
+The lighter cloth object is cloth
+answer 2152
+The mints and the cloth have the same weight
+answer 2153
+The smaller object between mints and cloth is mints
+answer 2154
+The mints and the cloth have the same size
+answer 2155
+The lighter object between mints and cloth is mints
+answer 2156
+The heavier object between chocolate egg and cloth is chocolate egg
+answer 2157
+The chocolate egg and the cloth have the same size
+answer 2158
+The bigger object between chocolate egg and cloth is chocolate egg
+answer 2159
+The chocolate egg and the cloth have the same weight
+answer 2160
+The noodles and the cloth have the same weight
+answer 2161
+The noodles and the cloth have the same size
+answer 2162
+The noodles and the cloth have the same size
+answer 2163
+The noodles and the cloth have the same weight
+answer 2164
+The apple and the cloth have the same weight
+answer 2165
+The apple and the cloth have the same size
+answer 2166
+The apple and the cloth have the same size
+answer 2167
+The apple and the cloth have the same weight
+answer 2168
+The paprika and the cloth have the same weight
+answer 2169
+The paprika and the cloth have the same size
+answer 2170
+The paprika and the cloth have the same size
+answer 2171
+The paprika and the cloth have the same weight
+answer 2172
+The heavier object between melon and cloth is melon
+answer 2173
+The melon and the cloth have the same size
+answer 2174
+The bigger object between melon and cloth is melon
+answer 2175
+The melon and the cloth have the same weight
+answer 2176
+The sushi and the cloth have the same weight
+answer 2177
+The smaller object between sushi and cloth is sushi
+answer 2178
+The sushi and the cloth have the same size
+answer 2179
+The lighter object between sushi and cloth is sushi
+answer 2180
+The tea and the cloth have the same weight
+answer 2181
+The tea and the cloth have the same size
+answer 2182
+The tea and the cloth have the same size
+answer 2183
+The tea and the cloth have the same weight
+answer 2184
+The beer and the cloth have the same weight
+answer 2185
+The beer and the cloth have the same size
+answer 2186
+The beer and the cloth have the same size
+answer 2187
+The beer and the cloth have the same weight
+answer 2188
+The heavier object between coke and cloth is coke
+answer 2189
+The coke and the cloth have the same size
+answer 2190
+The bigger object between coke and cloth is coke
+answer 2191
+The coke and the cloth have the same weight
+answer 2192
+The heavier object between shampoo and cloth is shampoo
+answer 2193
+The shampoo and the cloth have the same size
+answer 2194
+The bigger object between shampoo and cloth is shampoo
+answer 2195
+The shampoo and the cloth have the same weight
+answer 2196
+The heavier cloth object is cloth
+answer 2197
+The smaller cloth object is cloth
+answer 2198
+The bigger cloth object is cloth
+answer 2199
+The lighter cloth object is cloth
+answer 2200
+The cloth and the sponge have the same weight
+answer 2201
+The cloth and the sponge have the same size
+answer 2202
+The cloth and the sponge have the same size
+answer 2203
+The cloth and the sponge have the same weight
+answer 2204
+The cloth and the bowl have the same weight
+answer 2205
+The cloth and the bowl have the same size
+answer 2206
+The cloth and the bowl have the same size
+answer 2207
+The cloth and the bowl have the same weight
+answer 2208
+The cloth and the mug have the same weight
+answer 2209
+The cloth and the mug have the same size
+answer 2210
+The cloth and the mug have the same size
+answer 2211
+The cloth and the mug have the same weight
+answer 2212
+The cloth and the glass have the same weight
+answer 2213
+The cloth and the glass have the same size
+answer 2214
+The cloth and the glass have the same size
+answer 2215
+The cloth and the glass have the same weight
+answer 2216
+The cloth and the box have the same weight
+answer 2217
+The smaller object between cloth and box is cloth
+answer 2218
+The cloth and the box have the same size
+answer 2219
+The lighter object between cloth and box is cloth
+answer 2220
+The cloth and the tray have the same weight
+answer 2221
+The cloth and the tray have the same size
+answer 2222
+The cloth and the tray have the same size
+answer 2223
+The cloth and the tray have the same weight
+answer 2224
+The cloth and the bag have the same weight
+answer 2225
+The cloth and the bag have the same size
+answer 2226
+The cloth and the bag have the same size
+answer 2227
+The cloth and the bag have the same weight
+answer 2228
+The chips and the sponge have the same weight
+answer 2229
+The chips and the sponge have the same size
+answer 2230
+The chips and the sponge have the same size
+answer 2231
+The chips and the sponge have the same weight
+answer 2232
+The pringles and the sponge have the same weight
+answer 2233
+The pringles and the sponge have the same size
+answer 2234
+The pringles and the sponge have the same size
+answer 2235
+The pringles and the sponge have the same weight
+answer 2236
+The peanuts and the sponge have the same weight
+answer 2237
+The smaller object between peanuts and sponge is peanuts
+answer 2238
+The peanuts and the sponge have the same size
+answer 2239
+The lighter object between peanuts and sponge is peanuts
+answer 2240
+The heavier sponge object is sponge
+answer 2241
+The smaller sponge object is sponge
+answer 2242
+The bigger sponge object is sponge
+answer 2243
+The lighter sponge object is sponge
+answer 2244
+The mints and the sponge have the same weight
+answer 2245
+The smaller object between mints and sponge is mints
+answer 2246
+The mints and the sponge have the same size
+answer 2247
+The lighter object between mints and sponge is mints
+answer 2248
+The heavier object between chocolate egg and sponge is chocolate egg
+answer 2249
+The chocolate egg and the sponge have the same size
+answer 2250
+The bigger object between chocolate egg and sponge is chocolate egg
+answer 2251
+The chocolate egg and the sponge have the same weight
+answer 2252
+The noodles and the sponge have the same weight
+answer 2253
+The noodles and the sponge have the same size
+answer 2254
+The noodles and the sponge have the same size
+answer 2255
+The noodles and the sponge have the same weight
+answer 2256
+The apple and the sponge have the same weight
+answer 2257
+The apple and the sponge have the same size
+answer 2258
+The apple and the sponge have the same size
+answer 2259
+The apple and the sponge have the same weight
+answer 2260
+The paprika and the sponge have the same weight
+answer 2261
+The paprika and the sponge have the same size
+answer 2262
+The paprika and the sponge have the same size
+answer 2263
+The paprika and the sponge have the same weight
+answer 2264
+The heavier object between melon and sponge is melon
+answer 2265
+The melon and the sponge have the same size
+answer 2266
+The bigger object between melon and sponge is melon
+answer 2267
+The melon and the sponge have the same weight
+answer 2268
+The sushi and the sponge have the same weight
+answer 2269
+The smaller object between sushi and sponge is sushi
+answer 2270
+The sushi and the sponge have the same size
+answer 2271
+The lighter object between sushi and sponge is sushi
+answer 2272
+The tea and the sponge have the same weight
+answer 2273
+The tea and the sponge have the same size
+answer 2274
+The tea and the sponge have the same size
+answer 2275
+The tea and the sponge have the same weight
+answer 2276
+The beer and the sponge have the same weight
+answer 2277
+The beer and the sponge have the same size
+answer 2278
+The beer and the sponge have the same size
+answer 2279
+The beer and the sponge have the same weight
+answer 2280
+The heavier object between coke and sponge is coke
+answer 2281
+The coke and the sponge have the same size
+answer 2282
+The bigger object between coke and sponge is coke
+answer 2283
+The coke and the sponge have the same weight
+answer 2284
+The heavier object between shampoo and sponge is shampoo
+answer 2285
+The shampoo and the sponge have the same size
+answer 2286
+The bigger object between shampoo and sponge is shampoo
+answer 2287
+The shampoo and the sponge have the same weight
+answer 2288
+The cloth and the sponge have the same weight
+answer 2289
+The cloth and the sponge have the same size
+answer 2290
+The cloth and the sponge have the same size
+answer 2291
+The cloth and the sponge have the same weight
+answer 2292
+The heavier sponge object is sponge
+answer 2293
+The smaller sponge object is sponge
+answer 2294
+The bigger sponge object is sponge
+answer 2295
+The lighter sponge object is sponge
+answer 2296
+The sponge and the bowl have the same weight
+answer 2297
+The sponge and the bowl have the same size
+answer 2298
+The sponge and the bowl have the same size
+answer 2299
+The sponge and the bowl have the same weight
+answer 2300
+The sponge and the mug have the same weight
+answer 2301
+The sponge and the mug have the same size
+answer 2302
+The sponge and the mug have the same size
+answer 2303
+The sponge and the mug have the same weight
+answer 2304
+The sponge and the glass have the same weight
+answer 2305
+The sponge and the glass have the same size
+answer 2306
+The sponge and the glass have the same size
+answer 2307
+The sponge and the glass have the same weight
+answer 2308
+The sponge and the box have the same weight
+answer 2309
+The smaller object between sponge and box is sponge
+answer 2310
+The sponge and the box have the same size
+answer 2311
+The lighter object between sponge and box is sponge
+answer 2312
+The sponge and the tray have the same weight
+answer 2313
+The sponge and the tray have the same size
+answer 2314
+The sponge and the tray have the same size
+answer 2315
+The sponge and the tray have the same weight
+answer 2316
+The sponge and the bag have the same weight
+answer 2317
+The sponge and the bag have the same size
+answer 2318
+The sponge and the bag have the same size
+answer 2319
+The sponge and the bag have the same weight
+answer 2320
+The chips and the bowl have the same weight
+answer 2321
+The chips and the bowl have the same size
+answer 2322
+The chips and the bowl have the same size
+answer 2323
+The chips and the bowl have the same weight
+answer 2324
+The pringles and the bowl have the same weight
+answer 2325
+The pringles and the bowl have the same size
+answer 2326
+The pringles and the bowl have the same size
+answer 2327
+The pringles and the bowl have the same weight
+answer 2328
+The peanuts and the bowl have the same weight
+answer 2329
+The smaller object between peanuts and bowl is peanuts
+answer 2330
+The peanuts and the bowl have the same size
+answer 2331
+The lighter object between peanuts and bowl is peanuts
+answer 2332
+The heavier bowl object is bowl
+answer 2333
+The smaller bowl object is bowl
+answer 2334
+The bigger bowl object is bowl
+answer 2335
+The lighter bowl object is bowl
+answer 2336
+The mints and the bowl have the same weight
+answer 2337
+The smaller object between mints and bowl is mints
+answer 2338
+The mints and the bowl have the same size
+answer 2339
+The lighter object between mints and bowl is mints
+answer 2340
+The heavier object between chocolate egg and bowl is chocolate egg
+answer 2341
+The chocolate egg and the bowl have the same size
+answer 2342
+The bigger object between chocolate egg and bowl is chocolate egg
+answer 2343
+The chocolate egg and the bowl have the same weight
+answer 2344
+The noodles and the bowl have the same weight
+answer 2345
+The noodles and the bowl have the same size
+answer 2346
+The noodles and the bowl have the same size
+answer 2347
+The noodles and the bowl have the same weight
+answer 2348
+The apple and the bowl have the same weight
+answer 2349
+The apple and the bowl have the same size
+answer 2350
+The apple and the bowl have the same size
+answer 2351
+The apple and the bowl have the same weight
+answer 2352
+The paprika and the bowl have the same weight
+answer 2353
+The paprika and the bowl have the same size
+answer 2354
+The paprika and the bowl have the same size
+answer 2355
+The paprika and the bowl have the same weight
+answer 2356
+The heavier object between melon and bowl is melon
+answer 2357
+The melon and the bowl have the same size
+answer 2358
+The bigger object between melon and bowl is melon
+answer 2359
+The melon and the bowl have the same weight
+answer 2360
+The sushi and the bowl have the same weight
+answer 2361
+The smaller object between sushi and bowl is sushi
+answer 2362
+The sushi and the bowl have the same size
+answer 2363
+The lighter object between sushi and bowl is sushi
+answer 2364
+The tea and the bowl have the same weight
+answer 2365
+The tea and the bowl have the same size
+answer 2366
+The tea and the bowl have the same size
+answer 2367
+The tea and the bowl have the same weight
+answer 2368
+The beer and the bowl have the same weight
+answer 2369
+The beer and the bowl have the same size
+answer 2370
+The beer and the bowl have the same size
+answer 2371
+The beer and the bowl have the same weight
+answer 2372
+The heavier object between coke and bowl is coke
+answer 2373
+The coke and the bowl have the same size
+answer 2374
+The bigger object between coke and bowl is coke
+answer 2375
+The coke and the bowl have the same weight
+answer 2376
+The heavier object between shampoo and bowl is shampoo
+answer 2377
+The shampoo and the bowl have the same size
+answer 2378
+The bigger object between shampoo and bowl is shampoo
+answer 2379
+The shampoo and the bowl have the same weight
+answer 2380
+The cloth and the bowl have the same weight
+answer 2381
+The cloth and the bowl have the same size
+answer 2382
+The cloth and the bowl have the same size
+answer 2383
+The cloth and the bowl have the same weight
+answer 2384
+The sponge and the bowl have the same weight
+answer 2385
+The sponge and the bowl have the same size
+answer 2386
+The sponge and the bowl have the same size
+answer 2387
+The sponge and the bowl have the same weight
+answer 2388
+The heavier bowl object is bowl
+answer 2389
+The smaller bowl object is bowl
+answer 2390
+The bigger bowl object is bowl
+answer 2391
+The lighter bowl object is bowl
+answer 2392
+The bowl and the mug have the same weight
+answer 2393
+The bowl and the mug have the same size
+answer 2394
+The bowl and the mug have the same size
+answer 2395
+The bowl and the mug have the same weight
+answer 2396
+The bowl and the glass have the same weight
+answer 2397
+The bowl and the glass have the same size
+answer 2398
+The bowl and the glass have the same size
+answer 2399
+The bowl and the glass have the same weight
+answer 2400
+The bowl and the box have the same weight
+answer 2401
+The smaller object between bowl and box is bowl
+answer 2402
+The bowl and the box have the same size
+answer 2403
+The lighter object between bowl and box is bowl
+answer 2404
+The bowl and the tray have the same weight
+answer 2405
+The bowl and the tray have the same size
+answer 2406
+The bowl and the tray have the same size
+answer 2407
+The bowl and the tray have the same weight
+answer 2408
+The bowl and the bag have the same weight
+answer 2409
+The bowl and the bag have the same size
+answer 2410
+The bowl and the bag have the same size
+answer 2411
+The bowl and the bag have the same weight
+answer 2412
+The chips and the mug have the same weight
+answer 2413
+The chips and the mug have the same size
+answer 2414
+The chips and the mug have the same size
+answer 2415
+The chips and the mug have the same weight
+answer 2416
+The pringles and the mug have the same weight
+answer 2417
+The pringles and the mug have the same size
+answer 2418
+The pringles and the mug have the same size
+answer 2419
+The pringles and the mug have the same weight
+answer 2420
+The peanuts and the mug have the same weight
+answer 2421
+The smaller object between peanuts and mug is peanuts
+answer 2422
+The peanuts and the mug have the same size
+answer 2423
+The lighter object between peanuts and mug is peanuts
+answer 2424
+The heavier mug object is mug
+answer 2425
+The smaller mug object is mug
+answer 2426
+The bigger mug object is mug
+answer 2427
+The lighter mug object is mug
+answer 2428
+The mints and the mug have the same weight
+answer 2429
+The smaller object between mints and mug is mints
+answer 2430
+The mints and the mug have the same size
+answer 2431
+The lighter object between mints and mug is mints
+answer 2432
+The heavier object between chocolate egg and mug is chocolate egg
+answer 2433
+The chocolate egg and the mug have the same size
+answer 2434
+The bigger object between chocolate egg and mug is chocolate egg
+answer 2435
+The chocolate egg and the mug have the same weight
+answer 2436
+The noodles and the mug have the same weight
+answer 2437
+The noodles and the mug have the same size
+answer 2438
+The noodles and the mug have the same size
+answer 2439
+The noodles and the mug have the same weight
+answer 2440
+The apple and the mug have the same weight
+answer 2441
+The apple and the mug have the same size
+answer 2442
+The apple and the mug have the same size
+answer 2443
+The apple and the mug have the same weight
+answer 2444
+The paprika and the mug have the same weight
+answer 2445
+The paprika and the mug have the same size
+answer 2446
+The paprika and the mug have the same size
+answer 2447
+The paprika and the mug have the same weight
+answer 2448
+The heavier object between melon and mug is melon
+answer 2449
+The melon and the mug have the same size
+answer 2450
+The bigger object between melon and mug is melon
+answer 2451
+The melon and the mug have the same weight
+answer 2452
+The sushi and the mug have the same weight
+answer 2453
+The smaller object between sushi and mug is sushi
+answer 2454
+The sushi and the mug have the same size
+answer 2455
+The lighter object between sushi and mug is sushi
+answer 2456
+The tea and the mug have the same weight
+answer 2457
+The tea and the mug have the same size
+answer 2458
+The tea and the mug have the same size
+answer 2459
+The tea and the mug have the same weight
+answer 2460
+The beer and the mug have the same weight
+answer 2461
+The beer and the mug have the same size
+answer 2462
+The beer and the mug have the same size
+answer 2463
+The beer and the mug have the same weight
+answer 2464
+The heavier object between coke and mug is coke
+answer 2465
+The coke and the mug have the same size
+answer 2466
+The bigger object between coke and mug is coke
+answer 2467
+The coke and the mug have the same weight
+answer 2468
+The heavier object between shampoo and mug is shampoo
+answer 2469
+The shampoo and the mug have the same size
+answer 2470
+The bigger object between shampoo and mug is shampoo
+answer 2471
+The shampoo and the mug have the same weight
+answer 2472
+The cloth and the mug have the same weight
+answer 2473
+The cloth and the mug have the same size
+answer 2474
+The cloth and the mug have the same size
+answer 2475
+The cloth and the mug have the same weight
+answer 2476
+The sponge and the mug have the same weight
+answer 2477
+The sponge and the mug have the same size
+answer 2478
+The sponge and the mug have the same size
+answer 2479
+The sponge and the mug have the same weight
+answer 2480
+The bowl and the mug have the same weight
+answer 2481
+The bowl and the mug have the same size
+answer 2482
+The bowl and the mug have the same size
+answer 2483
+The bowl and the mug have the same weight
+answer 2484
+The heavier mug object is mug
+answer 2485
+The smaller mug object is mug
+answer 2486
+The bigger mug object is mug
+answer 2487
+The lighter mug object is mug
+answer 2488
+The mug and the glass have the same weight
+answer 2489
+The mug and the glass have the same size
+answer 2490
+The mug and the glass have the same size
+answer 2491
+The mug and the glass have the same weight
+answer 2492
+The mug and the box have the same weight
+answer 2493
+The smaller object between mug and box is mug
+answer 2494
+The mug and the box have the same size
+answer 2495
+The lighter object between mug and box is mug
+answer 2496
+The mug and the tray have the same weight
+answer 2497
+The mug and the tray have the same size
+answer 2498
+The mug and the tray have the same size
+answer 2499
+The mug and the tray have the same weight
+answer 2500
+The mug and the bag have the same weight
+answer 2501
+The mug and the bag have the same size
+answer 2502
+The mug and the bag have the same size
+answer 2503
+The mug and the bag have the same weight
+answer 2504
+The chips and the glass have the same weight
+answer 2505
+The chips and the glass have the same size
+answer 2506
+The chips and the glass have the same size
+answer 2507
+The chips and the glass have the same weight
+answer 2508
+The pringles and the glass have the same weight
+answer 2509
+The pringles and the glass have the same size
+answer 2510
+The pringles and the glass have the same size
+answer 2511
+The pringles and the glass have the same weight
+answer 2512
+The peanuts and the glass have the same weight
+answer 2513
+The smaller object between peanuts and glass is peanuts
+answer 2514
+The peanuts and the glass have the same size
+answer 2515
+The lighter object between peanuts and glass is peanuts
+answer 2516
+The heavier glass object is glass
+answer 2517
+The smaller glass object is glass
+answer 2518
+The bigger glass object is glass
+answer 2519
+The lighter glass object is glass
+answer 2520
+The mints and the glass have the same weight
+answer 2521
+The smaller object between mints and glass is mints
+answer 2522
+The mints and the glass have the same size
+answer 2523
+The lighter object between mints and glass is mints
+answer 2524
+The heavier object between chocolate egg and glass is chocolate egg
+answer 2525
+The chocolate egg and the glass have the same size
+answer 2526
+The bigger object between chocolate egg and glass is chocolate egg
+answer 2527
+The chocolate egg and the glass have the same weight
+answer 2528
+The noodles and the glass have the same weight
+answer 2529
+The noodles and the glass have the same size
+answer 2530
+The noodles and the glass have the same size
+answer 2531
+The noodles and the glass have the same weight
+answer 2532
+The apple and the glass have the same weight
+answer 2533
+The apple and the glass have the same size
+answer 2534
+The apple and the glass have the same size
+answer 2535
+The apple and the glass have the same weight
+answer 2536
+The paprika and the glass have the same weight
+answer 2537
+The paprika and the glass have the same size
+answer 2538
+The paprika and the glass have the same size
+answer 2539
+The paprika and the glass have the same weight
+answer 2540
+The heavier object between melon and glass is melon
+answer 2541
+The melon and the glass have the same size
+answer 2542
+The bigger object between melon and glass is melon
+answer 2543
+The melon and the glass have the same weight
+answer 2544
+The sushi and the glass have the same weight
+answer 2545
+The smaller object between sushi and glass is sushi
+answer 2546
+The sushi and the glass have the same size
+answer 2547
+The lighter object between sushi and glass is sushi
+answer 2548
+The tea and the glass have the same weight
+answer 2549
+The tea and the glass have the same size
+answer 2550
+The tea and the glass have the same size
+answer 2551
+The tea and the glass have the same weight
+answer 2552
+The beer and the glass have the same weight
+answer 2553
+The beer and the glass have the same size
+answer 2554
+The beer and the glass have the same size
+answer 2555
+The beer and the glass have the same weight
+answer 2556
+The heavier object between coke and glass is coke
+answer 2557
+The coke and the glass have the same size
+answer 2558
+The bigger object between coke and glass is coke
+answer 2559
+The coke and the glass have the same weight
+answer 2560
+The heavier object between shampoo and glass is shampoo
+answer 2561
+The shampoo and the glass have the same size
+answer 2562
+The bigger object between shampoo and glass is shampoo
+answer 2563
+The shampoo and the glass have the same weight
+answer 2564
+The cloth and the glass have the same weight
+answer 2565
+The cloth and the glass have the same size
+answer 2566
+The cloth and the glass have the same size
+answer 2567
+The cloth and the glass have the same weight
+answer 2568
+The sponge and the glass have the same weight
+answer 2569
+The sponge and the glass have the same size
+answer 2570
+The sponge and the glass have the same size
+answer 2571
+The sponge and the glass have the same weight
+answer 2572
+The bowl and the glass have the same weight
+answer 2573
+The bowl and the glass have the same size
+answer 2574
+The bowl and the glass have the same size
+answer 2575
+The bowl and the glass have the same weight
+answer 2576
+The mug and the glass have the same weight
+answer 2577
+The mug and the glass have the same size
+answer 2578
+The mug and the glass have the same size
+answer 2579
+The mug and the glass have the same weight
+answer 2580
+The heavier glass object is glass
+answer 2581
+The smaller glass object is glass
+answer 2582
+The bigger glass object is glass
+answer 2583
+The lighter glass object is glass
+answer 2584
+The glass and the box have the same weight
+answer 2585
+The smaller object between glass and box is glass
+answer 2586
+The glass and the box have the same size
+answer 2587
+The lighter object between glass and box is glass
+answer 2588
+The glass and the tray have the same weight
+answer 2589
+The glass and the tray have the same size
+answer 2590
+The glass and the tray have the same size
+answer 2591
+The glass and the tray have the same weight
+answer 2592
+The glass and the bag have the same weight
+answer 2593
+The glass and the bag have the same size
+answer 2594
+The glass and the bag have the same size
+answer 2595
+The glass and the bag have the same weight
+answer 2596
+The chips and the box have the same weight
+answer 2597
+The smaller object between chips and box is chips
+answer 2598
+The chips and the box have the same size
+answer 2599
+The lighter object between chips and box is chips
+answer 2600
+The pringles and the box have the same weight
+answer 2601
+The smaller object between pringles and box is pringles
+answer 2602
+The pringles and the box have the same size
+answer 2603
+The lighter object between pringles and box is pringles
+answer 2604
+The peanuts and the box have the same weight
+answer 2605
+The smaller object between peanuts and box is peanuts
+answer 2606
+The peanuts and the box have the same size
+answer 2607
+The lighter object between peanuts and box is peanuts
+answer 2608
+The heavier box object is box
+answer 2609
+The smaller box object is box
+answer 2610
+The bigger box object is box
+answer 2611
+The lighter box object is box
+answer 2612
+The mints and the box have the same weight
+answer 2613
+The smaller object between mints and box is mints
+answer 2614
+The mints and the box have the same size
+answer 2615
+The lighter object between mints and box is mints
+answer 2616
+The chocolate egg and the box have the same weight
+answer 2617
+The smaller object between chocolate egg and box is chocolate egg
+answer 2618
+The chocolate egg and the box have the same size
+answer 2619
+The lighter object between chocolate egg and box is chocolate egg
+answer 2620
+The noodles and the box have the same weight
+answer 2621
+The smaller object between noodles and box is noodles
+answer 2622
+The noodles and the box have the same size
+answer 2623
+The lighter object between noodles and box is noodles
+answer 2624
+The apple and the box have the same weight
+answer 2625
+The smaller object between apple and box is apple
+answer 2626
+The apple and the box have the same size
+answer 2627
+The lighter object between apple and box is apple
+answer 2628
+The paprika and the box have the same weight
+answer 2629
+The smaller object between paprika and box is paprika
+answer 2630
+The paprika and the box have the same size
+answer 2631
+The lighter object between paprika and box is paprika
+answer 2632
+The melon and the box have the same weight
+answer 2633
+The smaller object between melon and box is melon
+answer 2634
+The melon and the box have the same size
+answer 2635
+The lighter object between melon and box is melon
+answer 2636
+The sushi and the box have the same weight
+answer 2637
+The smaller object between sushi and box is sushi
+answer 2638
+The sushi and the box have the same size
+answer 2639
+The lighter object between sushi and box is sushi
+answer 2640
+The tea and the box have the same weight
+answer 2641
+The smaller object between tea and box is tea
+answer 2642
+The tea and the box have the same size
+answer 2643
+The lighter object between tea and box is tea
+answer 2644
+The beer and the box have the same weight
+answer 2645
+The smaller object between beer and box is beer
+answer 2646
+The beer and the box have the same size
+answer 2647
+The lighter object between beer and box is beer
+answer 2648
+The coke and the box have the same weight
+answer 2649
+The smaller object between coke and box is coke
+answer 2650
+The coke and the box have the same size
+answer 2651
+The lighter object between coke and box is coke
+answer 2652
+The shampoo and the box have the same weight
+answer 2653
+The smaller object between shampoo and box is shampoo
+answer 2654
+The shampoo and the box have the same size
+answer 2655
+The lighter object between shampoo and box is shampoo
+answer 2656
+The cloth and the box have the same weight
+answer 2657
+The smaller object between cloth and box is cloth
+answer 2658
+The cloth and the box have the same size
+answer 2659
+The lighter object between cloth and box is cloth
+answer 2660
+The sponge and the box have the same weight
+answer 2661
+The smaller object between sponge and box is sponge
+answer 2662
+The sponge and the box have the same size
+answer 2663
+The lighter object between sponge and box is sponge
+answer 2664
+The bowl and the box have the same weight
+answer 2665
+The smaller object between bowl and box is bowl
+answer 2666
+The bowl and the box have the same size
+answer 2667
+The lighter object between bowl and box is bowl
+answer 2668
+The mug and the box have the same weight
+answer 2669
+The smaller object between mug and box is mug
+answer 2670
+The mug and the box have the same size
+answer 2671
+The lighter object between mug and box is mug
+answer 2672
+The glass and the box have the same weight
+answer 2673
+The smaller object between glass and box is glass
+answer 2674
+The glass and the box have the same size
+answer 2675
+The lighter object between glass and box is glass
+answer 2676
+The heavier box object is box
+answer 2677
+The smaller box object is box
+answer 2678
+The bigger box object is box
+answer 2679
+The lighter box object is box
+answer 2680
+The heavier object between box and tray is box
+answer 2681
+The box and the tray have the same size
+answer 2682
+The bigger object between box and tray is box
+answer 2683
+The box and the tray have the same weight
+answer 2684
+The heavier object between box and bag is box
+answer 2685
+The box and the bag have the same size
+answer 2686
+The bigger object between box and bag is box
+answer 2687
+The box and the bag have the same weight
+answer 2688
+The chips and the tray have the same weight
+answer 2689
+The chips and the tray have the same size
+answer 2690
+The chips and the tray have the same size
+answer 2691
+The chips and the tray have the same weight
+answer 2692
+The pringles and the tray have the same weight
+answer 2693
+The pringles and the tray have the same size
+answer 2694
+The pringles and the tray have the same size
+answer 2695
+The pringles and the tray have the same weight
+answer 2696
+The peanuts and the tray have the same weight
+answer 2697
+The smaller object between peanuts and tray is peanuts
+answer 2698
+The peanuts and the tray have the same size
+answer 2699
+The lighter object between peanuts and tray is peanuts
+answer 2700
+The heavier tray object is tray
+answer 2701
+The smaller tray object is tray
+answer 2702
+The bigger tray object is tray
+answer 2703
+The lighter tray object is tray
+answer 2704
+The mints and the tray have the same weight
+answer 2705
+The smaller object between mints and tray is mints
+answer 2706
+The mints and the tray have the same size
+answer 2707
+The lighter object between mints and tray is mints
+answer 2708
+The heavier object between chocolate egg and tray is chocolate egg
+answer 2709
+The chocolate egg and the tray have the same size
+answer 2710
+The bigger object between chocolate egg and tray is chocolate egg
+answer 2711
+The chocolate egg and the tray have the same weight
+answer 2712
+The noodles and the tray have the same weight
+answer 2713
+The noodles and the tray have the same size
+answer 2714
+The noodles and the tray have the same size
+answer 2715
+The noodles and the tray have the same weight
+answer 2716
+The apple and the tray have the same weight
+answer 2717
+The apple and the tray have the same size
+answer 2718
+The apple and the tray have the same size
+answer 2719
+The apple and the tray have the same weight
+answer 2720
+The paprika and the tray have the same weight
+answer 2721
+The paprika and the tray have the same size
+answer 2722
+The paprika and the tray have the same size
+answer 2723
+The paprika and the tray have the same weight
+answer 2724
+The heavier object between melon and tray is melon
+answer 2725
+The melon and the tray have the same size
+answer 2726
+The bigger object between melon and tray is melon
+answer 2727
+The melon and the tray have the same weight
+answer 2728
+The sushi and the tray have the same weight
+answer 2729
+The smaller object between sushi and tray is sushi
+answer 2730
+The sushi and the tray have the same size
+answer 2731
+The lighter object between sushi and tray is sushi
+answer 2732
+The tea and the tray have the same weight
+answer 2733
+The tea and the tray have the same size
+answer 2734
+The tea and the tray have the same size
+answer 2735
+The tea and the tray have the same weight
+answer 2736
+The beer and the tray have the same weight
+answer 2737
+The beer and the tray have the same size
+answer 2738
+The beer and the tray have the same size
+answer 2739
+The beer and the tray have the same weight
+answer 2740
+The heavier object between coke and tray is coke
+answer 2741
+The coke and the tray have the same size
+answer 2742
+The bigger object between coke and tray is coke
+answer 2743
+The coke and the tray have the same weight
+answer 2744
+The heavier object between shampoo and tray is shampoo
+answer 2745
+The shampoo and the tray have the same size
+answer 2746
+The bigger object between shampoo and tray is shampoo
+answer 2747
+The shampoo and the tray have the same weight
+answer 2748
+The cloth and the tray have the same weight
+answer 2749
+The cloth and the tray have the same size
+answer 2750
+The cloth and the tray have the same size
+answer 2751
+The cloth and the tray have the same weight
+answer 2752
+The sponge and the tray have the same weight
+answer 2753
+The sponge and the tray have the same size
+answer 2754
+The sponge and the tray have the same size
+answer 2755
+The sponge and the tray have the same weight
+answer 2756
+The bowl and the tray have the same weight
+answer 2757
+The bowl and the tray have the same size
+answer 2758
+The bowl and the tray have the same size
+answer 2759
+The bowl and the tray have the same weight
+answer 2760
+The mug and the tray have the same weight
+answer 2761
+The mug and the tray have the same size
+answer 2762
+The mug and the tray have the same size
+answer 2763
+The mug and the tray have the same weight
+answer 2764
+The glass and the tray have the same weight
+answer 2765
+The glass and the tray have the same size
+answer 2766
+The glass and the tray have the same size
+answer 2767
+The glass and the tray have the same weight
+answer 2768
+The heavier object between box and tray is box
+answer 2769
+The box and the tray have the same size
+answer 2770
+The bigger object between box and tray is box
+answer 2771
+The box and the tray have the same weight
+answer 2772
+The heavier tray object is tray
+answer 2773
+The smaller tray object is tray
+answer 2774
+The bigger tray object is tray
+answer 2775
+The lighter tray object is tray
+answer 2776
+The tray and the bag have the same weight
+answer 2777
+The tray and the bag have the same size
+answer 2778
+The tray and the bag have the same size
+answer 2779
+The tray and the bag have the same weight
+answer 2780
+The chips and the bag have the same weight
+answer 2781
+The chips and the bag have the same size
+answer 2782
+The chips and the bag have the same size
+answer 2783
+The chips and the bag have the same weight
+answer 2784
+The pringles and the bag have the same weight
+answer 2785
+The pringles and the bag have the same size
+answer 2786
+The pringles and the bag have the same size
+answer 2787
+The pringles and the bag have the same weight
+answer 2788
+The peanuts and the bag have the same weight
+answer 2789
+The smaller object between peanuts and bag is peanuts
+answer 2790
+The peanuts and the bag have the same size
+answer 2791
+The lighter object between peanuts and bag is peanuts
+answer 2792
+The heavier bag object is bag
+answer 2793
+The smaller bag object is bag
+answer 2794
+The bigger bag object is bag
+answer 2795
+The lighter bag object is bag
+answer 2796
+The mints and the bag have the same weight
+answer 2797
+The smaller object between mints and bag is mints
+answer 2798
+The mints and the bag have the same size
+answer 2799
+The lighter object between mints and bag is mints
+answer 2800
+The heavier object between chocolate egg and bag is chocolate egg
+answer 2801
+The chocolate egg and the bag have the same size
+answer 2802
+The bigger object between chocolate egg and bag is chocolate egg
+answer 2803
+The chocolate egg and the bag have the same weight
+answer 2804
+The noodles and the bag have the same weight
+answer 2805
+The noodles and the bag have the same size
+answer 2806
+The noodles and the bag have the same size
+answer 2807
+The noodles and the bag have the same weight
+answer 2808
+The apple and the bag have the same weight
+answer 2809
+The apple and the bag have the same size
+answer 2810
+The apple and the bag have the same size
+answer 2811
+The apple and the bag have the same weight
+answer 2812
+The paprika and the bag have the same weight
+answer 2813
+The paprika and the bag have the same size
+answer 2814
+The paprika and the bag have the same size
+answer 2815
+The paprika and the bag have the same weight
+answer 2816
+The heavier object between melon and bag is melon
+answer 2817
+The melon and the bag have the same size
+answer 2818
+The bigger object between melon and bag is melon
+answer 2819
+The melon and the bag have the same weight
+answer 2820
+The sushi and the bag have the same weight
+answer 2821
+The smaller object between sushi and bag is sushi
+answer 2822
+The sushi and the bag have the same size
+answer 2823
+The lighter object between sushi and bag is sushi
+answer 2824
+The tea and the bag have the same weight
+answer 2825
+The tea and the bag have the same size
+answer 2826
+The tea and the bag have the same size
+answer 2827
+The tea and the bag have the same weight
+answer 2828
+The beer and the bag have the same weight
+answer 2829
+The beer and the bag have the same size
+answer 2830
+The beer and the bag have the same size
+answer 2831
+The beer and the bag have the same weight
+answer 2832
+The heavier object between coke and bag is coke
+answer 2833
+The coke and the bag have the same size
+answer 2834
+The bigger object between coke and bag is coke
+answer 2835
+The coke and the bag have the same weight
+answer 2836
+The heavier object between shampoo and bag is shampoo
+answer 2837
+The shampoo and the bag have the same size
+answer 2838
+The bigger object between shampoo and bag is shampoo
+answer 2839
+The shampoo and the bag have the same weight
+answer 2840
+The cloth and the bag have the same weight
+answer 2841
+The cloth and the bag have the same size
+answer 2842
+The cloth and the bag have the same size
+answer 2843
+The cloth and the bag have the same weight
+answer 2844
+The sponge and the bag have the same weight
+answer 2845
+The sponge and the bag have the same size
+answer 2846
+The sponge and the bag have the same size
+answer 2847
+The sponge and the bag have the same weight
+answer 2848
+The bowl and the bag have the same weight
+answer 2849
+The bowl and the bag have the same size
+answer 2850
+The bowl and the bag have the same size
+answer 2851
+The bowl and the bag have the same weight
+answer 2852
+The mug and the bag have the same weight
+answer 2853
+The mug and the bag have the same size
+answer 2854
+The mug and the bag have the same size
+answer 2855
+The mug and the bag have the same weight
+answer 2856
+The glass and the bag have the same weight
+answer 2857
+The glass and the bag have the same size
+answer 2858
+The glass and the bag have the same size
+answer 2859
+The glass and the bag have the same weight
+answer 2860
+The heavier object between box and bag is box
+answer 2861
+The box and the bag have the same size
+answer 2862
+The bigger object between box and bag is box
+answer 2863
+The box and the bag have the same weight
+answer 2864
+The tray and the bag have the same weight
+answer 2865
+The tray and the bag have the same size
+answer 2866
+The tray and the bag have the same size
+answer 2867
+The tray and the bag have the same weight
+answer 2868
+The heavier bag object is bag
+answer 2869
+The smaller bag object is bag
+answer 2870
+The bigger bag object is bag
+answer 2871
+The lighter bag object is bag
+answer 2872
