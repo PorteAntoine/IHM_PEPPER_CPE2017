@@ -1,12 +1,11 @@
 # PARTIE SUR LA GESTION DE LA TABLETTE
 dossier :
   - "ProjectChorégraphe" contient le(s) projet(s) à installer sur le robot 
-  - "Script_python"  
+  - "Script_python" 
+      - "Tablet_python_showImage" permet d'afficher des images en disant _"banana"_ ou  _"apple"_ ou _"pineapple"_
+      - "Tablet_python_webView"   permet d'afficher des textes en disant _"banana"_ ou  _"apple"_ ou _"pineapple"_
+      - "Tablet_python_webViewEvent" permet d'afficher l'historique des questions/réponses et la dernière en affichage dynamique
     
-  
-  
-  
-  
   
 # Comment utiliser la tablette ?
 
@@ -32,7 +31,7 @@ Avec les mêmes methodes que pour les photos, mettre les fichiers .html dans le 
 Mettre les éventuelles fichiers JS et CSS si vous en avez créé.
 
 
-### 3 - Script Python :
+### 3 - Script Python : 
 
 - Pour afficher des images:
 
@@ -50,4 +49,13 @@ Dans l'example suivant, le fichier index2.html a été copié dans le dossier ht
      val = tabletservice.loadUrl("http://198.18.0.1/apps/tablette_test/index2.html")
      val = tabletservice.showWebview()
 
+
 ATTENTION : dans l'URL, il ne faut pas écrire le dossier html
+
+# Comment utiliser les exemples ?
+
+- Ouvrir le projet _"tablette_test"_ dans chorégraphe
+
+- installer l'application dans le robot
+
+- lancer le script python voulue
