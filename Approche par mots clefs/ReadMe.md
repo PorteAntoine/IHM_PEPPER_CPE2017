@@ -5,7 +5,7 @@ include the top files which contain all our concept :
   - loc_concept
 
 # SCRIPT
-include all the files that are helfull to parse the .csv file and generate the global top file
+include all the files that are helpfull to parse the .csv file and generate the global top file
 
 # TOP
 include the global top files where the answer to the questions are set
