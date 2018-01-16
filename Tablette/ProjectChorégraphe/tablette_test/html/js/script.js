@@ -9,14 +9,21 @@ var session = new QiSession(function(session) {
 // Subscribe to ALMemory Service   
 session.service("ALMemory").then(function(ALMemory) {
   // document.getElementById('typed').innerHTML = "ALMemory proxy subscription successful!";  
-  ALMemory.getData('keyword').then(function(keyword){
+  ALMemory.getData('keyword_typed').then(function(keyword){
         
         new Typed('#typed', {
           strings: [keyword],
-          typeSpeed: 30,
+          typeSpeed: 1,
           fadeOut: true,
         });
 
   });
-  
+   ALMemory.getData('keyword_CH').then(function(keyword){
+        document.getElementById('Conversation_history').innerHTML = [keyword];
+
+
+  });
 });
+
+
+

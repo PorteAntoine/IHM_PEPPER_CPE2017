@@ -17,10 +17,17 @@
         <File name="script" src="html/js/script.js" />
         <File name="typed.min" src="html/js/typed.min.js" />
         <File name="pineapple" src="html/img/pineapple.jpg" />
+        <File name="index3" src="html/index3.html" />
+        <File name="jquery-1.11.0.min" src="html/js/jquery-1.11.0.min.js" />
+        <File name="main" src="html/js/main.js" />
+        <File name="robotutils" src="html/js/robotutils.js" />
+        <File name="jquery-3.2.1.min" src="html/js/jquery-3.2.1.min.js" />
+        <File name="scriptload" src="html/js/scriptload.js" />
+        <File name="index4" src="html/index4.html" />
     </Resources>
     <Topics />
     <IgnoredPaths>
-        <Path src="translations/.translation_en_US.ts.7416.csp" />
+        <Path src="translations/.translation_en_US.ts.15616.csp" />
     </IgnoredPaths>
     <Translations auto-fill="en_US">
         <Translation name="translation_en_US" src="translations/translation_en_US.ts" language="en_US" />

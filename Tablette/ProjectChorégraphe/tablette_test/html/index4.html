@@ -30,6 +30,7 @@
                 align-items: center;
                 justify-content: center;
             }
+
             .row {
                 width: auto;
                 margin: auto 30px;
@@ -37,6 +38,7 @@
                 border-radius: 15px;
                 background: #fff
             }
+
             .flex-item {
                 padding: 5px;
                 margin: 15px;
@@ -46,25 +48,30 @@
                 font-size: 3em;
                 text-align: left;
             }
+
+            body {
+                margin: 0;
+            }
+
         </style>
 
-        <script src="/libs/qimessaging/2/qimessaging.js"></script>
+        <script src="js/jquery-3.2.1.min"></script>
         <script src="js/typed.min.js"></script>
         <script src="js/script.js"></script>
+
+
     </head>
     <body>
-        <div id="txt">
-            <h2>Conversation history</h2>
-            <div id="Conversation_history">
-                <p>contenu</p>
+        <div id="txt" style="position:absolute; ">
+            <h2>test span</h2>
+            <div id="descriptif_produit">
+                <p>Contenu</p>
             </div>
         </div>
         <div class="flex-container">
             <div class="row">
                 <div class="flex-item">
-
                     <span id="typed"></span>
-
                 </div>
             </div>
         </div>
