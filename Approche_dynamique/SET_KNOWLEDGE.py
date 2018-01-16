@@ -65,7 +65,7 @@ def main(session):
     #
     topic_path = "D:/ProjetMajeur/IHM_PEPPER_CPE2017/Approche_dynamique/main_topic_enu.top"
     topic_path = topic_path.decode('utf-8')
-    topic = ALDialog.loadTopic(topic_path.encode('utf-8'))*
+    topic = ALDialog.loadTopic(topic_path.encode('utf-8'))
 
     # Starting the dialog engine - we need to type an arbitrary string as the identifier
     # We subscribe only ONCE, regardless of the number of topics we have activated
@@ -113,7 +113,7 @@ if __name__ == "__main__":
     parser.add_argument("--ip", type=str, default="localhost",
 
                         help="Robot IP address. On robot or Local Naoqi: use 192.168.1.201.")
-    parser.add_argument("--port", type=int, default=58108,                   help="Naoqi port number")
+    parser.add_argument("--port", type=int, default=58593,                   help="Naoqi port number")
     args = parser.parse_args()
     session = qi.Session()
     try:
