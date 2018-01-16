@@ -13,7 +13,7 @@ from naoqi import ALModule
 from optparse import OptionParser
 
 NAO_IP = "localhost"
-NAO_PORT = 55374
+NAO_PORT = 62526
 topf_path = 'C:\\Users\\aurel\\Documents\\COURS\\CPE\\Robotique\\PROJET_MAJEUR\\IHM_PEPPER_CPE2017\\Approche_dynamique\\top\\concept.top'
 name_of_test = "ORIGINAL"
 
@@ -144,8 +144,8 @@ def main():
         log_file.write("Question understood by pepper number %d : %s \n" %(i,question_understood))
         print "Answer of the robot : " + answer
         log_file.write("Answer of pepper number %d : %s \n" %(i,answer))
-        log_file.write("------------------------------------------------")
-        i =+ 1
+        log_file.write("------------------------------------------------ \n")
+        i += 1
     print
     print "Interrupted by user, shutting down"
     myBroker.shutdown()
