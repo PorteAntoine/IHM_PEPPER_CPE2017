@@ -5,10 +5,15 @@ import time
 robot_ip = "169.254.143.67"
 package_id = "tablette_test"
 
+robot_ip = "localhost"
+robot_ip = "169.254.235.135"
+robot_port = 9559
+#robot_port = 55234
+
 url_base = "" #pas à remplir
 
 
-def test_question_showImage(robot_ip, robot_port):
+def test_question_showImage():
     # Getting the service ALDialog
     ALDialog = ALProxy('ALDialog',robot_ip,robot_port)
 
@@ -22,7 +27,7 @@ def test_question_showImage(robot_ip, robot_port):
                        'concept:(object) [sky smurf]\n'
                         'u: (hello) Hello human  \n'
                         'u: (apple) Okay  ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/apple.jpg")) \n'
-                        'u: (pineapple) Okay  ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/ananas.jpg"))\n'
+                        'u: (pineapple) Okay  ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/pineapple.jpg"))\n'
                         'u: (banana) Okay  ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/banana.jpg")) \n')
     
     # Loading the topics directly as text strings
@@ -39,7 +44,7 @@ def test_question_showImage(robot_ip, robot_port):
     ALDialog.unsubscribe('myModule')
     
 
-def main(robot_ip, robot_port):
+def main():
     tabletservice = ALProxy("ALTabletService", robot_ip, robot_port)
 
     # store Url de base
@@ -54,11 +59,9 @@ def main(robot_ip, robot_port):
     val = tabletservice.preLoadImage(url_image + 'apple.jpg')
     val = tabletservice.showImage(url_image + 'image1.png')
     time.sleep(0.5)
-    test_question_showImage(robot_ip, robot_port)
+    test_question_showImage()
 
     
 
 if __name__ == '__main__':
-    #robot_ip = "169.254.127.84"
-    robot_port = 9559
-    main(robot_ip, robot_port)
+    main()

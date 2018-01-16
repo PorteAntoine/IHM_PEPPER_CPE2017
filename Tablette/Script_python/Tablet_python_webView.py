@@ -5,12 +5,18 @@ import time
 robot_ip = "169.254.141.186"
 package_id = "tablette_test"
 
+robot_ip = "localhost"
+robot_ip = "169.254.63.2"
+robot_port = 9559
+#robot_port = 55234
+
+
 url_base = "" #pas à remplir
     
 
 def test_website(robot_ip, robot_port):
     tabletservice = ALProxy("ALTabletService", robot_ip, robot_port)
-    val1 = tabletservice.showWebview(url_base + 'index2.html')
+    val1 = tabletservice.showWebview("http://198.18.0.1/apps/tablette_test/index3.html")
 
     # Getting the service ALDialog
     ALDialog = ALProxy('ALDialog',robot_ip,robot_port)
@@ -69,12 +75,10 @@ def main(robot_ip, robot_port):
         val = tabletservice.preLoadImage(url_image + 'apple.jpg')
         val = tabletservice.showImage(url_image + 'image1.png')
         time.sleep(0.5)
-        test_website2(robot_ip, robot_port)
+        test_website(robot_ip, robot_port)
        
         
      
 
 if __name__ == '__main__':
-    #robot_ip = "169.254.127.84"
-    robot_port = 9559
     main(robot_ip, robot_port)
