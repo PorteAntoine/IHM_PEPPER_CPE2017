@@ -3,9 +3,8 @@ dossier :
   - "ProjectChorégraphe" contient le(s) projet(s) à installer sur le robot 
   - "Script_python"  
     
-
   
-# Comment utiliser ?
+# Comment utiliser la tablette ?
 
 ### 1 - Mettre les photos dans la mémoire :
 
@@ -47,4 +46,4 @@ Dans l'example suivant, le fichier index2.html a été copié dans le dossier ht
      val = tabletservice.loadUrl("http://198.18.0.1/apps/tablette_test/index2.html")
      val = tabletservice.showWebview()
 
-ATTENTION : dans l'URL, il ne faut écrire le dossier html
+ATTENTION : dans l'URL, il ne faut pas écrire le dossier html
