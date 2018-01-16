@@ -20,7 +20,11 @@ class ProcessObjectModule:
         self.processObject=Process_object()
 
 
-    #return a string containing the heaviest object
+    def numberAttribute(self, attr):
+        print "MyModule process an object"
+        result = ""
+        result = self.processObject.hasAttribute(self.parseur.objects, attr)
+        return str(len(result))
 
     def hasAttribute(self, attr):
         print "MyModule process an object"

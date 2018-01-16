@@ -25,7 +25,12 @@ def main(session):
     categories = []
     types = []
     colors = []
+    rooms = []
+    shapes = []
+    sizes = []
+    weights = []
     localizations = []
+
     #memory_service.insertData("returnList", [])
    # heaviestlist = memory_service.getData("heaviestlist")
 
@@ -45,6 +50,12 @@ def main(session):
         categories.append(object.category)
         types.append(object.type)
         colors.append(object.color)
+        rooms.append(object.room)
+        shapes.append(object.shape)
+        sizes.append(object.size)
+        weights.append(object.weight)
+        localizations.append(object.localization)
+
     for person in parseur.persons:
         knowledge_service.add("knowledge", person.name, "isofgender", person.gender)
         knowledge_service.add("knowledge", person.name, "isoftheageof", person.age)
@@ -70,6 +81,11 @@ def main(session):
     ALDialog.setConcept("category", "English", categories)
     ALDialog.setConcept("type", "English", types)
     ALDialog.setConcept("color", "English", colors)
+    ALDialog.setConcept("room", "English", rooms)
+    ALDialog.setConcept("shape", "English", shapes)
+    ALDialog.setConcept("size", "English", sizes)
+    ALDialog.setConcept("weight", "English", weights)
+    ALDialog.setConcept("localization", "English", localizations)
 
 
     try:
@@ -92,7 +108,7 @@ if __name__ == "__main__":
     parser.add_argument("--ip", type=str, default="localhost",
                         help="Robot IP address. On robot or Local Naoqi: use 192.168.1.201.")
 
-    parser.add_argument("--port", type=int, default=60714,                   help="Naoqi port number")
+    parser.add_argument("--port", type=int, default=61151,                   help="Naoqi port number")
     args = parser.parse_args()
     session = qi.Session()
     try:
