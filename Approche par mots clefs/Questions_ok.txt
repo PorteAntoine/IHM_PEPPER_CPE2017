@@ -1,4 +1,4 @@
-12/01/2017
+16/01/2017
 Questions auxquelles on sait déja répondre :
 	- localisation d'un objet dans l'arène (where are ... situated?)
 	- couleur d'un objet (what is the color of ...?)
@@ -15,4 +15,8 @@ Questions auxquelles on sait déja répondre :
 	- quantification d'objets :
 		* (how many objects are stored in ...?)
 		* (what can i find in the ...?)
-		
+	- combien d'objet de (categorie) (how many snack ...)
+	- combien de hommes/femmes (how many ... crowd ?)
+	- description des personnes (how are ... crowd ?)
+	- combien de personnes debouts/assis/couchées (how many ... standing/lying/sitting ?)
+	- description des personnes debouts/assis/couchées	
