@@ -33,10 +33,10 @@ concept:(obj_counter) [ bowl mug glass box tray bag ]
 
 
 ### Concepts Room ###
-concept:(obj_office) [ snack chips pringles peanuts ]
-concept:(obj_living_room) [ candies drinks "chocolate bar" mints "chocolate egg" tea beer coke ]
-concept:(obj_kitchen) [ freshfood containers noodles apple paprika melon sushi bowl mug glass box tray bag ]
-concept:(obj_bathroom) [ toiletries shampoo cloth sponge ]
+concept:(obj_office) [ chips pringles peanuts ]
+concept:(obj_living_room) [ "chocolate bar" mints "chocolate egg" tea beer coke ]
+concept:(obj_kitchen) [ noodles apple paprika melon sushi bowl mug glass box tray bag ]
+concept:(obj_bathroom) [ shampoo cloth sponge ]
 
 
 
