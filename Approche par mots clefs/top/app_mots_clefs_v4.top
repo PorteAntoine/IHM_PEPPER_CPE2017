@@ -20,11 +20,11 @@ concept:(color) [color colour coloration pigment pigmentation colorant paint]
 concept:(categorise) [classified separated category classify classification]
 concept:(hungry) [hungry eat food]
 concept:(thursty) [thursty arid dehydrated dry parched ~obj_drinks drink]
-concept:(bigger) [biggest colossal largest big large principal important "most important"]
-concept:(smaller) [smallest littlest]
+concept:(bigger) [bigger heavier biggest colossal largest big large principal important "most important"]
+concept:(smaller) [smaller lighter smallest littlest]
 concept:(compare_size) [~bigger ~smaller]
 concept:(name) ["my name is" "I am" "my parents called me"]
-concept:(things) ^rand[things article entity]
+concept:(things) ^rand[ "object" things article entity]
 # ########### dialog IHR ###########
 #greetings
 u:(~greetings) ~greetings Nice to see you dear, what is your name?
@@ -151,42 +151,42 @@ u:(~localisation * containers {please}) containers is on the counter in the kitc
 u:(~localisation * containers {please}) containers is on the counter in the kitchen
 u:(~localisation * containers {please}) containers is on the counter in the kitchen
 
-u:(* _~obj_freshfood * _~obj_freshfood * same category {please}) ~yes, $1 and $2 belong to the same category
-u:(* _~obj_freshfood * _~obj_snack * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_freshfood * _~obj_candies * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_freshfood * _~obj_toiletries * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_freshfood * _~obj_containers * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_freshfood * _~obj_drinks * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_snack * _~obj_freshfood * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_snack * _~obj_snack * same category {please}) ~yes, $1 and $2 belong to the same category
-u:(* _~obj_snack * _~obj_candies * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_snack * _~obj_toiletries * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_snack * _~obj_containers * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_snack * _~obj_drinks * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_candies * _~obj_freshfood * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_candies * _~obj_snack * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_candies * _~obj_candies * same category {please}) ~yes, $1 and $2 belong to the same category
-u:(* _~obj_candies * _~obj_toiletries * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_candies * _~obj_containers * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_candies * _~obj_drinks * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_toiletries * _~obj_freshfood * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_toiletries * _~obj_snack * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_toiletries * _~obj_candies * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_toiletries * _~obj_toiletries * same category {please}) ~yes, $1 and $2 belong to the same category
-u:(* _~obj_toiletries * _~obj_containers * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_toiletries * _~obj_drinks * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_containers * _~obj_freshfood * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_containers * _~obj_snack * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_containers * _~obj_candies * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_containers * _~obj_toiletries * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_containers * _~obj_containers * same category {please}) ~yes, $1 and $2 belong to the same category
-u:(* _~obj_containers * _~obj_drinks * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_drinks * _~obj_freshfood * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_drinks * _~obj_snack * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_drinks * _~obj_candies * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_drinks * _~obj_toiletries * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_drinks * _~obj_containers * same category {please}) ~no, $1 and $2 are not in the same category
-u:(* _~obj_drinks * _~obj_drinks * same category {please}) ~yes, $1 and $2 belong to the same category
+u:(* _~obj_freshfood * _~obj_freshfood * same ~categorise {please}) ~yes, $1 and $2 belong to the same category
+u:(* _~obj_freshfood * _~obj_snack * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_freshfood * _~obj_candies * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_freshfood * _~obj_toiletries * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_freshfood * _~obj_containers * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_freshfood * _~obj_drinks * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_snack * _~obj_freshfood * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_snack * _~obj_snack * same ~categorise {please}) ~yes, $1 and $2 belong to the same category
+u:(* _~obj_snack * _~obj_candies * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_snack * _~obj_toiletries * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_snack * _~obj_containers * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_snack * _~obj_drinks * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_candies * _~obj_freshfood * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_candies * _~obj_snack * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_candies * _~obj_candies * same ~categorise {please}) ~yes, $1 and $2 belong to the same category
+u:(* _~obj_candies * _~obj_toiletries * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_candies * _~obj_containers * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_candies * _~obj_drinks * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_toiletries * _~obj_freshfood * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_toiletries * _~obj_snack * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_toiletries * _~obj_candies * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_toiletries * _~obj_toiletries * same ~categorise {please}) ~yes, $1 and $2 belong to the same category
+u:(* _~obj_toiletries * _~obj_containers * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_toiletries * _~obj_drinks * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_containers * _~obj_freshfood * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_containers * _~obj_snack * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_containers * _~obj_candies * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_containers * _~obj_toiletries * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_containers * _~obj_containers * same ~categorise {please}) ~yes, $1 and $2 belong to the same category
+u:(* _~obj_containers * _~obj_drinks * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_drinks * _~obj_freshfood * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_drinks * _~obj_snack * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_drinks * _~obj_candies * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_drinks * _~obj_toiletries * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_drinks * _~obj_containers * same ~categorise {please}) ~no, $1 and $2 are not in the same category
+u:(* _~obj_drinks * _~obj_drinks * same ~categorise {please}) ~yes, $1 and $2 belong to the same category
 
 u:(~description * ~localisation * bathroom {please}) in the bathroom we have ^enumerate(~loc_bathroom)
 u:(~description * ~localisation * living_room {please}) in the living_room we have ^enumerate(~loc_living_room)
@@ -205,6 +205,43 @@ u:(~description * ~localisation * desk {please}) in the desk we have ^enumerate(
 u:(~how_many * ~localisation * desk {please}) in the desk we have ^size(~obj_desk) ~things
 u:(~description * ~localisation * cupboard {please}) in the cupboard we have ^enumerate(~obj_cupboard)
 u:(~how_many * ~localisation * cupboard {please}) in the cupboard we have ^size(~obj_cupboard) ~things
+
+u:(~description * ~bigger * ~things) the bigger ~things is ~obj_max_Size
+u:(~description * ~smaller * ~things) the smaller ~things is ~obj_min_Size
+
+u:(between * _~obj_1 and _~obj_1 * ~bigger) $1 and $2 have the same size, they are not comparable
+u:(between * _~obj_1 and _~obj_2 * ~bigger) $2 is bigger than $1
+u:(between * _~obj_1 and _~obj_min_Size * ~bigger) $1 is bigger than $2
+u:(between * _~obj_1 and _~obj_max_Size * ~bigger) $2 is bigger than $1
+u:(between * _~obj_2 and _~obj_1 * ~bigger) $1 is bigger than $2
+u:(between * _~obj_2 and _~obj_2 * ~bigger) $1 and $2 have the same size, they are not comparable
+u:(between * _~obj_2 and _~obj_min_Size * ~bigger) $1 is bigger than $2
+u:(between * _~obj_2 and _~obj_max_Size * ~bigger) $2 is bigger than $1
+u:(between * _~obj_min_Size and _~obj_1 * ~bigger) $2 is bigger than $1
+u:(between * _~obj_min_Size and _~obj_2 * ~bigger) $2 is bigger than $1
+u:(between * _~obj_min_Size and _~obj_min_Size * ~bigger) $1 and $2 have the same size, they are not comparable
+u:(between * _~obj_min_Size and _~obj_max_Size * ~bigger) $2 is bigger than $1
+u:(between * _~obj_max_Size and _~obj_1 * ~bigger) $1 is bigger than $2
+u:(between * _~obj_max_Size and _~obj_2 * ~bigger) $1 is bigger than $2
+u:(between * _~obj_max_Size and _~obj_min_Size * ~bigger) $1 is bigger than $2
+u:(between * _~obj_max_Size and _~obj_max_Size * ~bigger) $1 and $2 have the same size, they are not comparable
+
+u:(between * _~obj_1 and _~obj_1 * ~smaller) $1 and $2 have the same size, they are not comparable
+u:(between * _~obj_1 and _~obj_2 * ~smaller) $1 is smaller than $2
+u:(between * _~obj_1 and _~obj_min_Size * ~smaller) $2 is smaller than $1
+u:(between * _~obj_1 and _~obj_max_Size * ~smaller) $1 is smaller than $2
+u:(between * _~obj_2 and _~obj_1 * ~smaller) $2 is smaller than $1
+u:(between * _~obj_2 and _~obj_2 * ~smaller) $1 and $2 have the same size, they are not comparable
+u:(between * _~obj_2 and _~obj_min_Size * ~smaller) $2 is smaller than $1
+u:(between * _~obj_2 and _~obj_max_Size * ~smaller) $1 is smaller than $2
+u:(between * _~obj_min_Size and _~obj_1 * ~smaller) $1 is smaller than $2
+u:(between * _~obj_min_Size and _~obj_2 * ~smaller) $1 is smaller than $2
+u:(between * _~obj_min_Size and _~obj_min_Size * ~smaller) $1 and $2 have the same size, they are not comparable
+u:(between * _~obj_min_Size and _~obj_max_Size * ~smaller) $1 is smaller than $2
+u:(between * _~obj_max_Size and _~obj_1 * ~smaller) $2 is smaller than $1
+u:(between * _~obj_max_Size and _~obj_2 * ~smaller) $2 is smaller than $1
+u:(between * _~obj_max_Size and _~obj_min_Size * ~smaller) $2 is smaller than $1
+u:(between * _~obj_max_Size and _~obj_max_Size * ~smaller) $1 and $2 have the same size, they are not comparable
 
 #### ask food ####
 # u:(~ask_smthg * ~hungry {please}) ~yes what do you ~want to eat?
