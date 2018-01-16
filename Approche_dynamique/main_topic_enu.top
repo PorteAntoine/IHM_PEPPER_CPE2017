@@ -1,13 +1,14 @@
 topic: ~main_topic_enu() 
 language: enu 
 concept:(located) [room situated placed located find] 
-concept:(where_is) ["where is" where''s'' "where are" "where can I"] 
+concept:(where_is) ["where is" where's' "where are" "where can I"] 
 concept:(can_you)[ "[can will could] you {please}" "do you think you could" "are you [ready able] to" "do you know how to"] 
-concept:(what_is) ["{"~can_you tell me" "do you know" "tell me"} [ what''s''  "what [is are was were]"]" ] 
-concept:(which_is) [~what_is "which is" "which"]
+concept:(what_is) ["{"~can_you tell me" "do you know" "tell me"} [ what's' "what [is are was were]"]" ] 
+concept:(which_is) [~what_is "which is" "which"] 
+concept: (heaviest) [heaviest "most important weight"] 
+concept:(location) [localization location position room] 
 concept:(how_many) ["how many" "how much" "~what_is the number of"]
-concept: (heaviest) [heaviest "most important weigth"] 
-concept:(location) [localization location postition room]
+
 dynamic: object 
 dynamic: category 
 dynamic: color 
@@ -17,6 +18,7 @@ dynamic: room
 dynamic: shape
 dynamic: size
 dynamic: weight
+dynamic: allAttributs
 
 u: (~what_is {the} color {of} {the} _~object) $currentObject = $1 The color of the $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "hasColor")) 
 c1:(_*)  $1 
@@ -52,5 +54,8 @@ c1:(False) are not in the same category
 
 u: (~how_many objects {that} {are} {in} {the} {category} _*) there are ^call(ProcessObjectModule.numberAttribute($1))
 c1:(_*) $1 objects with this attribute
+
+u: (which object are _~color) $currentColor=$1 Items  ^call(ALKnowledge.getSubject("knowledge","hasColor",$currentColor ))
+c1:(_*) $1 are $currentColor
 
 u: ([Hi Hello]) Hello Human 
