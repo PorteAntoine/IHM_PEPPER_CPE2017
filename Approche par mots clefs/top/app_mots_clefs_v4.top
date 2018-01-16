@@ -14,15 +14,17 @@ concept:(questions) ["can I" "may I"]
 concept:(ask_smthg) [~want ~questions]
 concept:(rooms) [office "living room" kitchen bathroom garage bedroom toilets corridor]
 concept:(localisation) ["are in" where situation room situated placed located find belong stored "in which" ~rooms]
-concept:(how_many) ["how many" "how much"]
-concept:(description) [what which "to which"]
+concept:(how_many) ["how many" "how much" "tell me the number"]
+concept:(description) [who what which "to which"]
 concept:(color) [color colour coloration pigment pigmentation colorant paint]
 concept:(categorise) [classified separated category classify classification]
 concept:(hungry) [hungry eat food]
 concept:(thursty) [thursty arid dehydrated dry parched ~obj_drinks drink]
-concept:(bigger) [bigger heavier biggest colossal largest big large principal important "most important"]
-concept:(smaller) [smaller lighter smallest littlest]
+concept:(bigger) [bigger heavier biggest colossal largest big large principal important "most important" oldest older]
+concept:(smaller) [youngest younger smaller lighter smallest littlest]
 concept:(compare_size) [~bigger ~smaller]
+concept:(man) [man men males male]
+concept:(woman) [woman women females female]
 concept:(name) ["my name is" "I am" "my parents called me"]
 concept:(things) ^rand[ "object" things article entity]
 # ########### dialog IHR ###########
@@ -206,9 +208,15 @@ u:(~how_many * ~localisation * desk {please}) in the desk we have ^size(~obj_des
 u:(~description * ~localisation * cupboard {please}) in the cupboard we have ^enumerate(~obj_cupboard)
 u:(~how_many * ~localisation * cupboard {please}) in the cupboard we have ^size(~obj_cupboard) ~things
 
+#################### AJOUTER DANS PYTHON ################################
 u:(~description * ~bigger * ~things) the bigger ~things is ~obj_max_Size
 u:(~description * ~smaller * ~things) the smaller ~things is ~obj_min_Size
 
+#################### AJOUTER DANS PYTHON ################################
+u:(~description * older) the older person is ~pers_max_Age
+u:(~description * smaller) the youngest person is ~pers_min_Age
+
+#################### AJOUTER DANS PYTHON ################################
 u:(between * _~obj_1 and _~obj_1 * ~bigger) $1 and $2 have the same size, they are not comparable
 u:(between * _~obj_1 and _~obj_2 * ~bigger) $2 is bigger than $1
 u:(between * _~obj_1 and _~obj_min_Size * ~bigger) $1 is bigger than $2
@@ -226,6 +234,7 @@ u:(between * _~obj_max_Size and _~obj_2 * ~bigger) $1 is bigger than $2
 u:(between * _~obj_max_Size and _~obj_min_Size * ~bigger) $1 is bigger than $2
 u:(between * _~obj_max_Size and _~obj_max_Size * ~bigger) $1 and $2 have the same size, they are not comparable
 
+#################### AJOUTER DANS PYTHON ################################
 u:(between * _~obj_1 and _~obj_1 * ~smaller) $1 and $2 have the same size, they are not comparable
 u:(between * _~obj_1 and _~obj_2 * ~smaller) $1 is smaller than $2
 u:(between * _~obj_1 and _~obj_min_Size * ~smaller) $2 is smaller than $1
@@ -242,6 +251,18 @@ u:(between * _~obj_max_Size and _~obj_1 * ~smaller) $2 is smaller than $1
 u:(between * _~obj_max_Size and _~obj_2 * ~smaller) $2 is smaller than $1
 u:(between * _~obj_max_Size and _~obj_min_Size * ~smaller) $2 is smaller than $1
 u:(between * _~obj_max_Size and _~obj_max_Size * ~smaller) $1 and $2 have the same size, they are not comparable
+
+#################### AJOUTER DANS PYTHON ################################
+u:(~how_many snack) there are ^size(obj_snack) type of snack
+u:(~how_many candies) there are ^size(obj_candies) type of candies
+u:(~how_many freshfood) there are ^size(obj_freshfood) type of freshfood
+u:(~how_many drinks) there are ^size(obj_drinks) type of drinks
+u:(~how_many toiletries) there are ^size(obj_toiletries) type of toiletries
+u:(~how_many containers) there are ^size(obj_containers) type of containers
+
+#################### AJOUTER DANS PYTHON ################################
+u:(~localisation )
+
 
 #### ask food ####
 # u:(~ask_smthg * ~hungry {please}) ~yes what do you ~want to eat?
@@ -266,3 +287,16 @@ u:(~ask_smthg * ~thursty {please}) ~yes what do you ~want to drink?
         u2:(* ~obj_drinks {please}) ~yes, I am coming back in a minute
     u1:(* _~obj_drinks {please}) ~yes, I am coming back in a minute with your $1
     u1:(_~obj_drinks {please}) ~yes, I am coming back in a minute with your $1
+
+### questions about crowd ###
+#################### AJOUTER DANS PYTHON ################################
+u:(~how_many _~man * crowd) in the crowd, there are ^size(~pers_male) $1
+u:(~how_many _~woman * crowd) in the crowd, there are ^size(~pers_female) $1
+u:(~description _~man * crowd) in the crowd, there are ^size(~pers_male) $1 who are ^enumerate(~pers_male)
+u:(~description _~woman * crowd) in the crowd, there are ^size(~pers_female) $1 who are ^enumerate(~pers_female)
+u:(~how_many * standing) in the crowd, there are ^size(~pers_standing) standing person
+u:(~how_many * sitting) in the crowd, there are ^size(~pers_sitting) sitting person
+u:(~how_many * lying) in the crowd, there are ^size(~pers_lying) lying person
+u:(~description * standing) in the crowd, there are ^enumerate(~pers_standing) who are standing person
+u:(~description * sitting) in the crowd, there are ^enumerate(~pers_sitting) who are sitting person
+u:(~description * lying) in the crowd, there are ^enumerate(~pers_lying) who are lying person
