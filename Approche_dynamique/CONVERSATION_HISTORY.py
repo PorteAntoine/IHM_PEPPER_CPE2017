@@ -146,6 +146,7 @@ def main():
         log_file.write("Answer of pepper number %d : %s \n" %(i,answer))
         log_file.write("------------------------------------------------ \n")
         i += 1
+    log_file.write("--------------FIN DU TEST-------------------")
     print
     print "Interrupted by user, shutting down"
     myBroker.shutdown()
