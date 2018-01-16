@@ -19,7 +19,7 @@ def main(session):
     parseur = CSV_PARSEUR("list_objects_final.csv","list_objects_final.csv")
 
     processObject= ProcessObjectModule(session,parseur)
-    #session.registerService("ProcessObjectModule", processObject)
+    session.registerService("ProcessObjectModule", processObject)
     utils=Utils()
     objects = []
     categories = []
@@ -84,12 +84,13 @@ def main(session):
     ALDialog.setConcept("weight", "English", weights)
     ALDialog.setConcept("localization", "English", localizations)
 
-    ALDialog.setConcept("allAttributs","English",categories)
+    ALDialog.setConcept( "allAttributs","English",categories)
     ALDialog.addToConcept("allAttributs", "English", types)
     ALDialog.addToConcept("allAttributs", "English", colors)
     ALDialog.addToConcept("allAttributs", "English", rooms)
     ALDialog.addToConcept("allAttributs", "English", localizations)
-
+    print "allAttributs : "
+    print ALDialog.getConcept("allAttributs", "English")
 
 
     try:
@@ -113,7 +114,7 @@ if __name__ == "__main__":
     parser.add_argument("--ip", type=str, default="localhost",
 
                         help="Robot IP address. On robot or Local Naoqi: use 192.168.1.201.")
-    parser.add_argument("--port", type=int, default=58593,                   help="Naoqi port number")
+    parser.add_argument("--port", type=int, default=58736,                   help="Naoqi port number")
     args = parser.parse_args()
     session = qi.Session()
     try:
