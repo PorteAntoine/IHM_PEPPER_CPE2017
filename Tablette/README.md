@@ -4,6 +4,10 @@ dossier :
   - "Script_python"  
     
   
+  
+  
+  
+  
 # Comment utiliser la tablette ?
 
 ### 1 - Mettre les photos dans la mémoire :
