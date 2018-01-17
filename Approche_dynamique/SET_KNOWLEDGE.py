@@ -56,6 +56,7 @@ def main(session):
         weights.append(object.weight)
         localizations.append(object.localization)
 
+
     for person in parseur.persons:
         knowledge_service.add("knowledge", person.name, "isofgender", person.gender)
         knowledge_service.add("knowledge", person.name, "isoftheageof", person.age)
@@ -81,14 +82,11 @@ def main(session):
     ALDialog.setConcept("weight", "English", weights)
     ALDialog.setConcept("localization", "English", localizations)
 
-    ALDialog.setConcept( "allAttributs","English",categories)
+    ALDialog.setConcept("allAttributs", "English", categories)
     ALDialog.addToConcept("allAttributs", "English", types)
     ALDialog.addToConcept("allAttributs", "English", colors)
     ALDialog.addToConcept("allAttributs", "English", rooms)
     ALDialog.addToConcept("allAttributs", "English", localizations)
-    print "allAttributs : "
-    print ALDialog.getConcept("allAttributs", "English")
-
 
     try:
         raw_input("\nSpeak to the robot using rules from both the activated topics. Press Enter when finished:\n")
@@ -96,7 +94,7 @@ def main(session):
 
         # stopping the dialog engine
         ALDialog.unsubscribe('myModule')
-        # Reset knoledge
+        # Reset knowledge
 
     result = knowledge_service.resetKnowledge("knowledge")
     # Deactivating all topics
@@ -108,10 +106,11 @@ def main(session):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--ip", type=str, default="169.254.32.137",
+    parser.add_argument("--ip", type=str, default="169.254.196.21",
 
                         help="Robot IP address. On robot or Local Naoqi: use 192.168.1.201.")
     parser.add_argument("--port", type=int, default=9559,                   help="Naoqi port number")
+
     args = parser.parse_args()
     session = qi.Session()
     try:

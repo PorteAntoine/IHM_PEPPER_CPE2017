@@ -1,0 +1,96 @@
+topic: ~main_topic_enu() 
+language: enu 
+concept:(located) [room situated placed located find] 
+concept:(where_is) ["where is" where's "where are" "where can I"] 
+concept:(can_you)[ "[can will could] you {please}" "do you think you could" "are you [ready able] to" "do you know how to"] 
+concept:(what_is) [{"~can_you tell me" "do you know" "tell me"} [ what's "what [is are was were]"] ]
+concept:(which_is) [~what_is "which is" "which"] 
+concept: (heaviest) [heaviest "most important weight"] 
+concept:(location) [localization location position room place]
+concept:(how_many) ["how many" "how much" "~what_is the number of"]
+concept:(that) [that those these there]
+
+dynamic: object 
+dynamic: category 
+dynamic: color 
+dynamic: type 
+dynamic: localization
+dynamic: room
+dynamic: shape
+dynamic: size
+dynamic: weight
+dynamic: allAttributs
+
+u: (~what_is {the} color {of} {the} _~object) $currentObject = $1 The color of the $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "hasColor")) 
+c1:(_*)  $1 
+
+u: (["~where_is {~located}" "~what_is {the} ~location"] {of} {the} _~object) $currentObject = $1 The $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "isintheroom")) ^call(ALKnowledge.getObject("knowledge", $currentObject, "islocated")) 
+c1:(_*) in the $1 
+
+u:(~what_is * category * ~object) $currentObject = $1 The category of $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "belongstocategory")) 
+c1:(_*)  $1 
+
+u: (~which_is {the} ~heaviest _~category) the heaviest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1))
+c1:(_*) is ^call(ProcessObjectModule.heaviest($1)) 
+c2:(_*) $1  
+
+u: (~which_is {the} ~heaviest _~type) the heaviest $1 ^call(ALKnowledge.getSubject("knowledge", "isoftype",$1)) 
+c1:(_*) is ^call(ProcessObjectModule.heaviest($1)) 
+
+u: (~which_is the lightest _~category) the lightest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1)) 
+c1:(_*) is ^call(ProcessObjectModule.lightest($1)) 
+c2:(_*) $1  
+
+u: (~which_is the biggest _~category) the biggest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1)) 
+c1:(_*) is ^call(ProcessObjectModule.biggest($1)) 
+c2:(_*) $1  
+
+u: (~which_is the most little _~category) the most little $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1)) 
+c1:(_*) is ^call(ProcessObjectModule.little($1)) 
+c2:(_*) $1
+
+
+# est ce que l'objet 1 et l'objet 2 appartiennent a la meme categorie
+u: ([do are is] {the} {category} {of} _~object and _~object {["belong to" in]} the same {category})  $1 and $2 ^call(ProcessObjectModule.sameCategory($1,$2))
+c1:(True) are in the same category  
+c1:(False) are not in the same category
+
+# est ce que l'objet 1 et l'objet 2 appartiennent au meme type
+u: ([do are is] {the} {type} {of} _~object and _~object {["belong to" in]} the same {type})  $1 and $2 ^call(ProcessObjectModule.sameType($1,$2))
+c1:(True) have the same type
+c1:(False) have not the same type
+
+# est ce que l'objet 1 et l'objet 2 se trouvent dans la meme salle
+u: ([do are is] {the} {room} {of} _~object and _~object {["belong to" in "~located {in}"]} the same {~location})  $1 and $2 ^call(ProcessObjectModule.sameRoom($1,$2))
+c1:(True) are in the same room
+c1:(False) are not in the same room
+
+# est ce que l'objet 1 et l'objet 2 ont la meme couleur
+u: ([do are is] {the} {color} {of} _~object and _~object {have} {of} the same {color})  $1 and $2 ^call(ProcessObjectModule.sameColor($1,$2))
+c1:(True) have the same color
+c1:(False) have not the same color
+
+# est ce que l'objet 1 et l'objet 2 ont le meme poids
+u: ([do are is] {the} {weight} {of} _~object and _~object {have} {of} the same {weight})  $1 and $2 ^call(ProcessObjectModule.sameWeight($1,$2))
+c1:(True) have the same weight
+c1:(False) have not the same weight
+
+# est ce que l'objet 1 et l'objet 2 ont la meme taille
+u: ([do are is] {the} {size} {of} _~object and _~object {have} {of} the same {size})  $1 and $2 ^call(ProcessObjectModule.sameSize($1,$2))
+c1:(True) have the same size
+c1:(False) have not the same size
+
+# est ce que l'objet 1 et l'objet 2 ont le meme localisation
+u: ([do are is] {the} {localization} {of} _~object and _~object {have} {of} the same {localization})  $1 and $2 ^call(ProcessObjectModule.sameLocalization($1,$2))
+c1:(True) have the same localization
+c1:(False) have not the same localization
+
+# combien d'objets possedent un attribut
+u: ([~how_many ~what_is] {objects} {~that} {are} {in} {the} {category} _~allAttributs {are} {~that}) there are ^call(ProcessObjectModule.numberAttribute($1))
+c1:(_*) $1 objects with this attribute
+
+# quels sont les objets de cette couleur
+u: ([~which_is ~what_is] {are} {the} {objects} {~that} {are} _~color {objects}) $currentColor=$1 The following objects  ^call(ALKnowledge.getSubject("knowledge","hasColor",$currentColor ))
+c1:(_*) $1 are $currentColor
+
+u: ([Hi Hello]) Hello Human 

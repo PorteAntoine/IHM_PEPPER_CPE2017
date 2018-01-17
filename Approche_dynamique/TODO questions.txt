@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 Tristan
 
 2 objects belong to the same type
@@ -12,7 +13,7 @@ quel est le plus leger entre 2 objets
 quel est le plus petit entre 2 objets
 quel est le plus grand entre 2 objets
 
-(quelle est la liste d'objets qui possèdent ces 2 attributs)
+(quelle est la liste d'objets qui possï¿½dent ces 2 attributs)
 
 
 
@@ -25,3 +26,7 @@ quelle est la salle de l'objet
 quelles sont les (cateogries, types, room) de la robocup
 
 quelle est la liste d'objets qui ont cet attribut (couleur, category, type)
+=======
+Quelles catï¿½gorie appartient ï¿½ quel type.
+>>>>>>> Stashed changes
+est ce qu'il y a des "chips" du coca etc
