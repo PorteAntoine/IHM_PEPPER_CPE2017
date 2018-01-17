@@ -1,72 +1,71 @@
-
 Where can I find a chips ?
-What's the colour of the chips ?
+What's the color of the chips ?
 To which category belong the chips ?
 Where can I find a pringles ?
-What's the colour of the pringles ?
+What's the color of the pringles ?
 To which category belong the pringles ?
 Where can I find a peanuts ?
-What's the colour of the peanuts ?
+What's the color of the peanuts ?
 To which category belong the peanuts ?
-Where can I find a chocolate ?
-What's the colour of the chocolate ?
-To which category belong the chocolate ?
+Where can I find a chocolate bar ?
+What's the color of the chocolate bar ?
+To which category belong the chocolate bar ?
 Where can I find a mints ?
-What's the colour of the mints ?
+What's the color of the mints ?
 To which category belong the mints ?
 Where can I find a chocolate egg ?
-What's the colour of the chocolate egg ?
+What's the color of the chocolate egg ?
 To which category belong the chocolate egg ?
 Where can I find a noodles ?
-What's the colour of the noodles ?
+What's the color of the noodles ?
 To which category belong the noodles ?
 Where can I find a apple ?
-What's the colour of the apple ?
+What's the color of the apple ?
 To which category belong the apple ?
 Where can I find a paprika ?
-What's the colour of the paprika ?
+What's the color of the paprika ?
 To which category belong the paprika ?
 Where can I find a melon ?
-What's the colour of the melon ?
+What's the color of the melon ?
 To which category belong the melon ?
 Where can I find a sushi ?
-What's the colour of the sushi ?
+What's the color of the sushi ?
 To which category belong the sushi ?
 Where can I find a tea ?
-What's the colour of the tea ?
+What's the color of the tea ?
 To which category belong the tea ?
 Where can I find a beer ?
-What's the colour of the beer ?
+What's the color of the beer ?
 To which category belong the beer ?
 Where can I find a coke ?
-What's the colour of the coke ?
+What's the color of the coke ?
 To which category belong the coke ?
 Where can I find a shampoo ?
-What's the colour of the shampoo ?
+What's the color of the shampoo ?
 To which category belong the shampoo ?
 Where can I find a cloth ?
-What's the colour of the cloth ?
+What's the color of the cloth ?
 To which category belong the cloth ?
 Where can I find a sponge ?
-What's the colour of the sponge ?
+What's the color of the sponge ?
 To which category belong the sponge ?
 Where can I find a bowl ?
-What's the colour of the bowl ?
+What's the color of the bowl ?
 To which category belong the bowl ?
 Where can I find a mug ?
-What's the colour of the mug ?
+What's the color of the mug ?
 To which category belong the mug ?
 Where can I find a glass ?
-What's the colour of the glass ?
+What's the color of the glass ?
 To which category belong the glass ?
 Where can I find a box ?
-What's the colour of the box ?
+What's the color of the box ?
 To which category belong the box ?
 Where can I find a tray ?
-What's the colour of the tray ?
+What's the color of the tray ?
 To which category belong the tray ?
 Where can I find a bag ?
-What's the colour of the bag ?
+What's the color of the bag ?
 To which category belong the bag ?
 Where can I find a snack ?
 How many snack there are ?
@@ -226,7 +225,7 @@ How many containers are in the cabinet ?
 Do the chips and chips belong to the same category ?
 Do the chips and pringles belong to the same category ?
 Do the chips and peanuts belong to the same category ?
-Do the chips and chocolate belong to the same category ?
+Do the chips and chocolate bar belong to the same category ?
 Do the chips and mints belong to the same category ?
 Do the chips and chocolate egg belong to the same category ?
 Do the chips and noodles belong to the same category ?
@@ -249,7 +248,7 @@ Do the chips and bag belong to the same category ?
 Do the pringles and chips belong to the same category ?
 Do the pringles and pringles belong to the same category ?
 Do the pringles and peanuts belong to the same category ?
-Do the pringles and chocolate belong to the same category ?
+Do the pringles and chocolate bar belong to the same category ?
 Do the pringles and mints belong to the same category ?
 Do the pringles and chocolate egg belong to the same category ?
 Do the pringles and noodles belong to the same category ?
@@ -272,7 +271,7 @@ Do the pringles and bag belong to the same category ?
 Do the peanuts and chips belong to the same category ?
 Do the peanuts and pringles belong to the same category ?
 Do the peanuts and peanuts belong to the same category ?
-Do the peanuts and chocolate belong to the same category ?
+Do the peanuts and chocolate bar belong to the same category ?
 Do the peanuts and mints belong to the same category ?
 Do the peanuts and chocolate egg belong to the same category ?
 Do the peanuts and noodles belong to the same category ?
@@ -292,33 +291,33 @@ Do the peanuts and glass belong to the same category ?
 Do the peanuts and box belong to the same category ?
 Do the peanuts and tray belong to the same category ?
 Do the peanuts and bag belong to the same category ?
-Do the chocolate and chips belong to the same category ?
-Do the chocolate and pringles belong to the same category ?
-Do the chocolate and peanuts belong to the same category ?
-Do the chocolate and chocolate belong to the same category ?
-Do the chocolate and mints belong to the same category ?
-Do the chocolate and chocolate egg belong to the same category ?
-Do the chocolate and noodles belong to the same category ?
-Do the chocolate and apple belong to the same category ?
-Do the chocolate and paprika belong to the same category ?
-Do the chocolate and melon belong to the same category ?
-Do the chocolate and sushi belong to the same category ?
-Do the chocolate and tea belong to the same category ?
-Do the chocolate and beer belong to the same category ?
-Do the chocolate and coke belong to the same category ?
-Do the chocolate and shampoo belong to the same category ?
-Do the chocolate and cloth belong to the same category ?
-Do the chocolate and sponge belong to the same category ?
-Do the chocolate and bowl belong to the same category ?
-Do the chocolate and mug belong to the same category ?
-Do the chocolate and glass belong to the same category ?
-Do the chocolate and box belong to the same category ?
-Do the chocolate and tray belong to the same category ?
-Do the chocolate and bag belong to the same category ?
+Do the chocolate bar and chips belong to the same category ?
+Do the chocolate bar and pringles belong to the same category ?
+Do the chocolate bar and peanuts belong to the same category ?
+Do the chocolate bar and chocolate bar belong to the same category ?
+Do the chocolate bar and mints belong to the same category ?
+Do the chocolate bar and chocolate egg belong to the same category ?
+Do the chocolate bar and noodles belong to the same category ?
+Do the chocolate bar and apple belong to the same category ?
+Do the chocolate bar and paprika belong to the same category ?
+Do the chocolate bar and melon belong to the same category ?
+Do the chocolate bar and sushi belong to the same category ?
+Do the chocolate bar and tea belong to the same category ?
+Do the chocolate bar and beer belong to the same category ?
+Do the chocolate bar and coke belong to the same category ?
+Do the chocolate bar and shampoo belong to the same category ?
+Do the chocolate bar and cloth belong to the same category ?
+Do the chocolate bar and sponge belong to the same category ?
+Do the chocolate bar and bowl belong to the same category ?
+Do the chocolate bar and mug belong to the same category ?
+Do the chocolate bar and glass belong to the same category ?
+Do the chocolate bar and box belong to the same category ?
+Do the chocolate bar and tray belong to the same category ?
+Do the chocolate bar and bag belong to the same category ?
 Do the mints and chips belong to the same category ?
 Do the mints and pringles belong to the same category ?
 Do the mints and peanuts belong to the same category ?
-Do the mints and chocolate belong to the same category ?
+Do the mints and chocolate bar belong to the same category ?
 Do the mints and mints belong to the same category ?
 Do the mints and chocolate egg belong to the same category ?
 Do the mints and noodles belong to the same category ?
@@ -341,7 +340,7 @@ Do the mints and bag belong to the same category ?
 Do the chocolate egg and chips belong to the same category ?
 Do the chocolate egg and pringles belong to the same category ?
 Do the chocolate egg and peanuts belong to the same category ?
-Do the chocolate egg and chocolate belong to the same category ?
+Do the chocolate egg and chocolate bar belong to the same category ?
 Do the chocolate egg and mints belong to the same category ?
 Do the chocolate egg and chocolate egg belong to the same category ?
 Do the chocolate egg and noodles belong to the same category ?
@@ -364,7 +363,7 @@ Do the chocolate egg and bag belong to the same category ?
 Do the noodles and chips belong to the same category ?
 Do the noodles and pringles belong to the same category ?
 Do the noodles and peanuts belong to the same category ?
-Do the noodles and chocolate belong to the same category ?
+Do the noodles and chocolate bar belong to the same category ?
 Do the noodles and mints belong to the same category ?
 Do the noodles and chocolate egg belong to the same category ?
 Do the noodles and noodles belong to the same category ?
@@ -387,7 +386,7 @@ Do the noodles and bag belong to the same category ?
 Do the apple and chips belong to the same category ?
 Do the apple and pringles belong to the same category ?
 Do the apple and peanuts belong to the same category ?
-Do the apple and chocolate belong to the same category ?
+Do the apple and chocolate bar belong to the same category ?
 Do the apple and mints belong to the same category ?
 Do the apple and chocolate egg belong to the same category ?
 Do the apple and noodles belong to the same category ?
@@ -410,7 +409,7 @@ Do the apple and bag belong to the same category ?
 Do the paprika and chips belong to the same category ?
 Do the paprika and pringles belong to the same category ?
 Do the paprika and peanuts belong to the same category ?
-Do the paprika and chocolate belong to the same category ?
+Do the paprika and chocolate bar belong to the same category ?
 Do the paprika and mints belong to the same category ?
 Do the paprika and chocolate egg belong to the same category ?
 Do the paprika and noodles belong to the same category ?
@@ -433,7 +432,7 @@ Do the paprika and bag belong to the same category ?
 Do the melon and chips belong to the same category ?
 Do the melon and pringles belong to the same category ?
 Do the melon and peanuts belong to the same category ?
-Do the melon and chocolate belong to the same category ?
+Do the melon and chocolate bar belong to the same category ?
 Do the melon and mints belong to the same category ?
 Do the melon and chocolate egg belong to the same category ?
 Do the melon and noodles belong to the same category ?
@@ -456,7 +455,7 @@ Do the melon and bag belong to the same category ?
 Do the sushi and chips belong to the same category ?
 Do the sushi and pringles belong to the same category ?
 Do the sushi and peanuts belong to the same category ?
-Do the sushi and chocolate belong to the same category ?
+Do the sushi and chocolate bar belong to the same category ?
 Do the sushi and mints belong to the same category ?
 Do the sushi and chocolate egg belong to the same category ?
 Do the sushi and noodles belong to the same category ?
@@ -479,7 +478,7 @@ Do the sushi and bag belong to the same category ?
 Do the tea and chips belong to the same category ?
 Do the tea and pringles belong to the same category ?
 Do the tea and peanuts belong to the same category ?
-Do the tea and chocolate belong to the same category ?
+Do the tea and chocolate bar belong to the same category ?
 Do the tea and mints belong to the same category ?
 Do the tea and chocolate egg belong to the same category ?
 Do the tea and noodles belong to the same category ?
@@ -502,7 +501,7 @@ Do the tea and bag belong to the same category ?
 Do the beer and chips belong to the same category ?
 Do the beer and pringles belong to the same category ?
 Do the beer and peanuts belong to the same category ?
-Do the beer and chocolate belong to the same category ?
+Do the beer and chocolate bar belong to the same category ?
 Do the beer and mints belong to the same category ?
 Do the beer and chocolate egg belong to the same category ?
 Do the beer and noodles belong to the same category ?
@@ -525,7 +524,7 @@ Do the beer and bag belong to the same category ?
 Do the coke and chips belong to the same category ?
 Do the coke and pringles belong to the same category ?
 Do the coke and peanuts belong to the same category ?
-Do the coke and chocolate belong to the same category ?
+Do the coke and chocolate bar belong to the same category ?
 Do the coke and mints belong to the same category ?
 Do the coke and chocolate egg belong to the same category ?
 Do the coke and noodles belong to the same category ?
@@ -548,7 +547,7 @@ Do the coke and bag belong to the same category ?
 Do the shampoo and chips belong to the same category ?
 Do the shampoo and pringles belong to the same category ?
 Do the shampoo and peanuts belong to the same category ?
-Do the shampoo and chocolate belong to the same category ?
+Do the shampoo and chocolate bar belong to the same category ?
 Do the shampoo and mints belong to the same category ?
 Do the shampoo and chocolate egg belong to the same category ?
 Do the shampoo and noodles belong to the same category ?
@@ -571,7 +570,7 @@ Do the shampoo and bag belong to the same category ?
 Do the cloth and chips belong to the same category ?
 Do the cloth and pringles belong to the same category ?
 Do the cloth and peanuts belong to the same category ?
-Do the cloth and chocolate belong to the same category ?
+Do the cloth and chocolate bar belong to the same category ?
 Do the cloth and mints belong to the same category ?
 Do the cloth and chocolate egg belong to the same category ?
 Do the cloth and noodles belong to the same category ?
@@ -594,7 +593,7 @@ Do the cloth and bag belong to the same category ?
 Do the sponge and chips belong to the same category ?
 Do the sponge and pringles belong to the same category ?
 Do the sponge and peanuts belong to the same category ?
-Do the sponge and chocolate belong to the same category ?
+Do the sponge and chocolate bar belong to the same category ?
 Do the sponge and mints belong to the same category ?
 Do the sponge and chocolate egg belong to the same category ?
 Do the sponge and noodles belong to the same category ?
@@ -617,7 +616,7 @@ Do the sponge and bag belong to the same category ?
 Do the bowl and chips belong to the same category ?
 Do the bowl and pringles belong to the same category ?
 Do the bowl and peanuts belong to the same category ?
-Do the bowl and chocolate belong to the same category ?
+Do the bowl and chocolate bar belong to the same category ?
 Do the bowl and mints belong to the same category ?
 Do the bowl and chocolate egg belong to the same category ?
 Do the bowl and noodles belong to the same category ?
@@ -640,7 +639,7 @@ Do the bowl and bag belong to the same category ?
 Do the mug and chips belong to the same category ?
 Do the mug and pringles belong to the same category ?
 Do the mug and peanuts belong to the same category ?
-Do the mug and chocolate belong to the same category ?
+Do the mug and chocolate bar belong to the same category ?
 Do the mug and mints belong to the same category ?
 Do the mug and chocolate egg belong to the same category ?
 Do the mug and noodles belong to the same category ?
@@ -663,7 +662,7 @@ Do the mug and bag belong to the same category ?
 Do the glass and chips belong to the same category ?
 Do the glass and pringles belong to the same category ?
 Do the glass and peanuts belong to the same category ?
-Do the glass and chocolate belong to the same category ?
+Do the glass and chocolate bar belong to the same category ?
 Do the glass and mints belong to the same category ?
 Do the glass and chocolate egg belong to the same category ?
 Do the glass and noodles belong to the same category ?
@@ -686,7 +685,7 @@ Do the glass and bag belong to the same category ?
 Do the box and chips belong to the same category ?
 Do the box and pringles belong to the same category ?
 Do the box and peanuts belong to the same category ?
-Do the box and chocolate belong to the same category ?
+Do the box and chocolate bar belong to the same category ?
 Do the box and mints belong to the same category ?
 Do the box and chocolate egg belong to the same category ?
 Do the box and noodles belong to the same category ?
@@ -709,7 +708,7 @@ Do the box and bag belong to the same category ?
 Do the tray and chips belong to the same category ?
 Do the tray and pringles belong to the same category ?
 Do the tray and peanuts belong to the same category ?
-Do the tray and chocolate belong to the same category ?
+Do the tray and chocolate bar belong to the same category ?
 Do the tray and mints belong to the same category ?
 Do the tray and chocolate egg belong to the same category ?
 Do the tray and noodles belong to the same category ?
@@ -732,7 +731,7 @@ Do the tray and bag belong to the same category ?
 Do the bag and chips belong to the same category ?
 Do the bag and pringles belong to the same category ?
 Do the bag and peanuts belong to the same category ?
-Do the bag and chocolate belong to the same category ?
+Do the bag and chocolate bar belong to the same category ?
 Do the bag and mints belong to the same category ?
 Do the bag and chocolate egg belong to the same category ?
 Do the bag and noodles belong to the same category ?
@@ -764,10 +763,10 @@ Between the chips and peanuts which one is heavier ?
 Between the chips and peanuts which one is smaller ?
 Between the chips and peanuts which one is bigger ?
 Between the chips and peanuts which one is lighter ?
-Between the chips and chocolate which one is heavier ?
-Between the chips and chocolate which one is smaller ?
-Between the chips and chocolate which one is bigger ?
-Between the chips and chocolate which one is lighter ?
+Between the chips and chocolate bar which one is heavier ?
+Between the chips and chocolate bar which one is smaller ?
+Between the chips and chocolate bar which one is bigger ?
+Between the chips and chocolate bar which one is lighter ?
 Between the chips and mints which one is heavier ?
 Between the chips and mints which one is smaller ?
 Between the chips and mints which one is bigger ?
@@ -856,10 +855,10 @@ Between the pringles and peanuts which one is heavier ?
 Between the pringles and peanuts which one is smaller ?
 Between the pringles and peanuts which one is bigger ?
 Between the pringles and peanuts which one is lighter ?
-Between the pringles and chocolate which one is heavier ?
-Between the pringles and chocolate which one is smaller ?
-Between the pringles and chocolate which one is bigger ?
-Between the pringles and chocolate which one is lighter ?
+Between the pringles and chocolate bar which one is heavier ?
+Between the pringles and chocolate bar which one is smaller ?
+Between the pringles and chocolate bar which one is bigger ?
+Between the pringles and chocolate bar which one is lighter ?
 Between the pringles and mints which one is heavier ?
 Between the pringles and mints which one is smaller ?
 Between the pringles and mints which one is bigger ?
@@ -948,10 +947,10 @@ Between the peanuts and peanuts which one is heavier ?
 Between the peanuts and peanuts which one is smaller ?
 Between the peanuts and peanuts which one is bigger ?
 Between the peanuts and peanuts which one is lighter ?
-Between the peanuts and chocolate which one is heavier ?
-Between the peanuts and chocolate which one is smaller ?
-Between the peanuts and chocolate which one is bigger ?
-Between the peanuts and chocolate which one is lighter ?
+Between the peanuts and chocolate bar which one is heavier ?
+Between the peanuts and chocolate bar which one is smaller ?
+Between the peanuts and chocolate bar which one is bigger ?
+Between the peanuts and chocolate bar which one is lighter ?
 Between the peanuts and mints which one is heavier ?
 Between the peanuts and mints which one is smaller ?
 Between the peanuts and mints which one is bigger ?
@@ -1028,98 +1027,98 @@ Between the peanuts and bag which one is heavier ?
 Between the peanuts and bag which one is smaller ?
 Between the peanuts and bag which one is bigger ?
 Between the peanuts and bag which one is lighter ?
-Between the chocolate and chips which one is heavier ?
-Between the chocolate and chips which one is smaller ?
-Between the chocolate and chips which one is bigger ?
-Between the chocolate and chips which one is lighter ?
-Between the chocolate and pringles which one is heavier ?
-Between the chocolate and pringles which one is smaller ?
-Between the chocolate and pringles which one is bigger ?
-Between the chocolate and pringles which one is lighter ?
-Between the chocolate and peanuts which one is heavier ?
-Between the chocolate and peanuts which one is smaller ?
-Between the chocolate and peanuts which one is bigger ?
-Between the chocolate and peanuts which one is lighter ?
-Between the chocolate and chocolate which one is heavier ?
-Between the chocolate and chocolate which one is smaller ?
-Between the chocolate and chocolate which one is bigger ?
-Between the chocolate and chocolate which one is lighter ?
-Between the chocolate and mints which one is heavier ?
-Between the chocolate and mints which one is smaller ?
-Between the chocolate and mints which one is bigger ?
-Between the chocolate and mints which one is lighter ?
-Between the chocolate and chocolate egg which one is heavier ?
-Between the chocolate and chocolate egg which one is smaller ?
-Between the chocolate and chocolate egg which one is bigger ?
-Between the chocolate and chocolate egg which one is lighter ?
-Between the chocolate and noodles which one is heavier ?
-Between the chocolate and noodles which one is smaller ?
-Between the chocolate and noodles which one is bigger ?
-Between the chocolate and noodles which one is lighter ?
-Between the chocolate and apple which one is heavier ?
-Between the chocolate and apple which one is smaller ?
-Between the chocolate and apple which one is bigger ?
-Between the chocolate and apple which one is lighter ?
-Between the chocolate and paprika which one is heavier ?
-Between the chocolate and paprika which one is smaller ?
-Between the chocolate and paprika which one is bigger ?
-Between the chocolate and paprika which one is lighter ?
-Between the chocolate and melon which one is heavier ?
-Between the chocolate and melon which one is smaller ?
-Between the chocolate and melon which one is bigger ?
-Between the chocolate and melon which one is lighter ?
-Between the chocolate and sushi which one is heavier ?
-Between the chocolate and sushi which one is smaller ?
-Between the chocolate and sushi which one is bigger ?
-Between the chocolate and sushi which one is lighter ?
-Between the chocolate and tea which one is heavier ?
-Between the chocolate and tea which one is smaller ?
-Between the chocolate and tea which one is bigger ?
-Between the chocolate and tea which one is lighter ?
-Between the chocolate and beer which one is heavier ?
-Between the chocolate and beer which one is smaller ?
-Between the chocolate and beer which one is bigger ?
-Between the chocolate and beer which one is lighter ?
-Between the chocolate and coke which one is heavier ?
-Between the chocolate and coke which one is smaller ?
-Between the chocolate and coke which one is bigger ?
-Between the chocolate and coke which one is lighter ?
-Between the chocolate and shampoo which one is heavier ?
-Between the chocolate and shampoo which one is smaller ?
-Between the chocolate and shampoo which one is bigger ?
-Between the chocolate and shampoo which one is lighter ?
-Between the chocolate and cloth which one is heavier ?
-Between the chocolate and cloth which one is smaller ?
-Between the chocolate and cloth which one is bigger ?
-Between the chocolate and cloth which one is lighter ?
-Between the chocolate and sponge which one is heavier ?
-Between the chocolate and sponge which one is smaller ?
-Between the chocolate and sponge which one is bigger ?
-Between the chocolate and sponge which one is lighter ?
-Between the chocolate and bowl which one is heavier ?
-Between the chocolate and bowl which one is smaller ?
-Between the chocolate and bowl which one is bigger ?
-Between the chocolate and bowl which one is lighter ?
-Between the chocolate and mug which one is heavier ?
-Between the chocolate and mug which one is smaller ?
-Between the chocolate and mug which one is bigger ?
-Between the chocolate and mug which one is lighter ?
-Between the chocolate and glass which one is heavier ?
-Between the chocolate and glass which one is smaller ?
-Between the chocolate and glass which one is bigger ?
-Between the chocolate and glass which one is lighter ?
-Between the chocolate and box which one is heavier ?
-Between the chocolate and box which one is smaller ?
-Between the chocolate and box which one is bigger ?
-Between the chocolate and box which one is lighter ?
-Between the chocolate and tray which one is heavier ?
-Between the chocolate and tray which one is smaller ?
-Between the chocolate and tray which one is bigger ?
-Between the chocolate and tray which one is lighter ?
-Between the chocolate and bag which one is heavier ?
-Between the chocolate and bag which one is smaller ?
-Between the chocolate and bag which one is bigger ?
-Between the chocolate and bag which one is lighter ?
+Between the chocolate bar and chips which one is heavier ?
+Between the chocolate bar and chips which one is smaller ?
+Between the chocolate bar and chips which one is bigger ?
+Between the chocolate bar and chips which one is lighter ?
+Between the chocolate bar and pringles which one is heavier ?
+Between the chocolate bar and pringles which one is smaller ?
+Between the chocolate bar and pringles which one is bigger ?
+Between the chocolate bar and pringles which one is lighter ?
+Between the chocolate bar and peanuts which one is heavier ?
+Between the chocolate bar and peanuts which one is smaller ?
+Between the chocolate bar and peanuts which one is bigger ?
+Between the chocolate bar and peanuts which one is lighter ?
+Between the chocolate bar and chocolate bar which one is heavier ?
+Between the chocolate bar and chocolate bar which one is smaller ?
+Between the chocolate bar and chocolate bar which one is bigger ?
+Between the chocolate bar and chocolate bar which one is lighter ?
+Between the chocolate bar and mints which one is heavier ?
+Between the chocolate bar and mints which one is smaller ?
+Between the chocolate bar and mints which one is bigger ?
+Between the chocolate bar and mints which one is lighter ?
+Between the chocolate bar and chocolate egg which one is heavier ?
+Between the chocolate bar and chocolate egg which one is smaller ?
+Between the chocolate bar and chocolate egg which one is bigger ?
+Between the chocolate bar and chocolate egg which one is lighter ?
+Between the chocolate bar and noodles which one is heavier ?
+Between the chocolate bar and noodles which one is smaller ?
+Between the chocolate bar and noodles which one is bigger ?
+Between the chocolate bar and noodles which one is lighter ?
+Between the chocolate bar and apple which one is heavier ?
+Between the chocolate bar and apple which one is smaller ?
+Between the chocolate bar and apple which one is bigger ?
+Between the chocolate bar and apple which one is lighter ?
+Between the chocolate bar and paprika which one is heavier ?
+Between the chocolate bar and paprika which one is smaller ?
+Between the chocolate bar and paprika which one is bigger ?
+Between the chocolate bar and paprika which one is lighter ?
+Between the chocolate bar and melon which one is heavier ?
+Between the chocolate bar and melon which one is smaller ?
+Between the chocolate bar and melon which one is bigger ?
+Between the chocolate bar and melon which one is lighter ?
+Between the chocolate bar and sushi which one is heavier ?
+Between the chocolate bar and sushi which one is smaller ?
+Between the chocolate bar and sushi which one is bigger ?
+Between the chocolate bar and sushi which one is lighter ?
+Between the chocolate bar and tea which one is heavier ?
+Between the chocolate bar and tea which one is smaller ?
+Between the chocolate bar and tea which one is bigger ?
+Between the chocolate bar and tea which one is lighter ?
+Between the chocolate bar and beer which one is heavier ?
+Between the chocolate bar and beer which one is smaller ?
+Between the chocolate bar and beer which one is bigger ?
+Between the chocolate bar and beer which one is lighter ?
+Between the chocolate bar and coke which one is heavier ?
+Between the chocolate bar and coke which one is smaller ?
+Between the chocolate bar and coke which one is bigger ?
+Between the chocolate bar and coke which one is lighter ?
+Between the chocolate bar and shampoo which one is heavier ?
+Between the chocolate bar and shampoo which one is smaller ?
+Between the chocolate bar and shampoo which one is bigger ?
+Between the chocolate bar and shampoo which one is lighter ?
+Between the chocolate bar and cloth which one is heavier ?
+Between the chocolate bar and cloth which one is smaller ?
+Between the chocolate bar and cloth which one is bigger ?
+Between the chocolate bar and cloth which one is lighter ?
+Between the chocolate bar and sponge which one is heavier ?
+Between the chocolate bar and sponge which one is smaller ?
+Between the chocolate bar and sponge which one is bigger ?
+Between the chocolate bar and sponge which one is lighter ?
+Between the chocolate bar and bowl which one is heavier ?
+Between the chocolate bar and bowl which one is smaller ?
+Between the chocolate bar and bowl which one is bigger ?
+Between the chocolate bar and bowl which one is lighter ?
+Between the chocolate bar and mug which one is heavier ?
+Between the chocolate bar and mug which one is smaller ?
+Between the chocolate bar and mug which one is bigger ?
+Between the chocolate bar and mug which one is lighter ?
+Between the chocolate bar and glass which one is heavier ?
+Between the chocolate bar and glass which one is smaller ?
+Between the chocolate bar and glass which one is bigger ?
+Between the chocolate bar and glass which one is lighter ?
+Between the chocolate bar and box which one is heavier ?
+Between the chocolate bar and box which one is smaller ?
+Between the chocolate bar and box which one is bigger ?
+Between the chocolate bar and box which one is lighter ?
+Between the chocolate bar and tray which one is heavier ?
+Between the chocolate bar and tray which one is smaller ?
+Between the chocolate bar and tray which one is bigger ?
+Between the chocolate bar and tray which one is lighter ?
+Between the chocolate bar and bag which one is heavier ?
+Between the chocolate bar and bag which one is smaller ?
+Between the chocolate bar and bag which one is bigger ?
+Between the chocolate bar and bag which one is lighter ?
 Between the mints and chips which one is heavier ?
 Between the mints and chips which one is smaller ?
 Between the mints and chips which one is bigger ?
@@ -1132,10 +1131,10 @@ Between the mints and peanuts which one is heavier ?
 Between the mints and peanuts which one is smaller ?
 Between the mints and peanuts which one is bigger ?
 Between the mints and peanuts which one is lighter ?
-Between the mints and chocolate which one is heavier ?
-Between the mints and chocolate which one is smaller ?
-Between the mints and chocolate which one is bigger ?
-Between the mints and chocolate which one is lighter ?
+Between the mints and chocolate bar which one is heavier ?
+Between the mints and chocolate bar which one is smaller ?
+Between the mints and chocolate bar which one is bigger ?
+Between the mints and chocolate bar which one is lighter ?
 Between the mints and mints which one is heavier ?
 Between the mints and mints which one is smaller ?
 Between the mints and mints which one is bigger ?
@@ -1224,10 +1223,10 @@ Between the chocolate egg and peanuts which one is heavier ?
 Between the chocolate egg and peanuts which one is smaller ?
 Between the chocolate egg and peanuts which one is bigger ?
 Between the chocolate egg and peanuts which one is lighter ?
-Between the chocolate egg and chocolate which one is heavier ?
-Between the chocolate egg and chocolate which one is smaller ?
-Between the chocolate egg and chocolate which one is bigger ?
-Between the chocolate egg and chocolate which one is lighter ?
+Between the chocolate egg and chocolate bar which one is heavier ?
+Between the chocolate egg and chocolate bar which one is smaller ?
+Between the chocolate egg and chocolate bar which one is bigger ?
+Between the chocolate egg and chocolate bar which one is lighter ?
 Between the chocolate egg and mints which one is heavier ?
 Between the chocolate egg and mints which one is smaller ?
 Between the chocolate egg and mints which one is bigger ?
@@ -1316,10 +1315,10 @@ Between the noodles and peanuts which one is heavier ?
 Between the noodles and peanuts which one is smaller ?
 Between the noodles and peanuts which one is bigger ?
 Between the noodles and peanuts which one is lighter ?
-Between the noodles and chocolate which one is heavier ?
-Between the noodles and chocolate which one is smaller ?
-Between the noodles and chocolate which one is bigger ?
-Between the noodles and chocolate which one is lighter ?
+Between the noodles and chocolate bar which one is heavier ?
+Between the noodles and chocolate bar which one is smaller ?
+Between the noodles and chocolate bar which one is bigger ?
+Between the noodles and chocolate bar which one is lighter ?
 Between the noodles and mints which one is heavier ?
 Between the noodles and mints which one is smaller ?
 Between the noodles and mints which one is bigger ?
@@ -1408,10 +1407,10 @@ Between the apple and peanuts which one is heavier ?
 Between the apple and peanuts which one is smaller ?
 Between the apple and peanuts which one is bigger ?
 Between the apple and peanuts which one is lighter ?
-Between the apple and chocolate which one is heavier ?
-Between the apple and chocolate which one is smaller ?
-Between the apple and chocolate which one is bigger ?
-Between the apple and chocolate which one is lighter ?
+Between the apple and chocolate bar which one is heavier ?
+Between the apple and chocolate bar which one is smaller ?
+Between the apple and chocolate bar which one is bigger ?
+Between the apple and chocolate bar which one is lighter ?
 Between the apple and mints which one is heavier ?
 Between the apple and mints which one is smaller ?
 Between the apple and mints which one is bigger ?
@@ -1500,10 +1499,10 @@ Between the paprika and peanuts which one is heavier ?
 Between the paprika and peanuts which one is smaller ?
 Between the paprika and peanuts which one is bigger ?
 Between the paprika and peanuts which one is lighter ?
-Between the paprika and chocolate which one is heavier ?
-Between the paprika and chocolate which one is smaller ?
-Between the paprika and chocolate which one is bigger ?
-Between the paprika and chocolate which one is lighter ?
+Between the paprika and chocolate bar which one is heavier ?
+Between the paprika and chocolate bar which one is smaller ?
+Between the paprika and chocolate bar which one is bigger ?
+Between the paprika and chocolate bar which one is lighter ?
 Between the paprika and mints which one is heavier ?
 Between the paprika and mints which one is smaller ?
 Between the paprika and mints which one is bigger ?
@@ -1592,10 +1591,10 @@ Between the melon and peanuts which one is heavier ?
 Between the melon and peanuts which one is smaller ?
 Between the melon and peanuts which one is bigger ?
 Between the melon and peanuts which one is lighter ?
-Between the melon and chocolate which one is heavier ?
-Between the melon and chocolate which one is smaller ?
-Between the melon and chocolate which one is bigger ?
-Between the melon and chocolate which one is lighter ?
+Between the melon and chocolate bar which one is heavier ?
+Between the melon and chocolate bar which one is smaller ?
+Between the melon and chocolate bar which one is bigger ?
+Between the melon and chocolate bar which one is lighter ?
 Between the melon and mints which one is heavier ?
 Between the melon and mints which one is smaller ?
 Between the melon and mints which one is bigger ?
@@ -1684,10 +1683,10 @@ Between the sushi and peanuts which one is heavier ?
 Between the sushi and peanuts which one is smaller ?
 Between the sushi and peanuts which one is bigger ?
 Between the sushi and peanuts which one is lighter ?
-Between the sushi and chocolate which one is heavier ?
-Between the sushi and chocolate which one is smaller ?
-Between the sushi and chocolate which one is bigger ?
-Between the sushi and chocolate which one is lighter ?
+Between the sushi and chocolate bar which one is heavier ?
+Between the sushi and chocolate bar which one is smaller ?
+Between the sushi and chocolate bar which one is bigger ?
+Between the sushi and chocolate bar which one is lighter ?
 Between the sushi and mints which one is heavier ?
 Between the sushi and mints which one is smaller ?
 Between the sushi and mints which one is bigger ?
@@ -1776,10 +1775,10 @@ Between the tea and peanuts which one is heavier ?
 Between the tea and peanuts which one is smaller ?
 Between the tea and peanuts which one is bigger ?
 Between the tea and peanuts which one is lighter ?
-Between the tea and chocolate which one is heavier ?
-Between the tea and chocolate which one is smaller ?
-Between the tea and chocolate which one is bigger ?
-Between the tea and chocolate which one is lighter ?
+Between the tea and chocolate bar which one is heavier ?
+Between the tea and chocolate bar which one is smaller ?
+Between the tea and chocolate bar which one is bigger ?
+Between the tea and chocolate bar which one is lighter ?
 Between the tea and mints which one is heavier ?
 Between the tea and mints which one is smaller ?
 Between the tea and mints which one is bigger ?
@@ -1868,10 +1867,10 @@ Between the beer and peanuts which one is heavier ?
 Between the beer and peanuts which one is smaller ?
 Between the beer and peanuts which one is bigger ?
 Between the beer and peanuts which one is lighter ?
-Between the beer and chocolate which one is heavier ?
-Between the beer and chocolate which one is smaller ?
-Between the beer and chocolate which one is bigger ?
-Between the beer and chocolate which one is lighter ?
+Between the beer and chocolate bar which one is heavier ?
+Between the beer and chocolate bar which one is smaller ?
+Between the beer and chocolate bar which one is bigger ?
+Between the beer and chocolate bar which one is lighter ?
 Between the beer and mints which one is heavier ?
 Between the beer and mints which one is smaller ?
 Between the beer and mints which one is bigger ?
@@ -1960,10 +1959,10 @@ Between the coke and peanuts which one is heavier ?
 Between the coke and peanuts which one is smaller ?
 Between the coke and peanuts which one is bigger ?
 Between the coke and peanuts which one is lighter ?
-Between the coke and chocolate which one is heavier ?
-Between the coke and chocolate which one is smaller ?
-Between the coke and chocolate which one is bigger ?
-Between the coke and chocolate which one is lighter ?
+Between the coke and chocolate bar which one is heavier ?
+Between the coke and chocolate bar which one is smaller ?
+Between the coke and chocolate bar which one is bigger ?
+Between the coke and chocolate bar which one is lighter ?
 Between the coke and mints which one is heavier ?
 Between the coke and mints which one is smaller ?
 Between the coke and mints which one is bigger ?
@@ -2052,10 +2051,10 @@ Between the shampoo and peanuts which one is heavier ?
 Between the shampoo and peanuts which one is smaller ?
 Between the shampoo and peanuts which one is bigger ?
 Between the shampoo and peanuts which one is lighter ?
-Between the shampoo and chocolate which one is heavier ?
-Between the shampoo and chocolate which one is smaller ?
-Between the shampoo and chocolate which one is bigger ?
-Between the shampoo and chocolate which one is lighter ?
+Between the shampoo and chocolate bar which one is heavier ?
+Between the shampoo and chocolate bar which one is smaller ?
+Between the shampoo and chocolate bar which one is bigger ?
+Between the shampoo and chocolate bar which one is lighter ?
 Between the shampoo and mints which one is heavier ?
 Between the shampoo and mints which one is smaller ?
 Between the shampoo and mints which one is bigger ?
@@ -2144,10 +2143,10 @@ Between the cloth and peanuts which one is heavier ?
 Between the cloth and peanuts which one is smaller ?
 Between the cloth and peanuts which one is bigger ?
 Between the cloth and peanuts which one is lighter ?
-Between the cloth and chocolate which one is heavier ?
-Between the cloth and chocolate which one is smaller ?
-Between the cloth and chocolate which one is bigger ?
-Between the cloth and chocolate which one is lighter ?
+Between the cloth and chocolate bar which one is heavier ?
+Between the cloth and chocolate bar which one is smaller ?
+Between the cloth and chocolate bar which one is bigger ?
+Between the cloth and chocolate bar which one is lighter ?
 Between the cloth and mints which one is heavier ?
 Between the cloth and mints which one is smaller ?
 Between the cloth and mints which one is bigger ?
@@ -2236,10 +2235,10 @@ Between the sponge and peanuts which one is heavier ?
 Between the sponge and peanuts which one is smaller ?
 Between the sponge and peanuts which one is bigger ?
 Between the sponge and peanuts which one is lighter ?
-Between the sponge and chocolate which one is heavier ?
-Between the sponge and chocolate which one is smaller ?
-Between the sponge and chocolate which one is bigger ?
-Between the sponge and chocolate which one is lighter ?
+Between the sponge and chocolate bar which one is heavier ?
+Between the sponge and chocolate bar which one is smaller ?
+Between the sponge and chocolate bar which one is bigger ?
+Between the sponge and chocolate bar which one is lighter ?
 Between the sponge and mints which one is heavier ?
 Between the sponge and mints which one is smaller ?
 Between the sponge and mints which one is bigger ?
@@ -2328,10 +2327,10 @@ Between the bowl and peanuts which one is heavier ?
 Between the bowl and peanuts which one is smaller ?
 Between the bowl and peanuts which one is bigger ?
 Between the bowl and peanuts which one is lighter ?
-Between the bowl and chocolate which one is heavier ?
-Between the bowl and chocolate which one is smaller ?
-Between the bowl and chocolate which one is bigger ?
-Between the bowl and chocolate which one is lighter ?
+Between the bowl and chocolate bar which one is heavier ?
+Between the bowl and chocolate bar which one is smaller ?
+Between the bowl and chocolate bar which one is bigger ?
+Between the bowl and chocolate bar which one is lighter ?
 Between the bowl and mints which one is heavier ?
 Between the bowl and mints which one is smaller ?
 Between the bowl and mints which one is bigger ?
@@ -2420,10 +2419,10 @@ Between the mug and peanuts which one is heavier ?
 Between the mug and peanuts which one is smaller ?
 Between the mug and peanuts which one is bigger ?
 Between the mug and peanuts which one is lighter ?
-Between the mug and chocolate which one is heavier ?
-Between the mug and chocolate which one is smaller ?
-Between the mug and chocolate which one is bigger ?
-Between the mug and chocolate which one is lighter ?
+Between the mug and chocolate bar which one is heavier ?
+Between the mug and chocolate bar which one is smaller ?
+Between the mug and chocolate bar which one is bigger ?
+Between the mug and chocolate bar which one is lighter ?
 Between the mug and mints which one is heavier ?
 Between the mug and mints which one is smaller ?
 Between the mug and mints which one is bigger ?
@@ -2512,10 +2511,10 @@ Between the glass and peanuts which one is heavier ?
 Between the glass and peanuts which one is smaller ?
 Between the glass and peanuts which one is bigger ?
 Between the glass and peanuts which one is lighter ?
-Between the glass and chocolate which one is heavier ?
-Between the glass and chocolate which one is smaller ?
-Between the glass and chocolate which one is bigger ?
-Between the glass and chocolate which one is lighter ?
+Between the glass and chocolate bar which one is heavier ?
+Between the glass and chocolate bar which one is smaller ?
+Between the glass and chocolate bar which one is bigger ?
+Between the glass and chocolate bar which one is lighter ?
 Between the glass and mints which one is heavier ?
 Between the glass and mints which one is smaller ?
 Between the glass and mints which one is bigger ?
@@ -2604,10 +2603,10 @@ Between the box and peanuts which one is heavier ?
 Between the box and peanuts which one is smaller ?
 Between the box and peanuts which one is bigger ?
 Between the box and peanuts which one is lighter ?
-Between the box and chocolate which one is heavier ?
-Between the box and chocolate which one is smaller ?
-Between the box and chocolate which one is bigger ?
-Between the box and chocolate which one is lighter ?
+Between the box and chocolate bar which one is heavier ?
+Between the box and chocolate bar which one is smaller ?
+Between the box and chocolate bar which one is bigger ?
+Between the box and chocolate bar which one is lighter ?
 Between the box and mints which one is heavier ?
 Between the box and mints which one is smaller ?
 Between the box and mints which one is bigger ?
@@ -2696,10 +2695,10 @@ Between the tray and peanuts which one is heavier ?
 Between the tray and peanuts which one is smaller ?
 Between the tray and peanuts which one is bigger ?
 Between the tray and peanuts which one is lighter ?
-Between the tray and chocolate which one is heavier ?
-Between the tray and chocolate which one is smaller ?
-Between the tray and chocolate which one is bigger ?
-Between the tray and chocolate which one is lighter ?
+Between the tray and chocolate bar which one is heavier ?
+Between the tray and chocolate bar which one is smaller ?
+Between the tray and chocolate bar which one is bigger ?
+Between the tray and chocolate bar which one is lighter ?
 Between the tray and mints which one is heavier ?
 Between the tray and mints which one is smaller ?
 Between the tray and mints which one is bigger ?
@@ -2788,10 +2787,10 @@ Between the bag and peanuts which one is heavier ?
 Between the bag and peanuts which one is smaller ?
 Between the bag and peanuts which one is bigger ?
 Between the bag and peanuts which one is lighter ?
-Between the bag and chocolate which one is heavier ?
-Between the bag and chocolate which one is smaller ?
-Between the bag and chocolate which one is bigger ?
-Between the bag and chocolate which one is lighter ?
+Between the bag and chocolate bar which one is heavier ?
+Between the bag and chocolate bar which one is smaller ?
+Between the bag and chocolate bar which one is bigger ?
+Between the bag and chocolate bar which one is lighter ?
 Between the bag and mints which one is heavier ?
 Between the bag and mints which one is smaller ?
 Between the bag and mints which one is bigger ?
