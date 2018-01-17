@@ -27,7 +27,7 @@ class Answerthequestion:
 		    m1 = len(objects[i])
     m2 = i	
     remains=''
-    prefix = ['do','heavier','lighter','smaller','bigger','heaviest','lightest','smallest','biggest','which','where','what','how many']
+    prefix = ['is there','do','heavier','lighter','smaller','bigger','heaviest','lightest','smallest','biggest','which','where','what','how many']
     for k in range(0,len(prefix)):
       if prefix[k].lower() in self.question.lower():
 	keys.append(prefix[k].upper())
@@ -76,6 +76,10 @@ class Answerthequestion:
 	if 'DO' in pref:
 	  pref.remove('DO')
 	  return(key.do(objects))
+	  break
+	if 'IS THERE' in pref:
+	  pref.remove('IS THERE')
+	  return(key.is_there(objects))
 	  break
 class Keywords:
   def __init__(self):
@@ -129,6 +133,13 @@ class Keywords:
 	    return('The ' + self.values[0] + ' and the ' + self.values[1] + ' have the same weight\n')
 	  elif self.pref[0] in ['BIGGER','BIGGEST','SMALLEST','SMALLER']:
 	    return('The ' + self.values[0] + ' and the ' + self.values[1] + ' have the same size\n')
+      if v ==1 and c==1:
+	for j in range(len(objects[0])):	
+	  if self.categ[0] == objects[0][j]:
+	    for index in range(len(objects)):
+	      if self.values[0] in objects[index] :
+		return('The ' + objects[0][j] + ' of the ' + objects[index][0] + ' is ' +objects[index][j] + '\n')  
+
       if v ==1 and p==1:
 	  v1 = -1
 	  v2 = 50
@@ -228,3 +239,14 @@ class Keywords:
 	    for index in range(len(objects)):
 	      if self.values[0] in objects[index] :
 		return('The ' + objects[0][j] + ' of the ' + objects[index][0] + ' is ' +objects[index][j] + '\n')  
+
+  def is_there(self,objects):
+    for j in range(len(objects)):
+      exists = True
+      for i in range(len(self.values)):
+	if not self.values[i] in objects[j]:
+	  exists = False
+      if exists == True:
+	return('Yes ,there is at least one object with these features')
+    return('No, there is no object with such features')
+	  
