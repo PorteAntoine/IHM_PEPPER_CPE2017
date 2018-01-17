@@ -60,6 +60,9 @@ class HumanGreeterModule(ALModule):
 
     def set_dialogue(self):
         global dialog_p, answer_given
+        demarrage = True
+        log_file_name = "./TEST/TEST_" + name_of_test + "_" + time.strftime("%Y%m%d-%H%M%S") + ".txt"
+        log_file = open(log_file_name, 'w')
         synchronisation = False # initialize the global variable
         dialog_p = ALProxy('ALDialog')
         dialog_p.setLanguage("English")
@@ -77,12 +80,15 @@ class HumanGreeterModule(ALModule):
 
         test_file = open(text_file_question_path,'r')
         lines = test_file.readlines()
-
+        i = 0
         for line in lines:
             reply = subprocess.Popen([r'C:\Program Files (x86)\balcon\balcon.exe', "-n", "Microsoft Zira Desktop",
                                           "-t", line],
                                          universal_newlines=True,
                                          stdout=subprocess.PIPE).communicate()
+
+            time.sleep(5)
+
             if answer_given == False:
                 self.questions.append(line)
                 self.questions_understood.append("Nothing understood")
@@ -91,8 +97,20 @@ class HumanGreeterModule(ALModule):
             if answer_given:
                 self.questions.append(line)
                 answer_given = False
-            time.sleep(5)
 
+            print "Question asked by human was : " + self.questions[i]
+            log_file.write("Question asked by human number %d : %s \n" % (i+1, self.questions[i]))
+            print "Question understood by pepper was : " + self.questions_understood[i]
+            log_file.write("Question understood by pepper number %d : %s \n" % (i+1, self.questions_understood[i]))
+            print "Answer of the robot : " + self.answers_given[i]
+            log_file.write("Answer of pepper number %d : %s \n" % (i+1, self.answers_given[i]))
+            print "-------------------------------------------------------"
+            log_file.write("------------------------------------------------ \n")
+            log_file.flush()
+            i += 1
+
+
+        log_file.write("--------------FIN DU TEST-------------------------------------")
         # Deactivate topic
         dialog_p.deactivateTopic(topic)
 
@@ -141,21 +159,21 @@ def main():
 
     HumanGreeter.set_dialogue()
 
-    log_file_name = "./TEST/TEST_" + name_of_test + "_" + time.strftime("%Y%m%d-%H%M%S") + ".txt"
-    log_file = open(log_file_name,'w')
-    # Print the history of the dialog with the robot and save it into a log file
-    print "_________HISTORIQUE DE LA DISCUSSION___________"
-    i = 1
-    for question, question_understood, answer in zip(HumanGreeter.questions, HumanGreeter.questions_understood, HumanGreeter.answers_given):
-        print "Question asked by human was : " + question
-        log_file.write("Question asked by human number %d : %s \n" % (i, question))
-        print "Question understood by pepper was : " + question_understood
-        log_file.write("Question understood by pepper number %d : %s \n" %(i,question_understood))
-        print "Answer of the robot : " + answer
-        log_file.write("Answer of pepper number %d : %s \n" %(i,answer))
-        log_file.write("------------------------------------------------ \n")
-        i += 1
-    log_file.write("--------------FIN DU TEST-------------------------------------")
+    # log_file_name = "./TEST/TEST_" + name_of_test + "_" + time.strftime("%Y%m%d-%H%M%S") + ".txt"
+    # log_file = open(log_file_name,'w')
+    # # Print the history of the dialog with the robot and save it into a log file
+    # print "_________HISTORIQUE DE LA DISCUSSION___________"
+    # i = 1
+    # for question, question_understood, answer in zip(HumanGreeter.questions, HumanGreeter.questions_understood, HumanGreeter.answers_given):
+    #     print "Question asked by human was : " + question
+    #     log_file.write("Question asked by human number %d : %s \n" % (i, question))
+    #     print "Question understood by pepper was : " + question_understood
+    #     log_file.write("Question understood by pepper number %d : %s \n" %(i,question_understood))
+    #     print "Answer of the robot : " + answer
+    #     log_file.write("Answer of pepper number %d : %s \n" %(i,answer))
+    #     log_file.write("------------------------------------------------ \n")
+    #     i += 1
+    #log_file.write("--------------FIN DU TEST-------------------------------------")
     reply = subprocess.Popen([r'C:\Program Files (x86)\balcon\balcon.exe', "-n", "Microsoft Zira Desktop",
                               "-t", "This is the end of the test"],
                              universal_newlines=True,
