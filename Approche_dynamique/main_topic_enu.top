@@ -51,7 +51,7 @@ u:(~which_is {the} {default} {"most probable"} size {of} {for} {the} _~object) T
 c1:(_*)  $1 
 
 #quels objects possedent l'attribut
-u:(~which_is {the} objects {that} ~belongTo {the} {in}_~allAttributs ) are $1  ^call(ProcessObjectModule.hasAttribute($1))
+u:(~which_is {the} {objects} {that} ~belongTo {the} {in}_~allAttributs ) are $1  ^call(ProcessObjectModule.hasAttribute($1))
 
 #Quel sont les objets les plus lourd dans <categorie>
 u: (~which_is {the} {most} ~heaviest _~category) the heaviest $1 ^call(ProcessObjectModule.heaviestattr($1))
@@ -147,7 +147,7 @@ c1:(True) have the same localization
 c1:(False) have not the same localization
 
 # combien d'objets possedent un attribut
-u: ([~how_many ~what_is] {objects} {~that} {are} {in} {the} {category} _~allAttributs {are} {~that})$attribut=$1 there are ^call(ProcessObjectModule.numberAttribute($1))
+u: ([~how_many] {objects} {~that} {are} {in} {the} {category} _~allAttributs {are} {~that})$attribut=$1 there are ^call(ProcessObjectModule.numberAttribute($1))
 c1:(_*) $1 $attribut objects
 
 # quel est le plus lourd objet entre objet1 et objet2
