@@ -1,0 +1,2055 @@
+Question asked by human number 1 : Hello
+ 
+Question understood by pepper number 1 : hello 
+Answer of pepper number 1 : hey there Nice to see you dear , what is your name ? 
+------------------------------------------------ 
+Question asked by human number 2 : My name is John
+ 
+Question understood by pepper number 2 : Nothing understood 
+Answer of pepper number 2 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 3 : Where can I find a chips ?
+ 
+Question understood by pepper number 3 : My name is John 
+Answer of pepper number 3 : nice to meet you John , my parents called me pepper lion tech 
+------------------------------------------------ 
+Question asked by human number 4 : What's the colour of the chips ?
+ 
+Question understood by pepper number 4 : what <...> color <...> chips 
+Answer of pepper number 4 : the chips are yellow 
+------------------------------------------------ 
+Question asked by human number 5 : To which category belong the chips ?
+ 
+Question understood by pepper number 5 : to which <...> category <...> chips 
+Answer of pepper number 5 : the chips are snack 
+------------------------------------------------ 
+Question asked by human number 6 : Where can I find a pringles ?
+ 
+Question understood by pepper number 6 : where <...> pringles 
+Answer of pepper number 6 : pringles is on the desk in the office 
+------------------------------------------------ 
+Question asked by human number 7 : What's the colour of the pringles ?
+ 
+Question understood by pepper number 7 : what <...> color <...> pringles 
+Answer of pepper number 7 : the pringles are red 
+------------------------------------------------ 
+Question asked by human number 8 : To which category belong the pringles ?
+ 
+Question understood by pepper number 8 : to which <...> category <...> pringles 
+Answer of pepper number 8 : the pringles are snack 
+------------------------------------------------ 
+Question asked by human number 9 : Where can I find a peanuts ?
+ 
+Question understood by pepper number 9 : where <...> mints 
+Answer of pepper number 9 : mints is on the center table in the living room 
+------------------------------------------------ 
+Question asked by human number 10 : What's the colour of the peanuts ?
+ 
+Question understood by pepper number 10 : what <...> colour <...> mints 
+Answer of pepper number 10 : the mints are green 
+------------------------------------------------ 
+Question asked by human number 11 : To which category belong the peanuts ?
+ 
+Question understood by pepper number 11 : to which <...> category <...> peanuts 
+Answer of pepper number 11 : the peanuts are snack 
+------------------------------------------------ 
+Question asked by human number 12 : Where can I find a chocolate ?
+ 
+Question understood by pepper number 12 : where <...> chocolate egg 
+Answer of pepper number 12 : chocolate egg is on the center table in the living room 
+------------------------------------------------ 
+Question asked by human number 13 : What's the colour of the chocolate ?
+ 
+Question understood by pepper number 13 : what <...> colorant <...> chocolate egg 
+Answer of pepper number 13 : the chocolate egg are brown 
+------------------------------------------------ 
+Question asked by human number 14 : To which category belong the chocolate ?
+ 
+Question understood by pepper number 14 : to which <...> category <...> chocolate egg 
+Answer of pepper number 14 : the chocolate egg are candies 
+------------------------------------------------ 
+Question asked by human number 15 : Where can I find a mints ?
+ 
+Question understood by pepper number 15 : where <...> mints 
+Answer of pepper number 15 : mints is on the center table in the living room 
+------------------------------------------------ 
+Question asked by human number 16 : What's the colour of the mints ?
+ 
+Question understood by pepper number 16 : what <...> color <...> mints 
+Answer of pepper number 16 : the mints are green 
+------------------------------------------------ 
+Question asked by human number 17 : To which category belong the mints ?
+ 
+Question understood by pepper number 17 : to which <...> category <...> mints 
+Answer of pepper number 17 : the mints are candies 
+------------------------------------------------ 
+Question asked by human number 18 : Where can I find a chocolate egg ?
+ 
+Question understood by pepper number 18 : where <...> chocolate egg 
+Answer of pepper number 18 : chocolate egg is on the center table in the living room 
+------------------------------------------------ 
+Question asked by human number 19 : What's the colour of the chocolate egg ?
+ 
+Question understood by pepper number 19 : who <...> color <...> mints 
+Answer of pepper number 19 : the mints are green 
+------------------------------------------------ 
+Question asked by human number 20 : To which category belong the chocolate egg ?
+ 
+Question understood by pepper number 20 : to which <...> category <...> chocolate egg 
+Answer of pepper number 20 : the chocolate egg are candies 
+------------------------------------------------ 
+Question asked by human number 21 : Where can I find a noodles ?
+ 
+Question understood by pepper number 21 : where <...> noodles 
+Answer of pepper number 21 : noodles is on the fridge in the kitchen 
+------------------------------------------------ 
+Question asked by human number 22 : What's the colour of the noodles ?
+ 
+Question understood by pepper number 22 : what <...> color <...> noodles 
+Answer of pepper number 22 : the noodles are yellow 
+------------------------------------------------ 
+Question asked by human number 23 : To which category belong the noodles ?
+ 
+Question understood by pepper number 23 : to which <...> category <...> noodles 
+Answer of pepper number 23 : the noodles are freshfood 
+------------------------------------------------ 
+Question asked by human number 24 : Where can I find a apple ?
+ 
+Question understood by pepper number 24 : where <...> apple 
+Answer of pepper number 24 : apple is on the fridge in the kitchen 
+------------------------------------------------ 
+Question asked by human number 25 : What's the colour of the apple ?
+ 
+Question understood by pepper number 25 : what <...> color <...> bowl 
+Answer of pepper number 25 : the bowl are red 
+------------------------------------------------ 
+Question asked by human number 26 : To which category belong the apple ?
+ 
+Question understood by pepper number 26 : to which <...> category <...> apple 
+Answer of pepper number 26 : the apple are freshfood 
+------------------------------------------------ 
+Question asked by human number 27 : Where can I find a paprika ?
+ 
+Question understood by pepper number 27 : where <...> paprika 
+Answer of pepper number 27 : paprika is on the fridge in the kitchen 
+------------------------------------------------ 
+Question asked by human number 28 : What's the colour of the paprika ?
+ 
+Question understood by pepper number 28 : what <...> color <...> paprika 
+Answer of pepper number 28 : the paprika are red 
+------------------------------------------------ 
+Question asked by human number 29 : To which category belong the paprika ?
+ 
+Question understood by pepper number 29 : to which <...> category <...> paprika 
+Answer of pepper number 29 : the paprika are freshfood 
+------------------------------------------------ 
+Question asked by human number 30 : Where can I find a melon ?
+ 
+Question understood by pepper number 30 : where <...> melon 
+Answer of pepper number 30 : melon is on the fridge in the kitchen 
+------------------------------------------------ 
+Question asked by human number 31 : What's the colour of the melon ?
+ 
+Question understood by pepper number 31 : what <...> color <...> melon 
+Answer of pepper number 31 : the melon are green 
+------------------------------------------------ 
+Question asked by human number 32 : To which category belong the melon ?
+ 
+Question understood by pepper number 32 : to which <...> category <...> melon 
+Answer of pepper number 32 : the melon are freshfood 
+------------------------------------------------ 
+Question asked by human number 33 : Where can I find a sushi ?
+ 
+Question understood by pepper number 33 : where <...> sushi 
+Answer of pepper number 33 : sushi is on the fridge in the kitchen 
+------------------------------------------------ 
+Question asked by human number 34 : What's the colour of the sushi ?
+ 
+Question understood by pepper number 34 : what <...> color <...> sushi 
+Answer of pepper number 34 : the sushi are black 
+------------------------------------------------ 
+Question asked by human number 35 : To which category belong the sushi ?
+ 
+Question understood by pepper number 35 : to which <...> category <...> sushi 
+Answer of pepper number 35 : the sushi are freshfood 
+------------------------------------------------ 
+Question asked by human number 36 : Where can I find a tea ?
+ 
+Question understood by pepper number 36 : where <...> tea 
+Answer of pepper number 36 : tea is on the bar in the living room 
+------------------------------------------------ 
+Question asked by human number 37 : What's the colour of the tea ?
+ 
+Question understood by pepper number 37 : what <...> color <...> tea 
+Answer of pepper number 37 : the tea are green 
+------------------------------------------------ 
+Question asked by human number 38 : To which category belong the tea ?
+ 
+Question understood by pepper number 38 : to which <...> category <...> tea 
+Answer of pepper number 38 : the tea are drinks 
+------------------------------------------------ 
+Question asked by human number 39 : Where can I find a beer ?
+ 
+Question understood by pepper number 39 : where <...> beer 
+Answer of pepper number 39 : beer is on the bar in the living room 
+------------------------------------------------ 
+Question asked by human number 40 : What's the colour of the beer ?
+ 
+Question understood by pepper number 40 : what <...> colour <...> beer 
+Answer of pepper number 40 : the beer are green 
+------------------------------------------------ 
+Question asked by human number 41 : To which category belong the beer ?
+ 
+Question understood by pepper number 41 : to which <...> category <...> beer 
+Answer of pepper number 41 : the beer are drinks 
+------------------------------------------------ 
+Question asked by human number 42 : Where can I find a coke ?
+ 
+Question understood by pepper number 42 : where <...> coke 
+Answer of pepper number 42 : coke is on the bar in the living room 
+------------------------------------------------ 
+Question asked by human number 43 : What's the colour of the coke ?
+ 
+Question understood by pepper number 43 : what <...> color <...> coke 
+Answer of pepper number 43 : the coke are red 
+------------------------------------------------ 
+Question asked by human number 44 : To which category belong the coke ?
+ 
+Question understood by pepper number 44 : to which <...> category <...> coke 
+Answer of pepper number 44 : the coke are drinks 
+------------------------------------------------ 
+Question asked by human number 45 : Where can I find a shampoo ?
+ 
+Question understood by pepper number 45 : where <...> shampoo 
+Answer of pepper number 45 : shampoo is on the cupboard in the bathroom 
+------------------------------------------------ 
+Question asked by human number 46 : What's the colour of the shampoo ?
+ 
+Question understood by pepper number 46 : what <...> color <...> shampoo 
+Answer of pepper number 46 : the shampoo are white 
+------------------------------------------------ 
+Question asked by human number 47 : To which category belong the shampoo ?
+ 
+Question understood by pepper number 47 : to which <...> category <...> shampoo 
+Answer of pepper number 47 : the shampoo are toiletries 
+------------------------------------------------ 
+Question asked by human number 48 : Where can I find a cloth ?
+ 
+Question understood by pepper number 48 : where <...> cloth 
+Answer of pepper number 48 : cloth is on the cupboard in the bathroom 
+------------------------------------------------ 
+Question asked by human number 49 : What's the colour of the cloth ?
+ 
+Question understood by pepper number 49 : what <...> color <...> cloth 
+Answer of pepper number 49 : the cloth are blue 
+------------------------------------------------ 
+Question asked by human number 50 : To which category belong the cloth ?
+ 
+Question understood by pepper number 50 : to which <...> category <...> cloth 
+Answer of pepper number 50 : the cloth are toiletries 
+------------------------------------------------ 
+Question asked by human number 51 : Where can I find a sponge ?
+ 
+Question understood by pepper number 51 : where <...> sponge 
+Answer of pepper number 51 : sponge is on the cupboard in the bathroom 
+------------------------------------------------ 
+Question asked by human number 52 : What's the colour of the sponge ?
+ 
+Question understood by pepper number 52 : what <...> color <...> sponge 
+Answer of pepper number 52 : the sponge are yellow 
+------------------------------------------------ 
+Question asked by human number 53 : To which category belong the sponge ?
+ 
+Question understood by pepper number 53 : to which <...> category <...> sponge 
+Answer of pepper number 53 : the sponge are toiletries 
+------------------------------------------------ 
+Question asked by human number 54 : Where can I find a bowl ?
+ 
+Question understood by pepper number 54 : where <...> bowl 
+Answer of pepper number 54 : bowl is on the counter in the kitchen 
+------------------------------------------------ 
+Question asked by human number 55 : What's the colour of the bowl ?
+ 
+Question understood by pepper number 55 : what <...> color <...> bowl 
+Answer of pepper number 55 : the bowl are red 
+------------------------------------------------ 
+Question asked by human number 56 : To which category belong the bowl ?
+ 
+Question understood by pepper number 56 : to which <...> category <...> bowl 
+Answer of pepper number 56 : the bowl are containers 
+------------------------------------------------ 
+Question asked by human number 57 : Where can I find a mug ?
+ 
+Question understood by pepper number 57 : where <...> mug 
+Answer of pepper number 57 : mug is on the counter in the kitchen 
+------------------------------------------------ 
+Question asked by human number 58 : What's the colour of the mug ?
+ 
+Question understood by pepper number 58 : what <...> color <...> mug 
+Answer of pepper number 58 : the mug are pink 
+------------------------------------------------ 
+Question asked by human number 59 : To which category belong the mug ?
+ 
+Question understood by pepper number 59 : to which <...> category <...> mug 
+Answer of pepper number 59 : the mug are containers 
+------------------------------------------------ 
+Question asked by human number 60 : Where can I find a glass ?
+ 
+Question understood by pepper number 60 : where <...> glass 
+Answer of pepper number 60 : glass is on the counter in the kitchen 
+------------------------------------------------ 
+Question asked by human number 61 : What's the colour of the glass ?
+ 
+Question understood by pepper number 61 : what <...> color <...> glass 
+Answer of pepper number 61 : the glass are opaque 
+------------------------------------------------ 
+Question asked by human number 62 : To which category belong the glass ?
+ 
+Question understood by pepper number 62 : to which <...> category <...> glass 
+Answer of pepper number 62 : the glass are containers 
+------------------------------------------------ 
+Question asked by human number 63 : Where can I find a box ?
+ 
+Question understood by pepper number 63 : where <...> box 
+Answer of pepper number 63 : box is on the counter in the kitchen 
+------------------------------------------------ 
+Question asked by human number 64 : What's the colour of the box ?
+ 
+Question understood by pepper number 64 : what <...> color <...> box 
+Answer of pepper number 64 : the box are white 
+------------------------------------------------ 
+Question asked by human number 65 : To which category belong the box ?
+ 
+Question understood by pepper number 65 : to which <...> category <...> box 
+Answer of pepper number 65 : the box are containers 
+------------------------------------------------ 
+Question asked by human number 66 : Where can I find a tray ?
+ 
+Question understood by pepper number 66 : where <...> tray 
+Answer of pepper number 66 : tray is on the counter in the kitchen 
+------------------------------------------------ 
+Question asked by human number 67 : What's the colour of the tray ?
+ 
+Question understood by pepper number 67 : what <...> color <...> tray 
+Answer of pepper number 67 : the tray are black 
+------------------------------------------------ 
+Question asked by human number 68 : To which category belong the tray ?
+ 
+Question understood by pepper number 68 : to which <...> category <...> tray 
+Answer of pepper number 68 : the tray are containers 
+------------------------------------------------ 
+Question asked by human number 69 : Where can I find a bag ?
+ 
+Question understood by pepper number 69 : where <...> bag 
+Answer of pepper number 69 : bag is on the counter in the kitchen 
+------------------------------------------------ 
+Question asked by human number 70 : What's the colour of the bag ?
+ 
+Question understood by pepper number 70 : what <...> color <...> bag 
+Answer of pepper number 70 : the bag are blue 
+------------------------------------------------ 
+Question asked by human number 71 : To which category belong the bag ?
+ 
+Question understood by pepper number 71 : to which <...> category <...> bag 
+Answer of pepper number 71 : the bag are containers 
+------------------------------------------------ 
+Question asked by human number 72 : Where can I find a snack ?
+ 
+Question understood by pepper number 72 : where <...> snack 
+Answer of pepper number 72 : snack is on the desk in the office 
+------------------------------------------------ 
+Question asked by human number 73 : How many snack there are ?
+ 
+Question understood by pepper number 73 : how many <...> room <...> bar 
+Answer of pepper number 73 : in the bar we have 3 things 
+------------------------------------------------ 
+Question asked by human number 74 : Where can I find a candies ?
+ 
+Question understood by pepper number 74 : where <...> candies 
+Answer of pepper number 74 : candies is on the center table in the living room 
+------------------------------------------------ 
+Question asked by human number 75 : How many candies there are ?
+ 
+Question understood by pepper number 75 : how many <...> room <...> bar 
+Answer of pepper number 75 : in the bar we have 3 object 
+------------------------------------------------ 
+Question asked by human number 76 : Where can I find a freshfood ?
+ 
+Question understood by pepper number 76 : where <...> freshfood 
+Answer of pepper number 76 : freshfood is on the fridge in the kitchen 
+------------------------------------------------ 
+Question asked by human number 77 : How many freshfood there are ?
+ 
+Question understood by pepper number 77 : how many <...> room <...> bar 
+Answer of pepper number 77 : in the bar we have 3 article 
+------------------------------------------------ 
+Question asked by human number 78 : Where can I find a drinks ?
+ 
+Question understood by pepper number 78 : where <...> drinks 
+Answer of pepper number 78 : drinks is on the fridge in the kitchen 
+------------------------------------------------ 
+Question asked by human number 79 : How many drinks there are ?
+ 
+Question understood by pepper number 79 : how many <...> where <...> bar 
+Answer of pepper number 79 : in the bar we have 3 entity 
+------------------------------------------------ 
+Question asked by human number 80 : Where can I find a toiletries ?
+ 
+Question understood by pepper number 80 : where <...> toiletries 
+Answer of pepper number 80 : toiletries is on the cupboard in the bathroom 
+------------------------------------------------ 
+Question asked by human number 81 : How many toiletries there are ?
+ 
+Question understood by pepper number 81 : how many toiletries 
+Answer of pepper number 81 : there are 1 type of toiletries 
+------------------------------------------------ 
+Question asked by human number 82 : Where can I find a containers ?
+ 
+Question understood by pepper number 82 : where <...> containers 
+Answer of pepper number 82 : containers is on the cupboard in the bathroom 
+------------------------------------------------ 
+Question asked by human number 83 : How many containers there are ?
+ 
+Question understood by pepper number 83 : how many <...> kitchen <...> bar 
+Answer of pepper number 83 : in the bar we have 3 things 
+------------------------------------------------ 
+Question asked by human number 84 : How many snack are there ?
+ 
+Question understood by pepper number 84 : Nothing understood 
+Answer of pepper number 84 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 85 : How many candies are there ?
+ 
+Question understood by pepper number 85 : how many candies 
+Answer of pepper number 85 : there are 1 type of candies 
+------------------------------------------------ 
+Question asked by human number 86 : How many freshfood are there ?
+ 
+Question understood by pepper number 86 : how many <...> room <...> bar 
+Answer of pepper number 86 : in the bar we have 3 article 
+------------------------------------------------ 
+Question asked by human number 87 : How many drinks are there ?
+ 
+Question understood by pepper number 87 : how many <...> room <...> bar 
+Answer of pepper number 87 : in the bar we have 3 object 
+------------------------------------------------ 
+Question asked by human number 88 : How many toiletries are there ?
+ 
+Question understood by pepper number 88 : how many toiletries 
+Answer of pepper number 88 : there are 1 type of toiletries 
+------------------------------------------------ 
+Question asked by human number 89 : How many containers are there ?
+ 
+Question understood by pepper number 89 : how many <...> kitchen <...> bar 
+Answer of pepper number 89 : in the bar we have 3 entity 
+------------------------------------------------ 
+Question asked by human number 90 : Do the chips and chips belong to the same category ?
+ 
+Question understood by pepper number 90 : Nothing understood 
+Answer of pepper number 90 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 91 : Do the chips and pringles belong to the same category ?
+ 
+Question understood by pepper number 91 : <...> chips <...> chips <...> same category 
+Answer of pepper number 91 : yes sir , chips and chips belong to the same category 
+------------------------------------------------ 
+Question asked by human number 92 : Do the chips and peanuts belong to the same category ?
+ 
+Question understood by pepper number 92 : <...> chips <...> pringles <...> same category 
+Answer of pepper number 92 : sure , chips and pringles belong to the same category 
+------------------------------------------------ 
+Question asked by human number 93 : Do the chips and chocolate belong to the same category ?
+ 
+Question understood by pepper number 93 : <...> chips <...> bowl <...> same category 
+Answer of pepper number 93 : no , chips and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 94 : Do the chips and mints belong to the same category ?
+ 
+Question understood by pepper number 94 : Nothing understood 
+Answer of pepper number 94 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 95 : Do the chips and chocolate egg belong to the same category ?
+ 
+Question understood by pepper number 95 : <...> chips <...> bowl <...> same category 
+Answer of pepper number 95 : not really , chips and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 96 : Do the chips and noodles belong to the same category ?
+ 
+Question understood by pepper number 96 : <...> chips <...> mints <...> same category 
+Answer of pepper number 96 : no , chips and mints are not in the same category 
+------------------------------------------------ 
+Question asked by human number 97 : Do the chips and apple belong to the same category ?
+ 
+Question understood by pepper number 97 : Nothing understood 
+Answer of pepper number 97 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 98 : Do the chips and paprika belong to the same category ?
+ 
+Question understood by pepper number 98 : <...> chips <...> chocolate egg <...> same category 
+Answer of pepper number 98 : not really , chips and chocolate egg are not in the same category 
+------------------------------------------------ 
+Question asked by human number 99 : Do the chips and melon belong to the same category ?
+ 
+Question understood by pepper number 99 : <...> noodles <...> cloth <...> same category 
+Answer of pepper number 99 : not exactly , noodles and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 100 : Do the chips and sushi belong to the same category ?
+ 
+Question understood by pepper number 100 : <...> chips <...> apple <...> same category 
+Answer of pepper number 100 : no , chips and apple are not in the same category 
+------------------------------------------------ 
+Question asked by human number 101 : Do the chips and tea belong to the same category ?
+ 
+Question understood by pepper number 101 : Nothing understood 
+Answer of pepper number 101 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 102 : Do the chips and beer belong to the same category ?
+ 
+Question understood by pepper number 102 : <...> chips <...> paprika <...> same category 
+Answer of pepper number 102 : not really , chips and paprika are not in the same category 
+------------------------------------------------ 
+Question asked by human number 103 : Do the chips and coke belong to the same category ?
+ 
+Question understood by pepper number 103 : <...> chips <...> melon <...> same category 
+Answer of pepper number 103 : not exactly , chips and melon are not in the same category 
+------------------------------------------------ 
+Question asked by human number 104 : Do the chips and shampoo belong to the same category ?
+ 
+Question understood by pepper number 104 : <...> chips <...> sushi <...> same category 
+Answer of pepper number 104 : no , chips and sushi are not in the same category 
+------------------------------------------------ 
+Question asked by human number 105 : Do the chips and cloth belong to the same category ?
+ 
+Question understood by pepper number 105 : <...> chips <...> tea <...> same category 
+Answer of pepper number 105 : no , chips and tea are not in the same category 
+------------------------------------------------ 
+Question asked by human number 106 : Do the chips and sponge belong to the same category ?
+ 
+Question understood by pepper number 106 : Nothing understood 
+Answer of pepper number 106 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 107 : Do the chips and bowl belong to the same category ?
+ 
+Question understood by pepper number 107 : <...> chips <...> beer <...> same category 
+Answer of pepper number 107 : not really , chips and beer are not in the same category 
+------------------------------------------------ 
+Question asked by human number 108 : Do the chips and mug belong to the same category ?
+ 
+Question understood by pepper number 108 : <...> chips <...> coke <...> same category 
+Answer of pepper number 108 : not exactly , chips and coke are not in the same category 
+------------------------------------------------ 
+Question asked by human number 109 : Do the chips and glass belong to the same category ?
+ 
+Question understood by pepper number 109 : <...> chips <...> shampoo <...> same category 
+Answer of pepper number 109 : no , chips and shampoo are not in the same category 
+------------------------------------------------ 
+Question asked by human number 110 : Do the chips and box belong to the same category ?
+ 
+Question understood by pepper number 110 : <...> chips <...> cloth <...> same category 
+Answer of pepper number 110 : not really , chips and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 111 : Do the chips and tray belong to the same category ?
+ 
+Question understood by pepper number 111 : <...> chips <...> sponge <...> same category 
+Answer of pepper number 111 : not exactly , chips and sponge are not in the same category 
+------------------------------------------------ 
+Question asked by human number 112 : Do the chips and bag belong to the same category ?
+ 
+Question understood by pepper number 112 : <...> chips <...> bowl <...> same category 
+Answer of pepper number 112 : not exactly , chips and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 113 : Do the pringles and chips belong to the same category ?
+ 
+Question understood by pepper number 113 : <...> chips <...> apple <...> same category 
+Answer of pepper number 113 : not really , chips and apple are not in the same category 
+------------------------------------------------ 
+Question asked by human number 114 : Do the pringles and pringles belong to the same category ?
+ 
+Question understood by pepper number 114 : <...> chips <...> glass <...> same category 
+Answer of pepper number 114 : no , chips and glass are not in the same category 
+------------------------------------------------ 
+Question asked by human number 115 : Do the pringles and peanuts belong to the same category ?
+ 
+Question understood by pepper number 115 : Nothing understood 
+Answer of pepper number 115 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 116 : Do the pringles and chocolate belong to the same category ?
+ 
+Question understood by pepper number 116 : <...> chips <...> box <...> same category 
+Answer of pepper number 116 : not really , chips and box are not in the same category 
+------------------------------------------------ 
+Question asked by human number 117 : Do the pringles and mints belong to the same category ?
+ 
+Question understood by pepper number 117 : <...> chips <...> tray <...> same category 
+Answer of pepper number 117 : not exactly , chips and tray are not in the same category 
+------------------------------------------------ 
+Question asked by human number 118 : Do the pringles and chocolate egg belong to the same category ?
+ 
+Question understood by pepper number 118 : <...> chips <...> bag <...> same category 
+Answer of pepper number 118 : no , chips and bag are not in the same category 
+------------------------------------------------ 
+Question asked by human number 119 : Do the pringles and noodles belong to the same category ?
+ 
+Question understood by pepper number 119 : Nothing understood 
+Answer of pepper number 119 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 120 : Do the pringles and apple belong to the same category ?
+ 
+Question understood by pepper number 120 : <...> pringles <...> chips <...> same category 
+Answer of pepper number 120 : off course , pringles and chips belong to the same category 
+------------------------------------------------ 
+Question asked by human number 121 : Do the pringles and paprika belong to the same category ?
+ 
+Question understood by pepper number 121 : <...> pringles <...> pringles <...> same category 
+Answer of pepper number 121 : yes sir , pringles and pringles belong to the same category 
+------------------------------------------------ 
+Question asked by human number 122 : Do the pringles and melon belong to the same category ?
+ 
+Question understood by pepper number 122 : <...> pringles <...> cloth <...> same category 
+Answer of pepper number 122 : no , pringles and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 123 : Do the pringles and sushi belong to the same category ?
+ 
+Question understood by pepper number 123 : Nothing understood 
+Answer of pepper number 123 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 124 : Do the pringles and tea belong to the same category ?
+ 
+Question understood by pepper number 124 : <...> pringles <...> bowl <...> same category 
+Answer of pepper number 124 : not really , pringles and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 125 : Do the pringles and beer belong to the same category ?
+ 
+Question understood by pepper number 125 : <...> pringles <...> mints <...> same category 
+Answer of pepper number 125 : not exactly , pringles and mints are not in the same category 
+------------------------------------------------ 
+Question asked by human number 126 : Do the pringles and coke belong to the same category ?
+ 
+Question understood by pepper number 126 : <...> pringles <...> chocolate egg <...> same category 
+Answer of pepper number 126 : no , pringles and chocolate egg are not in the same category 
+------------------------------------------------ 
+Question asked by human number 127 : Do the pringles and shampoo belong to the same category ?
+ 
+Question understood by pepper number 127 : <...> pringles <...> noodles <...> same category 
+Answer of pepper number 127 : not exactly , pringles and noodles are not in the same category 
+------------------------------------------------ 
+Question asked by human number 128 : Do the pringles and cloth belong to the same category ?
+ 
+Question understood by pepper number 128 : <...> pringles <...> apple <...> same category 
+Answer of pepper number 128 : no , pringles and apple are not in the same category 
+------------------------------------------------ 
+Question asked by human number 129 : Do the pringles and sponge belong to the same category ?
+ 
+Question understood by pepper number 129 : <...> pringles <...> paprika <...> same category 
+Answer of pepper number 129 : not really , pringles and paprika are not in the same category 
+------------------------------------------------ 
+Question asked by human number 130 : Do the pringles and bowl belong to the same category ?
+ 
+Question understood by pepper number 130 : <...> melon <...> cloth <...> same category 
+Answer of pepper number 130 : no , melon and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 131 : Do the pringles and mug belong to the same category ?
+ 
+Question understood by pepper number 131 : Nothing understood 
+Answer of pepper number 131 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 132 : Do the pringles and glass belong to the same category ?
+ 
+Question understood by pepper number 132 : <...> pringles <...> sushi <...> same category 
+Answer of pepper number 132 : not exactly , pringles and sushi are not in the same category 
+------------------------------------------------ 
+Question asked by human number 133 : Do the pringles and box belong to the same category ?
+ 
+Question understood by pepper number 133 : <...> pringles <...> tea <...> same category 
+Answer of pepper number 133 : no , pringles and tea are not in the same category 
+------------------------------------------------ 
+Question asked by human number 134 : Do the pringles and tray belong to the same category ?
+ 
+Question understood by pepper number 134 : <...> pringles <...> beer <...> same category 
+Answer of pepper number 134 : not really , pringles and beer are not in the same category 
+------------------------------------------------ 
+Question asked by human number 135 : Do the pringles and bag belong to the same category ?
+ 
+Question understood by pepper number 135 : <...> pringles <...> coke <...> same category 
+Answer of pepper number 135 : not exactly , pringles and coke are not in the same category 
+------------------------------------------------ 
+Question asked by human number 136 : Do the peanuts and chips belong to the same category ?
+ 
+Question understood by pepper number 136 : <...> pringles <...> bowl <...> same category 
+Answer of pepper number 136 : not exactly , pringles and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 137 : Do the peanuts and pringles belong to the same category ?
+ 
+Question understood by pepper number 137 : <...> pringles <...> cloth <...> same category 
+Answer of pepper number 137 : not really , pringles and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 138 : Do the peanuts and peanuts belong to the same category ?
+ 
+Question understood by pepper number 138 : <...> pringles <...> sponge <...> same category 
+Answer of pepper number 138 : not exactly , pringles and sponge are not in the same category 
+------------------------------------------------ 
+Question asked by human number 139 : Do the peanuts and chocolate belong to the same category ?
+ 
+Question understood by pepper number 139 : <...> pringles <...> bowl <...> same category 
+Answer of pepper number 139 : no , pringles and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 140 : Do the peanuts and mints belong to the same category ?
+ 
+Question understood by pepper number 140 : Nothing understood 
+Answer of pepper number 140 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 141 : Do the peanuts and chocolate egg belong to the same category ?
+ 
+Question understood by pepper number 141 : <...> pringles <...> mug <...> same category 
+Answer of pepper number 141 : not really , pringles and mug are not in the same category 
+------------------------------------------------ 
+Question asked by human number 142 : Do the peanuts and noodles belong to the same category ?
+ 
+Question understood by pepper number 142 : <...> pringles <...> glass <...> same category 
+Answer of pepper number 142 : not exactly , pringles and glass are not in the same category 
+------------------------------------------------ 
+Question asked by human number 143 : Do the peanuts and apple belong to the same category ?
+ 
+Question understood by pepper number 143 : <...> pringles <...> box <...> same category 
+Answer of pepper number 143 : no , pringles and box are not in the same category 
+------------------------------------------------ 
+Question asked by human number 144 : Do the peanuts and paprika belong to the same category ?
+ 
+Question understood by pepper number 144 : <...> pringles <...> tray <...> same category 
+Answer of pepper number 144 : not really , pringles and tray are not in the same category 
+------------------------------------------------ 
+Question asked by human number 145 : Do the peanuts and melon belong to the same category ?
+ 
+Question understood by pepper number 145 : <...> pringles <...> bag <...> same category 
+Answer of pepper number 145 : not exactly , pringles and bag are not in the same category 
+------------------------------------------------ 
+Question asked by human number 146 : Do the peanuts and sushi belong to the same category ?
+ 
+Question understood by pepper number 146 : <...> chips <...> cloth <...> same category 
+Answer of pepper number 146 : no , chips and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 147 : Do the peanuts and tea belong to the same category ?
+ 
+Question understood by pepper number 147 : Nothing understood 
+Answer of pepper number 147 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 148 : Do the peanuts and beer belong to the same category ?
+ 
+Question understood by pepper number 148 : <...> peanuts <...> pringles <...> same category 
+Answer of pepper number 148 : sure , peanuts and pringles belong to the same category 
+------------------------------------------------ 
+Question asked by human number 149 : Do the peanuts and coke belong to the same category ?
+ 
+Question understood by pepper number 149 : <...> peanuts <...> cloth <...> same category 
+Answer of pepper number 149 : not really , peanuts and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 150 : Do the peanuts and shampoo belong to the same category ?
+ 
+Question understood by pepper number 150 : <...> peanuts <...> chocolate egg <...> same category 
+Answer of pepper number 150 : not really , peanuts and chocolate egg are not in the same category 
+------------------------------------------------ 
+Question asked by human number 151 : Do the peanuts and cloth belong to the same category ?
+ 
+Question understood by pepper number 151 : <...> peanuts <...> mints <...> same category 
+Answer of pepper number 151 : not exactly , peanuts and mints are not in the same category 
+------------------------------------------------ 
+Question asked by human number 152 : Do the peanuts and sponge belong to the same category ?
+ 
+Question understood by pepper number 152 : <...> peanuts <...> chocolate egg <...> same category 
+Answer of pepper number 152 : no , peanuts and chocolate egg are not in the same category 
+------------------------------------------------ 
+Question asked by human number 153 : Do the peanuts and bowl belong to the same category ?
+ 
+Question understood by pepper number 153 : <...> peanuts <...> noodles <...> same category 
+Answer of pepper number 153 : no , peanuts and noodles are not in the same category 
+------------------------------------------------ 
+Question asked by human number 154 : Do the peanuts and mug belong to the same category ?
+ 
+Question understood by pepper number 154 : <...> tea <...> apple <...> same category 
+Answer of pepper number 154 : no , tea and apple are not in the same category 
+------------------------------------------------ 
+Question asked by human number 155 : Do the peanuts and glass belong to the same category ?
+ 
+Question understood by pepper number 155 : Nothing understood 
+Answer of pepper number 155 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 156 : Do the peanuts and box belong to the same category ?
+ 
+Question understood by pepper number 156 : <...> mints <...> paprika <...> same category 
+Answer of pepper number 156 : not really , mints and paprika are not in the same category 
+------------------------------------------------ 
+Question asked by human number 157 : Do the peanuts and tray belong to the same category ?
+ 
+Question understood by pepper number 157 : <...> peanuts <...> melon <...> same category 
+Answer of pepper number 157 : not really , peanuts and melon are not in the same category 
+------------------------------------------------ 
+Question asked by human number 158 : Do the peanuts and bag belong to the same category ?
+ 
+Question understood by pepper number 158 : <...> peanuts <...> sushi <...> same category 
+Answer of pepper number 158 : not exactly , peanuts and sushi are not in the same category 
+------------------------------------------------ 
+Question asked by human number 159 : Do the chocolate and chips belong to the same category ?
+ 
+Question understood by pepper number 159 : <...> peanuts <...> tea <...> same category 
+Answer of pepper number 159 : no , peanuts and tea are not in the same category 
+------------------------------------------------ 
+Question asked by human number 160 : Do the chocolate and pringles belong to the same category ?
+ 
+Question understood by pepper number 160 : Nothing understood 
+Answer of pepper number 160 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 161 : Do the chocolate and peanuts belong to the same category ?
+ 
+Question understood by pepper number 161 : <...> peanuts <...> beer <...> same category 
+Answer of pepper number 161 : not really , peanuts and beer are not in the same category 
+------------------------------------------------ 
+Question asked by human number 162 : Do the chocolate and chocolate belong to the same category ?
+ 
+Question understood by pepper number 162 : <...> peanuts <...> coke <...> same category 
+Answer of pepper number 162 : not exactly , peanuts and coke are not in the same category 
+------------------------------------------------ 
+Question asked by human number 163 : Do the chocolate and mints belong to the same category ?
+ 
+Question understood by pepper number 163 : <...> peanuts <...> bowl <...> same category 
+Answer of pepper number 163 : no , peanuts and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 164 : Do the chocolate and chocolate egg belong to the same category ?
+ 
+Question understood by pepper number 164 : <...> peanuts <...> cloth <...> same category 
+Answer of pepper number 164 : not exactly , peanuts and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 165 : Do the chocolate and noodles belong to the same category ?
+ 
+Question understood by pepper number 165 : <...> sponge <...> cloth <...> same category 
+Answer of pepper number 165 : off course , sponge and cloth belong to the same category 
+------------------------------------------------ 
+Question asked by human number 166 : Do the chocolate and apple belong to the same category ?
+ 
+Question understood by pepper number 166 : <...> tea <...> bowl <...> same category 
+Answer of pepper number 166 : no , tea and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 167 : Do the chocolate and paprika belong to the same category ?
+ 
+Question understood by pepper number 167 : Nothing understood 
+Answer of pepper number 167 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 168 : Do the chocolate and melon belong to the same category ?
+ 
+Question understood by pepper number 168 : <...> peanuts <...> bowl <...> same category 
+Answer of pepper number 168 : not really , peanuts and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 169 : Do the chocolate and sushi belong to the same category ?
+ 
+Question understood by pepper number 169 : <...> peanuts <...> glass <...> same category 
+Answer of pepper number 169 : not exactly , peanuts and glass are not in the same category 
+------------------------------------------------ 
+Question asked by human number 170 : Do the chocolate and tea belong to the same category ?
+ 
+Question understood by pepper number 170 : <...> peanuts <...> box <...> same category 
+Answer of pepper number 170 : no , peanuts and box are not in the same category 
+------------------------------------------------ 
+Question asked by human number 171 : Do the chocolate and beer belong to the same category ?
+ 
+Question understood by pepper number 171 : Nothing understood 
+Answer of pepper number 171 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 172 : Do the chocolate and coke belong to the same category ?
+ 
+Question understood by pepper number 172 : <...> mints <...> tray <...> same category 
+Answer of pepper number 172 : not really , mints and tray are not in the same category 
+------------------------------------------------ 
+Question asked by human number 173 : Do the chocolate and shampoo belong to the same category ?
+ 
+Question understood by pepper number 173 : <...> peanuts <...> bag <...> same category 
+Answer of pepper number 173 : not really , peanuts and bag are not in the same category 
+------------------------------------------------ 
+Question asked by human number 174 : Do the chocolate and cloth belong to the same category ?
+ 
+Question understood by pepper number 174 : <...> chocolate egg <...> chips <...> same category 
+Answer of pepper number 174 : not exactly , chocolate egg and chips are not in the same category 
+------------------------------------------------ 
+Question asked by human number 175 : Do the chocolate and sponge belong to the same category ?
+ 
+Question understood by pepper number 175 : <...> pringles <...> cloth <...> same category 
+Answer of pepper number 175 : no , pringles and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 176 : Do the chocolate and bowl belong to the same category ?
+ 
+Question understood by pepper number 176 : Nothing understood 
+Answer of pepper number 176 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 177 : Do the chocolate and mug belong to the same category ?
+ 
+Question understood by pepper number 177 : <...> chocolate egg <...> tea <...> same category 
+Answer of pepper number 177 : no , chocolate egg and tea are not in the same category 
+------------------------------------------------ 
+Question asked by human number 178 : Do the chocolate and glass belong to the same category ?
+ 
+Question understood by pepper number 178 : <...> chocolate egg <...> chocolate egg <...> same category 
+Answer of pepper number 178 : sure , chocolate egg and chocolate egg belong to the same category 
+------------------------------------------------ 
+Question asked by human number 179 : Do the chocolate and box belong to the same category ?
+ 
+Question understood by pepper number 179 : <...> chocolate egg <...> mints <...> same category 
+Answer of pepper number 179 : off course , chocolate egg and mints belong to the same category 
+------------------------------------------------ 
+Question asked by human number 180 : Do the chocolate and tray belong to the same category ?
+ 
+Question understood by pepper number 180 : <...> chocolate egg <...> chocolate egg <...> same category 
+Answer of pepper number 180 : yes sir , chocolate egg and chocolate egg belong to the same category 
+------------------------------------------------ 
+Question asked by human number 181 : Do the chocolate and bag belong to the same category ?
+ 
+Question understood by pepper number 181 : <...> chocolate egg <...> noodles <...> same category 
+Answer of pepper number 181 : not exactly , chocolate egg and noodles are not in the same category 
+------------------------------------------------ 
+Question asked by human number 182 : Do the mints and chips belong to the same category ?
+ 
+Question understood by pepper number 182 : <...> chocolate egg <...> apple <...> same category 
+Answer of pepper number 182 : no , chocolate egg and apple are not in the same category 
+------------------------------------------------ 
+Question asked by human number 183 : Do the mints and pringles belong to the same category ?
+ 
+Question understood by pepper number 183 : <...> chocolate egg <...> paprika <...> same category 
+Answer of pepper number 183 : not really , chocolate egg and paprika are not in the same category 
+------------------------------------------------ 
+Question asked by human number 184 : Do the mints and peanuts belong to the same category ?
+ 
+Question understood by pepper number 184 : <...> melon <...> bowl <...> same category 
+Answer of pepper number 184 : no , melon and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 185 : Do the mints and chocolate belong to the same category ?
+ 
+Question understood by pepper number 185 : <...> chocolate egg <...> sushi <...> same category 
+Answer of pepper number 185 : not exactly , chocolate egg and sushi are not in the same category 
+------------------------------------------------ 
+Question asked by human number 186 : Do the mints and mints belong to the same category ?
+ 
+Question understood by pepper number 186 : <...> tea <...> bowl <...> same category 
+Answer of pepper number 186 : not really , tea and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 187 : Do the mints and chocolate egg belong to the same category ?
+ 
+Question understood by pepper number 187 : <...> chocolate egg <...> beer <...> same category 
+Answer of pepper number 187 : not really , chocolate egg and beer are not in the same category 
+------------------------------------------------ 
+Question asked by human number 188 : Do the mints and noodles belong to the same category ?
+ 
+Question understood by pepper number 188 : <...> chocolate egg <...> coke <...> same category 
+Answer of pepper number 188 : not exactly , chocolate egg and coke are not in the same category 
+------------------------------------------------ 
+Question asked by human number 189 : Do the mints and apple belong to the same category ?
+ 
+Question understood by pepper number 189 : <...> chocolate egg <...> bowl <...> same category 
+Answer of pepper number 189 : not exactly , chocolate egg and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 190 : Do the mints and paprika belong to the same category ?
+ 
+Question understood by pepper number 190 : <...> chocolate egg <...> cloth <...> same category 
+Answer of pepper number 190 : not really , chocolate egg and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 191 : Do the mints and melon belong to the same category ?
+ 
+Question understood by pepper number 191 : <...> chocolate egg <...> cloth <...> same category 
+Answer of pepper number 191 : not exactly , chocolate egg and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 192 : Do the mints and sushi belong to the same category ?
+ 
+Question understood by pepper number 192 : <...> apple <...> bowl <...> same category 
+Answer of pepper number 192 : not really , apple and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 193 : Do the mints and tea belong to the same category ?
+ 
+Question understood by pepper number 193 : <...> chocolate egg <...> mug <...> same category 
+Answer of pepper number 193 : no , chocolate egg and mug are not in the same category 
+------------------------------------------------ 
+Question asked by human number 194 : Do the mints and beer belong to the same category ?
+ 
+Question understood by pepper number 194 : Nothing understood 
+Answer of pepper number 194 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 195 : Do the mints and coke belong to the same category ?
+ 
+Question understood by pepper number 195 : <...> chocolate egg <...> glass <...> same category 
+Answer of pepper number 195 : not really , chocolate egg and glass are not in the same category 
+------------------------------------------------ 
+Question asked by human number 196 : Do the mints and shampoo belong to the same category ?
+ 
+Question understood by pepper number 196 : <...> box <...> cloth <...> same category 
+Answer of pepper number 196 : not really , box and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 197 : Do the mints and cloth belong to the same category ?
+ 
+Question understood by pepper number 197 : <...> chocolate egg <...> tray <...> same category 
+Answer of pepper number 197 : not exactly , chocolate egg and tray are not in the same category 
+------------------------------------------------ 
+Question asked by human number 198 : Do the mints and sponge belong to the same category ?
+ 
+Question understood by pepper number 198 : <...> chocolate egg <...> bag <...> same category 
+Answer of pepper number 198 : no , chocolate egg and bag are not in the same category 
+------------------------------------------------ 
+Question asked by human number 199 : Do the mints and bowl belong to the same category ?
+ 
+Question understood by pepper number 199 : <...> mints <...> chips <...> same category 
+Answer of pepper number 199 : no , mints and chips are not in the same category 
+------------------------------------------------ 
+Question asked by human number 200 : Do the mints and mug belong to the same category ?
+ 
+Question understood by pepper number 200 : Nothing understood 
+Answer of pepper number 200 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 201 : Do the mints and glass belong to the same category ?
+ 
+Question understood by pepper number 201 : <...> mints <...> pringles <...> same category 
+Answer of pepper number 201 : not really , mints and pringles are not in the same category 
+------------------------------------------------ 
+Question asked by human number 202 : Do the mints and box belong to the same category ?
+ 
+Question understood by pepper number 202 : <...> mints <...> peanuts <...> same category 
+Answer of pepper number 202 : not exactly , mints and peanuts are not in the same category 
+------------------------------------------------ 
+Question asked by human number 203 : Do the mints and tray belong to the same category ?
+ 
+Question understood by pepper number 203 : <...> mints <...> chocolate bar <...> same category 
+Answer of pepper number 203 : sure , mints and chocolate bar belong to the same category 
+------------------------------------------------ 
+Question asked by human number 204 : Do the mints and bag belong to the same category ?
+ 
+Question understood by pepper number 204 : <...> mints <...> mints <...> same category 
+Answer of pepper number 204 : off course , mints and mints belong to the same category 
+------------------------------------------------ 
+Question asked by human number 205 : Do the chocolate egg and chips belong to the same category ?
+ 
+Question understood by pepper number 205 : <...> mints <...> chocolate egg <...> same category 
+Answer of pepper number 205 : yes sir , mints and chocolate egg belong to the same category 
+------------------------------------------------ 
+Question asked by human number 206 : Do the chocolate egg and pringles belong to the same category ?
+ 
+Question understood by pepper number 206 : <...> mints <...> noodles <...> same category 
+Answer of pepper number 206 : no , mints and noodles are not in the same category 
+------------------------------------------------ 
+Question asked by human number 207 : Do the chocolate egg and peanuts belong to the same category ?
+ 
+Question understood by pepper number 207 : Nothing understood 
+Answer of pepper number 207 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 208 : Do the chocolate egg and chocolate belong to the same category ?
+ 
+Question understood by pepper number 208 : <...> mints <...> apple <...> same category 
+Answer of pepper number 208 : not really , mints and apple are not in the same category 
+------------------------------------------------ 
+Question asked by human number 209 : Do the chocolate egg and mints belong to the same category ?
+ 
+Question understood by pepper number 209 : <...> mints <...> paprika <...> same category 
+Answer of pepper number 209 : not exactly , mints and paprika are not in the same category 
+------------------------------------------------ 
+Question asked by human number 210 : Do the chocolate egg and chocolate egg belong to the same category ?
+ 
+Question understood by pepper number 210 : <...> mints <...> melon <...> same category 
+Answer of pepper number 210 : no , mints and melon are not in the same category 
+------------------------------------------------ 
+Question asked by human number 211 : Do the chocolate egg and noodles belong to the same category ?
+ 
+Question understood by pepper number 211 : Nothing understood 
+Answer of pepper number 211 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 212 : Do the chocolate egg and apple belong to the same category ?
+ 
+Question understood by pepper number 212 : <...> mints <...> sushi <...> same category 
+Answer of pepper number 212 : not really , mints and sushi are not in the same category 
+------------------------------------------------ 
+Question asked by human number 213 : Do the chocolate egg and paprika belong to the same category ?
+ 
+Question understood by pepper number 213 : <...> mints <...> tea <...> same category 
+Answer of pepper number 213 : no , mints and tea are not in the same category 
+------------------------------------------------ 
+Question asked by human number 214 : Do the chocolate egg and melon belong to the same category ?
+ 
+Question understood by pepper number 214 : <...> mints <...> beer <...> same category 
+Answer of pepper number 214 : not really , mints and beer are not in the same category 
+------------------------------------------------ 
+Question asked by human number 215 : Do the chocolate egg and sushi belong to the same category ?
+ 
+Question understood by pepper number 215 : <...> mints <...> coke <...> same category 
+Answer of pepper number 215 : not exactly , mints and coke are not in the same category 
+------------------------------------------------ 
+Question asked by human number 216 : Do the chocolate egg and tea belong to the same category ?
+ 
+Question understood by pepper number 216 : <...> mints <...> bowl <...> same category 
+Answer of pepper number 216 : not really , mints and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 217 : Do the chocolate egg and beer belong to the same category ?
+ 
+Question understood by pepper number 217 : <...> mints <...> cloth <...> same category 
+Answer of pepper number 217 : no , mints and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 218 : Do the chocolate egg and coke belong to the same category ?
+ 
+Question understood by pepper number 218 : Nothing understood 
+Answer of pepper number 218 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 219 : Do the chocolate egg and shampoo belong to the same category ?
+ 
+Question understood by pepper number 219 : <...> mints <...> sponge <...> same category 
+Answer of pepper number 219 : not really , mints and sponge are not in the same category 
+------------------------------------------------ 
+Question asked by human number 220 : Do the chocolate egg and cloth belong to the same category ?
+ 
+Question understood by pepper number 220 : <...> mints <...> bowl <...> same category 
+Answer of pepper number 220 : not exactly , mints and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 221 : Do the chocolate egg and sponge belong to the same category ?
+ 
+Question understood by pepper number 221 : <...> mints <...> bowl <...> same category 
+Answer of pepper number 221 : no , mints and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 222 : Do the chocolate egg and bowl belong to the same category ?
+ 
+Question understood by pepper number 222 : <...> mints <...> glass <...> same category 
+Answer of pepper number 222 : not really , mints and glass are not in the same category 
+------------------------------------------------ 
+Question asked by human number 223 : Do the chocolate egg and mug belong to the same category ?
+ 
+Question understood by pepper number 223 : <...> mints <...> box <...> same category 
+Answer of pepper number 223 : not exactly , mints and box are not in the same category 
+------------------------------------------------ 
+Question asked by human number 224 : Do the chocolate egg and glass belong to the same category ?
+ 
+Question understood by pepper number 224 : <...> mints <...> tray <...> same category 
+Answer of pepper number 224 : no , mints and tray are not in the same category 
+------------------------------------------------ 
+Question asked by human number 225 : Do the chocolate egg and box belong to the same category ?
+ 
+Question understood by pepper number 225 : Nothing understood 
+Answer of pepper number 225 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 226 : Do the chocolate egg and tray belong to the same category ?
+ 
+Question understood by pepper number 226 : <...> mints <...> bag <...> same category 
+Answer of pepper number 226 : not really , mints and bag are not in the same category 
+------------------------------------------------ 
+Question asked by human number 227 : Do the chocolate egg and bag belong to the same category ?
+ 
+Question understood by pepper number 227 : <...> chocolate egg <...> chips <...> same category 
+Answer of pepper number 227 : no , chocolate egg and chips are not in the same category 
+------------------------------------------------ 
+Question asked by human number 228 : Do the noodles and chips belong to the same category ?
+ 
+Question understood by pepper number 228 : <...> chocolate egg <...> pringles <...> same category 
+Answer of pepper number 228 : not really , chocolate egg and pringles are not in the same category 
+------------------------------------------------ 
+Question asked by human number 229 : Do the noodles and pringles belong to the same category ?
+ 
+Question understood by pepper number 229 : who <...> category <...> beer 
+Answer of pepper number 229 : the beer are drinks 
+------------------------------------------------ 
+Question asked by human number 230 : Do the noodles and peanuts belong to the same category ?
+ 
+Question understood by pepper number 230 : Nothing understood 
+Answer of pepper number 230 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 231 : Do the noodles and chocolate belong to the same category ?
+ 
+Question understood by pepper number 231 : <...> chocolate egg <...> bowl <...> same category 
+Answer of pepper number 231 : not exactly , chocolate egg and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 232 : Do the noodles and mints belong to the same category ?
+ 
+Question understood by pepper number 232 : <...> chocolate egg <...> mints <...> same category 
+Answer of pepper number 232 : sure , chocolate egg and mints belong to the same category 
+------------------------------------------------ 
+Question asked by human number 233 : Do the noodles and chocolate egg belong to the same category ?
+ 
+Question understood by pepper number 233 : <...> chocolate egg <...> chocolate egg <...> same category 
+Answer of pepper number 233 : off course , chocolate egg and chocolate egg belong to the same category 
+------------------------------------------------ 
+Question asked by human number 234 : Do the noodles and noodles belong to the same category ?
+ 
+Question understood by pepper number 234 : <...> noodles <...> cloth <...> same category 
+Answer of pepper number 234 : not really , noodles and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 235 : Do the noodles and apple belong to the same category ?
+ 
+Question understood by pepper number 235 : <...> chocolate egg <...> apple <...> same category 
+Answer of pepper number 235 : not exactly , chocolate egg and apple are not in the same category 
+------------------------------------------------ 
+Question asked by human number 236 : Do the noodles and paprika belong to the same category ?
+ 
+Question understood by pepper number 236 : <...> paprika <...> bowl <...> same category 
+Answer of pepper number 236 : not exactly , paprika and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 237 : Do the noodles and melon belong to the same category ?
+ 
+Question understood by pepper number 237 : <...> chocolate egg <...> melon <...> same category 
+Answer of pepper number 237 : no , chocolate egg and melon are not in the same category 
+------------------------------------------------ 
+Question asked by human number 238 : Do the noodles and sushi belong to the same category ?
+ 
+Question understood by pepper number 238 : <...> chocolate egg <...> sushi <...> same category 
+Answer of pepper number 238 : not really , chocolate egg and sushi are not in the same category 
+------------------------------------------------ 
+Question asked by human number 239 : Do the noodles and tea belong to the same category ?
+ 
+Question understood by pepper number 239 : <...> tea <...> bowl <...> same category 
+Answer of pepper number 239 : not exactly , tea and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 240 : Do the noodles and beer belong to the same category ?
+ 
+Question understood by pepper number 240 : <...> chocolate egg <...> beer <...> same category 
+Answer of pepper number 240 : no , chocolate egg and beer are not in the same category 
+------------------------------------------------ 
+Question asked by human number 241 : Do the noodles and coke belong to the same category ?
+ 
+Question understood by pepper number 241 : <...> chocolate egg <...> coke <...> same category 
+Answer of pepper number 241 : not really , chocolate egg and coke are not in the same category 
+------------------------------------------------ 
+Question asked by human number 242 : Do the noodles and shampoo belong to the same category ?
+ 
+Question understood by pepper number 242 : <...> chocolate egg <...> shampoo <...> same category 
+Answer of pepper number 242 : not exactly , chocolate egg and shampoo are not in the same category 
+------------------------------------------------ 
+Question asked by human number 243 : Do the noodles and cloth belong to the same category ?
+ 
+Question understood by pepper number 243 : <...> cloth <...> bowl <...> same category 
+Answer of pepper number 243 : not really , cloth and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 244 : Do the noodles and sponge belong to the same category ?
+ 
+Question understood by pepper number 244 : <...> chocolate egg <...> sponge <...> same category 
+Answer of pepper number 244 : no , chocolate egg and sponge are not in the same category 
+------------------------------------------------ 
+Question asked by human number 245 : Do the noodles and bowl belong to the same category ?
+ 
+Question understood by pepper number 245 : <...> chocolate egg <...> bowl <...> same category 
+Answer of pepper number 245 : no , chocolate egg and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 246 : Do the noodles and mug belong to the same category ?
+ 
+Question understood by pepper number 246 : <...> chocolate egg <...> apple <...> same category 
+Answer of pepper number 246 : not exactly , chocolate egg and apple are not in the same category 
+------------------------------------------------ 
+Question asked by human number 247 : Do the noodles and glass belong to the same category ?
+ 
+Question understood by pepper number 247 : <...> chocolate egg <...> glass <...> same category 
+Answer of pepper number 247 : not really , chocolate egg and glass are not in the same category 
+------------------------------------------------ 
+Question asked by human number 248 : Do the noodles and box belong to the same category ?
+ 
+Question understood by pepper number 248 : <...> chocolate egg <...> box <...> same category 
+Answer of pepper number 248 : not exactly , chocolate egg and box are not in the same category 
+------------------------------------------------ 
+Question asked by human number 249 : Do the noodles and tray belong to the same category ?
+ 
+Question understood by pepper number 249 : <...> chocolate egg <...> tray <...> same category 
+Answer of pepper number 249 : no , chocolate egg and tray are not in the same category 
+------------------------------------------------ 
+Question asked by human number 250 : Do the noodles and bag belong to the same category ?
+ 
+Question understood by pepper number 250 : <...> chocolate egg <...> bag <...> same category 
+Answer of pepper number 250 : not really , chocolate egg and bag are not in the same category 
+------------------------------------------------ 
+Question asked by human number 251 : Do the apple and chips belong to the same category ?
+ 
+Question understood by pepper number 251 : <...> noodles <...> chips <...> same category 
+Answer of pepper number 251 : no , noodles and chips are not in the same category 
+------------------------------------------------ 
+Question asked by human number 252 : Do the apple and pringles belong to the same category ?
+ 
+Question understood by pepper number 252 : Nothing understood 
+Answer of pepper number 252 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 253 : Do the apple and peanuts belong to the same category ?
+ 
+Question understood by pepper number 253 : <...> noodles <...> pringles <...> same category 
+Answer of pepper number 253 : not really , noodles and pringles are not in the same category 
+------------------------------------------------ 
+Question asked by human number 254 : Do the apple and chocolate belong to the same category ?
+ 
+Question understood by pepper number 254 : <...> noodles <...> cloth <...> same category 
+Answer of pepper number 254 : not exactly , noodles and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 255 : Do the apple and mints belong to the same category ?
+ 
+Question understood by pepper number 255 : <...> noodles <...> chocolate egg <...> same category 
+Answer of pepper number 255 : not exactly , noodles and chocolate egg are not in the same category 
+------------------------------------------------ 
+Question asked by human number 256 : Do the apple and chocolate egg belong to the same category ?
+ 
+Question understood by pepper number 256 : <...> noodles <...> mints <...> same category 
+Answer of pepper number 256 : no , noodles and mints are not in the same category 
+------------------------------------------------ 
+Question asked by human number 257 : Do the apple and noodles belong to the same category ?
+ 
+Question understood by pepper number 257 : <...> bowl <...> chocolate egg <...> same category 
+Answer of pepper number 257 : no , bowl and chocolate egg are not in the same category 
+------------------------------------------------ 
+Question asked by human number 258 : Do the apple and apple belong to the same category ?
+ 
+Question understood by pepper number 258 : <...> noodles <...> noodles <...> same category 
+Answer of pepper number 258 : yes sir , noodles and noodles belong to the same category 
+------------------------------------------------ 
+Question asked by human number 259 : Do the apple and paprika belong to the same category ?
+ 
+Question understood by pepper number 259 : <...> noodles <...> apple <...> same category 
+Answer of pepper number 259 : sure , noodles and apple belong to the same category 
+------------------------------------------------ 
+Question asked by human number 260 : Do the apple and melon belong to the same category ?
+ 
+Question understood by pepper number 260 : Nothing understood 
+Answer of pepper number 260 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 261 : Do the apple and sushi belong to the same category ?
+ 
+Question understood by pepper number 261 : <...> noodles <...> paprika <...> same category 
+Answer of pepper number 261 : off course , noodles and paprika belong to the same category 
+------------------------------------------------ 
+Question asked by human number 262 : Do the apple and tea belong to the same category ?
+ 
+Question understood by pepper number 262 : <...> noodles <...> melon <...> same category 
+Answer of pepper number 262 : yes sir , noodles and melon belong to the same category 
+------------------------------------------------ 
+Question asked by human number 263 : Do the apple and beer belong to the same category ?
+ 
+Question understood by pepper number 263 : <...> noodles <...> sushi <...> same category 
+Answer of pepper number 263 : sure , noodles and sushi belong to the same category 
+------------------------------------------------ 
+Question asked by human number 264 : Do the apple and coke belong to the same category ?
+ 
+Question understood by pepper number 264 : <...> noodles <...> tea <...> same category 
+Answer of pepper number 264 : not really , noodles and tea are not in the same category 
+------------------------------------------------ 
+Question asked by human number 265 : Do the apple and shampoo belong to the same category ?
+ 
+Question understood by pepper number 265 : <...> noodles <...> beer <...> same category 
+Answer of pepper number 265 : not exactly , noodles and beer are not in the same category 
+------------------------------------------------ 
+Question asked by human number 266 : Do the apple and cloth belong to the same category ?
+ 
+Question understood by pepper number 266 : <...> noodles <...> coke <...> same category 
+Answer of pepper number 266 : no , noodles and coke are not in the same category 
+------------------------------------------------ 
+Question asked by human number 267 : Do the apple and sponge belong to the same category ?
+ 
+Question understood by pepper number 267 : Nothing understood 
+Answer of pepper number 267 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 268 : Do the apple and bowl belong to the same category ?
+ 
+Question understood by pepper number 268 : <...> noodles <...> bowl <...> same category 
+Answer of pepper number 268 : no , noodles and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 269 : Do the apple and mug belong to the same category ?
+ 
+Question understood by pepper number 269 : <...> noodles <...> cloth <...> same category 
+Answer of pepper number 269 : no , noodles and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 270 : Do the apple and glass belong to the same category ?
+ 
+Question understood by pepper number 270 : Nothing understood 
+Answer of pepper number 270 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 271 : Do the apple and box belong to the same category ?
+ 
+Question understood by pepper number 271 : <...> noodles <...> sponge <...> same category 
+Answer of pepper number 271 : not really , noodles and sponge are not in the same category 
+------------------------------------------------ 
+Question asked by human number 272 : Do the apple and tray belong to the same category ?
+ 
+Question understood by pepper number 272 : <...> noodles <...> bowl <...> same category 
+Answer of pepper number 272 : not really , noodles and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 273 : Do the apple and bag belong to the same category ?
+ 
+Question understood by pepper number 273 : <...> noodles <...> mug <...> same category 
+Answer of pepper number 273 : not exactly , noodles and mug are not in the same category 
+------------------------------------------------ 
+Question asked by human number 274 : Do the paprika and chips belong to the same category ?
+ 
+Question understood by pepper number 274 : <...> noodles <...> glass <...> same category 
+Answer of pepper number 274 : no , noodles and glass are not in the same category 
+------------------------------------------------ 
+Question asked by human number 275 : Do the paprika and pringles belong to the same category ?
+ 
+Question understood by pepper number 275 : Nothing understood 
+Answer of pepper number 275 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 276 : Do the paprika and peanuts belong to the same category ?
+ 
+Question understood by pepper number 276 : <...> noodles <...> box <...> same category 
+Answer of pepper number 276 : not really , noodles and box are not in the same category 
+------------------------------------------------ 
+Question asked by human number 277 : Do the paprika and chocolate belong to the same category ?
+ 
+Question understood by pepper number 277 : <...> noodles <...> tray <...> same category 
+Answer of pepper number 277 : not exactly , noodles and tray are not in the same category 
+------------------------------------------------ 
+Question asked by human number 278 : Do the paprika and mints belong to the same category ?
+ 
+Question understood by pepper number 278 : <...> noodles <...> bag <...> same category 
+Answer of pepper number 278 : no , noodles and bag are not in the same category 
+------------------------------------------------ 
+Question asked by human number 279 : Do the paprika and chocolate egg belong to the same category ?
+ 
+Question understood by pepper number 279 : Nothing understood 
+Answer of pepper number 279 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 280 : Do the paprika and noodles belong to the same category ?
+ 
+Question understood by pepper number 280 : <...> apple <...> chips <...> same category 
+Answer of pepper number 280 : not exactly , apple and chips are not in the same category 
+------------------------------------------------ 
+Question asked by human number 281 : Do the paprika and apple belong to the same category ?
+ 
+Question understood by pepper number 281 : <...> apple <...> pringles <...> same category 
+Answer of pepper number 281 : no , apple and pringles are not in the same category 
+------------------------------------------------ 
+Question asked by human number 282 : Do the paprika and paprika belong to the same category ?
+ 
+Question understood by pepper number 282 : <...> apple <...> peanuts <...> same category 
+Answer of pepper number 282 : not really , apple and peanuts are not in the same category 
+------------------------------------------------ 
+Question asked by human number 283 : Do the paprika and melon belong to the same category ?
+ 
+Question understood by pepper number 283 : <...> apple <...> chocolate egg <...> same category 
+Answer of pepper number 283 : not really , apple and chocolate egg are not in the same category 
+------------------------------------------------ 
+Question asked by human number 284 : Do the paprika and sushi belong to the same category ?
+ 
+Question understood by pepper number 284 : <...> apple <...> mints <...> same category 
+Answer of pepper number 284 : not exactly , apple and mints are not in the same category 
+------------------------------------------------ 
+Question asked by human number 285 : Do the paprika and tea belong to the same category ?
+ 
+Question understood by pepper number 285 : <...> apple <...> chocolate egg <...> same category 
+Answer of pepper number 285 : no , apple and chocolate egg are not in the same category 
+------------------------------------------------ 
+Question asked by human number 286 : Do the paprika and beer belong to the same category ?
+ 
+Question understood by pepper number 286 : Nothing understood 
+Answer of pepper number 286 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 287 : Do the paprika and coke belong to the same category ?
+ 
+Question understood by pepper number 287 : <...> apple <...> apple <...> same category 
+Answer of pepper number 287 : off course , apple and apple belong to the same category 
+------------------------------------------------ 
+Question asked by human number 288 : Do the paprika and shampoo belong to the same category ?
+ 
+Question understood by pepper number 288 : <...> apple <...> paprika <...> same category 
+Answer of pepper number 288 : yes sir , apple and paprika belong to the same category 
+------------------------------------------------ 
+Question asked by human number 289 : Do the paprika and cloth belong to the same category ?
+ 
+Question understood by pepper number 289 : <...> apple <...> melon <...> same category 
+Answer of pepper number 289 : sure , apple and melon belong to the same category 
+------------------------------------------------ 
+Question asked by human number 290 : Do the paprika and sponge belong to the same category ?
+ 
+Question understood by pepper number 290 : Nothing understood 
+Answer of pepper number 290 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 291 : Do the paprika and bowl belong to the same category ?
+ 
+Question understood by pepper number 291 : <...> apple <...> sushi <...> same category 
+Answer of pepper number 291 : off course , apple and sushi belong to the same category 
+------------------------------------------------ 
+Question asked by human number 292 : Do the paprika and mug belong to the same category ?
+ 
+Question understood by pepper number 292 : <...> apple <...> tea <...> same category 
+Answer of pepper number 292 : not really , apple and tea are not in the same category 
+------------------------------------------------ 
+Question asked by human number 293 : Do the paprika and glass belong to the same category ?
+ 
+Question understood by pepper number 293 : <...> apple <...> beer <...> same category 
+Answer of pepper number 293 : not exactly , apple and beer are not in the same category 
+------------------------------------------------ 
+Question asked by human number 294 : Do the paprika and box belong to the same category ?
+ 
+Question understood by pepper number 294 : <...> apple <...> coke <...> same category 
+Answer of pepper number 294 : no , apple and coke are not in the same category 
+------------------------------------------------ 
+Question asked by human number 295 : Do the paprika and tray belong to the same category ?
+ 
+Question understood by pepper number 295 : Nothing understood 
+Answer of pepper number 295 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 296 : Do the paprika and bag belong to the same category ?
+ 
+Question understood by pepper number 296 : <...> shampoo <...> bowl <...> same category 
+Answer of pepper number 296 : not exactly , shampoo and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 297 : Do the melon and chips belong to the same category ?
+ 
+Question understood by pepper number 297 : <...> bowl <...> cloth <...> same category 
+Answer of pepper number 297 : not exactly , bowl and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 298 : Do the melon and pringles belong to the same category ?
+ 
+Question understood by pepper number 298 : <...> apple <...> sponge <...> same category 
+Answer of pepper number 298 : not exactly , apple and sponge are not in the same category 
+------------------------------------------------ 
+Question asked by human number 299 : Do the melon and peanuts belong to the same category ?
+ 
+Question understood by pepper number 299 : <...> apple <...> bowl <...> same category 
+Answer of pepper number 299 : not really , apple and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 300 : Do the melon and chocolate belong to the same category ?
+ 
+Question understood by pepper number 300 : <...> apple <...> mug <...> same category 
+Answer of pepper number 300 : not exactly , apple and mug are not in the same category 
+------------------------------------------------ 
+Question asked by human number 301 : Do the melon and mints belong to the same category ?
+ 
+Question understood by pepper number 301 : <...> apple <...> glass <...> same category 
+Answer of pepper number 301 : no , apple and glass are not in the same category 
+------------------------------------------------ 
+Question asked by human number 302 : Do the melon and chocolate egg belong to the same category ?
+ 
+Question understood by pepper number 302 : Nothing understood 
+Answer of pepper number 302 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 303 : Do the melon and noodles belong to the same category ?
+ 
+Question understood by pepper number 303 : <...> apple <...> box <...> same category 
+Answer of pepper number 303 : not really , apple and box are not in the same category 
+------------------------------------------------ 
+Question asked by human number 304 : Do the melon and apple belong to the same category ?
+ 
+Question understood by pepper number 304 : <...> apple <...> tray <...> same category 
+Answer of pepper number 304 : not exactly , apple and tray are not in the same category 
+------------------------------------------------ 
+Question asked by human number 305 : Do the melon and paprika belong to the same category ?
+ 
+Question understood by pepper number 305 : <...> apple <...> bag <...> same category 
+Answer of pepper number 305 : no , apple and bag are not in the same category 
+------------------------------------------------ 
+Question asked by human number 306 : Do the melon and melon belong to the same category ?
+ 
+Question understood by pepper number 306 : Nothing understood 
+Answer of pepper number 306 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 307 : Do the melon and sushi belong to the same category ?
+ 
+Question understood by pepper number 307 : <...> paprika <...> chips <...> same category 
+Answer of pepper number 307 : not exactly , paprika and chips are not in the same category 
+------------------------------------------------ 
+Question asked by human number 308 : Do the melon and tea belong to the same category ?
+ 
+Question understood by pepper number 308 : <...> paprika <...> pringles <...> same category 
+Answer of pepper number 308 : no , paprika and pringles are not in the same category 
+------------------------------------------------ 
+Question asked by human number 309 : Do the melon and beer belong to the same category ?
+ 
+Question understood by pepper number 309 : <...> paprika <...> peanuts <...> same category 
+Answer of pepper number 309 : not really , paprika and peanuts are not in the same category 
+------------------------------------------------ 
+Question asked by human number 310 : Do the melon and coke belong to the same category ?
+ 
+Question understood by pepper number 310 : <...> paprika <...> chocolate bar <...> same category 
+Answer of pepper number 310 : not really , paprika and chocolate bar are not in the same category 
+------------------------------------------------ 
+Question asked by human number 311 : Do the melon and shampoo belong to the same category ?
+ 
+Question understood by pepper number 311 : <...> tray <...> mints <...> same category 
+Answer of pepper number 311 : not really , tray and mints are not in the same category 
+------------------------------------------------ 
+Question asked by human number 312 : Do the melon and cloth belong to the same category ?
+ 
+Question understood by pepper number 312 : <...> paprika <...> chocolate egg <...> same category 
+Answer of pepper number 312 : not exactly , paprika and chocolate egg are not in the same category 
+------------------------------------------------ 
+Question asked by human number 313 : Do the melon and sponge belong to the same category ?
+ 
+Question understood by pepper number 313 : <...> noodles <...> mug <...> same category 
+Answer of pepper number 313 : not really , noodles and mug are not in the same category 
+------------------------------------------------ 
+Question asked by human number 314 : Do the melon and bowl belong to the same category ?
+ 
+Question understood by pepper number 314 : <...> paprika <...> apple <...> same category 
+Answer of pepper number 314 : yes sir , paprika and apple belong to the same category 
+------------------------------------------------ 
+Question asked by human number 315 : Do the melon and mug belong to the same category ?
+ 
+Question understood by pepper number 315 : <...> paprika <...> paprika <...> same category 
+Answer of pepper number 315 : sure , paprika and paprika belong to the same category 
+------------------------------------------------ 
+Question asked by human number 316 : Do the melon and glass belong to the same category ?
+ 
+Question understood by pepper number 316 : <...> paprika <...> melon <...> same category 
+Answer of pepper number 316 : off course , paprika and melon belong to the same category 
+------------------------------------------------ 
+Question asked by human number 317 : Do the melon and box belong to the same category ?
+ 
+Question understood by pepper number 317 : <...> sushi <...> cloth <...> same category 
+Answer of pepper number 317 : no , sushi and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 318 : Do the melon and tray belong to the same category ?
+ 
+Question understood by pepper number 318 : Nothing understood 
+Answer of pepper number 318 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 319 : Do the melon and bag belong to the same category ?
+ 
+Question understood by pepper number 319 : <...> paprika <...> tea <...> same category 
+Answer of pepper number 319 : not really , paprika and tea are not in the same category 
+------------------------------------------------ 
+Question asked by human number 320 : Do the sushi and chips belong to the same category ?
+ 
+Question understood by pepper number 320 : <...> paprika <...> beer <...> same category 
+Answer of pepper number 320 : not exactly , paprika and beer are not in the same category 
+------------------------------------------------ 
+Question asked by human number 321 : Do the sushi and pringles belong to the same category ?
+ 
+Question understood by pepper number 321 : <...> paprika <...> cloth <...> same category please 
+Answer of pepper number 321 : not really , paprika and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 322 : Do the sushi and peanuts belong to the same category ?
+ 
+Question understood by pepper number 322 : <...> bowl <...> bowl <...> same category 
+Answer of pepper number 322 : sure , bowl and bowl belong to the same category 
+------------------------------------------------ 
+Question asked by human number 323 : Do the sushi and chocolate belong to the same category ?
+ 
+Question understood by pepper number 323 : <...> paprika <...> cloth <...> same category 
+Answer of pepper number 323 : not exactly , paprika and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 324 : Do the sushi and mints belong to the same category ?
+ 
+Question understood by pepper number 324 : what <...> category <...> bowl 
+Answer of pepper number 324 : the bowl are containers 
+------------------------------------------------ 
+Question asked by human number 325 : Do the sushi and chocolate egg belong to the same category ?
+ 
+Question understood by pepper number 325 : Nothing understood 
+Answer of pepper number 325 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 326 : Do the sushi and noodles belong to the same category ?
+ 
+Question understood by pepper number 326 : <...> paprika <...> bowl <...> same category 
+Answer of pepper number 326 : not exactly , paprika and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 327 : Do the sushi and apple belong to the same category ?
+ 
+Question understood by pepper number 327 : <...> paprika <...> mug <...> same category 
+Answer of pepper number 327 : no , paprika and mug are not in the same category 
+------------------------------------------------ 
+Question asked by human number 328 : Do the sushi and paprika belong to the same category ?
+ 
+Question understood by pepper number 328 : Nothing understood 
+Answer of pepper number 328 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 329 : Do the sushi and melon belong to the same category ?
+ 
+Question understood by pepper number 329 : <...> paprika <...> box <...> same category 
+Answer of pepper number 329 : not really , paprika and box are not in the same category 
+------------------------------------------------ 
+Question asked by human number 330 : Do the sushi and sushi belong to the same category ?
+ 
+Question understood by pepper number 330 : <...> paprika <...> bowl <...> same category 
+Answer of pepper number 330 : not exactly , paprika and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 331 : Do the sushi and tea belong to the same category ?
+ 
+Question understood by pepper number 331 : <...> paprika <...> bag <...> same category 
+Answer of pepper number 331 : no , paprika and bag are not in the same category 
+------------------------------------------------ 
+Question asked by human number 332 : Do the sushi and beer belong to the same category ?
+ 
+Question understood by pepper number 332 : what <...> category <...> mints 
+Answer of pepper number 332 : the mints are candies 
+------------------------------------------------ 
+Question asked by human number 333 : Do the sushi and coke belong to the same category ?
+ 
+Question understood by pepper number 333 : Nothing understood 
+Answer of pepper number 333 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 334 : Do the sushi and shampoo belong to the same category ?
+ 
+Question understood by pepper number 334 : <...> melon <...> pringles <...> same category 
+Answer of pepper number 334 : not exactly , melon and pringles are not in the same category 
+------------------------------------------------ 
+Question asked by human number 335 : Do the sushi and cloth belong to the same category ?
+ 
+Question understood by pepper number 335 : <...> melon <...> peanuts <...> same category 
+Answer of pepper number 335 : no , melon and peanuts are not in the same category 
+------------------------------------------------ 
+Question asked by human number 336 : Do the sushi and sponge belong to the same category ?
+ 
+Question understood by pepper number 336 : <...> melon <...> box <...> same category 
+Answer of pepper number 336 : not really , melon and box are not in the same category 
+------------------------------------------------ 
+Question asked by human number 337 : Do the sushi and bowl belong to the same category ?
+ 
+Question understood by pepper number 337 : <...> melon <...> mints <...> same category 
+Answer of pepper number 337 : no , melon and mints are not in the same category 
+------------------------------------------------ 
+Question asked by human number 338 : Do the sushi and mug belong to the same category ?
+ 
+Question understood by pepper number 338 : Nothing understood 
+Answer of pepper number 338 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 339 : Do the sushi and glass belong to the same category ?
+ 
+Question understood by pepper number 339 : <...> melon <...> chocolate egg <...> same category 
+Answer of pepper number 339 : not really , melon and chocolate egg are not in the same category 
+------------------------------------------------ 
+Question asked by human number 340 : Do the sushi and box belong to the same category ?
+ 
+Question understood by pepper number 340 : what <...> category <...> beer 
+Answer of pepper number 340 : the beer are drinks 
+------------------------------------------------ 
+Question asked by human number 341 : Do the sushi and tray belong to the same category ?
+ 
+Question understood by pepper number 341 : who <...> category <...> melon 
+Answer of pepper number 341 : the melon are freshfood 
+------------------------------------------------ 
+Question asked by human number 342 : Do the sushi and bag belong to the same category ?
+ 
+Question understood by pepper number 342 : Nothing understood 
+Answer of pepper number 342 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 343 : Do the tea and chips belong to the same category ?
+ 
+Question understood by pepper number 343 : <...> melon <...> paprika <...> same category 
+Answer of pepper number 343 : yes sir , melon and paprika belong to the same category 
+------------------------------------------------ 
+Question asked by human number 344 : Do the tea and pringles belong to the same category ?
+ 
+Question understood by pepper number 344 : <...> melon <...> melon <...> same category 
+Answer of pepper number 344 : sure , melon and melon belong to the same category 
+------------------------------------------------ 
+Question asked by human number 345 : Do the tea and peanuts belong to the same category ?
+ 
+Question understood by pepper number 345 : <...> melon <...> sushi <...> same category 
+Answer of pepper number 345 : off course , melon and sushi belong to the same category 
+------------------------------------------------ 
+Question asked by human number 346 : Do the tea and chocolate belong to the same category ?
+ 
+Question understood by pepper number 346 : <...> melon <...> tea <...> same category 
+Answer of pepper number 346 : no , melon and tea are not in the same category 
+------------------------------------------------ 
+Question asked by human number 347 : Do the tea and mints belong to the same category ?
+ 
+Question understood by pepper number 347 : Nothing understood 
+Answer of pepper number 347 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 348 : Do the tea and chocolate egg belong to the same category ?
+ 
+Question understood by pepper number 348 : <...> melon <...> beer <...> same category 
+Answer of pepper number 348 : not really , melon and beer are not in the same category 
+------------------------------------------------ 
+Question asked by human number 349 : Do the tea and noodles belong to the same category ?
+ 
+Question understood by pepper number 349 : <...> melon <...> chips <...> same category 
+Answer of pepper number 349 : not really , melon and chips are not in the same category 
+------------------------------------------------ 
+Question asked by human number 350 : Do the tea and apple belong to the same category ?
+ 
+Question understood by pepper number 350 : <...> shampoo <...> cloth <...> same category 
+Answer of pepper number 350 : yes sir , shampoo and cloth belong to the same category 
+------------------------------------------------ 
+Question asked by human number 351 : Do the tea and paprika belong to the same category ?
+ 
+Question understood by pepper number 351 : <...> melon <...> cloth <...> same category 
+Answer of pepper number 351 : no , melon and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 352 : Do the tea and melon belong to the same category ?
+ 
+Question understood by pepper number 352 : <...> melon <...> mints <...> same category 
+Answer of pepper number 352 : not exactly , melon and mints are not in the same category 
+------------------------------------------------ 
+Question asked by human number 353 : Do the tea and sushi belong to the same category ?
+ 
+Question understood by pepper number 353 : <...> melon <...> bowl <...> same category 
+Answer of pepper number 353 : not exactly , melon and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 354 : Do the tea and tea belong to the same category ?
+ 
+Question understood by pepper number 354 : <...> mug <...> mug <...> same category 
+Answer of pepper number 354 : off course , mug and mug belong to the same category 
+------------------------------------------------ 
+Question asked by human number 355 : Do the tea and beer belong to the same category ?
+ 
+Question understood by pepper number 355 : <...> glass <...> cloth <...> same category 
+Answer of pepper number 355 : no , glass and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 356 : Do the tea and coke belong to the same category ?
+ 
+Question understood by pepper number 356 : Nothing understood 
+Answer of pepper number 356 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 357 : Do the tea and shampoo belong to the same category ?
+ 
+Question understood by pepper number 357 : <...> melon <...> box <...> same category 
+Answer of pepper number 357 : no , melon and box are not in the same category 
+------------------------------------------------ 
+Question asked by human number 358 : Do the tea and cloth belong to the same category ?
+ 
+Question understood by pepper number 358 : what <...> category <...> bowl 
+Answer of pepper number 358 : the bowl are containers 
+------------------------------------------------ 
+Question asked by human number 359 : Do the tea and sponge belong to the same category ?
+ 
+Question understood by pepper number 359 : Nothing understood 
+Answer of pepper number 359 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 360 : Do the tea and bowl belong to the same category ?
+ 
+Question understood by pepper number 360 : <...> melon <...> bag <...> same category 
+Answer of pepper number 360 : not really , melon and bag are not in the same category 
+------------------------------------------------ 
+Question asked by human number 361 : Do the tea and mug belong to the same category ?
+ 
+Question understood by pepper number 361 : <...> sushi <...> chips <...> same category 
+Answer of pepper number 361 : not exactly , sushi and chips are not in the same category 
+------------------------------------------------ 
+Question asked by human number 362 : Do the tea and glass belong to the same category ?
+ 
+Question understood by pepper number 362 : <...> sushi <...> pringles <...> same category 
+Answer of pepper number 362 : no , sushi and pringles are not in the same category 
+------------------------------------------------ 
+Question asked by human number 363 : Do the tea and box belong to the same category ?
+ 
+Question understood by pepper number 363 : <...> sushi <...> cloth <...> same category 
+Answer of pepper number 363 : not really , sushi and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 364 : Do the tea and tray belong to the same category ?
+ 
+Question understood by pepper number 364 : <...> sushi <...> chocolate bar <...> same category 
+Answer of pepper number 364 : no , sushi and chocolate bar are not in the same category 
+------------------------------------------------ 
+Question asked by human number 365 : Do the tea and bag belong to the same category ?
+ 
+Question understood by pepper number 365 : what <...> category <...> beer 
+Answer of pepper number 365 : the beer are drinks 
+------------------------------------------------ 
+Question asked by human number 366 : Do the beer and chips belong to the same category ?
+ 
+Question understood by pepper number 366 : where <...> noodles 
+Answer of pepper number 366 : noodles is on the fridge in the kitchen 
+------------------------------------------------ 
+Question asked by human number 367 : Do the beer and pringles belong to the same category ?
+ 
+Question understood by pepper number 367 : Nothing understood 
+Answer of pepper number 367 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 368 : Do the beer and peanuts belong to the same category ?
+ 
+Question understood by pepper number 368 : <...> sushi <...> noodles <...> same category please 
+Answer of pepper number 368 : yes sir , sushi and noodles belong to the same category 
+------------------------------------------------ 
+Question asked by human number 369 : Do the beer and chocolate belong to the same category ?
+ 
+Question understood by pepper number 369 : what <...> category <...> coke 
+Answer of pepper number 369 : the coke are drinks 
+------------------------------------------------ 
+Question asked by human number 370 : Do the beer and mints belong to the same category ?
+ 
+Question understood by pepper number 370 : Nothing understood 
+Answer of pepper number 370 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 371 : Do the beer and chocolate egg belong to the same category ?
+ 
+Question understood by pepper number 371 : <...> sushi <...> paprika <...> same category 
+Answer of pepper number 371 : sure , sushi and paprika belong to the same category 
+------------------------------------------------ 
+Question asked by human number 372 : Do the beer and noodles belong to the same category ?
+ 
+Question understood by pepper number 372 : <...> sushi <...> melon <...> same category 
+Answer of pepper number 372 : off course , sushi and melon belong to the same category 
+------------------------------------------------ 
+Question asked by human number 373 : Do the beer and apple belong to the same category ?
+ 
+Question understood by pepper number 373 : <...> sushi <...> sushi <...> same category 
+Answer of pepper number 373 : yes sir , sushi and sushi belong to the same category 
+------------------------------------------------ 
+Question asked by human number 374 : Do the beer and paprika belong to the same category ?
+ 
+Question understood by pepper number 374 : <...> tea <...> bowl <...> same category 
+Answer of pepper number 374 : no , tea and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 375 : Do the beer and melon belong to the same category ?
+ 
+Question understood by pepper number 375 : Nothing understood 
+Answer of pepper number 375 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 376 : Do the beer and sushi belong to the same category ?
+ 
+Question understood by pepper number 376 : <...> sushi <...> beer <...> same category 
+Answer of pepper number 376 : not exactly , sushi and beer are not in the same category 
+------------------------------------------------ 
+Question asked by human number 377 : Do the beer and tea belong to the same category ?
+ 
+Question understood by pepper number 377 : <...> sushi <...> mug <...> same category 
+Answer of pepper number 377 : not exactly , sushi and mug are not in the same category 
+------------------------------------------------ 
+Question asked by human number 378 : Do the beer and beer belong to the same category ?
+ 
+Question understood by pepper number 378 : <...> sushi <...> apple <...> same category 
+Answer of pepper number 378 : sure , sushi and apple belong to the same category 
+------------------------------------------------ 
+Question asked by human number 379 : Do the beer and coke belong to the same category ?
+ 
+Question understood by pepper number 379 : <...> sushi <...> cloth <...> same category 
+Answer of pepper number 379 : not exactly , sushi and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 380 : Do the beer and shampoo belong to the same category ?
+ 
+Question understood by pepper number 380 : <...> coke <...> tray <...> same category 
+Answer of pepper number 380 : not really , coke and tray are not in the same category 
+------------------------------------------------ 
+Question asked by human number 381 : Do the beer and cloth belong to the same category ?
+ 
+Question understood by pepper number 381 : <...> sushi <...> bowl <...> same category 
+Answer of pepper number 381 : no , sushi and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 382 : Do the beer and sponge belong to the same category ?
+ 
+Question understood by pepper number 382 : <...> sushi <...> box <...> same category 
+Answer of pepper number 382 : not really , sushi and box are not in the same category 
+------------------------------------------------ 
+Question asked by human number 383 : Do the beer and bowl belong to the same category ?
+ 
+Question understood by pepper number 383 : what <...> category <...> coke 
+Answer of pepper number 383 : the coke are drinks 
+------------------------------------------------ 
+Question asked by human number 384 : Do the beer and mug belong to the same category ?
+ 
+Question understood by pepper number 384 : Nothing understood 
+Answer of pepper number 384 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 385 : Do the beer and glass belong to the same category ?
+ 
+Question understood by pepper number 385 : <...> sushi <...> box <...> same category 
+Answer of pepper number 385 : not exactly , sushi and box are not in the same category 
+------------------------------------------------ 
+Question asked by human number 386 : Do the beer and box belong to the same category ?
+ 
+Question understood by pepper number 386 : <...> sushi <...> tray <...> same category please 
+Answer of pepper number 386 : no , sushi and tray are not in the same category 
+------------------------------------------------ 
+Question asked by human number 387 : Do the beer and tray belong to the same category ?
+ 
+Question understood by pepper number 387 : <...> bag <...> bowl <...> same category 
+Answer of pepper number 387 : yes sir , bag and bowl belong to the same category 
+------------------------------------------------ 
+Question asked by human number 388 : Do the beer and bag belong to the same category ?
+ 
+Question understood by pepper number 388 : <...> tea <...> chips <...> same category 
+Answer of pepper number 388 : no , tea and chips are not in the same category 
+------------------------------------------------ 
+Question asked by human number 389 : Do the coke and chips belong to the same category ?
+ 
+Question understood by pepper number 389 : <...> tea <...> pringles <...> same category 
+Answer of pepper number 389 : not really , tea and pringles are not in the same category 
+------------------------------------------------ 
+Question asked by human number 390 : Do the coke and pringles belong to the same category ?
+ 
+Question understood by pepper number 390 : <...> tea <...> mints <...> same category 
+Answer of pepper number 390 : not really , tea and mints are not in the same category 
+------------------------------------------------ 
+Question asked by human number 391 : Do the coke and peanuts belong to the same category ?
+ 
+Question understood by pepper number 391 : <...> tea <...> melon <...> same category 
+Answer of pepper number 391 : not really , tea and melon are not in the same category 
+------------------------------------------------ 
+Question asked by human number 392 : Do the coke and chocolate belong to the same category ?
+ 
+Question understood by pepper number 392 : Nothing understood 
+Answer of pepper number 392 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 393 : Do the coke and mints belong to the same category ?
+ 
+Question understood by pepper number 393 : <...> tea <...> chocolate egg <...> same category 
+Answer of pepper number 393 : not exactly , tea and chocolate egg are not in the same category 
+------------------------------------------------ 
+Question asked by human number 394 : Do the coke and chocolate egg belong to the same category ?
+ 
+Question understood by pepper number 394 : Nothing understood 
+Answer of pepper number 394 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 395 : Do the coke and noodles belong to the same category ?
+ 
+Question understood by pepper number 395 : <...> tea <...> bowl <...> same category 
+Answer of pepper number 395 : not exactly , tea and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 396 : Do the coke and apple belong to the same category ?
+ 
+Question understood by pepper number 396 : who <...> category <...> mug 
+Answer of pepper number 396 : the mug are containers 
+------------------------------------------------ 
+Question asked by human number 397 : Do the coke and paprika belong to the same category ?
+ 
+Question understood by pepper number 397 : Nothing understood 
+Answer of pepper number 397 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 398 : Do the coke and melon belong to the same category ?
+ 
+Question understood by pepper number 398 : <...> tea <...> melon <...> same category 
+Answer of pepper number 398 : not exactly , tea and melon are not in the same category 
+------------------------------------------------ 
+Question asked by human number 399 : Do the coke and sushi belong to the same category ?
+ 
+Question understood by pepper number 399 : <...> sushi <...> mug <...> same category please 
+Answer of pepper number 399 : not really , sushi and mug are not in the same category 
+------------------------------------------------ 
+Question asked by human number 400 : Do the coke and tea belong to the same category ?
+ 
+Question understood by pepper number 400 : who <...> category <...> bowl 
+Answer of pepper number 400 : the bowl are containers 
+------------------------------------------------ 
+Question asked by human number 401 : Do the coke and beer belong to the same category ?
+ 
+Question understood by pepper number 401 : Nothing understood 
+Answer of pepper number 401 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 402 : Do the coke and coke belong to the same category ?
+ 
+Question understood by pepper number 402 : <...> tea <...> beer <...> same category please 
+Answer of pepper number 402 : off course , tea and beer belong to the same category 
+------------------------------------------------ 
+Question asked by human number 403 : Do the coke and shampoo belong to the same category ?
+ 
+Question understood by pepper number 403 : Nothing understood 
+Answer of pepper number 403 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 404 : Do the coke and cloth belong to the same category ?
+ 
+Question understood by pepper number 404 : Nothing understood 
+Answer of pepper number 404 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 405 : Do the coke and sponge belong to the same category ?
+ 
+Question understood by pepper number 405 : <...> tea <...> cloth <...> same category 
+Answer of pepper number 405 : not really , tea and cloth are not in the same category 
+------------------------------------------------ 
+Question asked by human number 406 : Do the coke and bowl belong to the same category ?
+ 
+Question understood by pepper number 406 : who <...> category <...> beer 
+Answer of pepper number 406 : the beer are drinks 
+------------------------------------------------ 
+Question asked by human number 407 : Do the coke and mug belong to the same category ?
+ 
+Question understood by pepper number 407 : Nothing understood 
+Answer of pepper number 407 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 408 : Do the coke and glass belong to the same category ?
+ 
+Question understood by pepper number 408 : <...> tea <...> bowl <...> same category 
+Answer of pepper number 408 : no , tea and bowl are not in the same category 
+------------------------------------------------ 
+Question asked by human number 409 : Do the coke and box belong to the same category ?
+ 
+Question understood by pepper number 409 : belong <...> bowl 
+Answer of pepper number 409 : bowl is on the counter in the kitchen 
+------------------------------------------------ 
+Question asked by human number 410 : Do the coke and tray belong to the same category ?
+ 
+Question understood by pepper number 410 : Nothing understood 
+Answer of pepper number 410 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 411 : Do the coke and bag belong to the same category ? 
+Question understood by pepper number 411 : where <...> tea 
+Answer of pepper number 411 : tea is on the bar in the living room 
+------------------------------------------------ 
+--------------FIN DU TEST-------------------------------------
