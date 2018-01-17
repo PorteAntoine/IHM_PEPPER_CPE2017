@@ -1,10 +1,10 @@
-﻿Name;Gender;Age;Position
-Alex;male;23;sitting
-Barbara;female;19;lying
-Samatha;female;16;standing
-Thomas;male;34;standing
-Sophie;female;52;standing
-Jackie;female;70;sitting
-Charly;male;5;lying
-Tony;male;41;sitting
-Brian;male;42;standing
+Name	Gender	Age	Position	Color
+Alex	male	23	sitting	white
+Barbara	female	19	lying	white
+Samantha	female	16	standing	white
+Thomas	male	34	standing	white
+Sophie	female	52	standing	white
+Jackie	female	70	sitting	yellow
+Charly	male	5	lying	white
+Tony	male	41	sitting	black
+Brian	male	42	standing	black
