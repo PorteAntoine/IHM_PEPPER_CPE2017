@@ -20,5 +20,6 @@ Questions auxquelles on sait déja répondre :
 	- description des personnes (how are ... crowd ?)
 	- combien de personnes debouts/assis/couchées (how many ... standing/lying/sitting ?)
 	- description des personnes debouts/assis/couchées
-	- demander où se situe un meuble (loc_env) (Where is the located the ... ? In which room is the ... ?)
-	- 
+	- demander où se situe un (loc_env) (Where is the located the ... ? In which room is the ... ?)
+	- demander si un (loc_env) est un placement (Is ... a placement ?)
+	- demander si un (loc_env) est un beacon (Is ... a beacon ?)
