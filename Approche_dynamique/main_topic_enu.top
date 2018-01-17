@@ -3,11 +3,17 @@ language: enu
 concept:(located) [room situated placed located find] 
 concept:(where_is) ["where is" where's "where are" "where can I"] 
 concept:(can_you)[ "[can will could] you {please}" "do you think you could" "are you [ready able] to" "do you know how to"] 
-concept:(what_is) ["{"~can_you tell me" "do you know" "tell me"} [ what's "what [is are was were]"]" ] 
+concept:(what_is) [{"~can_you tell me" "do you know" "tell me"} [ what's "what [is are was were]"] ] 
 concept:(which_is) [~what_is "which is" "which"] 
-concept: (heaviest) [heaviest "most important weight"] 
+concept:(heaviest) [heaviest "most important weight"] 
+concept:(lightest) [lightest "less important weight"] 
+concept:(biggest) [biggest  "most important [size dimension]"] 
+concept:(smallest) [smallest little tiny tiniest "less important [size dimension]"] 
 concept:(location) [localization location position room] 
 concept:(how_many) ["how many" "how much" "~what_is the number of"]
+concept:(that) [that those these there]
+concept:(which) [what which]
+concept:(belongTo)  ["belongs to" "belong to" "is present" "belonging" "[are is]in" are]
 
 dynamic: object 
 dynamic: category 
@@ -20,42 +26,126 @@ dynamic: size
 dynamic: weight
 dynamic: allAttributs
 
+#Quelle est la couleur de <objet>
 u: (~what_is {the} color {of} {the} _~object) $currentObject = $1 The color of the $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "hasColor")) 
 c1:(_*)  $1 
 
+#Ou est <objet>
 u: (["~where_is {~located}" "~what_is {the} ~location"] {of} {the} _~object) $currentObject = $1 The $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "isintheroom")) ^call(ALKnowledge.getObject("knowledge", $currentObject, "islocated")) 
 c1:(_*) in the $1 
 
-u:(~what_is * category * ~object) $currentObject = $1 The category of $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "belongstocategory")) 
+#quelle est la categorie de <objet>
+u:(~which_is {the} category {of} {for} {the} ~object) $currentObject = $1 The category of $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "belongstocategory")) 
 c1:(_*)  $1 
 
-u: (which is the heaviest _~category) the heaviest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1)) 
-c1:(_*) is ^call(ProcessObjectModule.heaviest($1)) 
-c2:(_*) $1  
+#quel est le type de <objet>
+u:(~which_is {the} type {of} {for} {the} ~object) $currentObject = $1 The type of $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "isoftype")) 
+c1:(_*)  $1
 
-u: (~which_is {the} ~heaviest _~type) the heaviest $1 ^call(ALKnowledge.getSubject("knowledge", "isoftype",$1)) 
-c1:(_*) is ^call(ProcessObjectModule.heaviest($1)) 
+#quelle est la piece associé à <objet>
+u:(~which_is {the} {default} {"most probable"} room {of} {"associated with"} {~where_is} {for} {the} ~object) $currentObject = $1 The category of $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "isintheroom")) 
+c1:(_*)  $1 
 
-u: (~which_is the lightest _~category) the lightest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1)) 
+#quel est le poid de <objet>
+u:(~which_is {the} {default} {"most probable"} weight {of} {for} {the} ~object) $currentObject = $1 The weight of $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "weight")) 
+c1:(_*)  $1 
+
+#quelle est la taille de <objet>
+u:(~which_is {the} {default} {"most probable"} size {of} {for} {the} ~object) $currentObject = $1 The size of $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "size")) 
+c1:(_*)  $1 
+
+#quels objects sont <couleur>
+u: ([~which_is ~what_is] {are} {the} {objects} {~that} {are} _~color {objects}) $currentColor=$1 The following objects  ^call(ALKnowledge.getSubject("knowledge","hasColor",$currentColor ))
+c1:(_*) $1 are $currentColor
+
+#Quel objet est un <categorie>
+u:(~which_is {the} objects {that} ~belongTo {the} {in}_~category ) $currentObject = $1 The $currentObject are ^call(ALKnowledge.getSubject("knowledge", "belongstocategory", $1)) 
+c1:(_*)  $1
+
+#Quel objet est un <type>
+u:(~which_is {the} objects {that} ~belongTo {the} {in} _~type ) $currentObject = $1 The  $currentObject are ^call(ALKnowledge.etSubject("knowledge", "isoftype", $1)) 
+c1:(_*)  $1 
+
+#Quel objet est associé à <piece>
+u:(~which_is {the} objects {that} ~belongTo {the} {in} _~room ) $currentObject = $1 The $currentObject contains ^call(ALKnowledge.etSubject("knowledge", "isintheroom", $1)) 
+c1:(_*)  $1 
+
+#Quel object est associé à <localization>
+u:(~which_is  {the} objects {that} ~belongTo {the} {in} _~localization ) $currentObject = $1 The $currentObject contains ^call(ALKnowledge.etSubject("knowledge", "islocated", $1)) 
+c1:(_*)  $1 
+
+#Quel sont les objets les plus lourd dans <categorie>
+u: (~which_is {the} {most} ~heaviest _~category) the heaviest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1)) 
+c1:(_*) is ^call(ProcessObjectModule.heaviest($1)) 
+c2:(_*) $1
+
+#Quel sont les objets les plus lourd dans <type>
+u: (~which_is {the} {most} ~heaviest _~type) the heaviest $1 ^call(ALKnowledge.getSubject("knowledge", "isoftype",$1)) 
+c1:(_*) is ^call(ProcessObjectModule.heaviest($1)) 
+c2:(_*) $1 
+
+#Quel sont les objets les plus lourd dans la liste d'objects
+u: (~which_is {the} {most} ~heaviest object)  the heaviest ^call(ProcessObjectModule.heaviest(^enumerate(~object))) 
+c1:(_*) is $1  
+
+#Quel sont les objets les plus leger dans <type>
+u: (~which_is {the} {most} ~lightest _~type) the lightest $1 ^call(ALKnowledge.getSubject("knowledge", "isoftype",$1)) 
 c1:(_*) is ^call(ProcessObjectModule.lightest($1)) 
-c2:(_*) $1  
+c2:(_*) $1
+ 
+#Quel sont les objets les plus leger dans <categorie>
+u: (~which_is {the} {most} ~lightest _~category) the lightest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1)) 
+c1:(_*) is ^call(ProcessObjectModule.lightest($1)) 
+c2:(_*) $1
 
-u: (~which_is the biggest _~category) the biggest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1)) 
+#Quel sont les objets les plus leger dans la liste des objects
+u: (~which_is {the} {most} ~lightest object)  the lightest ^call(ProcessObjectModule.lightest(^enumerate(~object))) 
+c1:(_*) is $1  
+
+#Quel sont les objets les plus grand dans <type>
+u: (~which_is {the} {most} ~biggest _~type) the biggest $1 ^call(ALKnowledge.getSubject("knowledge", "isoftype",$1)) 
 c1:(_*) is ^call(ProcessObjectModule.biggest($1)) 
-c2:(_*) $1  
+c2:(_*) $1 
 
-u: (~which_is the most little _~category) the most little $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1)) 
+#Quel sont les objets les plus grand dans <category>
+u: (~which_is {the} {most} ~biggest _~category) the biggest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1)) 
+c1:(_*) is ^call(ProcessObjectModule.biggest($1)) 
+c2:(_*) $1
+
+#Quel sont les objets les plus grand dans la liste des objects
+u: (~which_is {the} {most} ~biggest object)  the biggest ^call(ProcessObjectModule.biggest(^enumerate(~object))) 
+c1:(_*) is $1 
+
+#Quel sont les objets les plus petit dans <type>
+u: (~which_is {the} {most} ~smallest _~type) the smallest $1 ^call(ALKnowledge.getSubject("knowledge", "isoftype",$1)) 
+c1:(_*) is ^call(ProcessObjectModule.little($1)) 
+c2:(_*) $1 
+
+#Quel sont les objets les plus petit dans <categorie>
+u: (~which_is {the} {most} ~smallest _~category) the smallest $1 ^call(ALKnowledge.getSubject("knowledge", "belongstocategory",$1)) 
 c1:(_*) is ^call(ProcessObjectModule.little($1)) 
 c2:(_*) $1  
 
-u: (do _~object and _~object belong to the same category)  $1 and $2 ^call(ProcessObjectModule.sameCategory($1,$2)) 
+#Quel sont les objets les plus petit dans la liste des objects
+u: (~which_is {the} {most} ~smallest object)  the smallest ^call(ProcessObjectModule.little(^enumerate(~object))) 
+c1:(_*) is $1 
+
+#<objet> et <objet> sont ils dans la meme categorie 
+u: ([do are] _~object and _~object ["belong to" in] the same category)  $1 and $2 ^call(ProcessObjectModule.sameCategory($1,$2))
 c1:(True) are in the same category  
 c1:(False) are not in the same category
 
-u: (~how_many objects {that} {are} {in} {the} {category} _~allAttributs) there are ^call(ProcessObjectModule.numberAttribute($1))
+#combien d'objet sont des <attribut>
+u: (~how_many {objects} {~that} {are} {in} {the} {category} _~allAttributs {are} {~that}) there are ^call(ProcessObjectModule.numberAttribute($1))
 c1:(_*) $1 objects with this attribute
 
-u: (which object are _~color) $currentColor=$1 The following objects  ^call(ALKnowledge.getSubject("knowledge","hasColor",$currentColor ))
-c1:(_*) $1 are $currentColor
+#quel sont les categories de la robocup ? 
+u: (~which_is {all} {the} categories {of} {the} {Robocup}) This year the categories are ^enumerate(~category)
+
+#quel sont les types de la robocup ? 
+u: (~which_is {all} {the} types {of} {the} {Robocup}) This year the types are ^enumerate(~type)
+
+#quel sont les piece de la robocup ? 
+u: (~which_is {all} {the} rooms {of} {the} {Robocup}) This year the categories are ^enumerate(~room)
 
 u: ([Hi Hello]) Hello Human 

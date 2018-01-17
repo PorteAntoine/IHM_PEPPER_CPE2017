@@ -42,7 +42,6 @@ def main(session):
         knowledge_service.add("knowledge", object.name, "belongstocategory", object.category)
         knowledge_service.add("knowledge", object.name, "islocated", object.localization)
         knowledge_service.add("knowledge", object.name, "isintheroom", object.room)
-        knowledge_service.add("knowledge", object.name, "hasColor", object.color)
         knowledge_service.add("knowledge", object.name, "hasShape", object.shape)
         knowledge_service.add("knowledge", object.name, "size", object.size)
         knowledge_service.add("knowledge", object.name, "weight", object.weight)
@@ -63,7 +62,7 @@ def main(session):
         knowledge_service.add("knowledge", person.name, "islocated", person.position)
 
     #
-    topic_path = "D:/ProjetMajeur/IHM_PEPPER_CPE2017/Approche_dynamique/main_topic_enu.top"
+    topic_path = "/home/nao/naoqi/topic_pack/main/main_topic_enu.top"
     topic_path = topic_path.decode('utf-8')
     topic = ALDialog.loadTopic(topic_path.encode('utf-8'))
 
@@ -71,8 +70,6 @@ def main(session):
     # We subscribe only ONCE, regardless of the number of topics we have activated
     ALDialog.subscribe('myModule')
     ALDialog.activateTopic(topic)
-
-
 
     ALDialog.setConcept("object", "English", objects)
     ALDialog.setConcept("category", "English", categories)
@@ -111,10 +108,10 @@ def main(session):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--ip", type=str, default="localhost",
+    parser.add_argument("--ip", type=str, default="169.254.32.137",
 
                         help="Robot IP address. On robot or Local Naoqi: use 192.168.1.201.")
-    parser.add_argument("--port", type=int, default=58736,                   help="Naoqi port number")
+    parser.add_argument("--port", type=int, default=9559,                   help="Naoqi port number")
     args = parser.parse_args()
     session = qi.Session()
     try:
