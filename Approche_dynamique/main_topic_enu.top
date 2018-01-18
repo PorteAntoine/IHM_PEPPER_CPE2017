@@ -26,6 +26,9 @@ dynamic: size
 dynamic: weight
 dynamic: allAttributs
 
+#Est ce qu'un objet existe
+u: (["do you have _~object" "[is are] {~that} _~object"]) yes off course I have $1
+
 #Quelle est la couleur de <objet>
 u: (~what_is {the} color {of} {the} _~object) The color of the $1 is ^call(ALKnowledge.getObject("knowledge", $1, "hasColor"))
 c1:(_*)  $1 
@@ -51,7 +54,7 @@ u:(~which_is {the} {default} {"most probable"} size {of} {for} {the} _~object) T
 c1:(_*)  $1 
 
 #quels objects possedent l'attribut
-u:(~which_is {the} objects {that} ~belongTo {the} {in}_~allAttributs ) are $1  ^call(ProcessObjectModule.hasAttribute($1))
+u:(~which_is {the} {objects} {that} ~belongTo {the} {in}_~allAttributs ) are $1  ^call(ProcessObjectModule.hasAttribute($1))
 
 #Quel sont les objets les plus lourd dans <categorie>
 u: (~which_is {the} {most} ~heaviest _~category) the heaviest $1 ^call(ProcessObjectModule.heaviestattr($1))
@@ -147,7 +150,7 @@ c1:(True) have the same localization
 c1:(False) have not the same localization
 
 # combien d'objets possedent un attribut
-u: ([~how_many ~what_is] {objects} {~that} {are} {in} {the} {category} _~allAttributs {are} {~that})$attribut=$1 there are ^call(ProcessObjectModule.numberAttribute($1))
+u: (~how_many {objects} {~that} {are} {in} {the} {category} _~allAttributs {are} {~that})$attribut=$1 there are ^call(ProcessObjectModule.numberAttribute($1))
 c1:(_*) $1 $attribut objects
 
 # quel est le plus lourd objet entre objet1 et objet2
@@ -170,12 +173,12 @@ c1:(_*) $1
 u: (~which_is {the} {objects} {that} {are} _~allAttributs {and} _~allAttributs) are the objects that are $1 and $2 ^call(ProcessObjectModule.hasTwoAttribute($1,$2))
 
 u: ([Hi Hello "hey {there}" "good [morning afternoon evening]"] {pepper}) Hello Human, how are you?
-    u1:(["I'm fine too" "{"I'm"} fine {thank} {thanks} {you}" "I'm good" "I feel {very} well" "{thanks} me too"]) very good
+    u1:(["I'm fine too" "{"I'm"} fine {thank} {thanks} {you}" "I'm good" "I feel {very} well"]) very good
     u1:(["I'm not feeling well" "{no} I'm not" "I don't feel {very} well" "I'm not {very} fine" "not {too} [good fine]"]) oh this sad
 
 u: (How [are do] you {do} {doing} {pepper}) I'm fine thanks, and you?
     u1:(["I'm fine too" "{"I'm"} fine {thank} {thanks} {you}" "I'm good" "I feel {very} well" "{thanks} me too"]) very good
-    u1:(["I'm not feeling well" "{no} I'm not" "I don't feel {very} well" "I'm not {very} fine" "not {too} [good fine]"]) oh this sad
+    u1:(["I'm not feeling well" "{no} I'm not {very} {really} {fine}" "I don't feel {very} well" "not {too} [good fine]"]) oh this sad
 
 u: (["~what_is your name" "how should [I we] call you"]) my name is pepper, and you?
     u1:(["my name is" "I am" "I'm"]) Ok nice to meet you!

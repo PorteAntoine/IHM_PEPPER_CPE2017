@@ -7,6 +7,10 @@ from Process_object import Process_object
 from Utils import Utils
 from Process_Object_Module import ProcessObjectModule
 
+top_path = "C:/Users/astro/Documents/projetmaj/IHM_PEPPER_CPE2017/Approche_dynamique/main_topic_enu.top"
+pepper_ip = "localhost"
+pepper_port = 64341
+
 
 def main(session):
 
@@ -63,7 +67,7 @@ def main(session):
         knowledge_service.add("knowledge", person.name, "islocated", person.position)
 
     #
-    topic_path = "/home/nao/naoqi/topic_pack/main/main_topic_enu.top"
+    topic_path = top_path
     topic_path = topic_path.decode('utf-8')
     topic = ALDialog.loadTopic(topic_path.encode('utf-8'))
 
@@ -106,10 +110,10 @@ def main(session):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--ip", type=str, default="169.254.196.21",
+    parser.add_argument("--ip", type=str, default=pepper_ip,
 
                         help="Robot IP address. On robot or Local Naoqi: use 192.168.1.201.")
-    parser.add_argument("--port", type=int, default=9559,                   help="Naoqi port number")
+    parser.add_argument("--port", type=int, default=pepper_port,                   help="Naoqi port number")
 
     args = parser.parse_args()
     session = qi.Session()
