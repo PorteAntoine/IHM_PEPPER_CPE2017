@@ -7,9 +7,13 @@ from Process_object import Process_object
 from Utils import Utils
 from Process_Object_Module import ProcessObjectModule
 
+#topic_path = "/home/nao/naoqi/topic_pack/main/main_topic_enu.top"
+#topic_path = "D:/ProjetMajeur/IHM_PEPPER_CPE2017/Approche_dynamique/main_topic_enu.top"
+#topic_path = "C:/Users/astro/Documents/projetmaj/IHM_PEPPER_CPE2017/Approche_dynamique/main_topic_enu.top"
+
 top_path = "C:/Users/astro/Documents/projetmaj/IHM_PEPPER_CPE2017/Approche_dynamique/main_topic_enu.top"
 pepper_ip = "localhost"
-pepper_port = 64341
+pepper_port = 64408
 
 
 def main(session):
@@ -109,12 +113,10 @@ def main(session):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-
     parser.add_argument("--ip", type=str, default=pepper_ip,
 
                         help="Robot IP address. On robot or Local Naoqi: use 192.168.1.201.")
     parser.add_argument("--port", type=int, default=pepper_port,                   help="Naoqi port number")
-
     args = parser.parse_args()
     session = qi.Session()
     try:
