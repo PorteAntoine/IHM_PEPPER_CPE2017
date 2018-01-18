@@ -16,10 +16,10 @@ class Answerthequestion:
     fileobj = open('montreal/objects.csv','r') 
     filepers = open('montreal/persons.csv','r')
     fileloc = open('montreal/locations.csv','r')
-    
+    #creation des listes de cles pour chacuns des csv independamment de la question
     objreader = csv.reader(fileobj, delimiter=';')
     persreader =  csv.reader(filepers, delimiter=',')
-    locreader = csv.reader(fileloc, delimiter=';')
+    locreader = csv.reader(fileloc, delimiter=',')
     
     objects = []
     persons = []
@@ -79,6 +79,20 @@ class Answerthequestion:
 		remains += persons[k][l]
 		keysp.append(persons[k][l].lower())
 		
+    for k in range(0,len(prefix)):
+      if prefix[k].lower() in self.question.lower():
+	keysl.append(prefix[k].upper())
+	for l in range(0,l1):
+	  if ' '+locations[0][l].lower()+' ' in self.question.lower():
+	    keysl.append(locations[0][l])
+	for k in range (1,l2+1):
+	  for l in range(0,l1):
+	    if ' '+locations[k][l].lower()+' ' in self.question.lower():
+	      if not(locations[k][l] in remains):
+		remains += locations[k][l]
+		keysl.append(locations[k][l].lower())
+    
+    #disjonction de cas en fonction de la quantite d'elements dans chaque liste, selection d'un seul gagnant
     if len(keys) >= len(keysp) and len(keys) >= len(keysl):
       for i in range(len(keys)):
 	categ=[]
@@ -154,7 +168,7 @@ class Answerthequestion:
 	categ=[]
 	values=[]
 	pref=[]
-	for i in range(0,len(keysp)):
+	for i in range(0,len(keysl)):
 	  if keysl[i] == keysl[i].lower():
 	    values.append(keysl[i])
 	  elif keysl[i] == keysl[i].upper() :
@@ -167,17 +181,18 @@ class Answerthequestion:
 	key.pref=pref      
 	for j in range(0,len(pref)):
 	  if 'WHAT' in pref :
-	    pref.remove('WHAT')
-	    return(key.what(persons))
+	    key.pref.remove('WHAT')
+	    return(key.what(locations))
 	    break
 	  if 'HOW MANY' in pref:
-	    pref.remove('HOW MANY')
-	    return(key.howmany(persons))
+	    key.pref.remove('HOW MANY')
+	    return(key.howmany(locations))
 	    break
-	  if 'WHO' in pref :
-	    pref.remove('WHO')
-	    return(key.who(persons))
+	  if 'WHERE' in pref :
+	    key.pref.remove('WHERE')
+	    return(key.where(locations))
 	    break
+#reponse aux questions traitant sur les objets
 class Keywords:
   def __init__(self):
     self.pref = []
@@ -377,6 +392,7 @@ class Keywords:
 	return('Yes ,there is at least one object with these features')
     return('No, there is no object with such features')
 
+#reponse aux questions traitant sur les personnes
 class Keywordspersons:	  
   def __init__(self):
     self.pref = []
@@ -421,5 +437,15 @@ class Keywordspersons:
 	return_str+=persons[i][0]+ ', '
     return return_str
       
-	
-    
+class Keyloc:	
+  def __init__(self):
+    self.pref = []
+    self.categ= []
+    self.values = []  
+  def where(self,locations):
+    v=len(self.values)
+    c=len(self.categ)
+    p=len(self.pref)
+    for i in range(len(locations)):
+	if locations[i][0] == self.values[0]:
+	  return('the ' + locations[i][0] + ' is in the '+locations[i][1]+ '\n')
