@@ -5,4 +5,5 @@ from akinator import Answerthequestion
 
 print(Answerthequestion("what is the colour of the chips ?").answer())
 
-ps: idéalement créer un répertoire nommé montreal au niveau de script akinator et y mettre le fichier objet.csv
+cette classe traite toute question faisant référence au fichier csv objects ou persons
+ps: idéalement créer un répertoire nommé montreal au niveau de script akinator et y mettre le fichier objet.csv et persons.csv
