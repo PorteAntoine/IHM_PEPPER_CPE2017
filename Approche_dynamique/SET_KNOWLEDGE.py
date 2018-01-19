@@ -20,7 +20,7 @@ class defineDialog :
 
         #    self.ALDialog.setLanguage("English")
         knowledge_service = self.session.service("ALKnowledge")
-        parseur = CSV_PARSEUR("list_objects_final.csv","list_objects_final.csv")
+        parseur = CSV_PARSEUR("list_objects_final.csv","list_person_final.csv","list_locations_final.csv")
 
         processObject= ProcessObjectModule(self.session,parseur)
         self.session.registerService("ProcessObjectModule", processObject)
@@ -35,6 +35,7 @@ class defineDialog :
         sizes = []
         weights = []
         localizations = []
+        localizationsBeacon=[]
 
         #Clear knowledge to make sure it's empty before addind new entries.
         result = knowledge_service.resetKnowledge("knowledge")
@@ -65,6 +66,11 @@ class defineDialog :
             knowledge_service.add("knowledge", person.name, "isoftheageof", person.age)
             knowledge_service.add("knowledge", person.name, "islocated", person.position)
 
+        for localization in parseur.localizations:
+            knowledge_service.add("knowledge", localization.name, "isintheroom", localization.room)
+            knowledge_service.add("knowledge", localization.name, "isPlacement", localization.placement)
+            knowledge_service.add("knowledge", localization.name, "isBeacon", localization.beacon)
+            localizationsBeacon.append(localization.name)
 
 
         topf_path = topf_path.decode('utf-8')
@@ -86,6 +92,7 @@ class defineDialog :
         self.ALDialog.setConcept("size", "English", sizes)
         self.ALDialog.setConcept("weight", "English", weights)
         self.ALDialog.setConcept("localization", "English", localizations)
+        self.ALDialog.setConcept("localizationBeacon", "English", localizationsBeacon)
 
         self.ALDialog.setConcept("allAttributs", "English", categories)
         self.ALDialog.addToConcept("allAttributs", "English", types)

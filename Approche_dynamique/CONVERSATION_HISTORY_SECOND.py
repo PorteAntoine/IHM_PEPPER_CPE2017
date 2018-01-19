@@ -75,18 +75,10 @@ class HumanGreeterModule():
         global topf_path
         topf_path = topf_path.decode('utf-8')
         topic = dialog_p.loadTopic(topf_path.encode('utf-8'))
-        # # -------------- TO MODIFY ----------------------
-        #
-        # # Start dialog
-        # dialog_p.subscribe('myModule')
-        #
-        # # Activate dialog
-        # dialog_p.activateTopic(topic)
 
        # #Call the dialog class
         setKnowledge = defineDialog(self.session, dialog_p)
         setKnowledge.set_knowledge()
-
 
         test_file = open(text_file_question_path,'r')
         lines = test_file.read().splitlines()
@@ -109,8 +101,7 @@ class HumanGreeterModule():
             if answer_given:
                 self.questions.append(line)
                 answer_given = False
-                # if self.answers_given[i] == Answerthequestion(line).answer():
-                #     erreur += 1
+
 
             print "Question asked by human was : " + self.questions[i]
             log_file.write("Question asked by human number %d : %s \n" % (i+1, self.questions[i]))

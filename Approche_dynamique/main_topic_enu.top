@@ -20,6 +20,7 @@ dynamic: category
 dynamic: color 
 dynamic: type 
 dynamic: localization
+dynamic: localizationBeacon
 dynamic: room
 dynamic: shape
 dynamic: size

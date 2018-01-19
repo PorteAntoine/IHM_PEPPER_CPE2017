@@ -1,0 +1,20 @@
+﻿Room;Localization;Placement;Beacon
+bedroom;bed;false;true
+bedroom;bedside;true;false
+living room;living shelf;true;false
+living room;TV stand;true;true
+living room;living table;true ;true
+living room;center table;true;false
+living room;bar;true;false
+office;drawer;true;false
+office;desk;true;true
+kitchen;bar;true;false
+kitchen;cupboard;true;false
+kitchen;sink;true;true
+kitchen;sideshelf;true;false
+kitchen;bookcase;true;false
+kitchen;dinning table;true;true
+kitchen;fridge;true;false
+kitchen;counter;true;false
+corridor;cabinet;true;true
+bathroom;cupboard;true;true

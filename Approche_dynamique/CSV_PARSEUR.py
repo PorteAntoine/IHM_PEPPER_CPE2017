@@ -1,19 +1,23 @@
 import csv
 from Object import Object
 from Person import Person
+from Localization import Localization
 
 class CSV_PARSEUR():
 
     #init fonction
     #############################################################################################
 
-    def __init__(self, path_file_objects, path_file_persons):
+    def __init__(self, path_file_objects, path_file_persons,path_file_localization):
         self.objects = []
         self.persons = []
+        self.localizations = []
         self.path_file_objects = path_file_objects
         self.path_file_persons = path_file_persons
+        self.path_file_localization = path_file_localization
         self.object_transformations()
         self.person_transformations()
+        self.localization_transformations()
 
     # Function to generate a .top file from a .csv file with fixed questions and fixed answers
     #
@@ -74,10 +78,23 @@ class CSV_PARSEUR():
             person.position = raw[3]
             self.persons.append(person)
 
+    def localization_transformations(self):
+        localization_file = open(self.path_file_localization.encode('utf-8'), 'rU')
+
+        read = list(csv.reader(localization_file, delimiter=";"))
+
+        for raw in read[1:]:
+            localization = Localization()
+            localization.name = raw[0]
+            localization.room = raw[1]
+            localization.placement = raw[2]
+            localization.beacon = raw[3]
+            self.localizations.append(localization)
     # Return the number of person in the room
 
     def get_number_person(self):
         return len(self.persons)
+
 
 
 if __name__ == '__main__':
