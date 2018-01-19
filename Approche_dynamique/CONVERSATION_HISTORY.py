@@ -7,17 +7,20 @@ import sys
 import time
 import subprocess
 
+from tabletModule import tabletModule
+
 from naoqi import ALProxy
 from naoqi import ALBroker
 from naoqi import ALModule
 
 from optparse import OptionParser
+from akinator import Answerthequestion
 
 NAO_IP = "192.168.1.201"
-NAO_PORT = 9559
+NAO_PORT = "9559"
 topf_path = '/home/nao/naoqi/topic_pack/approach_key_words/app_mots_clefs_v4.top'
 name_of_test = "APPROCHE_MOT_CLES"
-text_file_question_path = 'C:\\Users\\aurel\\Documents\\COURS\\CPE\\Robotique\\PROJET_MAJEUR\\IHM_PEPPER_CPE2017\\Ensemble de questions possibles\\1_questions_objets_2.txt'
+text_file_question_path = r'C:\Users\aurel\Documents\COURS\CPE\Robotique\PROJET_MAJEUR\IHM_PEPPER_CPE2017\Ensemble de questions possibles\1_questions_objets_2.txt'
 
 # Global variable to store the HumanGreeter module instance
 HumanGreeter = None
@@ -60,10 +63,10 @@ class HumanGreeterModule(ALModule):
 
     def set_dialogue(self):
         global dialog_p, answer_given
-        demarrage = True
+
         log_file_name = "./TEST/TEST_" + name_of_test + "_" + time.strftime("%Y%m%d-%H%M%S") + ".txt"
         log_file = open(log_file_name, 'w')
-        synchronisation = False # initialize the global variable
+
         dialog_p = ALProxy('ALDialog')
         dialog_p.setLanguage("English")
 
@@ -79,24 +82,30 @@ class HumanGreeterModule(ALModule):
         dialog_p.activateTopic(topic)
 
         test_file = open(text_file_question_path,'r')
-        lines = test_file.readlines()
+        lines = test_file.read().splitlines()
         i = 0
+        erreur = 0
         for line in lines:
             reply = subprocess.Popen([r'C:\Program Files (x86)\balcon\balcon.exe', "-n", "Microsoft Zira Desktop",
                                           "-t", line],
                                          universal_newlines=True,
                                          stdout=subprocess.PIPE).communicate()
 
-            time.sleep(5)
+            time.sleep(2)
 
             if answer_given == False:
                 self.questions.append(line)
                 self.questions_understood.append("Nothing understood")
                 self.answers_given.append("No answer from the robot")
+                erreur += 1
 
             if answer_given:
                 self.questions.append(line)
                 answer_given = False
+                test_answer_given = self.answers_given[i].replace(" ","")
+                test_answer_wanted = Answerthequestion(line).answer().replace(" ","")
+                if test_answer_given.lower() + '\n' != test_answer_wanted.lower():
+                    erreur += 1
 
             print "Question asked by human was : " + self.questions[i]
             log_file.write("Question asked by human number %d : %s \n" % (i+1, self.questions[i]))
@@ -105,11 +114,13 @@ class HumanGreeterModule(ALModule):
             print "Answer of the robot : " + self.answers_given[i]
             log_file.write("Answer of pepper number %d : %s \n" % (i+1, self.answers_given[i]))
             print "-------------------------------------------------------"
+            print("Nombre d'erreurs : %d" %erreur)
             log_file.write("------------------------------------------------ \n")
             log_file.flush()
             i += 1
 
-
+        log_file.write("Number of error : %d \n" %erreur)
+        log_file.write("Percentage : %f \n" %(erreur/i+1))
         log_file.write("--------------FIN DU TEST-------------------------------------")
         # Deactivate topic
         dialog_p.deactivateTopic(topic)
@@ -120,11 +131,7 @@ class HumanGreeterModule(ALModule):
         # Stop dialog
         dialog_p.unsubscribe('myModule')
 
-
 def main():
-    """ Main entry point
-
-    """
 
     parser = OptionParser()
     parser.add_option("--pip",
@@ -159,21 +166,6 @@ def main():
 
     HumanGreeter.set_dialogue()
 
-    # log_file_name = "./TEST/TEST_" + name_of_test + "_" + time.strftime("%Y%m%d-%H%M%S") + ".txt"
-    # log_file = open(log_file_name,'w')
-    # # Print the history of the dialog with the robot and save it into a log file
-    # print "_________HISTORIQUE DE LA DISCUSSION___________"
-    # i = 1
-    # for question, question_understood, answer in zip(HumanGreeter.questions, HumanGreeter.questions_understood, HumanGreeter.answers_given):
-    #     print "Question asked by human was : " + question
-    #     log_file.write("Question asked by human number %d : %s \n" % (i, question))
-    #     print "Question understood by pepper was : " + question_understood
-    #     log_file.write("Question understood by pepper number %d : %s \n" %(i,question_understood))
-    #     print "Answer of the robot : " + answer
-    #     log_file.write("Answer of pepper number %d : %s \n" %(i,answer))
-    #     log_file.write("------------------------------------------------ \n")
-    #     i += 1
-    #log_file.write("--------------FIN DU TEST-------------------------------------")
     reply = subprocess.Popen([r'C:\Program Files (x86)\balcon\balcon.exe', "-n", "Microsoft Zira Desktop",
                               "-t", "This is the end of the test"],
                              universal_newlines=True,
