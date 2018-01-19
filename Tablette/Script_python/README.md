@@ -24,6 +24,6 @@
  avec _"Tablet"_ nom du module créé et _"tablette_test"_ le nom de l'application de la tablette où sont garder en mémoire les fichiers
 
 
- - Fonctions  :
- 
-  - _"appTablet_history"_
+ - "Script_python" 
+      - "appTablet_history" permet d'afficher des images en disant _"banana"_ ou  _"apple"_ ou _"pineapple"_
+
