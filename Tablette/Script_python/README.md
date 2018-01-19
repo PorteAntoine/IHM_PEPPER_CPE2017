@@ -25,5 +25,6 @@
 
 
  - "Script_python" 
+ 
       - "appTablet_history" permet d'afficher des images en disant _"banana"_ ou  _"apple"_ ou _"pineapple"_
 
