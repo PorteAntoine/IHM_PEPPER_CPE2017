@@ -1,0 +1,21 @@
+Question asked by human number 1 : Hello 
+Question understood by pepper number 1 : Nothing understood 
+Answer of pepper number 1 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 2 : Fine thanks 
+Question understood by pepper number 2 : Nothing understood 
+Answer of pepper number 2 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 3 : Where can I find a chips ? 
+Question understood by pepper number 3 : Nothing understood 
+Answer of pepper number 3 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 4 : What's the colour of the chips ? 
+Question understood by pepper number 4 : Nothing understood 
+Answer of pepper number 4 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 5 : To which category belong the chips ? 
+Question understood by pepper number 5 : Nothing understood 
+Answer of pepper number 5 : No answer from the robot 
+------------------------------------------------ 
+Number of error : Percentage : --------------FIN DU TEST-------------------------------------

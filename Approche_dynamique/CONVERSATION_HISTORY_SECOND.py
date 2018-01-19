@@ -14,9 +14,9 @@ from naoqi import ALProxy
 from optparse import OptionParser
 # from akinator import Answerthequestion
 
-NAO_IP = "192.168.1.201"
-NAO_PORT = "9559"
-topf_path = '/home/nao/naoqi/topic_pack/main/main_topic_enu.top'
+NAO_IP = "localhost"
+NAO_PORT = "58357"
+topf_path ='D:/ProjetMajeur/IHM_PEPPER_CPE2017/Approche_dynamique/main_topic_enu.top'
 name_of_test = "APPROCHE_DYNAMIQUE"
 text_file_question_path = 'D:/ProjetMajeur/IHM_PEPPER_CPE2017/Approche_dynamique/TEXT_TEST_FILE/1_questions_objets.txt'
 

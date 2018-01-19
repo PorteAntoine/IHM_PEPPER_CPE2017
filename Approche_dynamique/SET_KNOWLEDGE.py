@@ -15,7 +15,7 @@ class defineDialog :
 
     def set_knowledge(self):
 
-        topf_path = '/home/nao/naoqi/topic_pack/main/main_topic_enu.top'
+        topf_path ='D:/ProjetMajeur/IHM_PEPPER_CPE2017/Approche_dynamique/main_topic_enu.top'
         self.ALDialog.stopTopics(self.ALDialog.getAllLoadedTopics())
 
         #    self.ALDialog.setLanguage("English")
@@ -35,6 +35,9 @@ class defineDialog :
         sizes = []
         weights = []
         localizations = []
+
+        #Clear knowledge to make sure it's empty before addind new entries.
+        result = knowledge_service.resetKnowledge("knowledge")
 
         for object in parseur.objects:
             knowledge_service.add("knowledge", object.name, "hasColor", object.color)
@@ -89,3 +92,8 @@ class defineDialog :
         self.ALDialog.addToConcept("allAttributs", "English", colors)
         self.ALDialog.addToConcept("allAttributs", "English", rooms)
         self.ALDialog.addToConcept("allAttributs", "English", localizations)
+
+
+        #################################
+        #Comment before launching tests
+        ####################################
