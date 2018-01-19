@@ -444,7 +444,7 @@ class Keyloc:
     self.values = []  
   def where(self,locations):
     v=len(self.values)
-    c=len(self.categ)
+    c=len(self.categ) 
     p=len(self.pref)
     for i in range(len(locations)):
 	if locations[i][0] == self.values[0]:
