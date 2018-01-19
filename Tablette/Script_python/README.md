@@ -1,6 +1,6 @@
 # Script python pour la tablette
 
-### 1 - les Différents scripts :
+### 1 - Les différents scripts :
 
 - _"Tablet_python_showImage.py"_  petit programme qui (dans un .top) affiche des images en fonction de ce que l'on lui demande  
           
@@ -11,17 +11,19 @@
 - _"TabletModule.py"_ class de la tablette à implémenter
   
   
-### 2 - comment utiliser la class  :
+### 2 - Comment utiliser la class  :
 
-nom de la classe : 
+- Nom de la classe : 
 
     TabletModule
  
- Initialisation 
+ - Initialisation  :
  
  avec _"Tablet"_ nom du module créé et _"tablette_test"_ le nom de l'application de la tablette où sont garder en mémoire les fichiers
  
     Tablet = TabletModule("Tablet","tablette_test")
 
 
+ - Fonctions  :
  
+ -- _"appTablet_history"_
