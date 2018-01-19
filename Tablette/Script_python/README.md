@@ -37,5 +37,9 @@
   _"questions"_  : liste des questions posées
 
   _"answers"_  : liste des réponses posées
-
+  
+ 
+      - "appTablet_test" 
+ 
+                    Tablet.appTablet_test(string1, string2)
   
