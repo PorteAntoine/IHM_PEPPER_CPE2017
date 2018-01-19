@@ -22,9 +22,11 @@
           Tablet = TabletModule("Tablet","tablette_test")
 
  avec _"Tablet"_ nom du module créé et _"tablette_test"_ le nom de l'application de la tablette où sont garder en mémoire les fichiers
-
-
- - "Script_python" 
+ 
+  
+   
+  
+ - Fonction 
  
       - "appTablet_history" permet d'afficher des images en disant _"banana"_ ou  _"apple"_ ou _"pineapple"_
 
