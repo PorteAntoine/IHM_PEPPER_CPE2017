@@ -19,11 +19,11 @@
  
  - Initialisation  :
  
+          Tablet = TabletModule("Tablet","tablette_test")
+
  avec _"Tablet"_ nom du module créé et _"tablette_test"_ le nom de l'application de la tablette où sont garder en mémoire les fichiers
- 
-    Tablet = TabletModule("Tablet","tablette_test")
 
 
  - Fonctions  :
  
- -- _"appTablet_history"_
+  - _"appTablet_history"_
