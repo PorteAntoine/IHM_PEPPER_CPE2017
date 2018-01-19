@@ -1,11 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.1" uuid="tablette_test">
+<package uuid="tablette_test" version="0.0.0">
  <names>
   <name lang="en_US">tablette_test</name>
  </names>
- <descriptions>
-  <description lang="en_US">test </description>
- </descriptions>
  <supportedLanguages>
   <language>en_US</language>
  </supportedLanguages>
@@ -19,8 +16,4 @@
    <permissions/>
   </behaviorContent>
  </contents>
- <requirements>
-  <naoqiRequirement maxVersion="2.5" minVersion="2.5"/>
-  <robotRequirement model="JULIETTE_Y20"/>
- </requirements>
 </package>

@@ -13,7 +13,7 @@ session.service("ALMemory").then(function(ALMemory) {
         
         new Typed('#typed', {
           strings: [keyword],
-          typeSpeed: 1,
+          typeSpeed: 15,
           fadeOut: true,
         });
 
