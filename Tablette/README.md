@@ -58,4 +58,4 @@ ATTENTION : dans l'URL, il ne faut pas écrire le dossier html
 
 - installer l'application dans le robot
 
-- lancer le script python voulue
+- lancer le script python voulu
