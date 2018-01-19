@@ -26,6 +26,13 @@ class TabletModule (ALModule):
         # for show last input/answer
         string = Hquestions[lenQ-1] + "? " + Hanswers[lenQ-1]
         memtab.insertData("keyword_typed", string)
-        
+
         #Load URL Web page tablet
         self.tabletservice.showWebview(self.url_base + "history.html")
+
+    def appTablet_test(self, string_1, string_2):
+        memtab.insertData("txt1", string_1)
+        memtab.insertData("txt2", string_2)
+
+        #Load URL Web page tablet
+        self.tabletservice.showWebview(self.url_base + "test.html")
