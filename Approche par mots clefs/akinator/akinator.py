@@ -303,8 +303,8 @@ class Keywords:
       c=len(self.categ)
       p=len(self.pref)
       return_str=''
+      counter =0
       if v>0 :
-	counter =0
 	for index in range(len(objects)):	
 	  belong = True
 	  for index2 in range(len(self.values)):
@@ -413,8 +413,8 @@ class Keywordspersons:
       c=len(self.categ)
       p=len(self.pref)
       return_str=''
+      counter =0
       if v>0 :
-	counter =0
 	for index in range(len(persons)):	
 	  belong = True
 	  for index2 in range(len(self.values)):
@@ -444,7 +444,7 @@ class Keyloc:
     self.values = []  
   def where(self,locations):
     v=len(self.values)
-    c=len(self.categ) 
+    c=len(self.categ)
     p=len(self.pref)
     for i in range(len(locations)):
 	if locations[i][0] == self.values[0]:
