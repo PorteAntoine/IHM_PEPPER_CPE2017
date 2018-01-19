@@ -15,7 +15,7 @@
 
 - Nom de la classe : 
 
-    TabletModule
+          TabletModule
  
  - Initialisation  :
  
