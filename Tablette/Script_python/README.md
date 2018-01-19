@@ -39,7 +39,7 @@
   _"answers"_  : liste des réponses posées
   
  
-      - "appTablet_test" 
+     - "appTablet_test" 
  
                     Tablet.appTablet_test(string1, string2)
   
