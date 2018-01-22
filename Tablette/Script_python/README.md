@@ -28,21 +28,22 @@
  
       - "appTablet_history" 
 
+                    Tablet.appTablet_history(memory, questions, answers)
+                    
 fonction à appeler pour afficher une page web de l'historique de la discussion et la dernière question/réponse. à appeler dans un event "dialog/LastAnswer" après le remplissage d'un historique de discussion
    
-   _"memory"_  : lien vers la mémoire du robot qui doit être défini avant dans le programme principal
+ _"memory"_  : lien vers la mémoire du robot qui doit être défini avant dans le programme principal
    
-  _"questions"_  : liste des questions posées
+ _"questions"_  : liste des questions posées
 
-  _"answers"_  : liste des réponses posées
+ _"answers"_  : liste des réponses posées
  
-      - "appTablet_test" 
+  - "appTablet_test" 
                    
  
                     Tablet.appTablet_test(string1, string2)
                     
-                    
-                    Tablet.appTablet_history(memory, questions, answers)
+
 
 
   
