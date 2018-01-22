@@ -24,8 +24,10 @@
  avec _"Tablet"_ nom du module créé et _"tablette_test"_ le nom de l'application de la tablette où sont garder en mémoire les fichiers
    
 * Fonctions :
- 
-  -- appTablet_history
+
+---
+
+  1. appTablet_history
   
           Tablet.appTablet_history(memory, questions, answers)
 
@@ -39,7 +41,7 @@ fonction à appeler pour afficher une page web de l'historique de la discussion 
 
 ---
 
-   -- appTablet_test
+   2. appTablet_test
 
           Tablet.appTablet_test(memory, questions, answers)
                     
@@ -51,7 +53,7 @@ fonction à appeler pour afficher une page web de l'historique de la discussion 
 
  _"answers"_  : liste des réponses posées
  
-
+---
           
                     
 
