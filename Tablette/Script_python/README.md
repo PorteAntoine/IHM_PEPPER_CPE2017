@@ -40,7 +40,7 @@ fonction à appeler pour afficher une page web de l'historique de la discussion 
  _"answers"_  : liste des réponses posées
  
  
-    * appTablet_test`
+    * appTablet_history
                    
  
                     Tablet.appTablet_test(string1, string2)
