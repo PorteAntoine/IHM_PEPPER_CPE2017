@@ -13,7 +13,7 @@ concept:(want) [want need desire like "would [like love]"]
 concept:(questions) ["can I" "may I"]
 concept:(ask_smthg) [~want ~questions]
 concept:(rooms) [office "living room" kitchen bathroom garage bedroom toilets corridor]
-concept:(localisation) ["are in" where situation room situated placed located find belong stored "in which" ~rooms]
+concept:(localisation) ["are in" where situation room situated placed located find belong belongs stored "in which" "in which room" ~rooms ]
 concept:(how_many) ["how many" "how much" "tell me the number"]
 concept:(description) [who what which "to which"]
 concept:(color) [color colour coloration pigment pigmentation colorant paint]
@@ -25,133 +25,122 @@ concept:(smaller) [youngest younger smaller lighter smallest littlest]
 concept:(compare_size) [~bigger ~smaller]
 concept:(man) [man men males male]
 concept:(woman) [woman women females female]
+concept:(adult) [major]
+concept:(children) [child children kids baby]
+concept:(boys) [boys boy gay gays]
+concept:(girls) [girls girl]
+concept:(elders) [elders]
 concept:(name) ["my name is" "I am" "my parents called me"]
 concept:(things) ^rand[ "object" things article entity]
+concept:(beacon) [beacon target]
+concept:(noUnderstand) [sorry "can you repeat" "what did you say" "i don't understand"]
+
 # ########### dialog IHR ###########
 #greetings
 u:(~greetings) ~greetings Nice to see you dear, what is your name?
      u1:(~name _*) nice to meet you $1, ~name ~name_robot
 
+u:(~noUnderstand) I said $Dialog/Answered
 
-u:(~localisation * ﻿Name {please}) ﻿Name is on the Localization in the Room
-u:(~description * ~color * ﻿Name {please}) the ﻿Name are Color
-u:(~description * ~categorise * ﻿Name {please}) the ﻿Name are Category
+u:(~localisation * chips {please}) chips is on the desk in the office ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/office.jpg"))
+u:(~description * ~color * chips {please}) the chips are yellow ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/chips.jpg"))
+u:(~description * ~categorise * chips {please}) the chips are snack ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/chips.jpg"))
 
-u:(~localisation * chips {please}) chips is on the desk in the office
-u:(~description * ~color * chips {please}) the chips are yellow
-u:(~description * ~categorise * chips {please}) the chips are snack
+u:(~localisation * pringles {please}) pringles is on the desk in the office ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/office.jpg"))
+u:(~description * ~color * pringles {please}) the pringles are red ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/pringles.jpg"))
+u:(~description * ~categorise * pringles {please}) the pringles are snack ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/pringles.jpg"))
 
-u:(~localisation * pringles {please}) pringles is on the desk in the office
-u:(~description * ~color * pringles {please}) the pringles are red
-u:(~description * ~categorise * pringles {please}) the pringles are snack
+u:(~localisation * peanuts {please}) peanuts is on the desk in the office ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/office.jpg"))
+u:(~description * ~color * peanuts {please}) the peanuts are brown ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/peanuts.jpg"))
+u:(~description * ~categorise * peanuts {please}) the peanuts are snack ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/peanuts.jpg"))
 
-u:(~localisation * peanuts {please}) peanuts is on the desk in the office
-u:(~description * ~color * peanuts {please}) the peanuts are brown
-u:(~description * ~categorise * peanuts {please}) the peanuts are snack
+u:(~localisation * chocolate bar {please}) chocolate bar is on the center table in the living room ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/living_room.jpg"))
+u:(~description * ~color * chocolate bar {please}) the chocolate bar are brown ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/chocolate bar.jpg"))
+u:(~description * ~categorise * chocolate bar {please}) the chocolate bar are candies ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/chocolate bar.jpg"))
 
-u:(~localisation * chocolate bar {please}) chocolate bar is on the center table in the living room
-u:(~description * ~color * chocolate bar {please}) the chocolate bar are brown
-u:(~description * ~categorise * chocolate bar {please}) the chocolate bar are candies
+u:(~localisation * mints {please}) mints is on the center table in the living room ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/living_room.jpg"))
+u:(~description * ~color * mints {please}) the mints are green ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/mints.jpg"))
+u:(~description * ~categorise * mints {please}) the mints are candies ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/mints.jpg"))
 
-u:(~localisation * mints {please}) mints is on the center table in the living room
-u:(~description * ~color * mints {please}) the mints are green
-u:(~description * ~categorise * mints {please}) the mints are candies
+u:(~localisation * chocolate egg {please}) chocolate egg is on the center table in the living room ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/living_room.jpg"))
+u:(~description * ~color * chocolate egg {please}) the chocolate egg are brown ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/chocolate egg.jpg"))
+u:(~description * ~categorise * chocolate egg {please}) the chocolate egg are candies ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/chocolate egg.jpg"))
 
-u:(~localisation * chocolate egg {please}) chocolate egg is on the center table in the living room
-u:(~description * ~color * chocolate egg {please}) the chocolate egg are brown
-u:(~description * ~categorise * chocolate egg {please}) the chocolate egg are candies
+u:(~localisation * noodles {please}) noodles is on the fridge in the kitchen ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/kitchen.jpg"))
+u:(~description * ~color * noodles {please}) the noodles are yellow ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/noodles.jpg"))
+u:(~description * ~categorise * noodles {please}) the noodles are freshfood ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/noodles.jpg"))
 
-u:(~localisation * noodles {please}) noodles is on the fridge in the kitchen
-u:(~description * ~color * noodles {please}) the noodles are yellow
-u:(~description * ~categorise * noodles {please}) the noodles are freshfood
+u:(~localisation * apple {please}) apple is on the fridge in the kitchen ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/kitchen.jpg"))
+u:(~description * ~color * apple {please}) the apple are red ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/apple.jpg"))
+u:(~description * ~categorise * apple {please}) the apple are freshfood ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/apple.jpg"))
 
-u:(~localisation * apple {please}) apple is on the fridge in the kitchen
-u:(~description * ~color * apple {please}) the apple are red
-u:(~description * ~categorise * apple {please}) the apple are freshfood
+u:(~localisation * paprika {please}) paprika is on the fridge in the kitchen ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/kitchen.jpg"))
+u:(~description * ~color * paprika {please}) the paprika are red ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/paprika.jpg"))
+u:(~description * ~categorise * paprika {please}) the paprika are freshfood ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/paprika.jpg"))
 
-u:(~localisation * paprika {please}) paprika is on the fridge in the kitchen
-u:(~description * ~color * paprika {please}) the paprika are red
-u:(~description * ~categorise * paprika {please}) the paprika are freshfood
+u:(~localisation * melon {please}) melon is on the fridge in the kitchen ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/kitchen.jpg"))
+u:(~description * ~color * melon {please}) the melon are green ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/melon.jpg"))
+u:(~description * ~categorise * melon {please}) the melon are freshfood ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/melon.jpg"))
 
-u:(~localisation * melon {please}) melon is on the fridge in the kitchen
-u:(~description * ~color * melon {please}) the melon are green
-u:(~description * ~categorise * melon {please}) the melon are freshfood
+u:(~localisation * sushi {please}) sushi is on the fridge in the kitchen ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/kitchen.jpg"))
+u:(~description * ~color * sushi {please}) the sushi are black ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/sushi.jpg"))
+u:(~description * ~categorise * sushi {please}) the sushi are freshfood ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/sushi.jpg"))
 
-u:(~localisation * sushi {please}) sushi is on the fridge in the kitchen
-u:(~description * ~color * sushi {please}) the sushi are black
-u:(~description * ~categorise * sushi {please}) the sushi are freshfood
+u:(~localisation * tea {please}) tea is on the bar in the living room ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/living_room_bar.jpg"))
+u:(~description * ~color * tea {please}) the tea are green ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/tea.jpg"))
+u:(~description * ~categorise * tea {please}) the tea are drinks ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/tea.jpg"))
 
-u:(~localisation * tea {please}) tea is on the bar in the living room
-u:(~description * ~color * tea {please}) the tea are green
-u:(~description * ~categorise * tea {please}) the tea are drinks
+u:(~localisation * beer {please}) beer is on the bar in the living room ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/living_room_bar.jpg"))
+u:(~description * ~color * beer {please}) the beer are green ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/beer.jpg"))
+u:(~description * ~categorise * beer {please}) the beer are drinks ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/beer.jpg"))
 
-u:(~localisation * beer {please}) beer is on the bar in the living room
-u:(~description * ~color * beer {please}) the beer are green
-u:(~description * ~categorise * beer {please}) the beer are drinks
+u:(~localisation * coke {please}) coke is on the bar in the living room ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/living_room_bar.jpg"))
+u:(~description * ~color * coke {please}) the coke are red ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/coke.jpg"))
+u:(~description * ~categorise * coke {please}) the coke are drinks ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/coke.jpg"))
 
-u:(~localisation * coke {please}) coke is on the bar in the living room
-u:(~description * ~color * coke {please}) the coke are red
-u:(~description * ~categorise * coke {please}) the coke are drinks
+u:(~localisation * shampoo {please}) shampoo is on the cupboard in the bathroom ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/bathroom.jpg"))
+u:(~description * ~color * shampoo {please}) the shampoo are white ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/shampoo.jpg"))
+u:(~description * ~categorise * shampoo {please}) the shampoo are toiletries ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/shampoo.jpg"))
 
-u:(~localisation * shampoo {please}) shampoo is on the cupboard in the bathroom
-u:(~description * ~color * shampoo {please}) the shampoo are white
-u:(~description * ~categorise * shampoo {please}) the shampoo are toiletries
+u:(~localisation * cloth {please}) cloth is on the cupboard in the bathroom ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/bathroom.jpg"))
+u:(~description * ~color * cloth {please}) the cloth are blue ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/cloth.jpg"))
+u:(~description * ~categorise * cloth {please}) the cloth are toiletries ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/cloth.jpg"))
 
-u:(~localisation * cloth {please}) cloth is on the cupboard in the bathroom
-u:(~description * ~color * cloth {please}) the cloth are blue
-u:(~description * ~categorise * cloth {please}) the cloth are toiletries
+u:(~localisation * sponge {please}) sponge is on the cupboard in the bathroom ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/bathroom.jpg"))
+u:(~description * ~color * sponge {please}) the sponge are yellow ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/sponge.jpg"))
+u:(~description * ~categorise * sponge {please}) the sponge are toiletries ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/sponge.jpg"))
 
-u:(~localisation * sponge {please}) sponge is on the cupboard in the bathroom
-u:(~description * ~color * sponge {please}) the sponge are yellow
-u:(~description * ~categorise * sponge {please}) the sponge are toiletries
+u:(~localisation * bowl {please}) bowl is on the counter in the kitchen ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/kitchen_counter.jpg"))
+u:(~description * ~color * bowl {please}) the bowl are red ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/bowl.jpg"))
+u:(~description * ~categorise * bowl {please}) the bowl are containers ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/bowl.jpg"))
 
-u:(~localisation * bowl {please}) bowl is on the counter in the kitchen
-u:(~description * ~color * bowl {please}) the bowl are red
-u:(~description * ~categorise * bowl {please}) the bowl are containers
+u:(~localisation * mug {please}) mug is on the counter in the kitchen ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/kitchen_counter.jpg"))
+u:(~description * ~color * mug {please}) the mug are pink ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/mug.jpg"))
+u:(~description * ~categorise * mug {please}) the mug are containers ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/mug.jpg"))
 
-u:(~localisation * mug {please}) mug is on the counter in the kitchen
-u:(~description * ~color * mug {please}) the mug are pink
-u:(~description * ~categorise * mug {please}) the mug are containers
+u:(~localisation * glass {please}) glass is on the counter in the kitchen ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/kitchen_counter.jpg"))
+u:(~description * ~color * glass {please}) the glass are opaque ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/glass.jpg"))
+u:(~description * ~categorise * glass {please}) the glass are containers ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/glass.jpg"))
 
-u:(~localisation * glass {please}) glass is on the counter in the kitchen
-u:(~description * ~color * glass {please}) the glass are opaque
-u:(~description * ~categorise * glass {please}) the glass are containers
+u:(~localisation * box {please}) box is on the counter in the kitchen ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/kitchen_counter.jpg"))
+u:(~description * ~color * box {please}) the box are white ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/box.jpg"))
+u:(~description * ~categorise * box {please}) the box are containers ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/box.jpg"))
 
-u:(~localisation * box {please}) box is on the counter in the kitchen
-u:(~description * ~color * box {please}) the box are white
-u:(~description * ~categorise * box {please}) the box are containers
+u:(~localisation * tray {please}) tray is on the counter in the kitchen ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/kitchen_counter.jpg"))
+u:(~description * ~color * tray {please}) the tray are black ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/tray.jpg"))
+u:(~description * ~categorise * tray {please}) the tray are containers ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/tray.jpg"))
 
-u:(~localisation * tray {please}) tray is on the counter in the kitchen
-u:(~description * ~color * tray {please}) the tray are black
-u:(~description * ~categorise * tray {please}) the tray are containers
+u:(~localisation * bag {please}) bag is on the counter in the kitchen ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/kitchen_counter.jpg"))
+u:(~description * ~color * bag {please}) the bag are blue ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/bag.jpg"))
+u:(~description * ~categorise * bag {please}) the bag are containers ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/bag.jpg"))
 
-u:(~localisation * bag {please}) bag is on the counter in the kitchen
-u:(~description * ~color * bag {please}) the bag are blue
-u:(~description * ~categorise * bag {please}) the bag are containers
-
-u:(~localisation * snack {please}) snack is on the Localization in the Room
-u:(~localisation * snack {please}) snack is on the desk in the office
-u:(~localisation * snack {please}) snack is on the desk in the office
-u:(~localisation * candies {please}) candies is on the desk in the office
-u:(~localisation * candies {please}) candies is on the center table in the living room
-u:(~localisation * candies {please}) candies is on the center table in the living room
-u:(~localisation * freshfood {please}) freshfood is on the center table in the living room
-u:(~localisation * freshfood {please}) freshfood is on the fridge in the kitchen
-u:(~localisation * freshfood {please}) freshfood is on the fridge in the kitchen
-u:(~localisation * freshfood {please}) freshfood is on the fridge in the kitchen
-u:(~localisation * freshfood {please}) freshfood is on the fridge in the kitchen
-u:(~localisation * drinks {please}) drinks is on the fridge in the kitchen
-u:(~localisation * drinks {please}) drinks is on the bar in the living room
-u:(~localisation * drinks {please}) drinks is on the bar in the living room
-u:(~localisation * toiletries {please}) toiletries is on the bar in the living room
-u:(~localisation * toiletries {please}) toiletries is on the cupboard in the bathroom
-u:(~localisation * toiletries {please}) toiletries is on the cupboard in the bathroom
-u:(~localisation * containers {please}) containers is on the cupboard in the bathroom
-u:(~localisation * containers {please}) containers is on the counter in the kitchen
-u:(~localisation * containers {please}) containers is on the counter in the kitchen
-u:(~localisation * containers {please}) containers is on the counter in the kitchen
-u:(~localisation * containers {please}) containers is on the counter in the kitchen
-u:(~localisation * containers {please}) containers is on the counter in the kitchen
+# u:(~localisation * snack {please}) snack is on the Localization in the Room
+u:(~localisation * snack {please}) snack is on the desk in the office ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/office.jpg"))
+u:(~localisation * candies {please}) candies is on the center table in the living room ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/living_room.jpg"))
+u:(~localisation * freshfood {please}) freshfood is on the fridge in the kitchen ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/kitchen.jpg"))
+u:(~localisation * drinks {please}) drinks is on the bar in the living room ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/living_room_bar.jpg"))
+u:(~localisation * toiletries {please}) toiletries is on the cupboard in the bathroom ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/bathroom.jpg"))
+u:(~localisation * containers {please}) containers is on the counter in the kitchen ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/kitchen_counter.jpg"))
 
 u:(* _~obj_freshfood * _~obj_freshfood * same ~categorise {please}) ~yes, $1 and $2 belong to the same category
 u:(* _~obj_freshfood * _~obj_snack * same ~categorise {please}) ~no, $1 and $2 are not in the same category
@@ -196,17 +185,17 @@ u:(~description * ~localisation * office {please}) in the office we have ^enumer
 u:(~description * ~localisation * kitchen {please}) in the kitchen we have ^enumerate(~loc_kitchen)
 
 u:(~description * ~localisation * bar {please}) in the bar we have ^enumerate(~obj_bar)
-u:(~how_many * ~localisation * bar {please}) in the bar we have ^size(~obj_bar) ~things
+u:(~how_many * ~localisation * bar {please}) in the bar we have ^size(~obj_bar) ~things ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/three.PNG"))
 u:(~description * ~localisation * counter {please}) in the counter we have ^enumerate(~obj_counter)
-u:(~how_many * ~localisation * counter {please}) in the counter we have ^size(~obj_counter) ~things
+u:(~how_many * ~localisation * counter {please}) in the counter we have ^size(~obj_counter) ~things ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/six.PNG"))
 u:(~description * ~localisation * fridge {please}) in the fridge we have ^enumerate(~obj_fridge)
-u:(~how_many * ~localisation * fridge {please}) in the fridge we have ^size(~obj_fridge) ~things
+u:(~how_many * ~localisation * fridge {please}) in the fridge we have ^size(~obj_fridge) ~things ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/cinq.PNG"))
 u:(~description * ~localisation * center_table {please}) in the center_table we have ^enumerate(~obj_center_table)
-u:(~how_many * ~localisation * center_table {please}) in the center_table we have ^size(~obj_center_table) ~things
+u:(~how_many * ~localisation * center_table {please}) in the center_table we have ^size(~obj_center_table) ~things ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/three.PNG"))
 u:(~description * ~localisation * desk {please}) in the desk we have ^enumerate(~obj_desk)
-u:(~how_many * ~localisation * desk {please}) in the desk we have ^size(~obj_desk) ~things
+u:(~how_many * ~localisation * desk {please}) in the desk we have ^size(~obj_desk) ~things ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/three.PNG"))
 u:(~description * ~localisation * cupboard {please}) in the cupboard we have ^enumerate(~obj_cupboard)
-u:(~how_many * ~localisation * cupboard {please}) in the cupboard we have ^size(~obj_cupboard) ~things
+u:(~how_many * ~localisation * cupboard {please}) in the cupboard we have ^size(~obj_cupboard) ~things ^call(ALTabletService.showImage("http://198.18.0.1/apps/tablette_test/img/three.PNG"))
 
 #################### AJOUTER DANS PYTHON ################################
 u:(~description * ~bigger * ~things) the bigger ~things is ~obj_max_Size
@@ -260,33 +249,29 @@ u:(~how_many drinks) there are ^size(obj_drinks) type of drinks
 u:(~how_many toiletries) there are ^size(obj_toiletries) type of toiletries
 u:(~how_many containers) there are ^size(obj_containers) type of containers
 
-#################### AJOUTER DANS PYTHON ################################
-u:(~localisation )
-
-
-#### ask food ####
+# #### ask food ####
+# # u:(~ask_smthg * ~hungry {please}) ~yes what do you ~want to eat?
+# #   u1:(what *) I have ^enumerate(~food) for you
+# #       u2:(* _~food {please}) ~yes, I am coming back in a minute with your $1
+# #   u1:(* _~food {please}) ~yes, I am coming back in a minute with your $1
+# #   u1:(_~food {please}) ~yes, I am coming back in a minute with $1
 # u:(~ask_smthg * ~hungry {please}) ~yes what do you ~want to eat?
-#   u1:(what *) I have ^enumerate(~food) for you
-#       u2:(* _~food {please}) ~yes, I am coming back in a minute with your $1
-#   u1:(* _~food {please}) ~yes, I am coming back in a minute with your $1
-#   u1:(_~food {please}) ~yes, I am coming back in a minute with $1
-u:(~ask_smthg * ~hungry {please}) ~yes what do you ~want to eat?
-    u1:(what *) I have ^enumerate(~obj_food) for you
-        u2:(* _~obj_food {please}) ~yes, I am coming back in a minute with your $1
-    u1:(* _~obj_food {please}) ~yes, I am coming back in a minute with your $1
-    u1:(_~obj_food {please}) ~yes, I am coming back in a minute with $1
-
-#### ask drinks ####
+#     u1:(what *) I have ^enumerate(~obj_food) for you
+#         u2:(* _~obj_food {please}) ~yes, I am coming back in a minute with your $1
+#     u1:(* _~obj_food {please}) ~yes, I am coming back in a minute with your $1
+#     u1:(_~obj_food {please}) ~yes, I am coming back in a minute with $1
+#
+# #### ask drinks ####
+# # u:(~ask_smthg * ~thursty {please}) ~yes what do you ~want to drink?
+# #   u1:(what *) I have ^enumerate(~drinks) for you
+# #       u2:(* _~drinks {please}) ~yes, I am coming back in a minute with your $1
+# #   u1:(* _~drinks {please}) ~yes, I am coming back in a minute with your $1
+# #   u1:(_~drinks {please}) ~yes, I am coming back in a minute with $1
 # u:(~ask_smthg * ~thursty {please}) ~yes what do you ~want to drink?
-#   u1:(what *) I have ^enumerate(~drinks) for you
-#       u2:(* _~drinks {please}) ~yes, I am coming back in a minute with your $1
-#   u1:(* _~drinks {please}) ~yes, I am coming back in a minute with your $1
-#   u1:(_~drinks {please}) ~yes, I am coming back in a minute with $1
-u:(~ask_smthg * ~thursty {please}) ~yes what do you ~want to drink?
-    u1:(what *) I have ^enumerate(~obj_drinks) for you
-        u2:(* ~obj_drinks {please}) ~yes, I am coming back in a minute
-    u1:(* _~obj_drinks {please}) ~yes, I am coming back in a minute with your $1
-    u1:(_~obj_drinks {please}) ~yes, I am coming back in a minute with your $1
+#     u1:(what *) I have ^enumerate(~obj_drinks) for you
+#         u2:(* ~obj_drinks {please}) ~yes, I am coming back in a minute
+#     u1:(* _~obj_drinks {please}) ~yes, I am coming back in a minute with your $1
+#     u1:(_~obj_drinks {please}) ~yes, I am coming back in a minute with your $1
 
 ### questions about crowd ###
 #################### AJOUTER DANS PYTHON ################################
@@ -294,9 +279,41 @@ u:(~how_many _~man * crowd) in the crowd, there are ^size(~pers_male) $1
 u:(~how_many _~woman * crowd) in the crowd, there are ^size(~pers_female) $1
 u:(~description _~man * crowd) in the crowd, there are ^size(~pers_male) $1 who are ^enumerate(~pers_male)
 u:(~description _~woman * crowd) in the crowd, there are ^size(~pers_female) $1 who are ^enumerate(~pers_female)
-u:(~how_many * standing) in the crowd, there are ^size(~pers_standing) standing person
+u:(~how_many _~adult * crowd) in the crowd, there are ^size(~pers_adult) $1
+u:(~description _~adult * crowd) in the crowd, there are ^size(~pers_adult) $1 who are ^enumerate(~pers_adult)
+u:(~how_many _~children * crowd) in the crowd, there are ^size(~pers_children) $1
+u:(~description _~children * crowd) in the crowd, there are ^size(~pers_children) $1 who are ^enumerate(~pers_children)
+u:(~how_many _~elders * crowd) in the crowd, there are ^size(~pers_elders) $1
+u:(~description _~elders * crowd) in the crowd, there are ^size(~pers_elders) $1 who are ^enumerate(~pers_elders)
+u:(~how_many _~boys * crowd) in the crowd, there are ^size(~pers_boys) $1
+u:(~description _~boys * crowd) in the crowd, there are ^size(~pers_boys) $1 who are ^enumerate(~pers_boys)
+u:(~how_many _~girls * crowd) in the crowd, there are ^size(~pers_girls) $1
+u:(~description _~girls * crowd) in the crowd, there are ^size(~pers_girls) $1 who are ^enumerate(~pers_girls)
+
+#################### AJOUTER DANS PYTHON ################################u:(~how_many * standing) in the crowd, there are ^size(~pers_standing) standing person
 u:(~how_many * sitting) in the crowd, there are ^size(~pers_sitting) sitting person
 u:(~how_many * lying) in the crowd, there are ^size(~pers_lying) lying person
 u:(~description * standing) in the crowd, there are ^enumerate(~pers_standing) who are standing person
 u:(~description * sitting) in the crowd, there are ^enumerate(~pers_sitting) who are sitting person
 u:(~description * lying) in the crowd, there are ^enumerate(~pers_lying) who are lying person
+
+#################### AJOUTER DANS PYTHON ################################
+u:(~description * ~color * _~pers_white {please}) $1 is white
+u:(~description * ~color * _~pers_yellow {please}) $1 is yellow
+u:(~description * ~color * _~pers_black {please}) $1 is black
+
+
+
+
+### questions about arêne ###
+#################### AJOUTER DANS PYTHON ################################
+u:(~localisation * _~loc_bedroom {please}) $1 is in the bedroom
+u:(~localisation * _~loc_living_room {please}) $1 is in the living_room
+u:(~localisation * _~loc_office {please}) $1 is in the office
+u:(~localisation * _~loc_kitchen {please}) $1 is in the kitchen
+u:(~localisation * _~loc_corridor {please}) $1 is in the corridor
+u:(~localisation * _~loc_bathroom {please}) $1 is in the bathroom
+u:(_~loc_noPlacement placement) ~no, $1 is not a placement
+u:(_~loc_isPlacement placement) ~yes, $1 is a placement
+u:(_~loc_isBeacon _~beacon) ~yes, $1 is a $2
+u:(_~loc_noBeacon _~beacon) ~no, $1 is not a $2
