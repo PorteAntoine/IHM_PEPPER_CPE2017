@@ -20,11 +20,13 @@
         <File name="index4" src="html/css/index4.css" />
         <File name="logo_CPElyon" src="html/img/logo_CPElyon.jpg" />
         <File name="history" src="html/history.html" />
+        <File name="test" src="html/css/test.css" />
+        <File name="script_test" src="html/js/script_test.js" />
+        <File name="test" src="html/test.html" />
     </Resources>
     <Topics />
     <IgnoredPaths>
-        <Path src="behavior_1/.behavior.xar.12596.csp" />
-        <Path src="translations/.translation_en_US.ts.12596.csp" />
+        <Path src="translations/.translation_en_US.ts.9740.csp" />
     </IgnoredPaths>
     <Translations auto-fill="en_US">
         <Translation name="translation_en_US" src="translations/translation_en_US.ts" language="en_US" />
