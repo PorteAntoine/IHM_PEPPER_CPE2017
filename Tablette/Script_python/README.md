@@ -23,9 +23,11 @@
 
  avec _"Tablet"_ nom du module créé et _"tablette_test"_ le nom de l'application de la tablette où sont garder en mémoire les fichiers
    
- * Fonctions :
+* Fonctions :
  
-   * appTablet_history
+  * appTablet_history
+  
+          Tablet.appTablet_history(memory, questions, answers)
 
 fonction à appeler pour afficher une page web de l'historique de la discussion et la dernière question/réponse. à appeler dans un event "dialog/LastAnswer" après le remplissage d'un historique de discussion
    
@@ -36,9 +38,9 @@ fonction à appeler pour afficher une page web de l'historique de la discussion 
  _"answers"_  : liste des réponses posées
 
 
-    * appTablet_history
+  * appTablet_test
 
-                    Tablet.appTablet_history(memory, questions, answers)
+          Tablet.appTablet_test(memory, questions, answers)
                     
 fonction à appeler pour afficher une page web de l'historique de la discussion et la dernière question/réponse. à appeler dans un event "dialog/LastAnswer" après le remplissage d'un historique de discussion
    
