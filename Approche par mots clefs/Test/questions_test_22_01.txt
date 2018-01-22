@@ -1,0 +1,417 @@
+Where can I find a chips ?
+What's the color of the chips ?
+To which category belong the chips ?
+Where can I find a pringles ?
+What's the color of the pringles ?
+To which category belong the pringles ?
+Where can I find a peanuts ?
+What's the color of the peanuts ?
+To which category belong the peanuts ?
+Where can I find a chocolate bar ?
+What's the color of the chocolate bar ?
+To which category belong the chocolate bar ?
+Where can I find a mints ?
+What's the color of the mints ?
+To which category belong the mints ?
+Where can I find a chocolate egg ?
+What's the color of the chocolate egg ?
+To which category belong the chocolate egg ?
+Where can I find a noodles ?
+What's the color of the noodles ?
+To which category belong the noodles ?
+Where can I find a apple ?
+What's the color of the apple ?
+To which category belong the apple ?
+Where can I find a paprika ?
+What's the color of the paprika ?
+To which category belong the paprika ?
+Where can I find a melon ?
+What's the color of the melon ?
+To which category belong the melon ?
+Where can I find a sushi ?
+What's the color of the sushi ?
+To which category belong the sushi ?
+Where can I find a tea ?
+What's the color of the tea ?
+To which category belong the tea ?
+Where can I find a beer ?
+What's the color of the beer ?
+To which category belong the beer ?
+Where can I find a coke ?
+What's the color of the coke ?
+To which category belong the coke ?
+Where can I find a shampoo ?
+What's the color of the shampoo ?
+To which category belong the shampoo ?
+Where can I find a cloth ?
+What's the color of the cloth ?
+To which category belong the cloth ?
+Where can I find a sponge ?
+What's the color of the sponge ?
+To which category belong the sponge ?
+Where can I find a bowl ?
+What's the color of the bowl ?
+To which category belong the bowl ?
+Where can I find a mug ?
+What's the color of the mug ?
+To which category belong the mug ?
+Where can I find a glass ?
+What's the color of the glass ?
+To which category belong the glass ?
+Where can I find a box ?
+What's the color of the box ?
+To which category belong the box ?
+Where can I find a tray ?
+What's the color of the tray ?
+To which category belong the tray ?
+Where can I find a bag ?
+What's the color of the bag ?
+To which category belong the bag ?
+Do the chips and pringles belong to the same category ?
+Do the chips and peanuts belong to the same category ?
+Do the chips and chocolate bar belong to the same category ?
+Do the chips and mints belong to the same category ?
+Do the chips and chocolate egg belong to the same category ?
+Do the chips and noodles belong to the same category ?
+Do the chips and apple belong to the same category ?
+Do the chips and paprika belong to the same category ?
+Do the chips and melon belong to the same category ?
+Do the chips and sushi belong to the same category ?
+Do the chips and tea belong to the same category ?
+Do the chips and beer belong to the same category ?
+Do the chips and coke belong to the same category ?
+Do the chips and shampoo belong to the same category ?
+Do the chips and cloth belong to the same category ?
+Do the chips and sponge belong to the same category ?
+Do the chips and bowl belong to the same category ?
+Do the chips and mug belong to the same category ?
+Do the chips and glass belong to the same category ?
+Do the chips and box belong to the same category ?
+Do the chips and tray belong to the same category ?
+Do the chips and bag belong to the same category ?
+Do the peanuts and chocolate bar belong to the same category ?
+Do the peanuts and mints belong to the same category ?
+Do the peanuts and chocolate egg belong to the same category ?
+Do the peanuts and noodles belong to the same category ?
+Do the peanuts and apple belong to the same category ?
+Do the peanuts and paprika belong to the same category ?
+Do the peanuts and melon belong to the same category ?
+Do the peanuts and sushi belong to the same category ?
+Do the peanuts and tea belong to the same category ?
+Do the peanuts and beer belong to the same category ?
+Do the peanuts and coke belong to the same category ?
+Do the peanuts and shampoo belong to the same category ?
+Do the peanuts and cloth belong to the same category ?
+Do the peanuts and sponge belong to the same category ?
+Do the peanuts and bowl belong to the same category ?
+Do the peanuts and mug belong to the same category ?
+Do the peanuts and glass belong to the same category ?
+Do the peanuts and box belong to the same category ?
+Do the peanuts and tray belong to the same category ?
+Do the peanuts and bag belong to the same category ?
+Do the chocolate bar and chips belong to the same category ?
+Do the chocolate bar and pringles belong to the same category ?
+Do the chocolate bar and peanuts belong to the same category ?
+Do the chocolate bar and chocolate bar belong to the same category ?
+Do the chocolate bar and mints belong to the same category ?
+Do the chocolate bar and chocolate egg belong to the same category ?
+Do the chocolate bar and noodles belong to the same category ?
+Do the chocolate bar and apple belong to the same category ?
+Do the chocolate bar and paprika belong to the same category ?
+Do the chocolate bar and melon belong to the same category ?
+Do the chocolate bar and sushi belong to the same category ?
+Do the chocolate bar and tea belong to the same category ?
+Do the chocolate bar and beer belong to the same category ?
+Do the chocolate bar and coke belong to the same category ?
+Do the chocolate bar and shampoo belong to the same category ?
+Do the chocolate bar and cloth belong to the same category ?
+Do the chocolate bar and sponge belong to the same category ?
+Do the chocolate bar and bowl belong to the same category ?
+Do the chocolate bar and mug belong to the same category ?
+Do the chocolate bar and glass belong to the same category ?
+Do the chocolate bar and box belong to the same category ?
+Do the chocolate bar and tray belong to the same category ?
+Do the chocolate bar and bag belong to the same category ?
+Do the mints and chips belong to the same category ?
+Do the mints and pringles belong to the same category ?
+Do the mints and peanuts belong to the same category ?
+Do the mints and chocolate bar belong to the same category ?
+Do the mints and mints belong to the same category ?
+Do the mints and chocolate egg belong to the same category ?
+Do the mints and noodles belong to the same category ?
+Do the mints and apple belong to the same category ?
+Do the mints and paprika belong to the same category ?
+Do the mints and melon belong to the same category ?
+Do the mints and sushi belong to the same category ?
+Do the mints and tea belong to the same category ?
+Do the mints and beer belong to the same category ?
+Do the mints and coke belong to the same category ?
+Do the mints and shampoo belong to the same category ?
+Do the mints and cloth belong to the same category ?
+Do the mints and sponge belong to the same category ?
+Do the mints and bowl belong to the same category ?
+Do the mints and mug belong to the same category ?
+Do the mints and glass belong to the same category ?
+Do the mints and box belong to the same category ?
+Do the mints and tray belong to the same category ?
+Do the mints and bag belong to the same category ?
+Do the chocolate egg and chips belong to the same category ?
+Do the chocolate egg and pringles belong to the same category ?
+Do the chocolate egg and peanuts belong to the same category ?
+Do the chocolate egg and chocolate bar belong to the same category ?
+Do the chocolate egg and mints belong to the same category ?
+Do the chocolate egg and chocolate egg belong to the same category ?
+Do the chocolate egg and noodles belong to the same category ?
+Do the chocolate egg and apple belong to the same category ?
+Do the chocolate egg and paprika belong to the same category ?
+Do the chocolate egg and melon belong to the same category ?
+Do the chocolate egg and sushi belong to the same category ?
+Do the chocolate egg and tea belong to the same category ?
+Do the chocolate egg and beer belong to the same category ?
+Do the chocolate egg and coke belong to the same category ?
+Do the chocolate egg and shampoo belong to the same category ?
+Do the chocolate egg and cloth belong to the same category ?
+Do the chocolate egg and sponge belong to the same category ?
+Do the chocolate egg and bowl belong to the same category ?
+Do the chocolate egg and mug belong to the same category ?
+Do the chocolate egg and glass belong to the same category ?
+Do the chocolate egg and box belong to the same category ?
+Do the chocolate egg and tray belong to the same category ?
+Do the chocolate egg and bag belong to the same category ?
+Do the noodles and chips belong to the same category ?
+Do the noodles and pringles belong to the same category ?
+Do the noodles and peanuts belong to the same category ?
+Do the noodles and chocolate bar belong to the same category ?
+Do the noodles and mints belong to the same category ?
+Do the noodles and chocolate egg belong to the same category ?
+Do the noodles and noodles belong to the same category ?
+Do the noodles and apple belong to the same category ?
+Do the noodles and paprika belong to the same category ?
+Do the noodles and melon belong to the same category ?
+Do the noodles and sushi belong to the same category ?
+Do the noodles and tea belong to the same category ?
+Do the noodles and beer belong to the same category ?
+Do the noodles and coke belong to the same category ?
+Do the noodles and shampoo belong to the same category ?
+Do the noodles and cloth belong to the same category ?
+Do the noodles and sponge belong to the same category ?
+Do the noodles and bowl belong to the same category ?
+Do the noodles and mug belong to the same category ?
+Do the noodles and glass belong to the same category ?
+Do the noodles and box belong to the same category ?
+Do the noodles and tray belong to the same category ?
+Do the noodles and bag belong to the same category ?
+Do the apple and chips belong to the same category ?
+Do the apple and pringles belong to the same category ?
+Do the apple and peanuts belong to the same category ?
+Do the apple and chocolate bar belong to the same category ?
+Do the apple and mints belong to the same category ?
+Do the apple and chocolate egg belong to the same category ?
+Do the apple and noodles belong to the same category ?
+Do the apple and apple belong to the same category ?
+Do the apple and paprika belong to the same category ?
+Do the apple and melon belong to the same category ?
+Do the apple and sushi belong to the same category ?
+Do the apple and tea belong to the same category ?
+Do the apple and beer belong to the same category ?
+Do the apple and coke belong to the same category ?
+Do the apple and shampoo belong to the same category ?
+Do the apple and cloth belong to the same category ?
+Do the apple and sponge belong to the same category ?
+Do the apple and bowl belong to the same category ?
+Do the apple and mug belong to the same category ?
+Do the apple and glass belong to the same category ?
+Do the apple and box belong to the same category ?
+Do the apple and tray belong to the same category ?
+Do the apple and bag belong to the same category ?
+Do the paprika and chips belong to the same category ?
+Do the paprika and pringles belong to the same category ?
+Do the paprika and peanuts belong to the same category ?
+Do the paprika and chocolate bar belong to the same category ?
+Do the paprika and mints belong to the same category ?
+Do the paprika and chocolate egg belong to the same category ?
+Do the paprika and noodles belong to the same category ?
+Do the paprika and apple belong to the same category ?
+Do the paprika and paprika belong to the same category ?
+Do the paprika and melon belong to the same category ?
+Do the paprika and sushi belong to the same category ?
+Do the paprika and tea belong to the same category ?
+Do the paprika and beer belong to the same category ?
+Do the paprika and coke belong to the same category ?
+Do the paprika and shampoo belong to the same category ?
+Do the paprika and cloth belong to the same category ?
+Do the paprika and sponge belong to the same category ?
+Do the paprika and bowl belong to the same category ?
+Do the paprika and mug belong to the same category ?
+Do the paprika and glass belong to the same category ?
+Do the paprika and box belong to the same category ?
+Do the paprika and tray belong to the same category ?
+Do the paprika and bag belong to the same category ?
+Do the melon and chips belong to the same category ?
+Do the melon and pringles belong to the same category ?
+Do the melon and peanuts belong to the same category ?
+Do the melon and chocolate bar belong to the same category ?
+Do the melon and mints belong to the same category ?
+Do the melon and chocolate egg belong to the same category ?
+Do the melon and noodles belong to the same category ?
+Do the melon and apple belong to the same category ?
+Do the melon and paprika belong to the same category ?
+Do the melon and melon belong to the same category ?
+Do the melon and sushi belong to the same category ?
+Do the melon and tea belong to the same category ?
+Do the melon and beer belong to the same category ?
+Do the melon and coke belong to the same category ?
+Do the melon and shampoo belong to the same category ?
+Do the melon and cloth belong to the same category ?
+Do the melon and sponge belong to the same category ?
+Do the melon and bowl belong to the same category ?
+Do the melon and mug belong to the same category ?
+Do the melon and glass belong to the same category ?
+Do the melon and box belong to the same category ?
+Do the melon and tray belong to the same category ?
+Do the melon and bag belong to the same category ?
+Do the sushi and chips belong to the same category ?
+Do the sushi and pringles belong to the same category ?
+Do the sushi and peanuts belong to the same category ?
+Do the sushi and chocolate bar belong to the same category ?
+Do the sushi and mints belong to the same category ?
+Do the sushi and chocolate egg belong to the same category ?
+Do the sushi and noodles belong to the same category ?
+Do the sushi and apple belong to the same category ?
+Do the sushi and paprika belong to the same category ?
+Do the sushi and melon belong to the same category ?
+Do the sushi and sushi belong to the same category ?
+Do the sushi and tea belong to the same category ?
+Do the sushi and beer belong to the same category ?
+Do the sushi and coke belong to the same category ?
+Do the sushi and shampoo belong to the same category ?
+Do the sushi and cloth belong to the same category ?
+Do the sushi and sponge belong to the same category ?
+Do the sushi and bowl belong to the same category ?
+Do the sushi and mug belong to the same category ?
+Do the sushi and glass belong to the same category ?
+Do the sushi and box belong to the same category ?
+Do the sushi and tray belong to the same category ?
+Do the sushi and bag belong to the same category ?
+Do the tea and beer belong to the same category ?
+Do the tea and coke belong to the same category ?
+Do the tea and shampoo belong to the same category ?
+Do the tea and cloth belong to the same category ?
+Do the tea and sponge belong to the same category ?
+Do the tea and bowl belong to the same category ?
+Do the tea and mug belong to the same category ?
+Do the tea and glass belong to the same category ?
+Do the tea and box belong to the same category ?
+Do the tea and tray belong to the same category ?
+Do the tea and bag belong to the same category ?
+Do the beer and chips belong to the same category ?
+Do the beer and pringles belong to the same category ?
+Do the beer and peanuts belong to the same category ?
+Do the beer and chocolate bar belong to the same category ?
+Do the beer and mints belong to the same category ?
+Do the beer and chocolate egg belong to the same category ?
+Between the sponge and mints which one is heavier ?
+Between the sponge and mints which one is smaller ?
+Between the sponge and mints which one is bigger ?
+Between the sponge and mints which one is lighter ?
+Between the sponge and chocolate egg which one is heavier ?
+Between the sponge and chocolate egg which one is smaller ?
+Between the sponge and chocolate egg which one is bigger ?
+Between the sponge and chocolate egg which one is lighter ?
+Between the sponge and noodles which one is heavier ?
+Between the sponge and noodles which one is smaller ?
+Between the sponge and noodles which one is bigger ?
+Between the sponge and noodles which one is lighter ?
+Between the sponge and apple which one is heavier ?
+Between the sponge and apple which one is smaller ?
+Between the sponge and apple which one is bigger ?
+Between the sponge and apple which one is lighter ?
+Between the sponge and paprika which one is heavier ?
+Between the sponge and paprika which one is smaller ?
+Between the sponge and paprika which one is bigger ?
+Between the sponge and paprika which one is lighter ?
+Between the sponge and melon which one is heavier ?
+Between the sponge and melon which one is smaller ?
+Between the sponge and melon which one is bigger ?
+Between the sponge and melon which one is lighter ?
+Between the sponge and sushi which one is heavier ?
+Between the sponge and sushi which one is smaller ?
+Between the sponge and sushi which one is bigger ?
+Between the sponge and sushi which one is lighter ?
+Where is the located the bed ?
+In which room is the bed ?
+Where is the located the living table ?
+In which room is the living table ?
+Where is the located the TV stand ?
+In which room is the TV stand ?
+Where is the located the living table ?
+In which room is the living table ?
+Where is the located the bar ?
+In which room is the bar ?
+Where is the located the desk ?
+In which room is the desk ?
+Where is the located the sink ?
+In which room is the sink ?
+Where is the located the dining table ?
+In which room is the dining table ?
+Where is the located the cabinet ?
+In which room is the cabinet ?
+Where is the located the cupboard ?
+In which room is the cupboard ?
+Where is the located the bedside ?
+In which room is the bedside ?
+Where is the located the living shelf ?
+In which room is the living shelf ?
+Where is the located the TV Stand ?
+In which room is the TV Stand ?
+Where is the located the living table ?
+In which room is the living table ?
+Where is the located the center table ?
+In which room is the center table ?
+Where is the located the bar ?
+In which room is the bar ?
+Where is the located the drawer ?
+In which room is the drawer ?
+Where is the located the desk ?
+In which room is the desk ?
+Where is the located the bar ?
+In which room is the bar ?
+Where is the located the cupboard ?
+In which room is the cupboard ?
+Where is the located the sink ?
+In which room is the sink ?
+Where is the located the sideshelf ?
+In which room is the sideshelf ?
+Where is the located the bookcase ?
+In which room is the bookcase ?
+Where is the located the dining table ?
+In which room is the dining table ?
+Where is the located the fridge ?
+In which room is the fridge ?
+Where is the located the counter ?
+In which room is the counter ?
+Where is the located the cabinet ?
+In which room is the cabinet ?
+How many children are in the crowd ?
+Tell me the number of children in the crowd ?
+How many adults are in the crowd ?
+Tell me the number of adults in the crowd ?
+How many elders are in the crowd ?
+Tell me the number of elders in the crowd ?
+How many males are in the crowd ?
+Tell me the number of males in the crowd ?
+How many females are in the crowd ?
+Tell me the number of females in the crowd ?
+How many men are in the crowd ?
+Tell me the number of men in the crowd ?
+How many women are in the crowd ?
+Tell me the number of women in the crowd ?
+How many boys are in the crowd ?
+Tell me the number of boys in the crowd ?
+How many girls are in the crowd ?
+Tell me the number of girls in the crowd ?
+How many people in the crowd are standing ?
+How many people in the crowd are sitting ?
+How many people in the crowd are lying ?
+What is the color of Brian ?
+What is the color of Samantha ?
