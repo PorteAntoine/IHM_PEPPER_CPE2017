@@ -26,7 +26,7 @@
   
  * Fonctions :
  
-          *  appTablet_history
+     *  appTablet_history
  
 
                     Tablet.appTablet_history(memory, questions, answers)
