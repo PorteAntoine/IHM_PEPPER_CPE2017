@@ -13,20 +13,20 @@
   
 ### 2 - Comment utiliser la class  :
 
-- Nom de la classe : 
+* Nom de la classe : 
 
           TabletModule
  
- - Initialisation  :
+ * Initialisation  :
  
           Tablet = TabletModule("Tablet","tablette_test")
 
  avec _"Tablet"_ nom du module créé et _"tablette_test"_ le nom de l'application de la tablette où sont garder en mémoire les fichiers
    
   
- - Fonctions :
+ * Fonctions :
  
-`* "appTablet_history"
+ `* appTablet_history`
 
                     Tablet.appTablet_history(memory, questions, answers)
                     
@@ -38,9 +38,8 @@ fonction à appeler pour afficher une page web de l'historique de la discussion 
 
  _"answers"_  : liste des réponses posées
  
- `* Une sous-puce`
  
-`* "appTablet_test"'
+ `* appTablet_test`
                    
  
                     Tablet.appTablet_test(string1, string2)
