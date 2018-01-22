@@ -43,16 +43,22 @@ fonction à appeler pour afficher une page web de l'historique de la discussion 
 
    2. appTablet_test
 
-          Tablet.appTablet_test(memory, questions, answers)
+          Tablet.appTablet_test(memory, string_titre, string_1, string_2, string_3, string_pourcentage)
                     
 fonction à appeler pour afficher une page web de l'historique de la discussion et la dernière question/réponse. à appeler dans un event "dialog/LastAnswer" après le remplissage d'un historique de discussion
    
  _"memory"_  : lien vers la mémoire du robot qui doit être défini avant dans le programme principal
    
- _"questions"_  : liste des questions posées
+ _"string_titre"_  : string contenant le titre de la page web du test
 
- _"answers"_  : liste des réponses posées
+ _"string_1"_  : string contenant le premier texte à afficher
  
+  _"string_2"_  : string contenant le deuxième texte à afficher
+  
+  _"string_3"_  : string contenant le troisième texte à afficher
+ 
+  _"string_pourcentage"_  : string contenant le pourcentage de l'avancé du test (entre 0 et 100)
+  
 ---
           
                     
