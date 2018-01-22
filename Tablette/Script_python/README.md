@@ -36,7 +36,7 @@ fonction à appeler pour afficher une page web de l'historique de la discussion 
  _"answers"_  : liste des réponses posées
 
 
-   * appTablet_history
+    * appTablet_history
 
                     Tablet.appTablet_history(memory, questions, answers)
                     
