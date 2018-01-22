@@ -268,6 +268,21 @@ c1:(_*) is $1
 u: (~who_is {the} ~youngest ~people)  the youngest person ^call(ProcessPersonModule.youngest(^enumerate(~person)))
 c1:(_*) is $1
 
+# est ce que la personne 1 et la personne 2 ont le meme age
+u: ([do does are is] {the} {age} {of} _~person and _~person {have} the same {age})  $1 and $2 ^call(ProcessPersonModule.sameAge($1,$2))
+c1:(True) have the same age
+c1:(False) have not the same age
+
+# est ce que la personne 1 et la personne 2 ont le meme genre
+u: ([do does are is] {the} {gender} {of} _~person and _~person {have} the same {gender})  $1 and $2 ^call(ProcessPersonModule.sameGender($1,$2))
+c1:(True) have the same gender
+c1:(False) have not the same gender
+
+
+# est ce que la personne 1 et la personne 2 ont la meme position
+u: ([do does are is] {the} {position} {of} _~person and _~person {have} {are} {in} the same {position})  $1 and $2 ^call(ProcessPersonModule.samePosition($1,$2))
+c1:(True) have the same position
+c1:(False) have not the same position
 
 #-------------------------------------------------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------------------------------------------------

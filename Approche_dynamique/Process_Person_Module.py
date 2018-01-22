@@ -72,3 +72,32 @@ class ProcessPersonModule:
         resultyoungest=""
         resultyoungest = self.processPerson.youngest(self.utils.getObjectListbyName(self.parseur.persons, listOfNames))
         return str(resultyoungest)
+
+    def sameAge(self, name1, name2):
+        print "MyModule process if ", "<", name1, "> and ", "<", name2, ">", " have the same age"
+        listofNames = []
+        listofNames.append(name1)
+        listofNames.append(name2)
+        result = ""
+        result = self.processPerson.sameAge(self.utils.getObjectListbyListName(self.parseur.persons, listofNames))
+        return str(result)
+
+
+    def sameGender(self, name1, name2):
+        print "MyModule process if ", "<", name1, "> and ", "<", name2, ">", " have the same gender"
+        listofNames = []
+        listofNames.append(name1)
+        listofNames.append(name2)
+        result = ""
+        result = self.processPerson.sameGender(self.utils.getObjectListbyListName(self.parseur.persons, listofNames))
+        return str(result)
+
+
+    def samePosition(self, name1, name2):
+        print "MyModule process if ", "<", name1, "> and ", "<", name2, ">", " have the same position"
+        listofNames = []
+        listofNames.append(name1)
+        listofNames.append(name2)
+        result = ""
+        result = self.processPerson.samePosition(self.utils.getObjectListbyListName(self.parseur.persons, listofNames))
+        return str(result)

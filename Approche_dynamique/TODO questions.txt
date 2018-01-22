@@ -1,7 +1,7 @@
----> Deux personnes possedant le meme attribut
----> Y a t-il quelqun avec un attribut
+
+
+
 ---> combien d'objets en tout
 ---> combien de personnes en tout
 
 
---->    quelle est la position/age de name

@@ -112,7 +112,6 @@ class defineDialog :
         self.ALDialog.setConcept("weight", "English", weights)
         self.ALDialog.setConcept("localization", "English", localizations)
         self.ALDialog.setConcept("localizationBeacon", "English", localizationsBeacon)
-        print(self.ALDialog.getConcept("localizationBeacon","English"))
 
         self.ALDialog.setConcept("allAttributs", "English", categories)
         self.ALDialog.addToConcept("allAttributs", "English", types)
