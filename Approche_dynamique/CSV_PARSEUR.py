@@ -99,4 +99,4 @@ class CSV_PARSEUR():
 
 if __name__ == '__main__':
 
-    Parseur = CSV_PARSEUR("list_objects_final.csv", "list_objects_final.csv")
+    Parseur = CSV_PARSEUR("list_objects_final.csv", "list_persons_final.csv")

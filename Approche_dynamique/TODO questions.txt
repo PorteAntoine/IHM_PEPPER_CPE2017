@@ -1,32 +1,7 @@
-<<<<<<< Updated upstream
-Tristan
-
-2 objects belong to the same type
-2 objects belong to the same room
-2 objects have the same color
-2 objects have the same weight
-2 objects have the same size
-2 objects belong to the same localization
-
-quel est le plus lourd entre 2 objets
-quel est le plus leger entre 2 objets
-quel est le plus petit entre 2 objets
-quel est le plus grand entre 2 objets
-
-(quelle est la liste d'objets qui poss�dent ces 2 attributs)
+---> Deux personnes possedant le meme attribut
+---> Y a t-il quelqun avec un attribut
+---> combien d'objets en tout
+---> combien de personnes en tout
 
 
-
-
-Guillaume :
-quel est le poids de l'objet
-quelle est la taille de l'objet
-quelle est la salle de l'objet
-
-quelles sont les (cateogries, types, room) de la robocup
-
-quelle est la liste d'objets qui ont cet attribut (couleur, category, type)
-=======
-Quelles cat�gorie appartient � quel type.
->>>>>>> Stashed changes
-est ce qu'il y a des "chips" du coca etc
+--->    quelle est la position/age de name

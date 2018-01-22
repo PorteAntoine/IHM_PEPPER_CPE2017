@@ -4,17 +4,22 @@ concept:(located) [room situated placed located find]
 concept:(where_is) ["where is" where's "where are" "where can I"] 
 concept:(can_you)[ "[can will could] you {please}" "do you think you could" "are you [ready able] to" "do you know how to"] 
 concept:(what_is) [{"~can_you tell me" "do you know" "tell me"} [ what's "what [is are was were]"] ]
+concept:(who_is) [{"~can_you tell me" "do you know" "tell me" "which is the person"} [ who's "who [is are was were]"] ]
 concept:(which_is) [~what_is "which is" "{To} which"]
 concept:(heaviest) [heaviest "most important weight"] 
 concept:(lightest) [lightest "less important weight"] 
 concept:(biggest) [biggest  "most important [size dimension]"] 
-concept:(smallest) [smallest little tiny tiniest "less important [size dimension]"] 
+concept:(smallest) [smallest little tiny tiniest "less important [size dimension]"]
+concept:(oldest) [oldest "most [old ancient aged]" elder elderly]
+concept:(youngest) [youngest "most young" "less aged"]
 concept:(how_many) ["how many" "how much" "~what_is the number of"]
 concept:(that) [that those these there]
 concept:(which) ["{To} what" "{To} which"]
 concept:(belongTo)  ["belongs to" "belong to" "is present" "belonging" "[are is]{[in on]}"] #Ajouter on is etc
 concept:(location) [localization location position room place]
 concept:(furniture) [localization furniture equipment]
+concept:(stored) [~belongTo "{are} contained" "{are} stored" own possess]
+concept:(people) [persons people person]
 
 dynamic: object 
 dynamic: category 
@@ -27,6 +32,38 @@ dynamic: shape
 dynamic: size
 dynamic: weight
 dynamic: allAttributs
+
+dynamic: person
+dynamic: gender
+dynamic: age
+dynamic: position
+dynamic: allPersonsAttributs
+
+#-------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------QUESTIONS GENERALES-----------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------
+
+u: ([Hi Hello "hey {there}" "good [morning afternoon evening]"] {pepper}) Hello Human, how are you?
+    u1:(["I'm fine too" "{"I'm"} fine {thank} {thanks} {you}" "I'm good" "I feel {very} well"]) very good
+    u1:(["I'm not feeling well" "{no} I'm not" "I don't feel {very} well" "I'm not {very} fine" "not {too} [good fine]"]) oh this sad
+
+u: (How [are do] you {do} {doing} {pepper}) I'm fine thanks, and you?
+    u1:(["I'm fine too" "{"I'm"} fine {thank} {thanks} {you}" "I'm good" "I feel {very} well" "{thanks} me too"]) very good
+    u1:(["I'm not feeling well" "{no} I'm not {very} {really} {fine}" "I don't feel {very} well" "not {too} [good fine]"]) oh this sad
+
+u: (["~what_is your name" "how should [I we] call you"]) my name is pepper, and you?
+    u1:(["my name is" "I am" "I'm"]) Ok nice to meet you!
+
+u: (Good bye {pepper}) good bye !
+
+
+#-------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------
+
+
+#-------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------QUESTIONS SUR LES OBJETS------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------
 
 #Est ce qu'un objet existe
 u: (["do you have _~object" "[is are] {~that} _~object"]) yes off course I have $1
@@ -60,7 +97,7 @@ u:(~which_is {the} {default} {"most probable"} size {of} {for} {the} _~object) T
 c1:(_*)  $1 
 
 #quels objects possedent l'attribut
-u:(~which_is {the} {objects} {that} ~belongTo {the} {in}_~allAttributs ) are $1  ^call(ProcessObjectModule.hasAttribute($1))
+u:(~which_is {the} {objects} {that} {are} ~stored {the} {in} {the} _~allAttributs ) are $1  ^call(ProcessObjectModule.hasAttribute($1))
 
 #quels localization sont des beacons
 u:(~which_is {the} ~furniture {that} {are} {a} beacon ) are Beacon  ^call(ProcessLocalizationModule.hasAttribute("beacon"))
@@ -165,6 +202,10 @@ c1:(False) have not the same localization
 u: (~how_many {objects} {~that} {are} {in} {the} {category} _~allAttributs {are} {~that})$attribut=$1 there are ^call(ProcessObjectModule.numberAttribute($1))
 c1:(_*) $1 $attribut objects
 
+# combien d'objets possedent l'attribut attr1 et l'attribut attr2
+u: (~how_many {objects} {are} _~allAttributs {objects} {~that} {are} {~stored} {in} {the} {category} _~allAttributs {are} {~that}) $attr1=$1 $attr2=$2 there are ^call(ProcessObjectModule.numberTwoAttribute($1,$2))
+c1:(_*) $1 objects that are $attr1 and $attr2
+
 # quel est le plus lourd objet entre objet1 et objet2
 u: ({~which_is} {the} {~heaviest} {object} between {the}  _~object and {the} _~object {what} {is} {the} {~heaviest}) the heaviest is ^call(ProcessObjectModule.heavyName($1,$2))
 c1:(_*) $1
@@ -188,15 +229,45 @@ u:(~which_is {the} ~furniture {that} {are} {[~belongTo "~located {in}"]} {the} _
 # quelle est la liste d'objet possedant les attributs 1 et 2
 u: (~which_is {the} {objects} {that} {are} _~allAttributs {and} _~allAttributs) are the objects that are $1 and $2 ^call(ProcessObjectModule.hasTwoAttribute($1,$2))
 
-u: ([Hi Hello "hey {there}" "good [morning afternoon evening]"] {pepper}) Hello Human, how are you?
-    u1:(["I'm fine too" "{"I'm"} fine {thank} {thanks} {you}" "I'm good" "I feel {very} well"]) very good
-    u1:(["I'm not feeling well" "{no} I'm not" "I don't feel {very} well" "I'm not {very} fine" "not {too} [good fine]"]) oh this sad
 
-u: (How [are do] you {do} {doing} {pepper}) I'm fine thanks, and you?
-    u1:(["I'm fine too" "{"I'm"} fine {thank} {thanks} {you}" "I'm good" "I feel {very} well" "{thanks} me too"]) very good
-    u1:(["I'm not feeling well" "{no} I'm not {very} {really} {fine}" "I don't feel {very} well" "not {too} [good fine]"]) oh this sad
+#-------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------
 
-u: (["~what_is your name" "how should [I we] call you"]) my name is pepper, and you?
-    u1:(["my name is" "I am" "I'm"]) Ok nice to meet you!
 
-u: (Good bye {pepper}) good bye !
+#-------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------QUESTIONS SUR LES PERSONNES---------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------
+
+# combien de personnes possedent l'attribut attr
+u:(~how_many {~people} {are} _~allPersonsAttributs {years} {old} {are} {~that}) $attr=$1 there are ^call(ProcessPersonModule.numberAttribute($1))
+c1:(_*) $1 persons $attr
+
+# combien de personnes possedent l'attribut attr1 et l'attribut attr2
+u: (~how_many {~people} {are} _~allPersonsAttributs {~people} {~that} {are} {and} _~allPersonsAttributs {are} {~that}) $attr1=$1 $attr2=$2 there are ^call(ProcessPersonModule.numberTwoAttribute($1,$2))
+c1:(_*) $1 persons who are $attr1 and $attr2
+
+# liste de personnes possedant deux attributs
+u: (~who_is {the} {~people} {that} {who} {are} {the} {a} _~allPersonsAttributs {and} {the} {a} _~allPersonsAttributs) are the persons who are $1 and $2 ^call(ProcessPersonModule.hasTwoAttribute($1,$2))
+
+# liste de personnes possedant un attribut
+u: (~who_is {the} {~people} {that} {who} {are} {the} {a} _~allPersonsAttributs) are the persons who are $1 ^call(ProcessPersonModule.hasAttribute($1))
+
+#Quel sont les personnes les plus agees dans <attr>
+u: (~who_is {the} ~oldest {~people} _~allPersonsAttributs) the oldest $1 ^call(ProcessPersonModule.oldestattr($1))
+c1:(_*) is $1
+
+#Quel sont les personnes les plus agees dans la liste de personnes
+u: (~who_is {the} ~oldest ~people)  the oldest person ^call(ProcessPersonModule.oldest(^enumerate(~person)))
+c1:(_*) is $1
+
+#Quel sont les personnes les plus jeunes dans <attr>
+u: (~who_is {the} ~youngest {~people} _~allPersonsAttributs) the youngest $1 ^call(ProcessPersonModule.youngestattr($1))
+c1:(_*) is $1
+
+#Quel sont les personnes les plus jeunes dans la liste de personnes
+u: (~who_is {the} ~youngest ~people)  the youngest person ^call(ProcessPersonModule.youngest(^enumerate(~person)))
+c1:(_*) is $1
+
+
+#-------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------

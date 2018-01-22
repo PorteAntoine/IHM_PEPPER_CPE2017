@@ -13,7 +13,7 @@ class ProcessObjectModule:
     def __init__(self, session,parseur):
         """
         """
-        print "MyModule init"
+        print "MyModule Objects init"
         self.session = session
         self.parseur = parseur
         self.utils = Utils()
@@ -24,6 +24,12 @@ class ProcessObjectModule:
         print "MyModule process the number of objects having the attribute ", "<" , attr , ">"
         result = ""
         result = self.processObject.hasAttribute(self.parseur.objects, attr)
+        return str(len(result))
+
+    def numberTwoAttribute(self, attr1, attr2):
+        print "MyModule process the number of objects having the attributes ", "<" , attr1 , "> and <", attr2, ">"
+        result = ""
+        result = self.processObject.hasTwoAttribute(self.parseur.objects, attr1, attr2)
         return str(len(result))
 
     def hasAttribute(self, attr):
@@ -40,7 +46,6 @@ class ProcessObjectModule:
         result = self.processObject.hasTwoAttribute(self.parseur.objects, attr1, attr2)
         if not result:
             result = "nothing"
-        print result
         return self.tts.say(str(result))
 
     def boolAttribute(self, listOfNames, attr):

@@ -1,5 +1,3 @@
-from CSV_PARSEUR import CSV_PARSEUR
-
 class Process_person():
 
     def __init__(self):
@@ -13,8 +11,21 @@ class Process_person():
         # attr est une string pouvant contenir un age, une position etc.
         hasAttribute_list = []
         for i in list_persons:
-            if i.gender == attr or i.age == attr or i.position == attr:
+            if i.gender == attr or i.age == str(attr) or i.position == attr or (int(i.age) < 18 and attr == "children") or (int(i.age) > 17 and attr == "adult"):
                 hasAttribute_list.append(i.name)
+        return hasAttribute_list
+
+    def hasTwoAttribute(self,list_persons,attr1,attr2):
+
+        # retourne sous forme de liste le nom de toutes les personnes qui possedent les 2 attributs attr
+        # list_persons est une liste de "person"
+        # attr est une string pouvant contenir un age, une position etc.
+        hasAttribute_list = []
+        for i in list_persons:
+            if i.gender == attr1 or i.age == str(attr1) or i.position == attr1 or (int(i.age) < 19 and attr1 == "children") or (int(i.age) > 17 and attr1 == "adult"):
+                if i.gender == attr2 or i.age == str(attr2) or i.position == attr2 or (int(i.age) < 19 and attr2 == "children") or (int(i.age) > 17 and attr2 == "adult"):
+                    hasAttribute_list.append(i.name)
+        print hasAttribute_list
         return hasAttribute_list
 
     def boolAttribute(self, list_persons, name, attr):
@@ -33,6 +44,7 @@ class Process_person():
 
         # retourne le nom de la personne la plus agee
         # list_persons est une liste de "person"
+        self.oldest_person=[]
         age_list = []
         for i in list_persons:
             age_list.append(int(i.age))
@@ -47,6 +59,7 @@ class Process_person():
         
         # retourne le nom de la personne la moins agee
         # list_persons est une liste de "person"
+        self.youngest_person=[]
         age_list = []
         for i in list_persons:
             age_list.append(int(i.age))
@@ -57,11 +70,4 @@ class Process_person():
                 self.youngest_person.append(i.name)
         return self.youngest_person
     
-if __name__ == '__main__':
-    Parseur = CSV_PARSEUR()
-    Parseur.person_transformations("person.csv")
-    process = Process_person()
-    print process.hasAttribute(Parseur.persons,"male")
-    print process.oldest(Parseur.persons)
-    print process.youngest(Parseur.persons)
-    print process.boolAttribute(Parseur.persons,"Barbara","lying")
+

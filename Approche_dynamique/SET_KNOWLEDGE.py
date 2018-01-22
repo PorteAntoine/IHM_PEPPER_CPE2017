@@ -2,6 +2,7 @@ from CSV_PARSEUR import CSV_PARSEUR
 from Utils import Utils
 from Process_Object_Module import ProcessObjectModule
 from Process_Localization_Module import ProcessLocalizationModule
+from Process_Person_Module import ProcessPersonModule
 
 
 class defineDialog :
@@ -11,21 +12,28 @@ class defineDialog :
 
     def set_knowledge(self):
 
-        topf_path ='D:/ProjetMajeur/IHM_PEPPER_CPE2017/Approche_dynamique/main_topic_enu.top'
+        topf_path ='C:/Users/astro/Documents/projetmaj/IHM_PEPPER_CPE2017/Approche_dynamique/main_topic_enu.top'
         self.ALDialog.stopTopics(self.ALDialog.getAllLoadedTopics())
 
         #    self.ALDialog.setLanguage("English")
         knowledge_service = self.session.service("ALKnowledge")
+
         parseur = CSV_PARSEUR("list_objects_final.csv","list_person_final.csv","list_locations_final.csv")
 
+        #initialize AlModule to use in .top file
         processObject= ProcessObjectModule(self.session,parseur)
         processLocalization = ProcessLocalizationModule(self.session,parseur)
+        processPerson = ProcessPersonModule(self.session, parseur)
+
+        #register ALModule to use in .top fil
         self.session.registerService("ProcessObjectModule", processObject)
         self.session.registerService("ProcessLocalizationModule", processLocalization)
+        self.session.registerService("ProcessPersonModule", processPerson)
+
         utils=Utils()
+
         objects = []
         categories = []
-
         types = []
         colors = []
         rooms = []
@@ -34,6 +42,11 @@ class defineDialog :
         weights = []
         localizations = []
         localizationsBeacon=[]
+
+        persons = []
+        genders = []
+        ages = []
+        positions = []
 
         #Clear knowledge to make sure it's empty before addind new entries.
         result = knowledge_service.resetKnowledge("knowledge")
@@ -47,8 +60,8 @@ class defineDialog :
             knowledge_service.add("knowledge", object.name, "hasShape", object.shape)
             knowledge_service.add("knowledge", object.name, "size", object.size)
             knowledge_service.add("knowledge", object.name, "weight", object.weight)
+
             objects.append(object.name)
-            #TODO creer un parseur pour les categories.
             categories.append(object.category)
             types.append(object.type)
             colors.append(object.color)
@@ -63,12 +76,20 @@ class defineDialog :
             knowledge_service.add("knowledge", person.name, "isofgender", person.gender)
             knowledge_service.add("knowledge", person.name, "isoftheageof", person.age)
             knowledge_service.add("knowledge", person.name, "islocated", person.position)
+            persons.append(person.name)
+            genders.append(person.gender)
+            ages.append(person.age)
+            positions.append(person.position)
+
+        genders.append("children")
+        genders.append("adult")
 
         for localization in parseur.localizations:
             knowledge_service.add("knowledge", localization.name, "isintheroom", localization.room)
             knowledge_service.add("knowledge", localization.name, "isPlacement", localization.placement)
             knowledge_service.add("knowledge", localization.name, "isBeacon", localization.beacon)
             localizationsBeacon.append(localization.name)
+
 
 
         topf_path = topf_path.decode('utf-8')
@@ -99,7 +120,14 @@ class defineDialog :
         self.ALDialog.addToConcept("allAttributs", "English", rooms)
         self.ALDialog.addToConcept("allAttributs", "English", localizations)
 
+        self.ALDialog.setConcept("person", "English", persons)
+        self.ALDialog.setConcept("gender", "English", genders)
+        self.ALDialog.setConcept("age", "English", ages)
+        self.ALDialog.setConcept("position", "English", positions)
 
-        #################################
-        #Comment before launching tests
-        ####################################
+        self.ALDialog.addToConcept("allPersonsAttributs", "English", persons)
+        self.ALDialog.addToConcept("allPersonsAttributs", "English", genders)
+        self.ALDialog.addToConcept("allPersonsAttributs", "English", ages)
+        self.ALDialog.addToConcept("allPersonsAttributs", "English", positions)
+
+

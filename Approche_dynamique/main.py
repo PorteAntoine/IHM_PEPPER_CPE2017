@@ -4,22 +4,15 @@
 """
 
 import sys
-import time
-import subprocess
-import qi
 import argparse
-
 from SET_KNOWLEDGE import defineDialog
 import qi
 
-from naoqi import ALProxy
-
-from optparse import OptionParser
 # from akinator import Answerthequestion
 
 NAO_IP = "localhost"
-NAO_PORT = "60840"
-topf_path ="D:/ProjetMajeur/IHM_PEPPER_CPE2017/Approche_dynamique/main_topic_enu.top"
+NAO_PORT = "53890"
+topf_path ="C:/Users/astro/Documents/projetmaj/IHM_PEPPER_CPE2017/Approche_dynamique/main_topic_enu.top"
 
 # Global variable to store the HumanGreeter module instance
 def main(session,topf_path):
@@ -30,7 +23,7 @@ def main(session,topf_path):
     setKnowledge = defineDialog(session, dialog_p)
     setKnowledge.set_knowledge()
     try:
-        raw_input("\nSpeak to the robot using rules from both the activated topics. Press Enter when finished:")
+        raw_input("\nSpeak to the robot using rules from both the activated topics. Press Enter when finished:\n")
     finally:
         # stopping the dialog engine
         dialog_p.unsubscribe('myModule')
