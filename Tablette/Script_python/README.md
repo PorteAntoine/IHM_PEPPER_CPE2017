@@ -38,6 +38,8 @@ fonction à appeler pour afficher une page web de l'historique de la discussion 
 
  _"answers"_  : liste des réponses posées
  
+ `* Une sous-puce`
+ 
 `* "appTablet_test"'
                    
  
