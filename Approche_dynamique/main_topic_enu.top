@@ -14,6 +14,7 @@ concept:(that) [that those these there]
 concept:(which) ["{To} what" "{To} which"]
 concept:(belongTo)  ["belongs to" "belong to" "is present" "belonging" "[are is]{[in on]}"] #Ajouter on is etc
 concept:(location) [localization location position room place]
+concept:(furniture) [localization furniture equipment]
 
 dynamic: object 
 dynamic: category 
@@ -36,7 +37,11 @@ c1:(_*)  $1
 
 #Ou est <objet>
 u: (["~where_is {~located}" "~what_is {the} ~location"] {of} {the} _~object) The $1 is ^call(ALKnowledge.getObject("knowledge", $1, "isintheroom")) ^call(ALKnowledge.getObject("knowledge", $1, "islocated"))
-c1:(_*) in the $1 
+c1:(_*) in the $1
+
+#Dans quelle salle est <localization>
+u: (["~where_is {~located}" "~what_is {the} ~location"] {of} {the} _~localizationBeacon) The $1 is ^call(ALKnowledge.getObject("knowledge", $1, "isintheroom"))
+c1:(_*) in the $1
 
 #quelle est la categorie de <objet>
 u:(~which_is {the} category {of} {for} {the} _~object) The category of $1 is ^call(ALKnowledge.getObject("knowledge", $1, "belongstocategory"))
@@ -56,6 +61,12 @@ c1:(_*)  $1
 
 #quels objects possedent l'attribut
 u:(~which_is {the} {objects} {that} ~belongTo {the} {in}_~allAttributs ) are $1  ^call(ProcessObjectModule.hasAttribute($1))
+
+#quels localization sont des beacons
+u:(~which_is {the} ~furniture {that} {are} {a} beacon ) are Beacon  ^call(ProcessLocalizationModule.hasAttribute("beacon"))
+
+#quels localizations sont des placement
+u:(~which_is {the} ~furniture {that} {are} {a}  placement) are placement  ^call(ProcessLocalizationModule.hasAttribute("placement"))
 
 #Quel sont les objets les plus lourd dans <categorie>
 u: (~which_is {the} {most} ~heaviest _~category) the heaviest $1 ^call(ProcessObjectModule.heaviestattr($1))
@@ -116,17 +127,17 @@ u: (~which_is {all} {the} types {of} {the} {Robocup}) This year the types are ^e
 u: (~which_is {all} {the} rooms {of} {the} {Robocup}) This year the rooms are ^enumerate(~room)
 
 # est ce que l'objet 1 et l'objet 2 appartiennent a la meme categorie
-u: ([do are is] {the} {category} {of} _~object and _~object {["belong to" in]} the same {category})  $1 and $2 ^call(ProcessObjectModule.sameCategory($1,$2))
+u: ([do are is] {the} {category} {of} _~object and _~object {~belongTo} the same {category})  $1 and $2 ^call(ProcessObjectModule.sameCategory($1,$2))
 c1:(True) are in the same category  
 c1:(False) are not in the same category
 
 # est ce que l'objet 1 et l'objet 2 appartiennent au meme type
-u: ([do does are is] {the} {type} {of} _~object and _~object {["belong to" in]} the same {type})  $1 and $2 ^call(ProcessObjectModule.sameType($1,$2))
+u: ([do does are is] {the} {type} {of} _~object and _~object {~belongTo} the same {type})  $1 and $2 ^call(ProcessObjectModule.sameType($1,$2))
 c1:(True) have the same type
 c1:(False) have not the same type
 
 # est ce que l'objet 1 et l'objet 2 se trouvent dans la meme salle
-u: ([do are is] {the} {room} {of} _~object and _~object {["belong to" in "~located {in}"]} the same {~location})  $1 and $2 ^call(ProcessObjectModule.sameRoom($1,$2))
+u: ([do are is] {the} {room} {of} _~object and _~object {[~belongTo "~located {in}"]} the same {~location})  $1 and $2 ^call(ProcessObjectModule.sameRoom($1,$2))
 c1:(True) are in the same room
 c1:(False) are not in the same room
 
@@ -169,6 +180,10 @@ c1:(_*) $1
 # quel est le plus grand objet entre objet1 et objet2
 u: ({~which_is} {the} {~biggest} {object} between {the}  _~object and {the} _~object {what} {is} {the} {~biggest}) the biggest is ^call(ProcessObjectModule.bigName($1,$2))
 c1:(_*) $1
+
+#quel meubles sont dans la piece <room>
+u:(~which_is {the} ~furniture {that} {are} {[~belongTo "~located {in}"]} {the} _~room ) are in the $1  ^call(ProcessLocalizationModule.hasAttribute($1))
+
 
 # quelle est la liste d'objet possedant les attributs 1 et 2
 u: (~which_is {the} {objects} {that} {are} _~allAttributs {and} _~allAttributs) are the objects that are $1 and $2 ^call(ProcessObjectModule.hasTwoAttribute($1,$2))

@@ -18,7 +18,7 @@ from optparse import OptionParser
 # from akinator import Answerthequestion
 
 NAO_IP = "localhost"
-NAO_PORT = "58854"
+NAO_PORT = "60840"
 topf_path ="D:/ProjetMajeur/IHM_PEPPER_CPE2017/Approche_dynamique/main_topic_enu.top"
 
 # Global variable to store the HumanGreeter module instance

@@ -85,8 +85,8 @@ class CSV_PARSEUR():
 
         for raw in read[1:]:
             localization = Localization()
-            localization.name = raw[0]
-            localization.room = raw[1]
+            localization.room = raw[0]
+            localization.name = raw[1]
             localization.placement = raw[2]
             localization.beacon = raw[3]
             self.localizations.append(localization)

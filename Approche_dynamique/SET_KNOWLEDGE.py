@@ -1,11 +1,7 @@
 from CSV_PARSEUR import CSV_PARSEUR
-import qi
-import argparse
-import sys
-from CSV_PARSEUR import CSV_PARSEUR
-from Process_object import Process_object
 from Utils import Utils
 from Process_Object_Module import ProcessObjectModule
+from Process_Localization_Module import ProcessLocalizationModule
 
 
 class defineDialog :
@@ -23,7 +19,9 @@ class defineDialog :
         parseur = CSV_PARSEUR("list_objects_final.csv","list_person_final.csv","list_locations_final.csv")
 
         processObject= ProcessObjectModule(self.session,parseur)
+        processLocalization = ProcessLocalizationModule(self.session,parseur)
         self.session.registerService("ProcessObjectModule", processObject)
+        self.session.registerService("ProcessLocalizationModule", processLocalization)
         utils=Utils()
         objects = []
         categories = []
@@ -93,6 +91,7 @@ class defineDialog :
         self.ALDialog.setConcept("weight", "English", weights)
         self.ALDialog.setConcept("localization", "English", localizations)
         self.ALDialog.setConcept("localizationBeacon", "English", localizationsBeacon)
+        print(self.ALDialog.getConcept("localizationBeacon","English"))
 
         self.ALDialog.setConcept("allAttributs", "English", categories)
         self.ALDialog.addToConcept("allAttributs", "English", types)
