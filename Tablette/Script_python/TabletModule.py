@@ -30,9 +30,12 @@ class TabletModule (ALModule):
         #Load URL Web page tablet
         self.tabletservice.showWebview(self.url_base + "history.html")
 
-    def appTablet_test(self, string_1, string_2):
+    def appTablet_test(self, memtab,titre, string_1, string_2, string_3, pourcentage):
+        memtab.insertData("titre", titre)
         memtab.insertData("txt1", string_1)
         memtab.insertData("txt2", string_2)
-
+        memtab.insertData("txt3", string_3)
+        memtab.insertData("pourcentage", pourcentage)
+        
         #Load URL Web page tablet
         self.tabletservice.showWebview(self.url_base + "test.html")
