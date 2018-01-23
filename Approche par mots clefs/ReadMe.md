@@ -5,7 +5,7 @@ dossier contenant les fichiers .top incluant les topics des concepts propres aux
   - loc_concept
 
 # TOP
-include the global top files where the answer to the questions are set
+dossier contenant les différents fichiers top à charger sur Pepper
 
 # AKINATOR
 dossier contenant le script akinator.py permettant de générer une réponse à une question
