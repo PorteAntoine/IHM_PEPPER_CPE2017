@@ -1,0 +1,16 @@
+Question asked by human number 1 : Hello 
+Question understood by pepper number 1 : Nothing understood 
+Answer of pepper number 1 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 2 : Fine thanks 
+Question understood by pepper number 2 : Nothing understood 
+Answer of pepper number 2 : No answer from the robot 
+------------------------------------------------ 
+Question asked by human number 3 : Where can I find a chips ? 
+Question understood by pepper number 3 : hello 
+Answer of pepper number 3 : Hello Human , how are you ? 
+------------------------------------------------ 
+Question asked by human number 4 : What's the colour of the chips ? 
+Question understood by pepper number 4 : fine thaks 
+Answer of pepper number 4 : very good 
+------------------------------------------------ 

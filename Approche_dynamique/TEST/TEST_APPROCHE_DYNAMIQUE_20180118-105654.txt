@@ -1,0 +1,21 @@
+Question asked by human number 1 : Hello 
+Question understood by pepper number 1 : Hello 
+Answer of pepper number 1 : Hello Human , how are you ? 
+------------------------------------------------ 
+Question asked by human number 2 : Fine thanks 
+Question understood by pepper number 2 : fine thanks 
+Answer of pepper number 2 : very good 
+------------------------------------------------ 
+Question asked by human number 3 : Where can I find a chips ? 
+Question understood by pepper number 3 : where are find chips 
+Answer of pepper number 3 : The chips is in the [ office ] in the [ desk ] 
+------------------------------------------------ 
+Question asked by human number 4 : What's the colour of the chips ? 
+Question understood by pepper number 4 : what's the color of the chips 
+Answer of pepper number 4 : The color of the chips is [ yellow ] 
+------------------------------------------------ 
+Question asked by human number 5 : To which category belong the chips ? 
+Question understood by pepper number 5 : To which category of chips 
+Answer of pepper number 5 : The category of chips is [ snack ] 
+------------------------------------------------ 
+Number of error : Percentage : --------------FIN DU TEST-------------------------------------

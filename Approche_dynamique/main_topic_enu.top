@@ -1,0 +1,322 @@
+topic: ~main_topic_enu() 
+language: enu
+concept:(name_robot)[LyonTech]
+concept:(located) [room situated placed located find] 
+concept:(where_is) ["where is" where's "where are" "where can I"] 
+concept:(can_you)[ "[can will could] you {please}" "do you think you could" "are you [ready able] to" "do you know how to"] 
+concept:(what_is) [{"~can_you tell me" "do you know" "tell me"} [ what's "what [is are was were]"] ]
+concept:(who_is) [{"~can_you tell me" "do you know" "tell me" "which is the person"} [ who's "who [is are was were]"] ]
+concept:(which_is) [~what_is "which is" "{To} which"]
+concept:(heaviest) [heaviest "most important weight"] 
+concept:(lightest) [lightest "less important weight"] 
+concept:(biggest) [biggest  "most important [size dimension]"] 
+concept:(smallest) [smallest little tiny tiniest "less important [size dimension]"]
+concept:(oldest) [oldest "most [old ancient aged]" elder elderly]
+concept:(youngest) [youngest "most young" "less aged"]
+concept:(how_many) ["how many" "how much" "~what_is the number of"]
+concept:(that) [that those these there]
+concept:(which) ["{To} what" "{To} which"]
+concept:(belongTo)  ["belongs to" "belong to" "is present" "belonging" "[are is]{[in on]}"]
+concept:(location) [localization location position room place]
+concept:(furniture) [localization furniture equipment]
+concept:(stored) [~belongTo "{are} contained" "{are} stored" own possess]
+concept:(people) [persons people person]
+concept:(posture) [posture position pose]
+concept:(present) [present standing] {"in front of"}]
+concept:(crowd) [crowd assembly "gathering of ~people"]
+concept:(items) [object objects item items]
+
+dynamic: object 
+dynamic: category 
+dynamic: color 
+dynamic: type 
+dynamic: localization
+dynamic: localizationBeacon
+dynamic: room
+dynamic: shape
+dynamic: size
+dynamic: weight
+dynamic: allAttributs
+dynamic: person
+dynamic: gender
+dynamic: age
+dynamic: position
+dynamic: allPersonsAttributs
+
+#-------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------QUESTIONS GENERALES-----------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------
+
+u: ([Hi Hello "hey {there}" "good [morning afternoon evening]"] {pepper}) Hello Human, how are you?
+    u1:(["I'm fine too" "{"I'm"} fine {thank} {thanks} {you}" "I'm good" "I feel {very} well"]) very good
+    u1:(["I'm not feeling well" "{no} I'm not" "I don't feel {very} well" "I'm not {very} fine" "not {too} [good fine]"]) oh this sad
+
+u: (How [are do] you {do} {doing} {pepper}) I'm fine thanks, and you?
+    u1:(["I'm fine too" "{"I'm"} fine {thank} {thanks} {you}" "I'm good" "I feel {very} well" "{thanks} me too"]) very good
+    u1:(["I'm not feeling well" "{no} I'm not {very} {really} {fine}" "I don't feel {very} well" "not {too} [good fine]"]) oh this sad
+
+u: (["~what_is your name" "how should [I we] call you"]) my name is pepper, and you?
+    u1:(["my name is" "I am" "I'm"]) Ok nice to meet you!
+
+u: (Good bye {pepper}) good bye !
+
+
+#-------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------
+
+
+#-------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------QUESTIONS SUR LES OBJETS------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------
+
+#quelle est la liste d'object
+u:(["~which_is {all} {the} ~items {of} {the} {Robocup}" "~what_is {the} {list} {of} ~items {this} {year} {the}"])The list of  objects is ^enumerate(~object)
+
+#combien d'objet y a t-il
+u:(~how_many ~items {of} {are} {is} {in} {the} {Robocup} {"this year"}) There is ^size(~object) different objects
+
+#Est ce qu'un objet existe
+u: (["do you have _~object" "[is are] {~that} _~object"]) yes off course I have $1
+
+#Quelle est la couleur de <objet>
+u: (~what_is {the} color {of} {the} _~object) The color of the $1 is ^call(ALKnowledge.getObject("knowledge", $1, "hasColor"))
+c1:(_*)  $1 
+
+#Ou est <objet>
+u: (["~where_is {~located}" "~what_is {the} ~location"] {of} {the} _~object) The $1 is ^call(ALKnowledge.getObject("knowledge", $1, "isintheroom")) ^call(ALKnowledge.getObject("knowledge", $1, "islocated"))
+c1:(_*) in the $1
+
+#Dans quelle salle est <localization>
+u: (["~where_is {~located}" "~what_is {the} ~location"] {of} {the} _~localizationBeacon) The $1 is ^call(ALKnowledge.getObject("knowledge", $1, "isintheroom"))
+c1:(_*) in the $1
+
+#quelle est la categorie de <objet>
+u:(~which_is {the} category {of} {for} {the} _~object) The category of $1 is ^call(ALKnowledge.getObject("knowledge", $1, "belongstocategory"))
+c1:(_*)  $1 
+
+#quel est le type de <objet>
+u:(~which_is {the} type {of} {for} {the} _~object) The type of $1 is ^call(ALKnowledge.getObject("knowledge", $1, "isoftype"))
+c1:(_*)  $1
+
+#quel est le poid de <objet>
+u:(~which_is {the} {default} {"most probable"} weight {of} {for} {the} _~object) The weight of $1 is ^call(ALKnowledge.getObject("knowledge", $1, "weight"))
+c1:(_*)  $1 
+
+#quelle est la taille de <objet>
+u:(~which_is {the} {default} {"most probable"} size {of} {for} {the} _~object) The size of $1 is ^call(ALKnowledge.getObject("knowledge", $1, "size"))
+c1:(_*)  $1 
+
+#quels objects possedent l'attribut
+u:(~which_is {the} {~items} {that} {are} ~stored {the} {in} {the} _~allAttributs ) are $1  ^call(ProcessObjectModule.hasAttribute($1))
+
+#quels localization sont des beacons
+u:(~which_is {the} ~furniture {that} {are} {is} {a} beacon ) are Beacon  ^call(ProcessLocalizationModule.hasAttribute("beacon"))
+
+#quels localizations sont des placement
+u:(~which_is {the} ~furniture {that} {are} {is] {a}  placement) are placement  ^call(ProcessLocalizationModule.hasAttribute("placement"))
+
+#Quel sont les objets les plus lourd dans <categorie>
+u: (~which_is {the} {most} ~heaviest _~category) the heaviest $1 ^call(ProcessObjectModule.heaviestattr($1))
+c1:(_*) is $1
+
+#Quel sont les objets les plus lourd dans <type>
+u: (~which_is {the} {most} ~heaviest _~type) the heaviest $1 ^call(ProcessObjectModule.heaviestattr($1))
+c1:(_*) is $1
+
+#Quel sont les objets les plus lourd dans la liste d'objects
+u: (~which_is {the} {most} ~heaviest ~items)  the heaviest object ^call(ProcessObjectModule.heaviest(^enumerate(~object)))
+c1:(_*) is $1  
+
+#Quel sont les objets les plus leger dans <type>
+u: (~which_is {the} {most} ~lightest _~type) the lightest $1 ^call(ProcessObjectModule.lightestattr($1))
+c1:(_*) is $1
+ 
+#Quel sont les objets les plus leger dans <categorie>
+u: (~which_is {the} {most} ~lightest _~category) the lightest $1 ^call(ProcessObjectModule.lightestattr($1))
+c1:(_*) is $1
+
+#Quel sont les objets les plus leger dans la liste des objects
+u: (~which_is {the} {most} ~lightest ~items)  the lightest object ^call(ProcessObjectModule.lightest(^enumerate(~object)))
+c1:(_*) is $1  
+
+#Quel sont les objets les plus grand dans <type>
+u: (~which_is {the} {most} ~biggest _~type) the biggest $1 ^call(ProcessObjectModule.biggestattr($1))
+c1:(_*) is $1
+
+#Quel sont les objets les plus grand dans <category>
+u: (~which_is {the} {most} ~biggest _~category) the biggest $1 ^call(ProcessObjectModule.biggestattr($1))
+c1:(_*) is $1
+
+#Quel sont les objets les plus grand dans la liste des objects
+u: (~which_is {the} {most} ~biggest ~items)  the biggest ~items ^call(ProcessObjectModule.biggest(^enumerate(~object)))
+c1:(_*) is $1 
+
+#Quel sont les objets les plus petit dans <type>
+u: (~which_is {the} {most} ~smallest _~type) the smallest $1 ^call(ProcessObjectModule.littleattr($1))
+c1:(_*) is $1
+
+#Quel sont les objets les plus petit dans <categorie>
+u: (~which_is {the} {most} ~smallest _~category) the smallest $1 ^call(ProcessObjectModule.littleattr($1))
+c1:(_*) is $1
+
+#Quel sont les objets les plus petit dans la liste des objects
+u: (~which_is {the} {most} ~smallest ~items)  the smallest object ^call(ProcessObjectModule.little(^enumerate(~object)))
+c1:(_*) is $1 
+
+#quel sont les categories de la robocup ?
+u: (~which_is {all} {the} ~items {of} {the} {Robocup}) This year the categories are ^enumerate(~category)
+
+#quel sont les types de la robocup ? 
+u: (~which_is {all} {the} types {of} {the} {Robocup}) This year the types are ^enumerate(~type)
+
+#quel sont les piece de la robocup ? 
+u: (~which_is {all} {the} rooms {of} {the} {Robocup}) This year the rooms are ^enumerate(~room)
+
+# est ce que l'objet 1 et l'objet 2 appartiennent a la meme categorie
+u: ([do are is] {the} {category} {of} _~object and _~object {~belongTo} the same {category})  $1 and $2 ^call(ProcessObjectModule.sameCategory($1,$2))
+c1:(True) are in the same category  
+c1:(False) are not in the same category
+
+# est ce que l'objet 1 et l'objet 2 appartiennent au meme type
+u: ([do does are is] {the} {type} {of} _~object and _~object {~belongTo} the same {type})  $1 and $2 ^call(ProcessObjectModule.sameType($1,$2))
+c1:(True) have the same type
+c1:(False) have not the same type
+
+# est ce que l'objet 1 et l'objet 2 se trouvent dans la meme salle
+u: ([do are is] {the} {room} {of} _~object and _~object {[~belongTo "~located {in}"]} the same {~location})  $1 and $2 ^call(ProcessObjectModule.sameRoom($1,$2))
+c1:(True) are in the same room
+c1:(False) are not in the same room
+
+# est ce que l'objet 1 et l'objet 2 ont la meme couleur
+u: ([do are is] {the} {color} {of} _~object and _~object {have} {of} the same {color})  $1 and $2 ^call(ProcessObjectModule.sameColor($1,$2))
+c1:(True) have the same color
+c1:(False) have not the same color
+
+# est ce que l'objet 1 et l'objet 2 ont le meme poids
+u: ([do are is] {the} {weight} {of} _~object and _~object {have} {of} the same {weight})  $1 and $2 ^call(ProcessObjectModule.sameWeight($1,$2))
+c1:(True) have the same weight
+c1:(False) have not the same weight
+
+# est ce que l'objet 1 et l'objet 2 ont la meme taille
+u: ([do are is] {the} {size} {of} _~object and _~object {have} {of} the same {size})  $1 and $2 ^call(ProcessObjectModule.sameSize($1,$2))
+c1:(True) have the same size
+c1:(False) have not the same size
+
+# est ce que l'objet 1 et l'objet 2 ont le meme localisation
+u: ([do are is] {the} {localization} {of} _~object and _~object {have} {of} the same container)  $1 and $2 ^call(ProcessObjectModule.sameLocalization($1,$2))
+c1:(True) have the same localization
+c1:(False) have not the same localization
+
+# combien d'objets possedent un attribut
+u: (~how_many {~items} {~that} {are} {in} {the} {category} _~allAttributs {are} {~that})$attribut=$1 there are ^call(ProcessObjectModule.numberAttribute($1))
+c1:(_*) $1 $attribut objects
+
+# combien d'objets possedent l'attribut attr1 et l'attribut attr2
+u: (~how_many {objects} {are} _~allAttributs {objects} {~that} {are} {~stored} {in} {the} {category} _~allAttributs {are} {~that}) $attr1=$1 $attr2=$2 there are ^call(ProcessObjectModule.numberTwoAttribute($1,$2))
+c1:(_*) $1 objects that are $attr1 and $attr2
+
+# quel est le plus lourd objet entre objet1 et objet2
+u: ({~which_is} {the} {~heaviest} {~items} between {the}  _~object and {the} _~object {what} {is} {the} {~heaviest}) the heaviest is ^call(ProcessObjectModule.heavyName($1,$2))
+c1:(_*) $1
+
+# quel est le plus leger objet entre objet1 et objet2
+u: ({~which_is} {the} {~lightest} {~items} between {the}  _~object and {the} _~object {what} {is} {the} {~lightest}) the lightest is ^call(ProcessObjectModule.lightName($1,$2))
+c1:(_*) $1
+
+# quel est le plus petit objet entre objet1 et objet2
+u: ({~which_is} {the} {~smallest} {~items} between {the}  _~object and {the} _~object {what} {is} {the} {~smallest}) the smallest is ^call(ProcessObjectModule.littleName($1,$2))
+c1:(_*) $1
+
+# quel est le plus grand objet entre objet1 et objet2
+u: ({~which_is} {the} {~biggest} {~items} between {the}  _~object and {the} _~object {what} {is} {the} {~biggest}) the biggest is ^call(ProcessObjectModule.bigName($1,$2))
+c1:(_*) $1
+
+#quel meubles sont dans la piece <room>
+u:(~which_is {the} ~furniture {that} {are} {[~belongTo "~located {in}"]} {the} _~room ) are in the $1  ^call(ProcessLocalizationModule.hasAttribute($1))
+
+
+# quelle est la liste d'objet possedant les attributs 1 et 2
+u: (~which_is {the} {~items} {that} {are} _~allAttributs {and} _~allAttributs) are the objects that are $1 and $2 ^call(ProcessObjectModule.hasTwoAttribute($1,$2))
+
+
+#-------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------
+
+
+#-------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------QUESTIONS SUR LES PERSONNES---------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------
+#Quel est l'age d'une personne
+u:(["~what_is {the} age {of}" "how old is"]  _~person) $1 is ^call(ALKnowledge.getObject("knowledge", $1, "isoftheageof"))
+c1:(_*) $1 years old
+
+#quel est la postition d'une personne
+u:(~what_is {the} ~posture {of} _~person) $1 is ^call(ALKnowledge.getObject("knowledge", $1, "islocated"))
+c1:(_*) $1
+
+#quelle est la liste des personnes de l'assemblee
+u:(["~who_is ~present {in} {the} {~crowd}" "~what_is {the} {list} {of} [names ~people] {of} {in} {the} [~crowd "~present {in} {the} {~crowd}"]"]) In the crowd there is ^enumerate(~person)
+
+#quelle est la taille de l'assemblee
+u:(["~what_is {the} size of {the} ~crowd" "~how_many ~people {of} {are} {is} {in} {the} [~crowd "~present {in} {the} {~crowd}"]"]) There is ^size(~person) persons in the crowd
+
+# combien de personnes possedent l'attribut attr
+u:(~how_many {~people} {are} _~allPersonsAttributs {years} {old} {are} {~that}) $attr=$1 there are ^call(ProcessPersonModule.numberAttribute($1))
+c1:(_*) $1 persons $attr
+
+# combien de personnes possedent l'attribut attr1 et l'attribut attr2
+u: (~how_many {~people} {are} _~allPersonsAttributs {~people} {~that} {are} {and} _~allPersonsAttributs {are} {~that}) $attr1=$1 $attr2=$2 there are ^call(ProcessPersonModule.numberTwoAttribute($1,$2))
+c1:(_*) $1 persons who are $attr1 and $attr2
+
+# liste de personnes possedant deux attributs
+u: (~who_is {the} {~people} {that} {who} {are} {the} {a} _~allPersonsAttributs {and} {the} {a} _~allPersonsAttributs) are the persons who are $1 and $2 ^call(ProcessPersonModule.hasTwoAttribute($1,$2))
+
+# liste de personnes possedant un attribut
+u: (~who_is {the} {~people} {that} {who} {are} {the} {a} _~allPersonsAttributs) are the persons who are $1 ^call(ProcessPersonModule.hasAttribute($1))
+
+#Quel sont les personnes les plus agees dans <attr>
+u: (~who_is {the} ~oldest {~people} _~allPersonsAttributs) the oldest $1 ^call(ProcessPersonModule.oldestattr($1))
+c1:(_*) is $1
+
+#Quel sont les personnes les plus agees dans la liste de personnes
+u: (~who_is {the} ~oldest ~people)  the oldest person ^call(ProcessPersonModule.oldest(^enumerate(~person)))
+c1:(_*) is $1
+
+#Quel sont les personnes les plus jeunes dans <attr>
+u: (~who_is {the} ~youngest {~people} _~allPersonsAttributs) the youngest $1 ^call(ProcessPersonModule.youngestattr($1))
+c1:(_*) is $1
+
+#Quel sont les personnes les plus jeunes dans la liste de personnes
+u: (~who_is {the} ~youngest ~people)  the youngest person ^call(ProcessPersonModule.youngest(^enumerate(~person)))
+c1:(_*) is $1
+
+# est ce que la personne 1 et la personne 2 ont le meme age
+u: ([do does are is] {the} {age} {of} _~person and _~person {have} the same {age})  $1 and $2 ^call(ProcessPersonModule.sameAge($1,$2))
+c1:(True) have the same age
+c1:(False) have not the same age
+
+# est ce que la personne 1 et la personne 2 ont le meme genre
+u: ([do does are is] {the} {gender} {of} _~person and _~person {have} the same {gender})  $1 and $2 ^call(ProcessPersonModule.sameGender($1,$2))
+c1:(True) have the same gender
+c1:(False) have not the same gender
+
+# est ce que la personne 1 et la personne 2 ont la meme position
+u: ([do does are is] {the} {position} {of} _~person and _~person {have} {are} {in} the same {position})  $1 and $2 ^call(ProcessPersonModule.samePosition($1,$2))
+c1:(True) have the same position
+c1:(False) have not the same position
+
+#-------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------QUESTIONS PREDEFINIES---------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------
+
+u:(Which city are we in) Montreal
+u:(What is the name of your team) ~name_robot
+u:(How many teams participate in RoboCup@Home this year) thirty one
+u:(Name the two RoboCup@Home standard platforms) Pepper and HSR
+u:(What does DSPL stand for) Domestic Standard Platform League
+u:(What does SSPL stand for) Social Standard Platform League
+u:(Who did Alphabet sell Boston Dynamics to) Softbank Robotics
+u:(What is your teams home city) Lyon in France
+u:(Who created Star Wars) George Lucas
+u:(Who lives in a pineapple under the sea) Sponge Bob Squarepants
+u:(What did Grace Hopper invent) the first compiler

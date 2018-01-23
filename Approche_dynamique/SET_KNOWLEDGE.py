@@ -1,92 +1,131 @@
 from CSV_PARSEUR import CSV_PARSEUR
-import qi
-import argparse
-import sys
+from Utils import Utils
+from Process_Object_Module import ProcessObjectModule
+from Process_Localization_Module import ProcessLocalizationModule
+from Process_Person_Module import ProcessPersonModule
 
 
-def main(session):
+class defineDialog :
+    def __init__(self, session, ALDialog):
+        self.session = session
+        self.ALDialog = ALDialog
 
-    ALDialog = session.service("ALDialog")
+    def set_knowledge(self,topf_path):
 
-    #    ALDialog.setLanguage("English")
-    knowledge_service = session.service("ALKnowledge")
+        self.ALDialog.stopTopics(self.ALDialog.getAllLoadedTopics())
 
-    parseur = CSV_PARSEUR()
-    parseur.object_transformations("list_objects_final.csv")
-    #parseur.person_transformations("list_person_final.csv")
-    objects = []
-    for object in parseur.objects:
-        knowledge_service.add("knowledge", object.name, "hasColor", object.color)
-        knowledge_service.add("knowledge", object.name, "isoftype", object.type)
-        knowledge_service.add("knowledge", object.name, "belongstocategory", object.category)
-        knowledge_service.add("knowledge", object.name, "islocated", object.localization)
-        knowledge_service.add("knowledge", object.name, "isintheroom", object.room)
-        knowledge_service.add("knowledge", object.name, "hasColor", object.color)
-        knowledge_service.add("knowledge", object.name, "hasShape", object.shape)
-        knowledge_service.add("knowledge", object.name, "size", object.size)
-        knowledge_service.add("knowledge", object.name, "weight", object.weight)
-        objects.append(object.name)
+        #    self.ALDialog.setLanguage("English")
+        knowledge_service = self.session.service("ALKnowledge")
 
-    for person in parseur.persons:
-        knowledge_service.add("knowledge", person.name, "isofgender", person.gender)
-        knowledge_service.add("knowledge", person.name, "isoftheageof", person.age)
-        knowledge_service.add("knowledge", person.name, "islocated", person.position)
-    
+        parseur = CSV_PARSEUR("list_objects_final.csv","list_person_final.csv","list_locations_final.csv")
 
+        #initialize AlModule to use in .top file
+        processObject= ProcessObjectModule(self.session,parseur)
+        processLocalization = ProcessLocalizationModule(self.session,parseur)
+        processPerson = ProcessPersonModule(self.session, parseur)
 
-    print(knowledge_service.getObject("knowledge", "Cup", "hasColor"))
+        #register ALModule to use in .top fil
+        self.session.registerService("ProcessObjectModule", processObject)
+        self.session.registerService("ProcessLocalizationModule", processLocalization)
+        self.session.registerService("ProcessPersonModule", processPerson)
 
+        utils=Utils()
 
-    topic_content = ('topic: ~firstStep()\n'
-                     'language: enu\n'
-                     'concept:(where) [where localization location situation room situated placed located find "in which"]\n'
-                     'dynamic: object\n'
-                     'dynamic: type\n'
-                     'dynamic: category\n'
-                     'dynamic: localization\n'
-                     'dynamic: room\n'
-                     'dynamic: color\n'
-                     'u: (what is the color of _~object) $currentObject = $1 The color of the $currentObject is ^call(ALKnowledge.getObject("knowledge", $currentObject, "hasColor"))\n'
-                     'c1:(_*) : $1\n'
-                     'u: (~where _~object) $currentObject = $1 The $currentObject is in the ^call(ALKnowledge.getObject("knowledge", $currentObject, "isLocated"))\n'
-                     'c1:(_*) : $1\n'
-                     'u: (Hi) Hello human, I am fine thank you and you?\n')
+        objects = []
+        categories = []
+        types = []
+        colors = []
+        rooms = []
+        shapes = []
+        sizes = []
+        weights = []
+        localizations = []
+        localizationsBeacon=[]
 
-    # Loading the topics directly as text strings
-    topic_name_1 = ALDialog.loadTopicContent(topic_content)
+        persons = []
+        genders = []
+        ages = []
+        positions = []
 
-    # Activating the loaded topics
-    ALDialog.activateTopic(topic_name_1)
+        #Clear knowledge to make sure it's empty before addind new entries.
+        result = knowledge_service.resetKnowledge("knowledge")
 
-    # Starting the dialog engine - we need to type an arbitrary string as the identifier
-    # We subscribe only ONCE, regardless of the number of topics we have activated
-    ALDialog.subscribe('my_dialog_example')
-    ALDialog.setConcept("object", "English", objects)
-    try:
-        raw_input("\nSpeak to the robot using rules from both the activated topics. Press Enter when finished:")
-    finally:
-        # stopping the dialog engine
-        ALDialog.unsubscribe('my_dialog_example')
-        # Reset knoledge
-    result = knowledge_service.resetKnowledge("knowledge")
-    # Deactivating all topics
-    ALDialog.deactivateTopic(topic_name_1)
-    ALDialog.unloadTopic(topic_name_1)
-    print "unload done"
+        for object in parseur.objects:
+            knowledge_service.add("knowledge", object.name, "hasColor", object.color)
+            knowledge_service.add("knowledge", object.name, "isoftype", object.type)
+            knowledge_service.add("knowledge", object.name, "belongstocategory", object.category)
+            knowledge_service.add("knowledge", object.name, "islocated", object.localization)
+            knowledge_service.add("knowledge", object.name, "isintheroom", object.room)
+            knowledge_service.add("knowledge", object.name, "hasShape", object.shape)
+            knowledge_service.add("knowledge", object.name, "size", object.size)
+            knowledge_service.add("knowledge", object.name, "weight", object.weight)
+
+            objects.append(object.name)
+            categories.append(object.category)
+            types.append(object.type)
+            colors.append(object.color)
+            rooms.append(object.room)
+            shapes.append(object.shape)
+            sizes.append(object.size)
+            weights.append(object.weight)
+            localizations.append(object.localization)
 
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--ip", type=str, default="192.168.1.201",
-                        help="Robot IP address. On robot or Local Naoqi: use '169.254.85.73'.")
+        for person in parseur.persons:
+            knowledge_service.add("knowledge", person.name, "isofgender", person.gender)
+            knowledge_service.add("knowledge", person.name, "isoftheageof", person.age)
+            knowledge_service.add("knowledge", person.name, "islocated", person.position)
+            persons.append(person.name)
+            genders.append(person.gender)
+            ages.append(person.age)
+            positions.append(person.position)
 
-    parser.add_argument("--port", type=int, default=9559,                   help="Naoqi port number")
-    args = parser.parse_args()
-    session = qi.Session()
-    try:
-        session.connect("tcp://" + args.ip + ":" + str(args.port))
-    except RuntimeError:
-        print ("Can't connect to Naoqi at ip \"" + args.ip + "\" on port " + str(args.port) +".\n"
-               "Please check your script arguments. Run with -h option for help.")
-        sys.exit(1)
-    main(session)
+        genders.append("children")
+        genders.append("adult")
+
+        for localization in parseur.localizations:
+            knowledge_service.add("knowledge", localization.name, "isintheroom", localization.room)
+            knowledge_service.add("knowledge", localization.name, "isPlacement", localization.placement)
+            knowledge_service.add("knowledge", localization.name, "isBeacon", localization.beacon)
+            localizationsBeacon.append(localization.name)
+
+
+
+        topf_path = topf_path.decode('utf-8')
+        topic = self.ALDialog.loadTopic(topf_path.encode('utf-8'))
+        # -------------- TO MODIFY ----------------------
+
+        # Start dialog
+        self.ALDialog.subscribe('myModule')
+
+        # Activate dialog
+        self.ALDialog.activateTopic(topic)
+
+        self.ALDialog.setConcept("object", "English", objects)
+        self.ALDialog.setConcept("category", "English", categories)
+        self.ALDialog.setConcept("type", "English", types)
+        self.ALDialog.setConcept("color", "English", colors)
+        self.ALDialog.setConcept("room", "English", rooms)
+        self.ALDialog.setConcept("shape", "English", shapes)
+        self.ALDialog.setConcept("size", "English", sizes)
+        self.ALDialog.setConcept("weight", "English", weights)
+        self.ALDialog.setConcept("localization", "English", localizations)
+        self.ALDialog.setConcept("localizationBeacon", "English", localizationsBeacon)
+
+        self.ALDialog.setConcept("allAttributs", "English", categories)
+        self.ALDialog.addToConcept("allAttributs", "English", types)
+        self.ALDialog.addToConcept("allAttributs", "English", colors)
+        self.ALDialog.addToConcept("allAttributs", "English", rooms)
+        self.ALDialog.addToConcept("allAttributs", "English", localizations)
+
+        self.ALDialog.setConcept("person", "English", persons)
+        self.ALDialog.setConcept("gender", "English", genders)
+        self.ALDialog.setConcept("age", "English", ages)
+        self.ALDialog.setConcept("position", "English", positions)
+
+        self.ALDialog.addToConcept("allPersonsAttributs", "English", persons)
+        self.ALDialog.addToConcept("allPersonsAttributs", "English", genders)
+        self.ALDialog.addToConcept("allPersonsAttributs", "English", ages)
+        self.ALDialog.addToConcept("allPersonsAttributs", "English", positions)
+
+
