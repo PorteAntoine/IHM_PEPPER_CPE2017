@@ -1,5 +1,5 @@
 # INCLUDE
-dossier contenant les fichiers .top contenant les topics propres aux CSV (objets, personnes, localisations) : 
+dossier contenant les fichiers .top incluant les topics des concepts propres aux CSV (objets, personnes, localisations) : 
   - obj_concept
   - pers_concept
   - loc_concept
