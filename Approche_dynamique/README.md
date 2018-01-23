@@ -7,9 +7,11 @@ Ces fichiers sont une surcouche permettant d'utiliser les réelles fonctions de 
 Le changement de format est effectué dans la librairie de fonction appelée Utils.py
 
 Comment lancer le programme:
-  -> Modifier la variable NAO_IP à la ligne 13 du fichier main.py (addresse IP du robot ou "localhost")
-  -> Modifier la variable NAO_PORT à la ligne 14 du fichier main.py (port du robot)
-  -> Modifier le topf_path à la ligne 15 du fichier main.py en lui fournissant le chemin absolu vers le fichier main_topic_enu.top
+  * Modifier la variable NAO_IP à la ligne 13 du fichier main.py (addresse IP du robot ou "localhost")
+  * Modifier la variable NAO_PORT à la ligne 14 du fichier main.py (port du robot)
+  * Modifier le topf_path à la ligne 15 du fichier main.py en lui fournissant le chemin absolu vers le fichier main_topic_enu.top
             /!\ Le fichier doit se trouver sur le robot lorsque l'on utilise un robot réel (non virtuel)
-  -> Modifier le topf_path à la ligne 15 du fichier SET_KNOWLEDGE.py en lui fournissant le chemin absolu vers le fichier main_topic_enu.top
-  -> lancer le fichier main.py 
+  * Modifier le topf_path à la ligne 15 du fichier SET_KNOWLEDGE.py en lui fournissant le chemin absolu vers le fichier main_topic_enu.top
+  * lancer le fichier main.py 
+  * Attendre que la phrase Speak to the robot using rules from both the activated topics. Press Enter when finished: apparaisse dans l'invite de commande puis parler
+  * Appuyer sur entrer pour quitter
