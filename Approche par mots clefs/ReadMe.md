@@ -1,13 +1,16 @@
 # INCLUDE
-include the top files which contain all our concept : 
+dossier contenant les fichiers .top contenant les topics propres aux CSV (objets, personnes, localisations) : 
   - obj_concept
   - pers_concept
   - loc_concept
 
-# SCRIPT
-include all the files that are helpful to parse the .csv file and generate the global top file
-
 # TOP
 include the global top files where the answer to the questions are set
 
-Questions_ok.txt : Questions auxquelles on sait déja répondre
+# AKINATOR
+dossier contenant le script akinator.py permettant de générer une réponse à une question
+
+# TEST
+Dossier contenant les fichiers .txt utilisés pour les tests automatiques et les résultats de tests
+
+# Questions_ok.txt : Questions auxquelles on sait déja répondre
