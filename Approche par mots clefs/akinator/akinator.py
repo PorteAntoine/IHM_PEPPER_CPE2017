@@ -16,7 +16,7 @@ class Answerthequestion:
     fileobj = open('montreal/objects.csv','r') 
     filepers = open('montreal/persons.csv','r')
     fileloc = open('montreal/locations.csv','r')
-    #creation des listes de cles pour chacuns des csv independamment de la question
+    #creation des listes de cles pour chacuns des csv independamment de la question (attention aux delimiteurs qui peuvent etre , ou ; selon l OS
     objreader = csv.reader(fileobj, delimiter=';')
     persreader =  csv.reader(filepers, delimiter=',')
     locreader = csv.reader(fileloc, delimiter=',')
