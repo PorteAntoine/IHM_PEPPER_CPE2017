@@ -22,7 +22,7 @@ concept:(furniture) [localization furniture equipment]
 concept:(stored) [~belongTo "{are} contained" "{are} stored" own possess]
 concept:(people) [persons people person]
 concept:(posture) [posture position pose]
-concept:(present) [present standing] {"in front of"}]
+concept:(present) [[present standing] {"in front of"}]
 concept:(crowd) [crowd assembly "gathering of ~people"]
 concept:(items) [object objects item items]
 
@@ -113,7 +113,7 @@ u:(~which_is {the} {~items} {that} {are} ~stored {the} {in} {the} _~allAttributs
 u:(~which_is {the} ~furniture {that} {are} {is} {a} beacon ) are Beacon  ^call(ProcessLocalizationModule.hasAttribute("beacon"))
 
 #quels localizations sont des placement
-u:(~which_is {the} ~furniture {that} {are} {is] {a}  placement) are placement  ^call(ProcessLocalizationModule.hasAttribute("placement"))
+u:(~which_is {the} ~furniture {that} {are} {is} {a}  placement) are placement  ^call(ProcessLocalizationModule.hasAttribute("placement"))
 
 #Quel sont les objets les plus lourd dans <categorie>
 u: (~which_is {the} {most} ~heaviest _~category) the heaviest $1 ^call(ProcessObjectModule.heaviestattr($1))
