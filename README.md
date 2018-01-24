@@ -19,9 +19,14 @@ Les consignes de lancement du deuxième programme se trouvent dans le README.md 
 -  SAUNIER Aurélien
   
 # Dossiers
-- "Information"
-   
-  -- Information Robocup
+- "Information" : Informations générales sur la robocup et liste des objets/personnes/localisation utilisées
+- "Approche par mots clefs" : Comporte l'ensemble des doc et fichiers sources relatifs à l'approche par mots clefs
+- "Approche dynamique" :  Comporte l'ensemble des doc et fichiers sources relatifs à l'approche dynamique
+- "Ensemble des questions possibles" :  Repertorie l'ensemble des questions possibles
+- "Rapport" : Présentation powerpoint du projet et liens vers vidéos youtube
+- "Tablette" : Comporte l'ensemble des doc et fichiers sources relatifs à la tablette
+- "python script" : Ensemble des scripts python d'automatisation
+  
  
 # Important
  Liste des objets à prendre en compte dans 0_Information/list_objects.xlsx
