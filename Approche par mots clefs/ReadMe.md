@@ -1,5 +1,5 @@
 # FONCTIONNEMENT
-Charger le fichier .top sur le robot Pepper et les fichiers .top contenus dans le dossier include puis commencer le dialogue
+Charger le fichier .top, contenu dans le dossier top, sur le robot Pepper et les fichiers .top contenus dans le dossier include, lancer ensuite le script python .py contenu dans le dossier script launch, puis commencer l'interraction avec Pepper
 
 Pour lancer le script de test se rendre dans la partie approche dynamique et suivre le Readme
 
