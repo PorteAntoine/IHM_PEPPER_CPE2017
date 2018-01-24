@@ -1,5 +1,6 @@
 # FONCTIONNEMENT
-Charger le fichier .top sur le robot Pepper et les fichiers .top contenus dans le dossier include
+Charger le fichier .top sur le robot Pepper et les fichiers .top contenus dans le dossier include puis commencer le dialogue
+
 Pour lancer le script de test se rendre dans la partie approche dynamique et suivre le Readme
 
 # INCLUDE
