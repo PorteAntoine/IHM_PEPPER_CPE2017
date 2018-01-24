@@ -1,3 +1,7 @@
+# FONCTIONNEMENT
+Charger le fichier .top sur le robot Pepper et les fichiers .top contenus dans le dossier include
+Pour lancer le script de test se rendre dans la partie approche dynamique et suivre le Readme
+
 # INCLUDE
 dossier contenant les fichiers .top incluant les topics des concepts propres aux CSV (objets, personnes, localisations) : 
   - obj_concept
