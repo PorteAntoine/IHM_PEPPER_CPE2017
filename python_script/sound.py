@@ -13,7 +13,6 @@ class SoundLocatorModule(ALModule):
         myBroker = ALBroker("myBroker","0.0.0.0",0,IP,PORT)
         ALModule.__init__(self, name)
             
-        #self.tts = ALProxy("ALTextToSpeech", IP, PORT)
         self.soundFound = False 
         self.soundAngle = 0.0 # continuesly gets updated during runtime
 
@@ -31,15 +30,14 @@ class SoundLocatorModule(ALModule):
         # Unsubscribe to the event 
         memory.unsubscribeToEvent("ALSoundLocalization/SoundLocated", "SoundLocator")
     
-        #self.tts.say("heard you")
         soundLocation = memory.getData("ALSoundLocalization/SoundLocated")
         angles = soundLocation[1]        
         self.soundFound = True
-        print("angle: " + str(angles[0]))
+        #print("angle: " + str(angles[0]))
 
         #Move Robot to Sound
         
-        motion_service.moveTo(0, 0, 0.3)
+        motion_service.moveTo(0, 0, angles[0])
         self.soundFound = False
 
         # Subscribe again to the event
@@ -61,9 +59,6 @@ def main():
 
     global SoundLocator
     SoundLocator = SoundLocatorModule("SoundLocator",IP,PORT)
-    print motion_service
-    momo = motion_service.moveTo(0, 0, 50)
-    print momo
     
     try:
         while True:
